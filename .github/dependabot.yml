@@ -13,3 +13,7 @@ updates:
     directory: "/"                      # build.gradle 所在目錄
     schedule:
       interval: "daily"
+  - package-ecosystem: "maven"
+    directory: "/"                      
+    schedule:
+      interval: "daily"
