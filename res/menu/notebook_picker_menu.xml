@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+     <item android:id="@+id/menu_search"
+          android:title="@string/editor_func_button_search"
+          android:icon="@drawable/asus_ic_search"
+          android:showAsAction="always"/>
+
+     <item
+        android:id="@+id/menu_sort"
+        android:showAsAction="never"
+        android:title="@string/Sort"/>  
+        
+     <item
+        android:id="@+id/menu_edit"
+        android:showAsAction="never"
+        android:title="@string/editor_func_button_editable"/>  
+     
+     <!-- Begin Darwin -->
+     <item
+        android:id="@+id/menu_lock"
+        android:title="@string/show_personal_notebook"
+        android:showAsAction="never"
+        android:visible="true"/>
+     <!-- End Darwin -->
+
+        <item
+            android:id="@+id/menu_page_import"
+            android:title="@string/pg_import"/>
+
+    <group 
+        android:id="@+id/picker_backup_menu_group"
+        android:visible="true">
+    <item
+        android:id="@+id/menu_set"
+        android:showAsAction="never"
+        android:title="@string/setting"/>
+    </group>
+    
+    <item android:id="@+id/menu_encourageUs"
+        android:showAsAction="never"
+        android:title="@string/settings_encourage_us_title"/>
+    
+    <item android:id="@+id/menu_userVoice"
+        android:showAsAction="never"
+        android:title="@string/uf_sdk_feedback_and_help"
+        android:visible="true"/>
+    
+    <item android:id="@+id/menu_zenFamily"
+        android:showAsAction="never"
+        android:title="@string/null_string"/>
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="microview_width">424px</dimen>
+    <dimen name="microview_height">568px</dimen>
+    
+    <dimen name="phone_book_width">1080px</dimen>   
+    <dimen name="default_canvas_width">2048.0px</dimen>
+    <dimen name="default_canvas_height">3161.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_width">1816.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_height">3161.0px</dimen>
+    
+    <dimen name="phone_book_text_size_normal">70px</dimen>
+    <dimen name="phone_book_text_size_big">80px</dimen>
+    <dimen name="phone_book_text_size_small">58px</dimen>
+    
+    <dimen name="pad_book_width">1816px</dimen>
+    <dimen name="pad_book_text_size_normal">70px</dimen>
+    <dimen name="pad_book_text_size_big">80px</dimen>
+    <dimen name="pad_book_text_size_small">58px</dimen>
+    
+    <dimen name="widget_diff_attacher_line_height">11dp</dimen>
+</resources>

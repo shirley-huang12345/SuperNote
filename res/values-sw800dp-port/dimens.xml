@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Begin  Smilefish -->
+    <dimen name="tutorial_image_width">720dp</dimen>
+    <dimen name="tutorial_image_height">993dp</dimen>
+    
+    <dimen name="hand_panel_view_height">600dp</dimen>
+	<dimen name="hand_panel_view_min_height">610dp</dimen>
+	
+	<dimen name="additionalview_marginTop">144dp</dimen>
+	
+	<dimen name="forced_permission_page">138dp</dimen>
+    <dimen name="forced_permission_image_margin_top">105dp</dimen>
+    <!-- End    Smilefish -->
+
+</resources>

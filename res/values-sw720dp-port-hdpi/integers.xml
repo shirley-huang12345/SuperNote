@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <integer name="first_line_height">25</integer>
+
+    <integer name="text_line_count_big">27</integer>
+    <integer name="text_line_count_normal">32</integer>
+    <integer name="text_line_count_small">37</integer>
+    
+    <integer name="first_line_height_small_screen">10</integer>
+
+    <integer name="text_line_count_big_small_screen">11</integer>
+    <integer name="text_line_count_normal_small_screen">13</integer>
+    <integer name="text_line_count_small_small_screen">15</integer>
+
+    <!-- Begin:Shane -->
+    <integer name="color_picker_width">370</integer>
+    <integer name="color_picker_height">84</integer>
+    <!-- End:Shane -->
+    
+    <!-- Begin:show -->
+	<integer name="is_orientation_allow">1</integer>
+    <integer name="orientation_lock_init_horizontal">1</integer>
+    <!-- End:show -->
+ 
+    <!-- Begin Allen -->
+    <integer name="item_per_row">4</integer>
+    <integer name="item_per_row_landscape">6</integer>
+	<!-- Begin Allen -->
+    
+	<!-- Begin Clare -->
+	<integer name="dashline_STROKE_WIDTH">3</integer>
+	<integer name="dashline_real">25</integer>
+	<integer name="dashline_imag">10</integer>
+	<integer name="BASELINE_SOLID_LINE_ALPHA">18</integer>
+	<integer name="BASELINE_DASH_LINE_ALPHA">100</integer>
+	<!-- End  Clare -->
+
+	<!-- Begin darwin -->
+	<integer name="baseline_dashline_blank">21</integer>
+	<integer name="baseline_dashline_line">7</integer>
+	<!-- End  darwin -->
+	
+	<!-- Begin:show -->
+    <integer name="is_continue_write">0</integer>
+    <!-- End:show -->
+    <!-- Begin Siupo,used to widget -->
+	
+	<!-- End Siupo -->
+</resources>

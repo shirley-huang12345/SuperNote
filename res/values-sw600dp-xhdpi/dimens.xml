@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size">77.777778px</dimen>
+    
+    <dimen name="phone_book_width">1200px</dimen>
+    <dimen name="phone_book_text_size_normal">72.999996px</dimen>
+    <dimen name="phone_book_text_size_big">88.8888892px</dimen>
+    <dimen name="phone_book_text_size_small">64.4444446px</dimen>
+    
+    <dimen name="pad_book_width">2586.666666px</dimen>
+    <dimen name="pad_book_text_size_normal">72.999996px</dimen>
+    <dimen name="pad_book_text_size_big">88.8888892px</dimen>
+    <dimen name="pad_book_text_size_small">64.4444446px</dimen>
+
+    <!-- Begin Siupo -->
+    <dimen name="pad_page_share_bitmap_default_width">2586.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_height">3186.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_width">1200.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_height">1372.0px</dimen>
+    <!-- End Siupo -->
+    
+    <!-- Begin Show -->
+    <dimen name="insert_textimg_boxedit_width">383dp</dimen>
+    <!-- End Show -->
+    
+    <dimen name="template_travel_titleheight">72.5dp</dimen>
+	
+	<!-- Begin Emmanual -->
+	<dimen name="bottom_button_padding_top">3dp</dimen>
+	<!-- End Emmanual -->
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/uf_sdk_search_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light">
+    <ListView android:id="@+id/uf_sdk_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/no_result_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="@string/uf_sdk_nothing_found"
+        android:gravity="center"
+        android:textColor="#666666"
+        android:paddingBottom="50dp"/>
+</LinearLayout>

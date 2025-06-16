@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Begin  Smilefish -->
+    <dimen name="pad_book_width">1164px</dimen>
+    <!-- value = (800-13*2)/1164-->
+    <dimen name="edittext_scale_pad">0.664948px</dimen>
+    
+    <dimen name="notebook_item_width">183dp</dimen>
+	<dimen name="notebook_item_height">227dp</dimen>
+	<dimen name="notebook_item_name_width">173dp</dimen>
+    <dimen name="notebook_gridview_horizontal_spacing">23dp</dimen>
+    
+    <dimen name="edit_area_width_pad">1164dp</dimen>
+    <dimen name="todo_edit_text_width_pad">954dp</dimen>
+    <dimen name="tutorial_image_width">1077dp</dimen>
+    <dimen name="tutorial_image_height">556dp</dimen>
+    
+    <dimen name="hand_panel_view_height">400dp</dimen>
+	<dimen name="hand_panel_view_min_height">410dp</dimen>
+	
+	<dimen name="diary_crop_image_rate_pad">2.76px</dimen><!-- value = 1164/430-->
+	
+	<dimen name="navigate_tutorial_margin_start">186dp</dimen>
+	<dimen name="navigate_tutorial_margin_end">242dp</dimen>
+    <!-- End    Smilefish -->
+
+</resources>

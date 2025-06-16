@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="uf_sdk_faq">常見問題</string>
+  <string name="uf_sdk_feedback_and_help">反饋與幫助</string>
+  <string name="uf_sdk_forum_description">加入華碩用戶對話以查找和分享你的解決方案</string>
+  <string name="uf_sdk_help">幫助</string>
+  <string name="uf_sdk_instant_answer_question">這常見問題的解答有幫助嗎?</string>
+  <string name="uf_sdk_like">讚好</string>
+  <string name="uf_sdk_msg_bad_email_format">電子郵件地址無效，請重試。</string>
+  <string name="uf_sdk_msg_confirm_discard_topic">你的草稿將不會被保存。你仍要刪除嗎?</string>
+  <string name="uf_sdk_msg_confirm_discard_topic_title">要刪除張貼嗎?</string>
+  <string name="uf_sdk_msg_subscribe">主題狀態通知訂閱將通過電子郵件傳送給你。</string>
+  <string name="uf_sdk_msg_subscribe_success">成功訂閱</string>
+  <string name="uf_sdk_msg_ticket_created">您的反饋已成功送到華碩</string>
+  <string name="uf_sdk_msg_topic_created">成功發布</string>
+  <string name="uf_sdk_msg_unsubscribe">成功取消訂閱</string>
+  <string name="uf_sdk_name_hint">輸入你的姓名</string>
+  <string name="uf_sdk_network_error">沒有網絡連接，請檢查你的網絡設置。</string>
+  <string name="uf_sdk_no_network_connection_content">無法更新數據。請檢查你的網絡設定。 </string>
+  <string name="uf_sdk_no_network_connection_title">沒有網絡連線</string>
+  <string name="uf_sdk_nothing_found">沒有找到任何東西</string>
+  <string name="uf_sdk_notice">通知</string>
+  <string name="uf_sdk_publish_an_topic">發布新的主題</string>
+  <string name="uf_sdk_search_hint">搜尋幫忙</string>
+  <string name="uf_sdk_select_common_bug">選擇常見錯誤</string>
+  <string name="uf_sdk_send_feedback">發送反饋</string>
+  <string name="uf_sdk_send_feedback_help">你的反饋和電子郵件地址將被發送到華碩。服務團隊將通過電子郵件與你聯繫。</string>
+  <string name="uf_sdk_submit_topic">發布</string>
+  <string name="uf_sdk_subscribe_dialog_title">訂閱此主題</string>
+  <string name="uf_sdk_title_topic">主題</string>
+  <string name="uf_sdk_topic">主題</string>
+  <string name="uf_sdk_topic_description_heading">描述</string>
+  <string name="uf_sdk_topic_description_hint">詳細描述你的主題</string>
+  <string name="uf_sdk_topic_filter">主題</string>
+  <string name="uf_sdk_topic_form_help">當你在用戶論壇發布主題，其他用戶能夠訂閱和評論它。此外，當華碩開發團隊回應話題，您將通過電子郵件收到通知。</string>
+  <string name="uf_sdk_topic_form_title">發布新主題</string>
+  <string name="uf_sdk_topic_text_heading">論壇</string>
+  <string name="uf_sdk_topic_text_hint">輸入你的主題標題</string>
+  <string name="uf_sdk_topic_title">標題</string>
+  <string name="uf_sdk_translation_117562">反饋類型</string>
+  <string name="uf_sdk_translation_2529543">錯誤報告</string>
+  <string name="uf_sdk_translation_2529544">其他</string>
+  <string name="uf_sdk_translation_2530478">建議</string>
+  <string name="uf_sdk_unhelpful_article_message_question">你想發送反饋給華碩開發團隊嗎?</string>
+  <string name="uf_sdk_user_forum">用戶論壇</string>
+  <string name="uf_sdk_warning">警告</string>
+  <string name="uf_sdk_wifi_settings">Wi-Fi設定</string>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s個讚好此主題</item>
+        <item quantity="other">%1$s 個讚好此主題</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">主題</item>
+        <item quantity="other">主題</item>
+    </plurals>
+</resources>

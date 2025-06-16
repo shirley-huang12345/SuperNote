@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <string name="next" description="Next" maxwidth="">अगला</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">केवल टेक्स्ट साझा करें</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">ग्रिड छिपाएं</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">आकार: </string>
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">SuperNote के बारे में</string>
+    <string name="set_on" description="On" maxwidth="">ऑन</string>
+    <string name="set_off" description="Off" maxwidth="">ऑफ</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">रीडिंग मोड डिफॉल्ट के रूप में</string>
+    <string name="app_name">SuperNote</string>
+    <string name="setting" description="Settings" maxwidth="">सेटिंग्स</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s पन्ना(ने) मिटाए गए हैं</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">पृष्ठ कॉपी किए गए</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">%d पृष्ठ यहां मूव करें </string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">नोटबुक नाम</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">पृष्ठ का रंग</string>
+    <string name="password" description="Password" maxwidth="">पासवर्ड</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">कृपया 4 से 7 अक्षरों/संख्याओं का इनपुट दें।</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">वर्तमान पासवर्ड</string>
+    <string name="password_newpin" description="New password" maxwidth="">नया पासवर्ड</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">नए पासवर्ड की पुष्टि करें</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">चेतावनीः पासवर्ड 4 से 7 पोजीशन संख्याओं तथा/या वर्णों का हो सकता है</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">पासवर्ड सेट करें/बदलें</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">पासवर्ड मिलान नहीं करता है।</string>
+    <string name="share_to" description="Share to..." maxwidth="">को साझा करें</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">SuperNote पासवर्ड</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">%s पर, मेरे SuperNote का पासवर्ड बदला गया था। नया पासवर्ड यह हैः %s</string>
+    <string name="choose_a_template" description="choose a template for your notebook" maxwidth="">अपनी नोटबुक के लिए एक टेम्पलेट चुनें</string>
+    <string name="name" description="Name" maxwidth="">नाम</string>
+    <string name="del" description="Delete" maxwidth="">मिटाएं</string>
+    <string name="prompt_import" description="Import..." maxwidth="">से आयात करना शुरू करें</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">नोटबुक आयात करें</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">इस फाइल से जुड़ी खुली पद्धति पाई नहीं गई</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">आयात सफल!!</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">आयात विफल। यह फाइल करप्ट है।</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">में मूव करें</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">पर कॉपी करें</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">चयनित पृष्ठ मिटाएं?</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">सभी को चुनें</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">सभी का चयन हटाएं</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">पृष्ठ ले जाएं</string>
+    <string name="memo_del" description="Deleted memo">चयनित मेमो मिटाएं?</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">मेमो खाली है</string>
+    <string name="book_grid_title" description="the title of the page display property">रेखा शैली</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">पृष्ठ(ठों) को कॉपी करें</string>
+    <string name="wrong_file_type" description="wrong_file_type">आप गलत प्रकार की फाइल खोल रहे हैं</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">पृष्ठों को पुनः क्रम में करने के लिए पृष्ठ पर देर तक दबाएं और खींचें</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">पृष्ठ यहां ले जाएं</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">पृष्ठ मौजूद नहीं है</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">अंतिम पृष्ठ</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">पहला पृष्ठ</string>
+    <string name="phone_book_name" description="Phone book name">फोनबुक</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">नया पृष्ठ</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">क्या आप निश्चित रूप से सभी ड्राइंग मिटाना चाहते हैं। यह कार्रवाई पुनः वापस नहीं की जा सकती।</string>
+    <string name="delete_alert" description="warning of deleting">क्या आप ड्राइंग मिटाना चाहते हैं?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">वस्तु हटाने या आकार बदलने के लिए अपनी अंगुलियों का प्रयोग करें</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">एक वस्तु या कई वस्तुएं चुनने या खींचने के लिए टैप करें।</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">यह पृष्ठ भरा है।</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">ब्रश रंग &amp; मोटाई</string>   
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">यह पृष्ठ खाली है</string>
+    <string name="editor_menu_share">साझा करें</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">बुकमार्क</string>
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">केवल पढ़ने के लिए</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Notebook</string>
+    <string name="warning_activity_not_found" description="Activity not found">आपका उपकरण, इस फाइल के प्रकार या कोडेक के प्रकार को समर्थित नहीं करता</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">चिपकाने के लिए क्लिपबोर्ड में कोई छवि नहीं है</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">हटाएं</string>
+    <string-array name="pg_size">
+        <item>पैड</item>
+        <item>फोन</item>
+    </string-array>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">एक नई नोटबुक जोड़ें</string>
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d पृष्ठ %s पर कॉपी किए गए</string>
+    <string name="page_size" description="Page Size" maxwidth="">पृष्ठ आकार</string>
+    <!-- 2012-02-08 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">सफेद</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">पीला</string>
+    <string name="book_grid_line" description="the background style of the notebook">रेखाएं</string>
+    <string name="book_grid_grid" description="the background style of the notebook">ग्रिड्स</string>
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">नोटबुक जानकारी दिखाएं</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">यहां लिंक करें: \n%s</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">पढ़ने के लिए कोई पुस्तक या पृष्ठ नहीं</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">कोई बुकमार्क पृष्ठ नहीं।</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">मिटाएं?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">क्या आप सचमुच इस पृष्ठ को मिटाना चाहते हैं?</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">रंग</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">कॉपी</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">काटें</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">सम्पादित करें</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">समूह</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">समूह हटाएं</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">बेसलाइन</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">अनडू करें</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">रीडू करें</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">प्रविष्ठ करें</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">चुनें</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">चिपकाएं</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">मिटाएं</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">ब्रश</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">इरेज़र</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">रद्द करें</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">कार्य समाप्त हुआ</string>
+   <!-- new by Ryan -->
+    <string name="editor_menu_addpage" maxwidth="12">पृष्ठ जोड़ें</string>
+    <string name="editor_menu_rmpage" maxwidth="12">पृष्ठ हटाएं</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">पृष्ठ प्रारूप अनुकूल नहीं है</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">लिखें</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">प्रकार</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">बनाएं</string>
+    <!-- send to 4th -->
+    <string name="load_tutorial" description="" maxwidth="">पहली बार उपयोग के लिए तैयार कर रहा है…</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">बुकमार्क में जोड़ें</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="">बुकमार्क्स से हटाएं</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">बुकमार्क्स से हटाएं?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">बुकमार्क दिखाएं</string>
+    <!-- send to 5th -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>फास्ट</item>
+        <item>सामान्य</item>
+        <item>स्लो</item>
+    </string-array>
+    <string name="reset_password_title" description="reset the password">पासवर्ड रिसेट करें</string>
+    <string name="reset_password_summary">पासवर्ड साफ करें</string>
+    <string name="reset_password_dialog_title">पासवर्ड रिसेट करें</string>
+    <string name="reset_password_dialog_password_invalid">अमान्य पासवर्ड</string>
+    <string name="confirm_reset_dialog_title">पासवर्ड रिसेट करें</string>
+    <string name="no_memory_dialog_content">पर्याप्त मेमोरी नहीं है</string>
+    <!-- 6th -->
+    <string name="dialog_file_name">फाइल का नाम</string>
+    <string name="dialog_save_to">में सहेजे</string>
+    <!-- 10th, Start New String -->
+   <string name="new_page" description="Create New Page" maxwidth="15">एक नया पृष्ठ बनाएं</string>
+   <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">नोटबुक यहां निर्यात की गई</string>
+   <string name="pg_title_counter" description="show total pages number of the all page view\'s title">%s बुकमार्क्स</string>
+   <string-array name="pg_sort">
+        <item>नाम द्वारा</item>
+        <item>अंतिम संशोधित द्वारा</item>
+    </string-array>
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">क्या आप नोटबुक मिटाना चाहते हैं?</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">नया नाम दें</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">छिपाएं</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">मिटाएं</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">एक्स्पोर्ट</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">इनपुट पहचान गति</string>
+    <string name="notebook_selected" description="show how many pages are selected">%s चयनित</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">नोटबुक्स</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">बुकमार्क</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">टाइमस्टाम्प</string>
+    <string-array name="week_of_day">
+        <item>रविवार</item>
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>गुरूवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+        <item>आज</item>
+        <item>कल</item>
+        <item>पिछले सप्ताह</item>
+        <item>दो सप्ताह पहले</item>
+        <item>तीन सप्ताह पहले</item>
+        <item>कल</item>
+        <item>अगले सप्ताह</item>
+        <item>दो सप्ताह बाद</item>
+        <item>तीन सप्ताह बाद</item>
+    </string-array>
+   <string-array name="month_of_year">
+        <item>जनवरी</item>
+        <item>फरवरी</item>
+        <item>मार्च</item>
+        <item>अप्रैल</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुलाई</item>
+        <item>अगस्त</item>
+        <item>सितम्बर</item>
+        <item>अक्टूबर</item>
+        <item>नवम्बर</item>
+        <item>दिसम्बर</item>
+        <item>पिछले महीने</item>
+        <item>आधे वर्ष पहले</item>
+        <item>एक वर्ष से अधिक समय पहले</item>
+        <item>अगले महीने</item>
+        <item>आधे वर्ष के बाद</item>
+        <item>एक वर्ष के बाद</item>
+    </string-array>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">क्रॉप करें</string>
+    <!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">सम्पादित करें</string>
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <string name="password_or_account_empty">खाता या पासवर्ड फील्ड खाली नहीं रह सकती</string>
+    <string name="nb_sync">क्लाउड सिंक सक्षम</string>
+    <string name="nb_async">क्लाउड सिंक निरस्त</string>
+    <string name="sync_status_syncing">सिंक कर रहा है…</string>
+    <string name="sync_status_failed">डेटा सिंक करने में विफल।</string>
+    <string name="sync_account_text">खाता</string>
+    <string name="sync_sign_off">साइन आउट करें</string>
+    <string name="account_space_usage">प्रयुक्त स्थान</string>  
+    <string name="account_and_sync">खाता सिंक सेटिंग्स</string>
+    <string name="sync_setting_auto">ऑटो-सिंक</string>
+    <string name="sync_setting_auto_frequency">ऑटो-सिंक आवृत्ति</string>
+    <string name="sync_auto_interval_1">प्रत्येक 1 मिनट</string>
+    <string name="sync_auto_interval_15">प्रत्येक 15 मिनट</string>
+    <string name="sync_auto_interval_30">प्रत्येक 30 मिनट</string>
+    <string name="sync_auto_interval_60">प्रत्येक 60 मिनट</string>
+    <string name="sync_auto_interval_1d">प्रतिदिन</string>
+    <!-- add by Better -->
+<!-- Begin: show -->
+    <string name="webstorage_register">रजिस्टर करें</string>
+    <string name="webstorage_signon">साइन इन करें</string>
+<!-- End: show -->
+    <!--Begin: Show-->
+    <string name="Crop_Done">कार्य समाप्त हुआ</string>  
+    <string name="Crop_Free">लासो</string>
+    <string name="Crop_Rect">आयत</string>
+     <!--End: Show--> 
+    <string name="prompt_export_pdf_to">में PDF फाइल सहेजी गई</string>
+    <string name="browse_folder">ब्राउज़</string>
+    <string name="export_supernote_format">SuperNote प्रारूप में निर्यात करें</string>
+    <string name="file_export">फाइल निर्यात करें</string>
+    <string name="editor_func_button_search">खोजें</string>
+    <string name="no_search_result">आपकी खोज से मिलान करने वाली कोई वस्तु नहीं मिली</string>
+    <string name="SearchResultItemInfo_Loading">लोड किया जा रहा है…</string>
+    <string name="SearchResultItemInfo_Read_File_Error">फाइल पढ़ने में विफल।</string>
+    <string name="SearchResultItemInfo_NoteBooks">नोटबुक्स</string>
+    <string name="SearchResultItemInfo_Pages">पृष्ठ</string>
+    <string name="SearchResultItemInfo_Personal">व्यक्तिगत</string> 
+    <string name="SearchResultItemInfo_Page_Space">पृष्ठ </string>   
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">लिखित पाठ पहचान</string>
+      <!-- wendy  -->
+   <string name="password_not_set_sync">क्लाउड पर सहेजी नोटबुक्स, निजी और सार्वजनिक के रूप में वर्गीकृत हैं। क्या आप निजी नोटबुक्स के लिए एक पासवर्ड बनाना चाहते हैं? अगर नहीं, तो सारी नोटबुक्स सार्वजनिक के रूप में वर्गीकृत की जाएंगी</string>
+   <string name="bookpicker_sync_books_list">पुस्तक सूची सिंक करें</string>
+   <string name="bookpicker_cancel">रद्द करें</string>
+   <string name="bookpicker_ok">ठीक है</string>
+   <string name="newto_editor_func_popup_d_brush_stroke">स्ट्रोक</string>
+   <string name="newto_editor_func_popup_d_brush_alpha">पारदर्शिता</string> 
+   <string name="export">एक्स्पोर्ट</string>
+   <string name="transfer">स्थानांतरित करें</string>
+   <string name="book_export">नोटबुक निर्यात करें</string>
+   <string name="prompt_exports_pdf_to">में PDF फाइलें सहेजी गईं हैं</string> 
+<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">शीर्षक</string>  
+   <string name="template_travel_tips_date">तारीख</string>
+   <!--wendy begin -->
+    <string name="select_all">सभी</string>
+   <string name="prompt_no_book_selected">कोई पुस्तक चयनित नहीं है</string>
+   <!-- Begin: Better -->
+   <string name="sync_file_no_version">संस्करण उपलब्ध नहीं है।</string>
+   <string name="loading_page">पृष्ठ का डेटा लोड हो रहा है…</string>
+   <string name="prompt_transfer_format">आपको यह पुस्तक पुनः फॉर्मेट अवश्य करनी होगी, और इस प्रक्रिया में कुछ समय लग सकता है। क्या आप जारी रखना चाहते हैं?</string>
+   <string name="prompt_saving">सहेजा जा रहा है....</string>
+   <string name="prompt_incompatible_syncing">%s एक अनुकूल संस्करण नहीं है। कृपया अपना SuperNote अपडेट करें।</string>
+   <string name="prompt_incompatible_file">%s एक अनुकूल संस्करण नहीं है</string>
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <string name="webstorage_login_signing_in">साइन इन कर रहा है। कृपया प्रतीक्षा करें…</string>
+   <string name="webstorage_login_account_password_wrong">खाता या पासवर्ड गलत है</string>
+   <string name="sync_setting_sign_failure">%s में साइन नहीं कर सकता</string>
+   <string name="sync_setting_sign_success">%s में साइन इन</string>
+   <string name="sync_setting_networkless_title">कनेक्शन नहीं है</string>
+    <string name="sync_setting_networkless">यह सेवा प्रयोग करने के लिए आपको एक इंटरनेट कनेक्शन की आवश्यकता है कृपया अपना मोबाइल नेटवर्क कनेक्शन, या सेटिंग्स में Wi-Fi सक्षम बनाएं।</string>
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <string name="Sort">छांटें</string>
+    <!-- End: Allen -->   
+ <string-array name="editor_func_insert_array" description="insert mode" maxwidth="20">
+        <item>तस्वीर लें</item>
+        <item>फाइल से चित्र</item>
+        <item>पाठ छवि</item>
+        <item>PDF पृष्ठ</item>
+        <item>ऑडियो रिकार्डिंग</item>
+        <item>वीडियो लें</item>
+        <item>पाठ फाइल</item>
+        <item>टाइमस्टाम्प</item>
+        <item>क्लिपबोर्ड से आर्टवर्क</item>
+        <item>स्टाम्प</item>
+        <item>आकृति</item>
+    </string-array>
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <string-array name="nb_editcover_choose_item">
+        <item>कैमरा</item>
+        <item>फाइल से चित्र</item>
+    </string-array>
+ <!-- End  :Darwin -->
+    <string name="sync_setting_sign_out">%s साइन आउट कर रहा है</string>
+    <string name="sync_setting_sign_out_msg">लॉग आउट करने से आपके क्लाउड खाते पर नोटबुक तक पहुंच खत्म हो जाएगी और क्लाउंड सिंकिंग अक्षम हो जाएगी। क्या आप जारी रखना चाहते हैं?\n</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">आपका पासवर्ड बदल गया है। क्या भावी संदर्भ के लिए आप अपना पासवर्ड अपने ईमेल खाते पर भेजना चाहते हैं? इससे छिपी नोटबुक्स तक पहुंच की हानि की रोकथाम होगी।\n</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">लॉक</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">अनलॉक</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">छिपाने के लिए लॉक करें</string>
+    <string name="editor_phone_toast_seletext">पाठ हाईलाइट करने के लिए खींचें</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">लॉक</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">क्या आप नोटबुक लॉक करना चाहते हैं।</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">अनलॉक</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">क्या आप नोटबुक अनलॉक करना चाहते हैं?</string>
+    <string name="set_password_dialog_title">पासवर्ड स्थापित करें</string>
+    <string name="editor_func_button_recognize">पहचान करें</string>
+    <string name="editor_func_button_transform">रूपांतरण</string>   
+    <string name="editor_phone_toast_readonly">केवल पढ़ने के लिएः आप केवल पढ़ने के लिए वाले स्वरूप में हैं। पृष्ठ पलटने या ऊपर/नीचे करने के लिए अपनी अंगुलियों का प्रयोग करें।</string>   
+    <string name="export_pdf">PDF के रूप में निर्यात करें</string>
+    <string name="SearchResultItemInfo_Wrong_Index">खोज विफल।</string>
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">रेखा</string>
+    <string name="book_type_grid">ग्रिड</string>
+    <string name="book_type_meeting">बैठक</string>
+    <string name="book_type_diary">डायरी</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">बैकस्पेस जैस्चर</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">लेखन स्वरूप में, अंतिम दर्ज किया गया पाठ मिटाने के लिए दाएं से बाएं अंगुली फिराएं।</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <string name="template_meeting_start_date_tips">आरंभ करने की तिथि</string>
+    <string name="template_meeting_end_date_tips">समाप्त करने की तिथि</string>
+    <string name="template_meeting_start_time_tips">शुरू करने का समय</string>
+    <string name="template_meeting_end_time_tips">समाप्त करने का समय</string>
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">लॉक की हुई नोटबुक दिखाएं </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">लॉक की हुई नोटबुक छिपाएं </string>
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">सतत लेखन रेखा</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">जब आप लिखते हुए लाल रेखा पार कर जाएंगे, तो आपका लिखा पाठ अपने आप ही बाईं ओर आ जाएगा।</string>
+    <string name="text_continue" description="continue" max_width="-1">जारी रखें।</string>
+    <!-- End: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">SuperNote, हाथ से लिखे गए पाठों की पहचान करता है और टाइप किए हुए पाठों में बदल देता है, और इन टाइप किए हुए पाठों की नई नोटबुक में प्रतिलिपि बनाता है।</string>
+    <string name="set_index_language_title">पहचान भाषा सेट करें</string> 
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">सभी पृष्ठ</string>
+    <!-- darwin add -->
+   <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">आप अपने ASUS WebStorage खाते का उपयोग करते हुए लॉगिन कर सकते हैं।</string>
+   <!-- Begin: show -->
+   <string name="username" description="User Name" maxwidth="15">उपयोक्ता का नाम</string>
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">लॉक की हुई नोटबुक्स छिपी हुई हैं</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">लॉक की हुई नोटबुक्स अब पढ़ी जा सकती हैं</string>
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">स्क्रीन का आकार जो भी हो, लम्बा शब्द लगातार लिखें।</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\'s title">%s टाइम स्टाम्प</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">खोज कर रहा है, कृपया प्रतीक्षा करें</string>
+<!-- Begin Allen -->
+    <string name="content_search" description="Inform the user whether to open the search function when create a new book" max_width="5">सामग्री खोज</string>
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">बड़ा</string>
+    <string name="share_medium" description="Medium" max_width="6">मध्यम</string>
+    <string name="share_small" description="Small" max_width="5">छोटा</string>
+    <string name="recognizing">पहचान कर रहा है</string>
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+    <string name="book_type_blank" description="blank book name" maxwidth="">रिक्त</string>
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+    <string name="import_export_book_fail_reason" description="reason of failing to import book" maxwidth="">फाइल मैनेजर नहीं</string>
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+    <string name="editor_menu_savepage" maxwidth="12">पृष्ठ सहेजें</string>
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+    <string name="my_bit_cast_wait_text">कृपया प्रतीक्षा करें…</string>
+<!-- End: Shane -->
+<!-- Begin: Better -->
+    <string name="password_not_set_import">नोटबुक्स, निजी और सार्वजनिक के रूप में वर्गीकृत हैं। क्या आप निजी नोटबुक्स के लिए एक पासवर्ड बनाना चाहते हैं? अगर नहीं, तो सारी नोटबुक्स सार्वजनिक के रूप में वर्गीकृत की जाएंगी</string>
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="book_grid_none" description="the background style of the notebook">कोई नहीं</string>
+    <!-- End Allen -->    
+<!-- clare begin -->
+    <string name="widget_bt_add_a_notebook">एक नोटबुक जोड़ें</string>
+    <string name="widget_passwordTip">कृपया पासवर्ड दर्ज करें:</string>
+<!-- clare end -->
+<!-- darwin begin -->
+   <string name="nb_editcover">आवरण संपादित करें</string>
+   <string name="nb_editcover_choose_title">चित्र चुनें</string>
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+    <string name="widget_dialog_replace_notebook">नोटबुक प्रतिस्थापित करें</string>
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+    <string name="widget_book_locked">लॉक है</string> <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">में जोड़ें</string>
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>पृष्ठवार छांटें</item>
+        <item>समय द्वारा छांटें</item>
+    </string-array>
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>उच्च</item>
+        <item>सामान्य</item>
+        <item>निम्न</item>
+    </string-array>
+    <string name="todo_item_completed" description="todo item is completed">पूर्ण</string>
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">एक नोटबुक चुनें</string>
+    <!-- Begin Allen -->
+    <string name="meeting_form" description="meeting start time">प्रेषक</string>
+    <string name="meeting_to" description="meeting end time">प्राप्तकर्ता</string>
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">पहचान की गई</string>
+ <!-- add for 'SyncCancelDialogFragment'-->
+ <string name="sync_cancel_confirmText">पुष्टि करें</string>
+    <string name="sync_cancel_promptTop">वे दूसरे उपकरण पर मिटा दिए जाएंगे।</string>
+    <string name="sync_cancel_promptBottom">क्या आप इन नोटबुक्स का सिंक निरस्त करना चाहते हैं?</string>
+    <string name="sync_cancel_noMoreHint">दोबारा कभी स्मरण न कराएं।</string>
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+    <string name="pen_only_enabled">केवल पेन का उपयोग करें</string>
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <string name="export_as" description="used as title of export_format dialog">के रूप में निर्यात करें</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>SuperNote का प्रारूप</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog">फॉर्मेट चुनें</string>
+    <string-array name="share_format_array" description="share format chooser">
+        <item>तस्वीर</item>
+        <item>PDF</item>
+        <item>SuperNote का प्रारूप</item>
+    </string-array>
+    <string name="todo_title" description="memo template title" maxwidth="">मेमो</string>
+    <string name="todo_widget_all_todos" description="All memos">सभी मेमो</string>
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">एक स्टाम्प चुनें</string>
+    <string name="insert_shape_dlg">एक आकृति चुनें</string>
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">आपका विषय क्या है?</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">अपने उपस्थित लोग जोड़ें</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">आपकी मीटिंग टिप्पणियां यहां हैं …</string>
+<!-- for A86 style by smilefish -->
+    <string name="statusbar_login">लॉग इन</string>
+    <string name="editcover_photo">फोटो</string>
+    <string name="editcover_save">सहेजें</string>
+    <string name="brush_edit_dialog_library">लाइब्रेरी</string>
+    <string name="brush_edit_dialog_back">वापस</string>
+    <string name="brush_edit_dialog_pencil">पेंसिल</string>
+    <string name="brush_edit_dialog_rollerpen">रोलर पेन</string>
+    <string name="brush_edit_dialog_pen">पेन</string>
+    <string name="brush_edit_dialog_marker">मार्कर</string>
+    <string name="brush_edit_dialog_brush">ब्रश</string>
+    <string name="brush_edit_dialog_airbrush">एयर ब्रश</string>
+    <string name="todo_title_task">एक नया कार्य जोड़ने के लिए 1 दबाएँ।</string>
+    <string name="brush_edit_dialog_full">सहेजे गए ब्रश की अधिकतम संख्या 12</string>
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+    <string name="data_fomat_upgrade">डेटा फॉर्मेट अपग्रेड करें</string>
+    <string name="the_book">पुस्तक</string>
+    <string name="exits">पहले से मौजूद है</string>
+    <string name="replace_the_book">पुस्तक प्रतिस्थापित करें?</string>
+    <string name="yes">हां</string>
+    <string name="no">नहीं</string>
+    <string name="successful_upgrade">अपग्रेड सफल रहा हम SuperNote रिस्टार्ट करेंगे</string>
+    <string name="upgrade_fails">अपग्रेड विफल</string>
+    <string name="not_enough_space">SD कार्ड पर पर्याप्त जगह नहीं</string>
+    <string name="try_again">कृपया अनुपयोगी फाइलें मिटा दें, और पुनः प्रयास करने के लिए SuperNote रिस्टार्ट करें</string>
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <string name="airview_type">प्रकार</string>
+    <!-- jason -->
+<!-- Begin Carol-->
+    <string name="version_info">प्रकार</string>
+    <string name="widget_memo_title">SuperNote मेमो</string>
+    <string name="editor_phone_readonly">केवल पढने के लिए: पृष्ठ खिसकाने के लिए अपनी अंगुलियों का प्रयोग करें।</string>
+<!-- End Carol-->
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">कोई मेमो नहीं</string>
+    <string name="widget_password_hint">पासवर्ड दर्ज करें</string>
+    <string name="widget_all_book_template">सभी नोटबुक्स</string>
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <string name="content_is_too_long" description="content_is_too_long">सामग्री बहुत ज्यादा है</string>
+    <string name="todo_title_max_character_num">अक्षरों की अधिकतम संख्या 50 है</string>
+    <!-- smilefish -->
+    <string name="vo_shape_failed">इस ड्राइंग की आकृति नहीं बना सकता</string>
+    <!-- smilefish -->
+    <string name="todo_widget_create" description="Create">निर्मित करें</string> <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+    <string name="editor_color_picker">कृपया ब्रश कलर के लिए रंग चुनने के लिए दबाएं</string> 
+<!-- end smilefish -->
+    <string name="brush_edit_dialog_save_successful">सहेजना सफल हुआ।</string>
+    <string name="brush_edit_dialog_save">पहले से मौजूद है।</string>
+    <!--jason  -->
+    <string name="cannot_play_media_when_calling">कॉल करते समय मीडिया नहीं चला सकता</string>
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+    <string name="template_travel_text_hint" description="hint for inputting travelling notes">आपकी डायरी टिप्पणियां यहां हैं …</string>
+    <string name="template_travel_change_photos" description="hint for changing photos">फोटो बदलने के लिए टैप करें</string>
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+    <string name="bm_in_notebook" description="Page in notebook" maxwidth="">%1$s में बुकमार्क</string>
+<!-- smilefish -->
+    <string name="page_copy" description="Copy the page" maxwidth="">कॉपी</string>
+    <string name="page_move" description="Move the page" maxwidth="">मूव करें</string>
+    <string name="page_delete" description="Delete the page" maxwidth="">मिटाएं</string>
+    <string name="page_reorder" description="Reorder the page" maxwidth="">पुनः क्रम में करें</string>
+    <string name="pg_in_notebook" description="Page in notebook" maxwidth="">%2$s में %1$s पृष्ठ</string>
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <string name="todo_widget_add_new_memo" description="All memos">नया मेमो जोड़ें</string>
+    <!-- Emmanual -->
+    <string name="drawer_menu" description="menu on drawer" maxwidth="">मेन्यू</string>
+    <!-- smilefish -->
+    <string name="editor_menu_read_later" description="read later" maxwidth="">बाद में पढ़ें</string>
+    <!-- smilefish -->
+    <string name="sdcard_full_no_add" description="sdcard is full">नया पृष्ठ या नोटबुक को सहेजने में असफल। स्टोरेज भरा हुआ है।</string>
+    <!-- emmanual -->
+    <string name="sdcard_full_no_save" description="sdcard is full">संपादित पृष्ठ या नोटबुक को सहेजने में असफल। स्टोरेज भरा हुआ है।</string>
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <string name="pg_sort_by_name" description="page sort by name">डिफ़ॉल्ट छांटें, नाम के अनुसार छांटें में पुनर्स्थापित</string>
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <string name="tutorial_info_content1" description="tutorial info for supernote">आपका सर्वश्रेष्ठ फ़िंगरटिप नोट टेकर।</string>
+    <string name="tutorial_info_title2" description="Cloud sync">क्लाउड सिंक</string>
+    <string name="tutorial_info_content2" description="tutorial info for cloud sync">कहीं भी, किसी भी समय क्लाउड पर अपने डेटा संग्रहीत करने के लिए एक मुफ़्त क्लाउड एकाउंट पाएँ।</string>
+    <string name="tutorial_info_title3" description="3 editing modes">3 संपादन मोड</string>
+    <string name="tutorial_info_content3" description="tutorial info for editing modes">सुपरनोट पर लिखें, टाइप करें और चित्रित करें। अपने कार्य के लिए सबसे उपयुक्त विधि को चुनें।</string>
+    <string name="tutorial_info_title4" description="Insert content">सामग्री सम्मिलित करें</string>
+    <string name="tutorial_info_content4" description="tutorial info for insert content">अपनी सामग्री को समृद्ध बनाने के लिए छवियाँ, साउंड या वीडियो सम्मिलित करें।</string>
+    <string name="skip_this_tutorial" description="skip this tutorial">"अभी नहीं"</string>
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <string name="editor_menu_nextpage" maxwidth="12">अगला पृष्ठ</string>
+    <string name="editor_menu_prepage" maxwidth="12">पिछला पृष्ठ</string>
+    <string name="auto_add_page" maxwidth="12">संसाधित कर रहा है...</string>
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <string name="insert_audiofile">ऑडियो फ़ाइल</string>
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <string name="audiofile_not_exist">फ़ाइल मौजूद नहीं है!</string>
+    <string name="audiofile_not_mp4">ऑडियो फ़ाइल नोटबुक में नहीं डाली जा सकती है!</string>
+    <string name="editor_func_button_last_edit_page">अंतिम संपादित पृष्ठ पर लॉन्च करें</string>
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <string name="title_send_email">ई-मेल भेजें</string>
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <string name="about_title">संक्षिप्त विवरण</string>
+    <string name="about_legal_information">कानूनी जानकारी</string>
+    <string name="about_legal_information_des">इस सॉफ़्टवेयर का उपयोग ASUS के नियम और शर्तों के अधीन है।</string>
+    <string name="about_website">वेबसाइट</string>
+    <string name="about_allrights">ASUSTek Computer Inc. सर्वाधिकार सुरक्षित।</string>
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="nb_add_choose_title">एक नया नोटबुक बनाएँ</string>
+    <string-array name="nb_add_choose_item">
+        <item>खाली नोटबुक</item>
+        <item>एक टेम्पलेट चुनें</item>
+    </string-array>
+    <string name="no_notebooks">कोई नोटबुक नहीं</string>
+    <string name="stub_app_notice_title" description="stub app notice title" maxwidth="-1">सूचना</string>
+    <string name="stub_app_notice_content" description="stub app notice content" maxwidth="-1">कृपया पहले Google Play एप्लिकेशन स्टोर से नवीनतम संस्करण में अपडेट करें। धन्यवाद।</string>
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"कृपया पहले Asus एप्लिकेशन स्टोर से नवीनतम संस्करण में अपडेट करें। धन्यवाद।"</string>
+    <string name="cta_act_mobile_network">"मोबाइल नेटवर्क"</string>
+    <string name="cta_msg_mobile_network">"मोबाइल नेटवर्क कनेक्ट करने का प्रयास करता है. मोबाइल नेटवर्क का उपयोग करने का शुल्क लग सकता है. शुल्क देने से बचने के लिए, जब उपयोग न कर रहे हों तो मोबाइल नेटवर्क का कनेक्शन हटा दें."</string>
+    <string name="voice">वॉयस</string>
+    <string name="error_sdcard_access_nosdcard">USB संग्रहण तक पहुँचने में असमर्थ</string>
+    <string name="error_sdcard_access">SD कार्ड तक पहुँचने में असमर्थ</string>
+    <string name="startfail">रिकॉर्डिंग आरंभ करने में असमर्थ, कृपया सुनिश्चित करें कि कोई दूसरा एप्लिकेशन माइक्रोफ़ोन का उपयोग नहीं कर रहा हो।</string>
+    <string name="sync_setting_wifi_auto">स्वतः सिंक केवल WiFi के माध्यम से</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <string name="reading_pdf_prompt">PDF पढ़ रहा है...</string>
+    <string name="choose_pdf_prompt">PDF पृष्ठ चुनें</string>
+    <string name="import_pdf_prompt">PDF पृष्ठ आयात करने के लिए तैयारी करें...</string>
+    <string name="pdf_import" description="Import PDF" maxwidth="">PDF आयात करें</string>
+    <string name="pdf_seelcted">चयनित: </string>
+    <string name="import_pdf_progress" formatted="false">PDF आयात कर रहा है: %s का %s</string>
+    <string name="add_book_from_pdf" maxwidth="">PDF से</string>
+    <string name="reading_pdf_error" maxwidth="">फ़ाइल नहीं लिख सकते!</string>
+    <string name="reading_pdf_encrypted" maxwidth="">पासवर्ड सुरक्षा वाली PDF फ़ाइल आयात नहीं कर सकते।</string>
+    <string name="reading_pdf_invalid" maxwidth="">फ़ाइल आयात नहीं कर सकते। कृपया सुनिश्चित करें कि फ़ाइल क्षतिग्रस्त न हो।</string>
+    <string name="error" maxwidth="">त्रुटि</string>
+    <string name="editor_func_button_page_transtion">पृष्ठ मोड़ने के लिए एनिमेशन प्रभाव</string>
+    <string name="download_title" maxwidth="12">डाउनलोड हो रहा है\u2026</string>
+    <!-- smilefish -->
+    <string name="settings_encourage_us_title" maxWidth="">हमें प्रोत्साहित करें</string>
+    <string name="settings_encourage_us_detail" translate="true">यदि आपको %s उपयोग करने में आनंद आता है, तो कृपया हमें Play Store में रेट करते समय 5-स्टार दें। यह हमारे लिए अपने उत्पाद को अधिक बेहतर बनाना जारी रखने के लिए बड़ा प्रोत्साहन होगा!\n\nसुझावों के लिए, हमें Feedback &amp; Help के माध्यम से लिखें।</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">अब रेट करें</string>
+    <string name="later_action_no_apps" description="Text for indicating there are no apps to open the content" maxwidth="-1">कार्य पूरा करने के लिए कोई एप्लिकेशन नहीं है</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">कृपया रेट करने के लिए ऊपर स्क्रॉल करें</string>
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"फ़ाइलों तक पहुँच नहीं सकते"</string>
+    <string name="force_permission_sub_title">"डिवाइस में आपकी फ़ाइलों तक पहुँच और उन्हें सहेजने के लिए %1$s को %2$s की अनुमति की ज़रूरत होगी।"</string>
+    <string name="force_permission_turn_on">"चालू करें"</string>
+    <string name="force_permission_storage">"भंडारण"</string>
+    <string name="force_permission_settings">"सेटिंग"</string>
+    <string name="force_permission_show_settings">"&lt;b>%2$s&lt;/b> अनुमति चालू करने के लिए &lt;b>ऐप जानकारी&lt;/b> &lt;b>अनुमतियाँ&lt;/b> में &lt;b>सेटिंग्स&lt;/b> पर टैप करें, और फिर %1$s पुनः आरंभ करें।"</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"नेविगेशन संकेत"</string>
+    <string name="navigate_tutorial_content">"पृष्ठ को स्वतंत्र रूप से नेविगेट करने के लिए दो अंगुलियों का उपयोग करें। केवल-पठन मोड में रहने के दौरान, आप पूर्वावलोकन विंडो पर पृष्ठ नेविगेट कर सकते हैं।"</string>
+    <string name="navigate_tutorial_content_phone">"पूर्वावलोकन विंडो पर पृष्ठ को स्वतंत्र रूप से नेविगेट करने के लिए दो अंगुलियों का उपयोग करें।"</string>
+    <string name="navigate_tutorial_scroll">"पृष्ठ स्क्रॉल करने के लिए दबाए रखें"</string>
+    <!-- end smilefish -->
+</resources>

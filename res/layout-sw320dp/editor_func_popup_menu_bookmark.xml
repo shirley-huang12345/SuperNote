@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        
+    <TextView
+        android:id="@+id/editor_menu_favorite_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingStart="15dp"
+    	android:paddingEnd="15dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/menu_item_selector"
+        android:text="@string/add_to_list"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+    
+    <ImageView				        
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_marginStart="1px"
+        android:layout_marginEnd="1px"
+        android:layout_height="1px"
+        android:layout_gravity="center_horizontal"
+        android:src="@color/menu_item_dividing_line_color"/>
+        
+    <TextView
+        android:id="@+id/editor_menu_favorite_showall"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingStart="15dp"
+    	android:paddingEnd="15dp"
+        android:background="@drawable/menu_item_selector"
+        android:gravity="center_vertical"
+        android:text="@string/show_favorite_list"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+</LinearLayout>

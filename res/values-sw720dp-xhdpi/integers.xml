@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+	<!-- tutorial load mode:0,phone;1,pad;2,both -->
+    <integer name="tutorial_mode">1</integer> <!-- add by Emmanual -->
+    <integer name="orientation_lock_init_horizontal">0</integer> <!-- add by Emmanual -->
+    <integer name="penmenu_popup_position_x">-340</integer>
+    <integer name="eraser_popup_menu_position_x">-120</integer>
+</resources>

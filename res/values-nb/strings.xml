@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <string name="next" description="Next" maxwidth="">Neste</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Del kun tekst</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Skjul rutenett</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Størrelse:</string>
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">Om SuperNote</string>
+    <string name="set_on" description="On" maxwidth="">På</string>
+    <string name="set_off" description="Off" maxwidth="">Av</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Lesemodus som standard</string>
+    <string name="setting" description="Settings" maxwidth="">Innstilling</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s side(r) har blitt slettet.</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Kopier side(r) til</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">Flytt %d side(r) til </string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Notisboknavn</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Sidefarge</string>
+    <string name="password" description="Password" maxwidth="">Passord</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Skriv inn et passord med 4 til 7 tegn.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Gjeldende passord</string>
+    <string name="password_newpin" description="New password" maxwidth="">Nytt passord</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Bekreft nytt passord</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">Observer: Et passord kan bestå av 4 til 7 tall og/eller bokstaver.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Velg/endre passord</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">Passordene stemmer ikke overens.</string>
+    <string name="share_to" description="Share to..." maxwidth="">Dele til ...</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">SuperNote-passord</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">Passordet til SuperNote ble endret den %s. Det nye passord er: %s</string>
+    <string name="choose_a_template" description="choose a template for your notebook" maxwidth="">Velg en mal for notatboken</string>
+    <string name="name" description="Name" maxwidth="">Navn</string>
+    <string name="del" description="Delete" maxwidth="">Slett</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Importere ...</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Viktige notater</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">Metoden for å åpne denne filen ble ikke funnet</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Vellykket importert!</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Korrupt fil. Kunne ikke importere filen.</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Flytt til</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Kopier til</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Slette valgt side / valgte sider?</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Merk alt</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Fjern markering av alle</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">flytt siden(e)</string>
+    <string name="memo_del" description="Deleted memo">Slett valgte notat(er)?</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">Notat er tomt</string>
+    <string name="book_grid_title" description="the title of the page display property">Linjestil</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">kopier siden(e)</string>
+    <string name="wrong_file_type" description="wrong_file_type">Filtypen er feil.</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Trykk lenge på siden og dra for å endre siderekkefølgen.</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Flytt side(r) til</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">Siden eksisterer ikke</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Den siste siden</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">Første side</string>
+    <string name="phone_book_name" description="Phone book name">Telefonbok</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">ny side</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">Er du sikker på at du vil slette alle tegningene? Handlingen kan ikke angres.</string>
+    <string name="delete_alert" description="warning of deleting">Ønsker du å slette tegningen?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Bruk fingeren til å flytte eller endre størrelse på objektet.</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Trykk for å velge eller dra et objekt eller flere objekter.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Denne siden er full.</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Penselfarge og -tykkelse</string>   
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Denne siden er tom.</string>
+    <string name="editor_menu_share">Del</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Bokmerke</string>
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Skrivebeskyttet</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Notatbok</string>
+    <string name="warning_activity_not_found" description="Activity not found">Enheten støtter ikke denne filtypen eller kodektypen</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">Det er intet bilde på utklippstavlen å lime inn.</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Fjern</string>
+    <string-array name="pg_size">
+        <item>For Pad</item>
+        <item>For Telefon</item>
+    </string-array>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Legg til ny</string>
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d side(r) har blitt kopiert til %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">Sidestørrelse</string>
+    <!-- 2012-02-08 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Hvit</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Gul</string>
+    <string name="book_grid_line" description="the background style of the notebook">Linjer</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Rutenett</string>
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Vis notisbokinformasjon</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">Link til:\n%s</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Ingen bok eller side for avlesning</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Ingen bokmerkesider.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Slette?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Er du sikker på at du vil slette denne siden?</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Color (Farge)</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Kopi</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Klipp ut</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Edit (Rediger)</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Gruppe</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Oppløs gruppe</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Baseline</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Angre</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Gjør om</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Insert (Sett inn)</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Velg</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Lim inn</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Slett</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Pensel</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Viskelær</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Avbryt</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Fullført</string>
+   <!-- new by Ryan -->
+    <string name="editor_menu_addpage" maxwidth="12">Legg til side</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Fjern side</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Sideformat er ikke kompatibelt</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Skriv</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Type</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Tegn</string>
+    <!-- send to 4th -->
+    <string name="load_tutorial" description="" maxwidth="">Laster kurset …</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Legg til bokmerker</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="">Fjern fra bokmerker</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Fjerne fra bokmerker?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Vis bokmerker</string>
+    <!-- send to 5th -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Hurtig</item>
+        <item>Normal</item>
+        <item>Sakte</item>
+    </string-array>
+    <string name="reset_password_title" description="reset the password">Tilbakestill passordet</string>
+    <string name="reset_password_summary">Fjern passordet</string>
+    <string name="reset_password_dialog_title">Tilbakestill passord</string>
+    <string name="reset_password_dialog_password_invalid">Ugyldig passord</string>
+    <string name="confirm_reset_dialog_title">Tilbakestill passord</string>
+    <string name="no_memory_dialog_content">Ikke nok minne.</string>
+    <!-- 6th -->
+    <string name="dialog_file_name">Filnavn</string>
+    <string name="dialog_save_to">Lagre til</string>
+    <!-- 10th, Start New String -->
+   <string name="new_page" description="Create New Page" maxwidth="15">Lag en ny side</string>
+   <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Notisblokk er eksportert til</string>
+   <string name="pg_title_counter" description="show total pages number of the all page view\'s title">%s bokmerker</string>
+   <string-array name="pg_sort">
+        <item>Etter navn</item>
+        <item>Etter sist endret</item>
+    </string-array>
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">Vil du slette notisblokken?</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Gi nytt navn</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Skjul</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Slett</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Eksport</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Hastighet for håndskriftgjenkjenning</string>
+    <string name="notebook_selected" description="show how many pages are selected">%s valgt</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">Notisblokker</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">Bokmerke</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">Tidsstempel</string>
+    <string-array name="week_of_day">
+        <item>Søndag</item>
+        <item>Mandag</item>
+        <item>Tirsdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lørdag</item>
+        <item>I dag</item>
+        <item>I går</item>
+        <item>Forrige uke</item>
+        <item>To uker siden</item>
+        <item>Tre uker siden</item>
+        <item>I morgen</item>
+        <item>Neste uke</item>
+        <item>To uker senere</item>
+        <item>Tre uker senere</item>
+    </string-array>
+   <string-array name="month_of_year">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>Mars</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+        <item>Forrige måned</item>
+        <item>Halvt år siden</item>
+        <item>Mer enn ett år siden</item>
+        <item>Neste måned</item>
+        <item>Halvt år senere</item>
+        <item>Etter ett år</item>
+    </string-array>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Beskjær</string>
+    <!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Rediger</string>
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <string name="password_or_account_empty">Konto- eller passordfeltet kan ikke være tomt.</string>
+    <string name="nb_sync">Aktiver skysynkronisering</string>
+    <string name="nb_async">Avbryt skysynkronisering</string>
+    <string name="sync_status_syncing">Synkroniserer ...</string>
+    <string name="sync_status_failed">Kunne ikke synkronisere dataen.</string>
+    <string name="sync_account_text">Konto</string>
+    <string name="sync_sign_off">Logg av</string>
+    <string name="account_space_usage">Brukt plass</string>  
+    <string name="account_and_sync">Innstillinger for kontosynkronisering</string>
+    <string name="sync_setting_auto">Automatisk synkroniser</string>
+    <string name="sync_setting_auto_frequency">Frekvens for automatisk synkronisering</string>
+    <string name="sync_auto_interval_1">Hvert 1 min</string>
+    <string name="sync_auto_interval_15">Hvert 15 min</string>
+    <string name="sync_auto_interval_30">Hvert 30 min</string>
+    <string name="sync_auto_interval_60">Hvert 60 min</string>
+    <string name="sync_auto_interval_1d">Hver dag</string>
+    <!-- add by Better -->
+<!-- Begin: show -->
+    <string name="webstorage_register">Registrer</string>
+    <string name="webstorage_signon">Logg på</string>
+<!-- End: show -->
+    <!--Begin: Show-->
+    <string name="Crop_Done">Ferdig</string>  
+    <string name="Crop_Free">Lasso</string>
+    <string name="Crop_Rect">Rektangel</string>
+     <!--End: Show--> 
+    <string name="prompt_export_pdf_to">PDF-fil er lagret i</string>
+    <string name="browse_folder">Bla gjennom</string>
+    <string name="export_supernote_format">Eksporter som SuperNote-format</string>
+    <string name="file_export">Eksporter fil</string>
+    <string name="editor_func_button_search">Søk</string>
+    <string name="no_search_result">Ingen elementer passet søket ditt.</string>
+    <string name="SearchResultItemInfo_Loading">Laster ...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Kunne ikke lese filen.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Notisblokker</string>
+    <string name="SearchResultItemInfo_Pages">Sider</string>
+    <string name="SearchResultItemInfo_Personal">Personlig</string> 
+    <string name="SearchResultItemInfo_Page_Space">Side </string>   
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Skriv tekstgjenkjenning</string>
+      <!-- wendy  -->
+   <string name="password_not_set_sync">Notisblokker lagret på skyen er organisert som privat og offentlig. Vil du lage et passord for de private notisblokkene? Hvis ikke, organiseres alle notisblokker som offentlig.</string>
+   <string name="bookpicker_sync_books_list">Synkroniser bokliste</string>
+   <string name="bookpicker_cancel">Avbryt</string>
+   <string name="bookpicker_ok">Ok</string>
+   <string name="newto_editor_func_popup_d_brush_stroke">Slag</string>
+   <string name="newto_editor_func_popup_d_brush_alpha">Opasitet</string> 
+   <string name="export">Eksport</string>
+   <string name="transfer">Overfør</string>
+   <string name="book_export">Eksporter notisblokk</string>
+   <string name="prompt_exports_pdf_to">PDF-filer er lagret i</string> 
+<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Tittel</string>  
+   <string name="template_travel_tips_date">Dato</string>
+   <!--wendy begin -->
+    <string name="select_all">Alle</string>
+   <string name="prompt_no_book_selected">Ingen bok er valgt.</string>
+   <!-- Begin: Better -->
+   <string name="sync_file_no_version">Versjon er ikke tilgjengelig.</string>
+   <string name="loading_page">Laster sidedata...</string>
+   <string name="prompt_transfer_format">Du må omformatere denne boken og dette kan ta litt tid. Vil du fortsette?</string>
+   <string name="prompt_saving">Lagrer ...</string>
+   <string name="prompt_incompatible_syncing">%s er ikke en kompatibel versjon. Oppdater SuperNote.</string>
+   <string name="prompt_incompatible_file">%s er ikke en kompatibel versjon.</string>
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <string name="webstorage_login_signing_in">Logger på. Vent litt...</string>
+   <string name="webstorage_login_account_password_wrong">Konto eller passord er feil</string>
+   <string name="sync_setting_sign_failure">Kan ikke logge på %s</string>
+   <string name="sync_setting_sign_success">Logg på %s</string>
+   <string name="sync_setting_networkless_title">Ingen tilkobling</string>
+    <string name="sync_setting_networkless">Du trenger en Internett-forbindelse for å bruke denne tjenesten. Aktiver din mobile nettverksforbindelse eller Wi-Fi i innstillinger.</string>
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <string name="Sort">Sorter</string>
+    <!-- End: Allen -->   
+ <string-array name="editor_func_insert_array" description="insert mode" maxwidth="20">
+        <item>Bilde</item>
+        <item>Bilde fra fil</item>
+        <item>Bildetekst</item>
+        <item>PDF-side</item>
+        <item>Lydopptak</item>
+        <item>Video</item>
+        <item>Tekstfil</item>
+        <item>Tidsstempel</item>
+        <item>Kunst fra utklippstavle</item>
+        <item>Stempel</item>
+        <item>Form</item>
+    </string-array>
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <string-array name="nb_editcover_choose_item">
+        <item>Bilde</item>
+        <item>Bilde fra fil</item>
+    </string-array>
+ <!-- End  :Darwin -->
+    <string name="sync_setting_sign_out">Logge av %s</string>
+    <string name="sync_setting_sign_out_msg">Avlogging fjerner tilgang til notisbøker på nettskykontoen og deaktiver nettskysynkronisering. Vil du fortsette?\n</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">Passordet er blitt endret. Vil du sende passordet til e-postadressen din for fremtidig referanse? Dette hindrer at du mister tilgang til skjulte notisbøker.\n</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Lås</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">Lås opp</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">Lås for å skjule</string>
+    <string name="editor_phone_toast_seletext">Dra for å markere teksten</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">Lås</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Vil du låse notisboken?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Lås opp</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Vil du låse opp notisboken?</string>
+    <string name="set_password_dialog_title">Angi passord</string>
+    <string name="editor_func_button_recognize">Gjenkjenn</string>
+    <string name="editor_func_button_transform">Transformer</string>   
+    <string name="editor_phone_toast_readonly">Kun lesemodus: Du er i lesemodus. Bruk fingeren til å bla gjennom eller rulle siden opp/ned.</string>   
+    <string name="export_pdf">Eksporter som PDF</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Søk mislyktes.</string>
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Linje</string>
+    <string name="book_type_grid">Rutenett</string>
+    <string name="book_type_meeting">Møte</string>
+    <string name="book_type_diary">Dagbok</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Tilbakeslagbevegelse</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">I håndskriftmodus sveiper fingeren fra høyre til venstre for å slette den sist innskrevne teksten.</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <string name="template_meeting_start_date_tips">Startdato</string>
+    <string name="template_meeting_end_date_tips">Sluttdato</string>
+    <string name="template_meeting_start_time_tips">Starttid</string>
+    <string name="template_meeting_end_time_tips">Sluttid</string>
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Vis låst notisbok </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Skjul låst notisbok </string>
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Kontinuerlig skrivelinje</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Når skrivingen passerer den røde linjen, skifter de skrevne bokstavene automatisk til venstre.</string>
+    <string name="text_continue" description="continue" max_width="-1">Fortsett</string>
+    <!-- End: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">SuperNote omgjør alle skrevne tekster til trykte tekster og dupliser denne notisboken.</string>
+    <string name="set_index_language_title">Still inn språk for gjenkjenning</string> 
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">Alle sider</string>
+    <!-- darwin add -->
+   <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">Du kan logge på med ASUS WebStorage-kontoen.</string>
+   <!-- Begin: show -->
+   <string name="username" description="User Name" maxwidth="15">Brukernavn</string>
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">De låste notisbøkene er skjult.</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">De låste notisbøkene kan leses nå.</string>
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Skriv lange ord sammenhengende uavhengig av skjermstørrelse.</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\'s title">%s Tidsstempler</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Søker, vent litt.</string>
+<!-- Begin Allen -->
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">Stor</string>
+    <string name="share_medium" description="Medium" max_width="6">Medium</string>
+    <string name="share_small" description="Small" max_width="5">Liten</string>
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+    <string name="book_type_blank" description="blank book name" maxwidth="">Tom</string>
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+    <string name="editor_menu_savepage" maxwidth="12">Lagre side</string>
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+    <string name="my_bit_cast_wait_text">Vent litt …</string>
+<!-- End: Shane -->
+<!-- Begin: Better -->
+    <string name="password_not_set_import">Notisbøker kan organiseres som privat eller offentlig. Vil du lage et passord for de private notisbøkene dine? Hvis du ikke bruker passord, organiseres alle notisbøkene som offentlig.</string>
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="book_grid_none" description="the background style of the notebook">Ingen</string>
+    <!-- End Allen -->    
+<!-- clare begin -->
+    <string name="widget_bt_add_a_notebook">Legg til en notisbok</string>
+    <string name="widget_passwordTip">Skriv inn passordet</string>
+<!-- clare end -->
+<!-- darwin begin -->
+   <string name="nb_editcover">Rediger omslag</string>
+   <string name="nb_editcover_choose_title">Velg bilde</string>
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+    <string name="widget_dialog_replace_notebook">Erstatt notisbøker</string>
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+     <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">Tilføy til</string>
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Sorter etter side</item>
+        <item>Sorter etter tid</item>
+    </string-array>
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Høy</item>
+        <item>Normal</item>
+        <item>Lav</item>
+    </string-array>
+    <string name="todo_item_completed" description="todo item is completed">Fullført</string>
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Velg notisbok</string>
+    <!-- Begin Allen -->
+    <string name="meeting_form" description="meeting start time">Fra</string>
+    <string name="meeting_to" description="meeting end time">Til</string>
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">Gjenkjent</string>
+ <!-- add for 'SyncCancelDialogFragment'-->
+ <string name="sync_cancel_confirmText">Bekreft</string>
+    <string name="sync_cancel_promptTop">Slettede synkroniserte elementene vil også bli slettet på den andre enheten.</string>
+    <string name="sync_cancel_promptBottom">Vil du fjerne synkronisering for disse notatbøkene?</string>
+    <string name="sync_cancel_noMoreHint">Ikke påminn meg igjen</string>
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+    <string name="pen_only_enabled">Bruk bare penn</string>
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <string name="export_as" description="used as title of export_format dialog">Eksporter som</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>SuperNote-format</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog">Velg format</string>
+    <string-array name="share_format_array" description="share format chooser">
+        <item>Bilde</item>
+        <item>PDF</item>
+        <item>SuperNote-format</item>
+    </string-array>
+    <string name="todo_title" description="memo template title" maxwidth="">Notat</string>
+    <string name="todo_widget_all_todos" description="All memos">Alle memoer</string>
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">Velg et stempel</string>
+    <string name="insert_shape_dlg">Velg en form</string>
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">Hva er emnet?</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">Legg til deltakere</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">Her er møtenotatene …</string>
+<!-- for A86 style by smilefish -->
+    <string name="statusbar_login">Logg på</string>
+    <string name="editcover_photo">Bilde</string>
+    <string name="editcover_save">Lagre</string>
+    <string name="brush_edit_dialog_library">Bibliotek</string>
+    <string name="brush_edit_dialog_back">Tilbake</string>
+    <string name="brush_edit_dialog_pencil">Blyant</string>
+    <string name="brush_edit_dialog_rollerpen">Kulepenn</string>
+    <string name="brush_edit_dialog_pen">Penn</string>
+    <string name="brush_edit_dialog_marker">Markør</string>
+    <string name="brush_edit_dialog_brush">Pensel</string>
+    <string name="brush_edit_dialog_airbrush">Luftpensel</string>
+    <string name="todo_title_task">Trykk 1 for å legge til en ny oppgave.</string>
+    <string name="brush_edit_dialog_full">Lagret maksimalt antall pensler til 12</string>
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+    <string name="data_fomat_upgrade">Dataformatoppgradering</string>
+    <string name="the_book">Boken</string>
+    <string name="exits">finnes allerede</string>
+    <string name="replace_the_book">Bytte boken?</string>
+    <string name="no">Nei</string>
+    <string name="successful_upgrade">Oppgraderingen var vellykket. Vi starter SuperNote på nytt</string>
+    <string name="upgrade_fails">Oppgraderingsfeil</string>
+    <string name="not_enough_space">Ikke nok plass på SD-kortet</string>
+    <string name="try_again">Slett overflødige filer, start SuperNote på nytt og prøv igjen</string>
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <!-- jason -->
+<!-- Begin Carol-->
+    <string name="editor_phone_readonly">Skrivebeskyttet: Bruk fingeren til å bla i siden.</string>
+<!-- End Carol-->
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">Ingen memoer</string>
+    <string name="widget_password_hint">Angi passord</string>
+    <string name="widget_all_book_template">Alle notatbøker</string>
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <string name="content_is_too_long" description="content_is_too_long">Innholdet er for langt</string>
+    <string name="todo_title_max_character_num">Maksimalt antall tegn er 50</string>
+    <!-- smilefish -->
+    <string name="vo_shape_failed">Kan ikke forme denne tegningen</string>
+    <!-- smilefish -->
+    <string name="todo_widget_create" description="Create">Opprett</string> <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+    <string name="editor_color_picker">Trykk for å velge en penselfarge</string> 
+<!-- end smilefish -->
+    <string name="brush_edit_dialog_save_successful">Lagring var vellykket.</string>
+    <string name="brush_edit_dialog_save">Finnes allerede.</string>
+    <!--jason  -->
+    <string name="cannot_play_media_when_calling">Kan ikke spille av media når du ringer</string>
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+    <string name="template_travel_text_hint" description="hint for inputting travelling notes">Her er dagboksnotatene …</string>
+    <string name="template_travel_change_photos" description="hint for changing photos">Trykk for å endre bilder</string>
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+    <string name="bm_in_notebook" description="Page in notebook" maxwidth="">Bokmerke i %1$s</string>
+<!-- smilefish -->
+    <string name="page_copy" description="Copy the page" maxwidth="">Kopier</string>
+    <string name="page_move" description="Move the page" maxwidth="">Flytt</string>
+    <string name="page_delete" description="Delete the page" maxwidth="">Slett</string>
+    <string name="page_reorder" description="Reorder the page" maxwidth="">Endre rekkefølge</string>
+    <string name="pg_in_notebook" description="Page in notebook" maxwidth="">Side %1$s i %2$s</string>
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <string name="todo_widget_add_new_memo" description="All memos">Legg til nytt notat</string>
+    <!-- Emmanual -->
+    <string name="drawer_menu" description="menu on drawer" maxwidth="">Meny</string>
+    <!-- smilefish -->
+    <string name="editor_menu_read_later" description="read later" maxwidth="">Les senere</string>
+    <!-- smilefish -->
+    <string name="sdcard_full_no_add" description="sdcard is full">Kunne ikke lagre den nye siden eller notatboken. Lagringsområdet er fullt.</string>
+    <!-- emmanual -->
+    <string name="sdcard_full_no_save" description="sdcard is full">Kunne ikke lagre den redigerte siden eller notatboken. Lagringsområdet er fullt.</string>
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <string name="pg_sort_by_name" description="page sort by name">Satte tilbake til standard sortering, sortering etter navn</string>
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <string name="tutorial_info_content1" description="tutorial info for supernote">Fingertuppenes beste notisbok.</string>
+    <string name="tutorial_info_title2" description="Cloud sync">Nettskysynkronisering</string>
+    <string name="tutorial_info_content2" description="tutorial info for cloud sync">Få en gratis nettskykonto og lagre dataene dine i nettskyen når og hvor du vil.</string>
+    <string name="tutorial_info_title3" description="3 editing modes">3 redigeringsmoduser</string>
+    <string name="tutorial_info_content3" description="tutorial info for editing modes">Skriv, tast og tegn i SuperNote. Velg metoden som passer best til oppgaven.</string>
+    <string name="tutorial_info_title4" description="Insert content">Sett inn innhold</string>
+    <string name="tutorial_info_content4" description="tutorial info for insert content">Sett inn bilder, lyder eller videoer for å supplere innholdet.</string>
+    <string name="skip_this_tutorial" description="skip this tutorial">"Hopp over"</string>
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <string name="editor_menu_nextpage" maxwidth="12">Neste side</string>
+    <string name="editor_menu_prepage" maxwidth="12">Forrige side</string>
+    <string name="auto_add_page" maxwidth="12">Behandler …</string>
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <string name="insert_audiofile">Lydfil</string>
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <string name="audiofile_not_exist">Filen finnes ikke!</string>
+    <string name="audiofile_not_mp4">Lydfilen kan ikke settes inn i notatboken!</string>
+    <string name="editor_func_button_last_edit_page">Start fra den siste redigerte siden</string>
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <string name="title_send_email">Send e-post</string>
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <string name="about_title">Om</string>
+    <string name="about_legal_information">Juridisk informasjon</string>
+    <string name="about_legal_information_des">Bruken av denne programvaren er underlagt vilkårene og betingelsene til ASUS</string>
+    <string name="about_website">sitt nettsted</string>
+    <string name="about_allrights">ASUSTek Computer Inc. Med enerett.</string>
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="nb_add_choose_title">Opprett en ny notisbok</string>
+    <string-array name="nb_add_choose_item">
+        <item>Tom notisbok</item>
+        <item>Velg en mal</item>
+    </string-array>
+    <string name="no_notebooks">Ingen notatbøker</string>
+    <string name="stub_app_notice_title" description="stub app notice title" maxwidth="-1">Merknad</string>
+    <string name="stub_app_notice_content" description="stub app notice content" maxwidth="-1">Oppdater til den nyeste versjonen fra Google Play-butikken først. Tusen takk.</string>
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"Oppdater til den nyeste versjonen fra Asus-appbutikken først. Takk!"</string>
+    <string name="cta_act_mobile_network">"Mobilt nettverk"</string>
+    <string name="cta_msg_mobile_network">"prøver å koble til mobilnettet. Bruk av mobilnett kan medføre kostnader. For å unngå kostnader kan du koble fra mobilnettet når du ikke bruker det. "</string>
+    <string name="voice">Tale</string>
+    <string name="error_sdcard_access_nosdcard">Får ikke tilgang til USB-lagring</string>
+    <string name="error_sdcard_access">Får ikke tilgang til SD-kort</string>
+    <string name="startfail">Kan ikke starte opptak. Sørg for at ingen andre apper bruker mikrofonen.</string>
+    <string name="sync_setting_wifi_auto">Synkroniser kun automatisk over WiFi</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <string name="reading_pdf_prompt">Leser PDF …</string>
+    <string name="choose_pdf_prompt">Velg PDF-sider</string>
+    <string name="import_pdf_prompt">Gjør klar til å importere PDF-side(r) …</string>
+    <string name="pdf_import" description="Import PDF" maxwidth="">Importer PDF</string>
+    <string name="pdf_seelcted">Valgt: </string>
+    <string name="import_pdf_progress" formatted="false">Importer PDF: %s av %s</string>
+    <string name="add_book_from_pdf" maxwidth="">Fra PDF</string>
+    <string name="reading_pdf_error" maxwidth="">Kan ikke skrive i filen!</string>
+    <string name="reading_pdf_encrypted" maxwidth="">Kan ikke importere PDF-fil med passordbeskyttelse.</string>
+    <string name="reading_pdf_invalid" maxwidth="">Kan ikke importere filen. Kontroller at filen ikke er skadet.</string>
+    <string name="error" maxwidth="">Feil</string>
+    <string name="editor_func_button_page_transtion">Animasjonseffekt for å bla til neste side</string>
+    <string name="download_title" maxwidth="12">Laster ned \u2026</string>
+    <!-- smilefish -->
+    <string name="settings_encourage_us_title" maxWidth="">Gi oss motivasjon</string>
+    <string name="settings_encourage_us_detail" translate="true">Hvis du liker å bruke %s ber vi om at du gir oss 5 stjerner i Play-butikken. Det vil oppmuntre oss til å fortsette med å forbedre produktet!\n\nHvis du har forslag, kan du skrive til oss via Feedback &amp; Help.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">Gi en vurdering nå</string>
+    <string name="later_action_no_apps" description="Text for indicating there are no apps to open the content" maxwidth="-1">Ingen app for å fullføre handlingen</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">Bla opp for å gi en vurdering</string>
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"Får ikke tilgang til filer"</string>
+    <string name="force_permission_sub_title">"%1$s trenger %2$s-tillatelse for å åpne og lagre filer på enheten din."</string>
+    <string name="force_permission_turn_on">"Slå på"</string>
+    <string name="force_permission_storage">"Lagring"</string>
+    <string name="force_permission_settings">"Innstillinger"</string>
+    <string name="force_permission_show_settings">"Trykk på &lt;b>Innstillinger&lt;/b> for å slå på &lt;b>%2$s&lt;/b>-tillatelser i &lt;b>Appinfo&lt;/b> &lt;b>Tillatelser&lt;/b> og start %1$s på nytt."</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"Bevegelser for navigering"</string>
+    <string name="navigate_tutorial_content">"Bruk to fingre for å navigere fritt på siden. Når du er i Kun-les-modus, kan du navigere på siden på forhåndsvisningsvinduet."</string>
+    <string name="navigate_tutorial_content_phone">"Bruk to fingre for å navigere fritt på siden i navigasjonsvinduet."</string>
+    <string name="navigate_tutorial_scroll">"Hold for å rulle siden"</string>
+    <!-- end smilefish -->
+</resources>

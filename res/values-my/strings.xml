@@ -1,0 +1,636 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <string name="next" description="Next" maxwidth="">နောက်ထပ်</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">စာသားချည်း ရှဲသည်</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">ဂရစ်လိုင်း ဖျောက်သည်</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">အရွယ်အစား: </string>
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">စူပါနုတ်အကြောင်း</string>
+    <string name="set_on" description="On" maxwidth="">ဖွင့်မည်။</string>
+    <string name="set_off" description="Off" maxwidth="">ပိတ်သည်</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">စာဖတ်ခြင်းမုဒ်ကို ပုံသေထားသည်</string>
+    <string name="app_name">စူပါနုတ်</string>
+    <string name="setting" description="Settings" maxwidth="">ချိန်ညှိချက်များ</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s စာမျက်နှာ(များ) ကို ဖျက်ပစ်ပြီးပြီ</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">ဆီသို့ စာမျက်နှာ(များ) ကူးထည့်သည်</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">ဆီသို့ %d စာမျက်နှာ(များ) ရွှေ့သည် </string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">မှတ်စုစာအုပ်အမည်</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">စာမျက်နှာအရောင်</string>
+    <string name="password" description="Password" maxwidth="">လျှို့ဝှက်စကားလုံး</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">ကျေးဇူးပြု၍ စကားလုံးများ/ဂဏန်းများ ၄ မှ ၇ ထိ ထည့်သွင်းပါ။</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">မူလလျှို့ဝှက်စကားလုံး</string>
+    <string name="password_newpin" description="New password" maxwidth="">လျှို့ဝှက်စကားလုံးအသစ်</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">လျှို့ဝှက်စကားလုံးအသစ် အတည်ပြုသည်</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">အလေးသတိပြုရန်: လျှို့ဝှက်စကားလုံးကို နံပါတ်များ နှင့်/သို့မဟုတ် စကားလုံးမှ ၄နေရာမှ ၇နေရာထိ သတ်မှတ်နိုင်သည်။</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">လျှို့ဝှက်စကားလုံးမျာ မကိုက်ညီပါ။</string>
+    <string name="share_to" description="Share to..." maxwidth="">သို့ မျှဝေမည်။</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">စူပါနုတ် လျှို့ဝှက်စကားလုံး</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">%s ပေါ်တွင် ကျွန်ုပ်၏စူပါနုတ် လျှို့ဝှက်စကားလုံးကို ပြောင်းနိုင်သည်။ လျှို့ဝှက်စကားလုံးအသစ်မှာ ဖြစ်သည်။ %s</string>
+    <string name="choose_a_template" description="choose a template for your notebook" maxwidth="">သင့်မှတ်စုစာအုပ်အတွက် ပုံစံငယ်တစ်ခု ရွေးချယ်ပါ</string>
+    <string name="name" description="Name" maxwidth="">နာမည်</string>
+    <string name="del" description="Delete" maxwidth="">ပယ်ဖျက်</string>
+    <string name="prompt_import" description="Import..." maxwidth="">မှ ထည့်သွင်းရန် စတင်သည်</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">မှတ်စုစာအုပ်သို့ ထည့်သွင်းသည်</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">ဤဖိုင်နှင့်ပတ်သတ်သောဖွင်နည်း ရှာမတွေ့ပါ။</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">ထည့်သွင်းမှု အောင်မြင်သည်!</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">ထည့်သွင်းမှု မအောင်မြင်ပါ။ ဖိုင်သည်ပျက်သွားသည်။</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">ထံသို့ ရွှေ့မည်။</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">ဆီသို့ကူးယူသည်</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Dရွေးချယ်ထားသော စာမျက်နှာ(များ)ကို ဖျက်ပစ်သည်။</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">အားလုံးကို ရွေးချယ်မည်။</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">အားလုံးကိုရွေးချယ်ပါ</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">စာမျက်နှာ(များ) ရွှေ့သည်</string>
+    <string name="memo_del" description="Deleted memo">ရွေးချယ်ထားသော မှတ်တမ်း(များ) ဖျက်ပစ်မည်လား။</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">မှတ်တမ်းတွင် ဘာမှမရှိပါ</string>
+    <string name="book_grid_title" description="the title of the page display property">လိုင်းစတိုင်လ်</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">စာမျက်နှာ(များ) ကူးယူသည်</string>
+    <string name="wrong_file_type" description="wrong_file_type">သင်သည် အမျိုးအစားမှားသော ဖိုင် ကို ဖွင့်နေသည်</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">ပြန်လည်ရယူလိုသောစာမျက်နှာများကို ဆွဲပြီးစာမျက်နှာပေါ်တွင် ကြာကြာလေးဖိထားပါ</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">ဆီသို့ စာမျက်နှာ(များ) ရွှေ့သည်</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">စာမျက်နှာ မရှိပါ</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">နောက်ဆုံးစာမျက်နှာ</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">ပထမဆုံး စာမျက်နှာ</string>
+    <string name="phone_book_name" description="Phone book name">ဖုန်းစာအုပ်</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">စာမျက်နှာအသစ်</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">ရေးဆွဲထားသောပုံများအားလုံး ဖျက်ပစ်လိုသည်မှာ သေချာသလား။ ဤလုပ်ဆောင်ချက် ကို မပြီးမြောက်စေသည်မှာ မဖြစ်နိုင်ပါ။</string>
+    <string name="delete_alert" description="warning of deleting">ရေးဆွဲထားသောပုံကို ဖျက်ပစ်လိုသလား။</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">အရာဝတ္ထုကို ရွှေ့ရန် သို့မဟုတ် အရွယ်အစားပြန်လည်သတ်မှတ်ရန် သင့်လက်ချောင်းကို သုံးပါ</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">အရာဝတ္ထုအမျိုးအစားများ သို့မဟုတ် အရာဝတ္ထုတစ်ခုကို ရွေးချယ်ရန် သို့မဟုတ် ဆွဲရန် ခေါက်ပါ။</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">ဤစာမျက်နှာသည် ပြည့်နေပြီ</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">ဘရက်ရှ်ကာလာ &amp; အထူ</string>   
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">ဤစာမျက်နှာတွင် ဘာမှမရှိပါ</string>
+    <string name="editor_menu_share">မျှဝေ</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">စာမှတ်</string>
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">ဖတ်ရန်သပ်သပ်</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">မှတ်စုစာအုပ်</string>
+    <string name="warning_activity_not_found" description="Activity not found">သင့်စက်ပစ္စည်းသည် ဤဖိုင်အမျိုးအစား သို့မဟုတ် codec အမျိုးအစားကို မထောက်ပံ့ပါ</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">အောက်ခံပြားတွင် ပြန်ကူးထည့်ရန် ပုံရိပ်မရှိပါ</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">ဖယ်ရှားသည်</string>
+    <string-array name="pg_size">
+        <item>ပတ်</item>
+        <item>ဖုန်း</item>
+    </string-array>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">ပေါင်း</string>
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d စာမျက်နှာ(များ) ကို %sဆီသို့ကူးထည့်ပြီးပြီ</string>
+    <string name="page_size" description="Page Size" maxwidth="">စာမျက်နှာအရွယ်အစား</string>
+    <!-- 2012-02-08 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">အဖြူ</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">အဝါ</string>
+    <string name="book_grid_line" description="the background style of the notebook">လိုင်းများ</string>
+    <string name="book_grid_grid" description="the background style of the notebook">ဂရစ်များ</string>
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">မှတ်စုစာအုပ်သတင်းအချက်အလက် ပြပါ</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">သို့ ချိတ်ဆက်သည်: \n%s</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">ဖတ်ရန်အတွက် စာအုပ် သို့မဟုတ် စာမျက်နှာမရှိပါ</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">စာမှတ်မှတ်သားထားသော စာမျက်နှာများ မရှိပါ။</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">ဖျက်ပစ်မည်လား။</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">ဤစာမျက်နှာကို ဖျက်ပစ်လိုသည်မှာ သေချာပါသလား။</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">ကာလာ</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">ကော်ပီကူးမည်။</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">ဖြတ်မည်။</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">တည်းဖြတ်သည်</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">အုပ်စု</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">အဖွဲ့ဖြုတ်သည်</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">ဘေ့စ်လိုင်း</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">မလုပ်ပါ</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">ပြန်လုပ်မည်</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">အစားသွင်းသည်</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">ရွေးချယ်မည်</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">ကူးချမည်။</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">ပယ်ဖျက်</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">ဘရက်ရှ်</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">ခဲဖျက်</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">ရုတ်သိမ်း</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">ပြီးပြီ</string>
+   <!-- new by Ryan -->
+    <string name="editor_menu_addpage" maxwidth="12">စာမျက်နှာ ထပ်ထည့်သည်</string>
+    <string name="editor_menu_rmpage" maxwidth="12">စာမျက်နှာ ဖယ်ရှားသည်</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">စာမျက်နှာပုံစံသည် ဆီလျော်ခြင်းမရှိပါ</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">ရေးပါ</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">ရိုက်ပါ</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">ဆွဲပါ</string>
+    <!-- send to 4th -->
+    <string name="load_tutorial" description="" maxwidth="">ပထမဆုံးအသုံးပြုရန်အတွက် ပြင်ဆင်နေသည်...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">စာမှတ်များ ထပ်ထည့်သည်</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="">စာမှတ်များမှ ဖယ်ရှားသည်</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">စာမှတ်များမှ ဖယ်ရှားမည်လား။</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">စာမှတ်များပြသည်</string>
+    <!-- send to 5th -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>မြန်မည်။</item>
+        <item>သာမာန်</item>
+        <item>နှေးမည်။</item>
+    </string-array>
+    <string name="reset_password_title" description="reset the password">လျှို့ဝှက်စကားလုံး ပြန်လည်သတ်မှတ်သည်</string>
+    <string name="reset_password_summary">လျှို့ဝှက်စကားလုံး ရှင်းလင်းသည်</string>
+    <string name="reset_password_dialog_title">လျှို့ဝှက်စကားလုံး ပြန်လည်သတ်မှတ်သည်</string>
+    <string name="reset_password_dialog_password_invalid">လျှို့ဝှက်စကားလုံး မမှန်ကန်ပါ</string>
+    <string name="confirm_reset_dialog_title">လျှို့ဝှက်စကားလုံး ပြန်လည်သတ်မှတ်သည်</string>
+    <string name="no_memory_dialog_content">မမ်မိုရီလုံလောက်မှု မရှိပါ</string>
+    <!-- 6th -->
+    <string name="dialog_file_name">ဖိုင်အမည်</string>
+    <string name="dialog_save_to">ဆီသို့ သိမ်းသည်</string>
+    <!-- 10th, Start New String -->
+   <string name="new_page" description="Create New Page" maxwidth="15">စာမျက်နှာအသစ် ဖန်တီးသည်</string>
+   <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">မှတ်စုစာအုပ်ထဲသို့ပို့သည်</string>
+   <string name="pg_title_counter" description="show total pages number of the all page view\'s title">%s စာမှတ်များ</string>
+   <string-array name="pg_sort">
+        <item>အမည်အားဖြင့်</item>
+        <item>နောက်ဆုံးမွမ်းမံခြင်းအားဖြင့်</item>
+    </string-array>
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">မှတ်စုစာအုပ်ကို ဖျက်ပစ်လိုပါသလား။</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">အမည်ပြန်ပေးသည်</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">ဖျောက်သည်</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">ပယ်ဖျက်</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">ထုတ်ယူမည်။</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">အဝင်အသိအမှတ်ပြု မြန်နှုန်း</string>
+    <string name="notebook_selected" description="show how many pages are selected">%s ရွေးချယ်ခဲ့သည်</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">မှတ်စုစာအုပ်များ</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">စာမှတ်</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">အမည်အားဖြင့်</string>
+    <string-array name="week_of_day">
+        <item>တနင်္လာနေ့</item>
+        <item>အင်္ဂါနေ့</item>
+        <item>ဗုဒ္ဓဟူးနေ့</item>
+        <item>ကြာသပတေးနေ့</item>
+        <item>သောကြာနေ့</item>
+        <item>သောကြာနေ့</item>
+        <item>ယနေ့</item>
+        <item>ယနေ့</item>
+        <item>မနေ့က</item>
+        <item>လွန်ခဲ့သောအပါတ်</item>
+        <item>နှစ်ပါတ်အကြာက</item>
+        <item>သုံးပါတ်အကြာက</item>
+        <item>မနက်ဖြန်</item>
+        <item>နောက်တစ်ပါတ်</item>
+        <item>နှစ်ပါတ်ကြာပြီးနောက်</item>
+        <item>သုံးပါတ်ကြာပြီးနောက်</item>
+    </string-array>
+   <string-array name="month_of_year">
+        <item>ဇန်နဝါရီ</item>
+        <item>ဖေဖော်ဝါရီ</item>
+        <item>မတ်</item>
+        <item>ဧပရယ်</item>
+        <item>မေ</item>
+        <item>ဇွန်</item>
+        <item>ဇူလိုင်</item>
+        <item>ဩဂုတ်</item>
+        <item>စက်တင်ဘာ</item>
+        <item>အောက်တိုဘာ</item>
+        <item>နိုဝင်ဘာ</item>
+        <item>ဒီဇင်ဘာ</item>
+        <item>လွန်ခဲ့သောလ</item>
+        <item>လွန်ခဲ့သော နှစ်ဝက်က</item>
+        <item>တစ်နှစ်ကျော်အကြာက</item>
+        <item>နောက်လ</item>
+        <item>နှစ်ဝက်ကြာပြီးနောက်</item>
+        <item>တစ်နှစ်ကြာပြီးနောက်</item>
+    </string-array>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">ဖြတ်သည်</string>
+    <!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">တည်းဖြတ်သည်</string>
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <string name="password_or_account_empty">အကောင့် သို့မဟုတ် လျှို့ဝှက်စကားလုံးနေရာ ကွက်လပ်ထား၍မရနိုင်ပါ</string>
+    <string name="nb_sync">ကလောက် တပြိုင်တည်း ရနိုင်သည်</string>
+    <string name="nb_async">ကလောက် တပြိုင်တည်း ပယ်ဖျက်သည်</string>
+    <string name="sync_status_syncing">ချိန်ကိုက်နေသည်...</string>
+    <string name="sync_status_failed">အချက်အလက်ချိန်ကိုက်မှု မအောင်မြင်ပါ။</string>
+    <string name="sync_account_text">အကောင့်</string>
+    <string name="sync_sign_off">ဆိုင်းအောက်ထွက်သည်</string>
+    <string name="account_space_usage">အသုံးပြုထားသောနေရာ</string>  
+    <string name="account_and_sync">အကောင့် ချိန်ကိုက် ချိန်ညှိမှုများ</string>
+    <string name="sync_setting_auto">အလိုအလျောက် ချိန်ကိုက်မှု</string>
+    <string name="sync_setting_auto_frequency">အလိုအလျောက် ချိန်ကိုက်မှု ထပ်ခါထပ်ခါ</string>
+    <string name="sync_auto_interval_1">၁ မိနစ်တိုင်း</string>
+    <string name="sync_auto_interval_15">၁၅ မိနစ်တိုင်း</string>
+    <string name="sync_auto_interval_30">မိနစ် ၃၀ တိုင်း</string>
+    <string name="sync_auto_interval_60">မိနစ် ၆၀ တိုင်း</string>
+    <string name="sync_auto_interval_1d">နေ့တိုင်း</string>
+    <!-- add by Better -->
+<!-- Begin: show -->
+    <string name="webstorage_register">မှတ်ပုံတင်သည်</string>
+    <string name="webstorage_signon">ဆိုင်းအင် ဝင်ပါ</string>
+<!-- End: show -->
+    <!--Begin: Show-->
+    <string name="Crop_Done">ပြီးပြီ</string>  
+    <string name="Crop_Free">ကြိုးကင်း</string>
+    <string name="Crop_Rect">ထောင့်မှန်စတုဂံ</string>
+     <!--End: Show--> 
+    <string name="prompt_export_pdf_to">ထဲသို့ PDF ဖိုင်ကိုသိမ်းသည်</string>
+    <string name="browse_folder">ဘရောက်</string>
+    <string name="export_supernote_format">စူပါနုတ်ပုံစံ အဖြစ်ပို့သည်</string>
+    <string name="file_export">ဖိုင်ကို ပို့သည်</string>
+    <string name="editor_func_button_search">ရှာဖွေမည်။</string>
+    <string name="no_search_result">သင့်ရှာဖွေမှုနှင့် မည်သည့်အရာမှ မတူညီပါ</string>
+    <string name="SearchResultItemInfo_Loading">တင်နေသည်...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">ဖိုင်ကိုဖတ်ရန် မအောင်မြင်ပါ။</string>
+    <string name="SearchResultItemInfo_NoteBooks">မှတ်စုစာအုပ်များ</string>
+    <string name="SearchResultItemInfo_Pages">စာမျက်နှာများ</string>
+    <string name="SearchResultItemInfo_Personal">ပုဂ္ဂိုလ်ရေးရာ</string> 
+    <string name="SearchResultItemInfo_Page_Space">စာမျက်နှာ </string>   
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">အသိအမှတ်ပြုစာသား ရေးပါ</string>
+      <!-- wendy  -->
+   <string name="password_not_set_sync">ကလောက်ပေါ်တွင် သိမ်းခဲ့သည့် မှတ်စုစာအုပ်များကို ကိုယ်ပိုင်နှင့်အများသုံးအဖြစ် စုစည်းခဲ့သည်။ ကိုယ်ပိုင်မှတ်စုစာအုပ်များအတွက် လျှို့ဝှက်စကားလုံးတစ်ခု ဖန်တီးလိုပါသလား။ ထိုသို့မဟုတ်ပါက မှတ်စုစာအုပ်များအားလုံးကို အများသုံးအဖြစ် စုစည်းခံရလိမ့်မည်။</string>
+   <string name="bookpicker_sync_books_list">တပြိုင်တည်း စာအုပ်များစာရင်း</string>
+   <string name="bookpicker_cancel">ရုတ်သိမ်း</string>
+   <string name="bookpicker_ok">အိုကေ</string>
+   <string name="newto_editor_func_popup_d_brush_stroke">ရိုက်ချက်</string>
+   <string name="newto_editor_func_popup_d_brush_alpha">အလင်းပိတ်မှု</string> 
+   <string name="export">ထုတ်ယူမည်။</string>
+   <string name="transfer">ကူးပြောင်းသည်</string>
+   <string name="book_export">မှတ်စုစာအုပ်သို့ တင်ပို့သည်</string>
+   <string name="prompt_exports_pdf_to">ထဲသို့ PDF ဖိုင်များ သိမ်းသည်</string> 
+<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">ခေါင်းစဉ်</string>  
+   <string name="template_travel_tips_date">ရက်စွဲ</string>
+   <!--wendy begin -->
+    <string name="select_all">အားလုံး</string>
+   <string name="prompt_no_book_selected">မည်သည့်စာအုပ်မှ ရွေးချယ်မထားပါ</string>
+   <!-- Begin: Better -->
+   <string name="sync_file_no_version">ဗားရှင်းမရနိုင်ပါ။</string>
+   <string name="loading_page">စာမျက်နှာအချက်အလက် ဆွဲတင်နေသည်...</string>
+   <string name="prompt_transfer_format">သင်သည် ဤစာအုပ်ကို ပြန်လည်ရမည်ဖြစ်ပြီး ထိုလုပ်ငန်းသည် အချိန်အနည်းငယ်ကြာနိုင်သည်။ သင်ဆက်လက်အသုံးပြုချင်ပါသေးသလား?</string>
+   <string name="prompt_saving">သိမ်းနေသည်...</string>
+   <string name="prompt_incompatible_syncing">%s သည် ဆီလျော်သည့်ဗားရှင်း မဟုတ်ပါ။ ကျေးဇူးပြု၍ သင့်စူပါနုတ်ကို အသစ်မွမ်းမံပါ။</string>
+   <string name="prompt_incompatible_file">%s သည် ဆီလျော်သည့်ဗားရှင်း မဟုတ်ပါ</string>
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <string name="webstorage_login_signing_in">ဆိုင်းအင် ဝင်ရောက်နေသည်။ ကျေးဇူးပြု၍စောင်ပါ။...</string>
+   <string name="webstorage_login_account_password_wrong">အကောင့် သို့မဟုတ် လျှို့ဝှက်စကားလုံးမှားနေသည်</string>
+   <string name="sync_setting_sign_failure">%s သို့ ဆိုင်းအင် မဝင်ရောက်နိုင်ပါ</string>
+   <string name="sync_setting_sign_success">%s သို့ ဆိုင်းအင်ဝင်သည်</string>
+   <string name="sync_setting_networkless_title">ချိတ်ဆက်မှုမရှိပါ။</string>
+    <string name="sync_setting_networkless">ဤဝန်ဆောင်မှကို အသုံးပြုရန် အင်တာနက် ချိတ်ဆက်မှုတစ်ခုလိုအပ်သည်။ ကျေးဇူးပြု၍ သင့်မိုဘိုင်းကွန်ယက်ချိတ်ဆက်မှု သို့မဟုတ် ဝိုင်ဖိုင်ချိန်ညှိမှုများ ရအောင်လုပ်ပါ။</string>
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <string name="Sort">စီသည်</string>
+    <!-- End: Allen -->   
+ <string-array name="editor_func_insert_array" description="insert mode" maxwidth="20">
+        <item>ဓါတ်ပုံရိုက်မည်။</item>
+        <item>ဖိုင်မှယူသော ဓါတ်ပုံ</item>
+        <item>စာသားပုံရိပ်</item>
+        <item>PDF စာမျက်နှာ</item>
+        <item>အသံသွင်းနေသည်</item>
+        <item>ဗွီဒီယို ရိုက်ယူသည်</item>
+        <item>စာသားဖိုင်</item>
+        <item>အမည်အားဖြင့်</item>
+        <item>ကလစ်ပြားမှ သရုပ်ဖော်ပုံ</item>
+        <item>တံဆိပ်တုံး</item>
+        <item>ပုံသဏ္ဍန်</item>
+    </string-array>
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <string-array name="nb_editcover_choose_item">
+        <item>ကင်မရာ</item>
+        <item>ဖိုင်မှယူသော ဓါတ်ပုံ</item>
+    </string-array>
+ <!-- End  :Darwin -->
+    <string name="sync_setting_sign_out">%s မှ ဆိုင်းအောက်ထွက်နေသည်</string>
+    <string name="sync_setting_sign_out_msg">လော့ခ်အောက်ထွက်နေခြင်းသည် သင့်ကလောက်အကောင့်ပေါ်ရှိ မှတ်စုစာအုပ်များကို ဝင်ထွက်နိုင်ခွင့်ဖယ်ရှားလိမ့်မည်ဖြစ်ပြီး ကလောက် ချိန်ကိုက်ခြင်း မရနိုင်တော့ပါ။\n</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">သင့်လျှို့ဝှက်စကားလုံး ပြောင်းလဲပြီးပြီ။ နောင်တစ်ချိန် ကိုးကားအဖြစ် သင့်အီးမေးလ်အကောင့်ထံ သင့်လျှို့ဝှက်စကားလုံးကို ပို့လိုပါသလား။ ထိုသို့လုပ်ခြင်းသည် ဖွက်ထားသော မှတ်စုစာအုပ်များ ဝင်ထွက်နိုင်ခွင့် ပျောက်ဆုံးခြင်းမှ ကာကွယ်ပေးလိမ့်မည်။\n</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">လော့ခ်ချသည်</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">လော့ခ်ဖြည်သည်</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">ဖွက်ရန် လော့ခ်ချသည်</string>
+    <string name="editor_phone_toast_seletext">စာသားကို မြင်သာစေရန် ဆွဲသည်</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">လော့ခ်ချသည်</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">မှတ်စုစာအုပ်ကို လော့ခ်ချလိုပါသလား။</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">လော့ခ်ဖြည်သည်</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">မှတ်စုစာအုပ်ကို လော့ခ်ဖြည်လိုပါသလား။</string>
+    <string name="set_password_dialog_title">လျို့ဝှက်စကားလုံးကို သတ်မှတ်မည်</string>
+    <string name="editor_func_button_recognize">အသိအမှတ်ပြုသည်</string>
+    <string name="editor_func_button_transform">ကူးပြောင်းသည်</string>   
+    <string name="editor_phone_toast_readonly">ဖတ်ရန်မုဒ်သပ်သပ်: သင်သည်ဖတ်ရန်မုဒ်ထဲတွင်ရှိသည်။ သင့်လက်ချောင်းကို စာမျက်နှာအပေါ်အောက်ဆွဲရန် သို့မဟုတ် တောက်လျှောက်တောက်ရန် သုံးပါ။</string>   
+    <string name="export_pdf">PDF အဖြစ် ပို့သည်</string>
+    <string name="SearchResultItemInfo_Wrong_Index">ရှာဖွေခြင်း မအောင်မြင်ပါ၊</string>
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">လိုင်း</string>
+    <string name="book_type_grid">ဂရစ်</string>
+    <string name="book_type_meeting">မီတင်</string>
+    <string name="book_type_diary">ဒိုင်ယာရီ</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">နောက်ပြန်ဖျက်လိုခြင်း </string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">ရေးသားခြင်းမုဒ်တွင် နောက်ဆုံးရိုက်ထည့်ခဲ့သော စာသားကို ဖျက်ပစ်ရန် ညာမှဘယ်သို့ လက်ချောင်းကို ဆွဲသည်</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <string name="template_meeting_start_date_tips">စရက်</string>
+    <string name="template_meeting_end_date_tips">ဆုံးရက်</string>
+    <string name="template_meeting_start_time_tips">စမည့်အချိန်</string>
+    <string name="template_meeting_end_time_tips">ဆုံးမည့်အချိန်</string>
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">လော့ခ်ချထားသော မှတ်စုစာအုပ်ကို ပြသသည် </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">လော့ခ်ချထားသော မှတ်စုစာအုပ်ကို ဖွက်ထားသည် </string>
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">ဆက်တိုက် ရေးသားသောလိုင်း</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">သင့်ရေးသားခြင်းသည် အနီရောင်လိုင်းကို ကျော်လွန်သောခါ သင်ရေးသားလိုက်သောစာသားသည် ဘယ်ဘက်သို့အလိုအလျောက် ရွှေ့သွားသင့်သည်။</string>
+    <string name="text_continue" description="continue" max_width="-1">ဆက်လက်လုပ်ဆောင်သည်</string>
+    <!-- End: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">စူပါနုတ် အသိအမှတ်ပြုပြီး လက်ရေးစာသားများကို ရိုက်ထားထားသောစာသားများ အဖြစ်ပြောင်းသည်၊ ထို့ပြင် ထိုရေးထားသောစာသားများကို မှတ်စုစာအုပ်သစ်အဖြစ် နှစ်ခုပွားသည်။</string>
+    <string name="set_index_language_title">အသိအမှတ်ပြု ဘာသာစကား သတ်မှတ်သည် </string> 
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">စာမျက်နှာများအားလုံး</string>
+    <!-- darwin add -->
+   <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">သင်သည် သင့် ASUS ဝက်ဘ်သိုလှောင်မှု အကာင့်ကို သုံးပြီး လော့အင်ဝင်ရောက်နိုင်သည်။</string>
+   <!-- Begin: show -->
+   <string name="username" description="User Name" maxwidth="15">User name</string>
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">လော့ခ်ချထားသော မှတ်စုစာအုပ်များကို ဖွက်ပြီးပြီ</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">လော့ခ်ချထားသော မှတ်စုစာအုပ်များကို ယခု ဖတ်နိုင်သည်</string>
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">စခရင်အရွယ်အစားကို မမှုဘဲ ရှည်လျားသော စာကို ဆက်တိုက်ရေးပါ။</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\'s title">%s တိုင်းမ်စတမ့်(များ)</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">ရှာဖွေနေသည်၊ ကျေးဇူးပြု၍စောင့်ပါ</string>
+<!-- Begin Allen -->
+    <string name="content_search" description="Inform the user whether to open the search function when create a new book" max_width="5">မာတိကာ ရှာဖွေသည်</string>
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">ကြီးမားသော</string>
+    <string name="share_medium" description="Medium" max_width="6">အလတ်</string>
+    <string name="share_small" description="Small" max_width="5">သေးငယ်သော</string>
+    <string name="recognizing">အသိအမှတ်ပြုနေသည် </string>
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+    <string name="book_type_blank" description="blank book name" maxwidth="">ကွက်လပ် </string>
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+    <string name="import_export_book_fail_reason" description="reason of failing to import book" maxwidth="">ဖိုင်မန်နေဂျာ မရှိပါ </string>
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+    <string name="editor_menu_savepage" maxwidth="12">စာမျက်နှာသိမ်းသည် </string>
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+    <string name="my_bit_cast_wait_text">ကျေးဇူးပြုပြီး စောင့်ပေးပါ...</string>
+<!-- End: Shane -->
+<!-- Begin: Better -->
+    <string name="password_not_set_import">မှတ်စုစာအုပ်များကို ကိုယ်ပိုင်နှင့်အများသုံးအဖြစ် စုစည်းသည်။ ကိုယ်ပိုင်မှတ်စုစာအုပ်များအတွက် လျှို့ဝှက်စကားလုံးတစ်ခု ဖန်တီးလိုပါသလား။ ထိုသို့မဟုတ်ပါက မှတ်စုစာအုပ်များအားလုံးကို အများသုံးအဖြစ် စုစည်းခံရလိမ့်မည်။</string>
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="book_grid_none" description="the background style of the notebook">မရှိပါ။</string>
+    <!-- End Allen -->    
+<!-- clare begin -->
+    <string name="widget_bt_add_a_notebook">မှတ်စုစာအုပ်တစ်ခု ထပ်ထည့်သည်</string>
+    <string name="widget_passwordTip">ကျေးဇူးပြု၍ လျှို့ဝှက်စကားလုံး ရိုက်ထည့်ပါ:</string>
+<!-- clare end -->
+<!-- darwin begin -->
+   <string name="nb_editcover">ကာဗာ တည်းဖြတ်သည်</string>
+   <string name="nb_editcover_choose_title">ပုံရွေးချယ်သည်</string>
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+    <string name="widget_dialog_replace_notebook">မှတ်စုစာအုပ် အစားထိုးသည်</string>
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+    <string name="widget_book_locked">လော့ခ်ချခဲ့သည်</string> <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">ဆီသို့ ထပ်ထည့်သည်</string>
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>စာမျက်နှာ အားဖြင့်စီသည်</item>
+        <item>အချိန် အားဖြင့်စီသည်</item>
+    </string-array>
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>မြင့်</item>
+        <item>သာမာန်</item>
+        <item>နိမ့်</item>
+    </string-array>
+    <string name="todo_item_completed" description="todo item is completed">ပြီးမြောက်ပါပြီ။</string>
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">မှတ်စုစာအုပ်တစ်အုပ် ရွေးချယ်ပါ</string>
+    <!-- Begin Allen -->
+    <string name="meeting_form" description="meeting start time">မှ</string>
+    <string name="meeting_to" description="meeting end time">သို့</string>
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">အသိအမှတ်ပြုခဲ့သည်</string>
+ <!-- add for 'SyncCancelDialogFragment'-->
+ <string name="sync_cancel_confirmText">အတည်ပြုသည်</string>
+    <string name="sync_cancel_promptTop">အခြားစက်များပေါ်တွင် သူတို့ကို ဖျက်ပစ်ခြင်းခံရလိမ့်မည်။</string>
+    <string name="sync_cancel_promptBottom">ဤမှတ်စုစာအုပ်များ ချိန်ကိုက်ခြင်း ဖျက်ပစ်မည်လား။</string>
+    <string name="sync_cancel_noMoreHint">နောက်ထပ်ဘယ်တော့မှ ထပ်သတိမပေးပါနှင့်။</string>
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+    <string name="pen_only_enabled">ဘောလ်ပင်သာလျှင် အသုံးပြုပါ</string>
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <string name="export_as" description="used as title of export_format dialog">အဖြစ် ပို့သည်</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>စူပါနုတ် ပုံစံ</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog">ပုံစံ ရွေးချယ်ပါ</string>
+    <string-array name="share_format_array" description="share format chooser">
+        <item>ပုံ</item>
+        <item>PDF</item>
+        <item>စူပါနုတ် ပုံစံ</item>
+    </string-array>
+    <string name="todo_title" description="memo template title" maxwidth="">မှတ်စု</string>
+    <string name="todo_widget_all_todos" description="All memos">မှတ်စုများအားလုံး</string>
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">စတမ့်တစ်ခု ရွေးချယ်ပါ </string>
+    <string name="insert_shape_dlg">ပုံသဏ္ဍန်တစ်ခု ရွေးချယ်ပါ </string>
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">သင့်ခေါင်းစဉ်က ဘာလဲ။</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">သင့် တက်ရောက်သူများ ထပ်ထည့်ပါ</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">သင့်အစည်းအဝေးမှတ်တမ်းများ ဒီနေရာမှာ …</string>
+<!-- for A86 style by smilefish -->
+    <string name="statusbar_login">လော့ဂ်အင်ဝင်</string>
+    <string name="editcover_photo">ဓါတ်ပုံ</string>
+    <string name="editcover_save">သိမ်းဆည်းသည်</string>
+    <string name="brush_edit_dialog_library">စာကြည့်တိုက်</string>
+    <string name="brush_edit_dialog_back">နောက်သို့</string>
+    <string name="brush_edit_dialog_pencil">ခဲတံ</string>
+    <string name="brush_edit_dialog_rollerpen">မျဉ်းလုံး ဘောလ်ပင်</string>
+    <string name="brush_edit_dialog_pen">ဘောလ်ပင်</string>
+    <string name="brush_edit_dialog_marker">မာကာ</string>
+    <string name="brush_edit_dialog_brush">ဘရက်ရှ်</string>
+    <string name="brush_edit_dialog_airbrush">လေ ဘရက်ရှပ်</string>
+    <string name="todo_title_task">လုပ်ငန်းအသစ်တစ်ခု ထပ်ထည့်ရန် ၁ ကို နှိပ်ပါ။</string>
+    <string name="brush_edit_dialog_full">ဘရက်ရှ်အရေအတွက် အများဆုံး ၁၂ထိ သိမ်းခဲ့သည်</string>
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+    <string name="data_fomat_upgrade">အချက်အလက်ပုံစံ တိုးမြှင့်သတ်မှတ်သည်</string>
+    <string name="the_book">စာအုပ်</string>
+    <string name="exits">ရှိပြီးနေပြီ</string>
+    <string name="replace_the_book">စာအုပ်အစားထိုးမည်လား။</string>
+    <string name="yes">ဟုတ်ကဲ့</string>
+    <string name="no">မဟုတ်ပါ</string>
+    <string name="successful_upgrade">တိုးမြှင့်မှု မအောင်မြင်ခဲ့ပါ။ ကျွန်ုပ်တို့ စူပါနုတ်ကို ပြန်လည်စတင်လိမ့်မည် </string>
+    <string name="upgrade_fails">တိုးမြှင့်မှု မအောင်မြင်ပါ</string>
+    <string name="not_enough_space">SDကဒ်ပေါ်တွင် နေရာလုံလောက်မှု မရှိပါ</string>
+    <string name="try_again">ကျေးဇူးပြု၍ အသုံးမဝင်သောဖိုင်များ ဖျက်ပစ်ပြီး စူပါနုတ်ပြန်စရန် ထပ်မံကြိုးစားပါ</string>
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <string name="airview_type">ရိုက်ပါ</string>
+    <!-- jason -->
+<!-- Begin Carol-->
+    <string name="version_info">ဗားရှင်း</string>
+    <string name="widget_memo_title">စူပါနုတ်မှတ်စု</string>
+    <string name="editor_phone_readonly">ဖတ်ရန်သပ်သပ်: စာမျက်နှာကို အပေါ်အောင်တင်ရန် သင့်လက်ချောင်းကို အသုံးပြုပါ။</string>
+<!-- End Carol-->
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">မှတ်စုများ မရှိပါ</string>
+    <string name="widget_password_hint">လျို့ဝှက်စကားလုံးကို ရိုက်ထည့်ပါ</string>
+    <string name="widget_all_book_template">မှတ်စုစာအုပ်များအားလုံး</string>
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <string name="content_is_too_long" description="content_is_too_long">မာတိကာသည် ရှည်လွန်းသည်</string>
+    <string name="todo_title_max_character_num">စကားလုံး အရေအတွက်အများဆုံးသည် ၅၀ ဖြစ်သည်</string>
+    <!-- smilefish -->
+    <string name="vo_shape_failed">ဤဆွဲထားသောပုံကို ပုံသဏ္ဍန်ကျအောင် မလုပ်နိုင်ပါ</string>
+    <!-- smilefish -->
+    <string name="todo_widget_create" description="Create">ဖန်တီးသည်</string> <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+    <string name="editor_color_picker">ကျေးဇူးပြု၍ ဘရက်ရှ် ကာလာအတွက် ကာလာတစ်ခု ကောက်ယူရန် နှိပ်ပါ</string> 
+<!-- end smilefish -->
+    <string name="brush_edit_dialog_save_successful">သိမ်းဆည်းမှု အောင်မြင်သည်။</string>
+    <string name="brush_edit_dialog_save">ရှိပြီးနေပြီ။</string>
+    <!--jason  -->
+    <string name="cannot_play_media_when_calling">ခေါ်ဆိုနေသောအခါ မီဒီယာကို ဖွင့်မရပါ</string>
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+    <string name="template_travel_text_hint" description="hint for inputting travelling notes">သင့်ဒိုင်ယာရီမှတ်စုများ ဒီမှာ …</string>
+    <string name="template_travel_change_photos" description="hint for changing photos">ဓါတ်ပုံများပြောင်းရန် တောက်ပါ</string>
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+    <string name="bm_in_notebook" description="Page in notebook" maxwidth="">%1$s တွင် စာမှတ်</string>
+<!-- smilefish -->
+    <string name="page_copy" description="Copy the page" maxwidth="">ကော်ပီကူးမည်။</string>
+    <string name="page_move" description="Move the page" maxwidth="">ရွှေ့မည်။</string>
+    <string name="page_delete" description="Delete the page" maxwidth="">ပယ်ဖျက်</string>
+    <string name="page_reorder" description="Reorder the page" maxwidth="">ပြန်စီသည်</string>
+    <string name="pg_in_notebook" description="Page in notebook" maxwidth="">%2$s ရှိ စာမျက်နှာ %1$s</string>
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <string name="todo_widget_add_new_memo" description="All memos">မှတ်စုအသစ် ထပ်ထည့်ပါ</string>
+    <!-- Emmanual -->
+    <string name="drawer_menu" description="menu on drawer" maxwidth="">မီနူး</string>
+    <!-- smilefish -->
+    <string name="editor_menu_read_later" description="read later" maxwidth="">နောက်မှ ဖတ်ပါ</string>
+    <!-- smilefish -->
+    <string name="sdcard_full_no_add" description="sdcard is full">SD ကဒ် ပြည့်နေ၍ ထပ်ထည့်ခြင်း မအောင်မြင်ပါ။</string>
+    <!-- emmanual -->
+    <string name="sdcard_full_no_save" description="sdcard is full">SD ကဒ် ပြည့်နေ၍ သိမ်းခြင်း မအောင်မြင်ပါ။</string>
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <string name="pg_sort_by_name" description="page sort by name">ပုံသေအစီအစဉ်ဖြစ်သော အမည်ဖြင့်စီခြင်းသို့ ပြန်ထားသည်။</string>
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <string name="tutorial_info_content1" description="tutorial info for supernote">သင်၏အကောင်းဆုံး လက်ချောင်းဖြင့် မှတ်စုရေးသည့်အရာ။</string>
+    <string name="tutorial_info_title2" description="Cloud sync">ကလောက်ဒ် ချိန်ညှိခြင်း</string>
+    <string name="tutorial_info_content2" description="tutorial info for cloud sync">မည်သည့်နေရာ၊ မည်သည့်အချိန်တွင်မဆို ကလောက်ဒ်တွင် သင့်ဒေတာများကို သိမ်းရန် အခမဲ့ကလောဒ်အကောင့်တစ်ခု ရယူပါ..</string>
+    <string name="tutorial_info_title3" description="3 editing modes">တည်းဖြတ်မုဒ် ၃ ခု</string>
+    <string name="tutorial_info_content3" description="tutorial info for editing modes">Supernote တွင် ရေးပါ၊ ရိုက်ထည့်ပါ၊ ပုံဆွဲပါ။ သင့်လုပ်ငန်းအတွက် အသင့်လျော်ဆုံးနည်းလမ်းများကို ရွေးပါ။</string>
+    <string name="tutorial_info_title4" description="Insert content">အကြောင်းအရာကို ထည့်သွင်းပါ</string>
+    <string name="tutorial_info_content4" description="tutorial info for insert content">သင့်အကြောင်းအရာကို ပြည့်စုံစေရန် ပုံများ၊ အသံများ သို့မဟုတ် ဗီဒီယိုများကို ထည့်သွင်းပါ။</string>
+    <string name="skip_this_tutorial" description="skip this tutorial">"ကျော်"</string>
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <string name="editor_menu_nextpage" maxwidth="12">နောက်ထပ်စာမျက်နှာ</string>
+    <string name="editor_menu_prepage" maxwidth="12">ယခင် စာမျက်နှာ</string>
+    <string name="auto_add_page" maxwidth="12">လုပ်ဆောင်နေသည်\u2026</string>
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="nb_add_choose_title">မှတ်စုစာအုပ်အသစ်တစ်ခု ဖန်တီးပါ</string>
+    <string-array name="nb_add_choose_item">
+        <item>မှတ်စုစာအုပ်အလွတ်</item>
+        <item>ပုံစံပြားတစ်ခု ရွေးပါ</item>
+    </string-array>
+    <string name="no_notebooks">မှတ်စုစာအုပ်များမရှိ</string>
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"Asus အက်ပ်စတိုးမှ နောက်ဆုံးထုတ်ဗားရှင်းဖြင့် ကျေးဇူးပြု၍ ဦးစွာမွမ်းမံပါ။ ကျေးဇူးတင်ပါတယ်။"</string>
+    <string name="cta_act_mobile_network">"မိုဘိုင်းကွန်ယက်"</string>
+    <string name="cta_msg_mobile_network">"မိုဘိုင်းကွန်ယက် ဆက်ရန်ကြိုးစားပါ မိုဘိုင်းကွန်ယက်သုံးခြင်းက ကုန်ကျစရိတ်ရှိနိုင်မည် ကုန်ကျစရိတ်သက်သာစေရန် မသုံးပါက မိုဘိုင်းကွန်ယက် မှထွက်ပါ"</string>
+    <string name="voice">အသံ</string>
+    <string name="error_sdcard_access_nosdcard">USB သိုလှောင်မှု အသုံးမပြုနိုင်ပါ</string>
+    <string name="error_sdcard_access">SD ကဒ် အသုံးမပြုနိုင်ပါ</string>
+    <string name="startfail">အသံသွင်းခြင်း မစတင်နိုင်ပါ၊ ကျေးဇူးပြု၍ အခြား မည်သည့် ပရိုဂရမ်များမှ မိုက်ခရိုဖုန်းကို မသုံးနေကြောင်း သေချာအောင် ပြုလုပ်ပါ။</string>
+    <string name="sync_setting_wifi_auto">WiFi တွင်သာ အလိုအလျောက် စည်းညှိခြင်း</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <string name="reading_pdf_prompt">PDF ဖတ်နေသည်…</string>
+    <string name="choose_pdf_prompt">PDF စာမျက်နှာများကို ရွေးပါ</string>
+    <string name="import_pdf_prompt">PDF စာမျက်နှာ(များ) ထည့်သွင်းရန် ပြင်ဆင်ပါ</string>
+    <string name="pdf_import" description="Import PDF" maxwidth="">PDF ထည့်သွင်းပါ</string>
+    <string name="pdf_seelcted">ရွေးထားသော- </string>
+    <string name="import_pdf_progress" formatted="false">SD ကဒ် အသုံးမပြုနိုင်ပါ %s / %s</string>
+    <string name="add_book_from_pdf" maxwidth="">PDF မှ</string>
+    <string name="reading_pdf_error" maxwidth="">ဖိုင် မဖွင့်နိုင်ပါ။</string>
+    <string name="reading_pdf_encrypted" maxwidth="">စကားဝှက် ကာကွယ်မှုနှင့် PDF ဖိုင်ကို မထည့်သွင်းနိုင်ပါ။</string>
+    <string name="reading_pdf_invalid" maxwidth="">ဖိုင် မထည့်သွင်းနိုင်ပါ။ ကျေးဇူးပြု၍ ဖိုင် မပျက်စီးနေကြောင်း သေချာအောင် ပြုလုပ်ပါ။</string>
+    <string name="error" maxwidth="">အမှား</string>
+    <string name="editor_func_button_page_transtion">စာမျက်နှာ ပြောင်းခြင်းအတွက် လှုပ်ရှားမှုအထူးပြုလုပ်ချက်</string>
+    <string name="download_title" maxwidth="12">ဒေါင်းလုဒ်လုပ်နေသည်\u2026</string>
+    <!-- smilefish -->
+    <string name="settings_encourage_us_title" maxWidth="">ကျွန်ုပ်တို့ကို အားပေးပါ</string>
+    <string name="settings_encourage_us_detail" translate="true">%s ကျေနပ်နှစ်သက်ပါက ပလေးစတိုးတွင် ကျွန်ုပ်တို့အား ကြယ် ၅ ပွင့် ပေးပါ။ ၎င်းသည် ထုတ်ကုန်ပိုမိုကောင်းမွန်အောင် ဆက်လက်ပြုလုပ်ရန် ကျွန်ုပ်တို့အတွက် ကြီးမားသောအားပေးမှု ဖြစ်ပါလိမ့်မည်။\n\nအကြံပြုချက်များကို Feedback &amp; help မှတဆင့် ကျွန်ုပ်တို့ထံ စာရေးသားပါ။</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">ယခု အဆင့်သတ်မှတ်ပေးပါ</string>
+    <string name="later_action_no_apps" description="Text for indicating there are no apps to open the content" maxwidth="-1">လုပ်ဆောင်ချက်ကို ဆောင်ရွက်ရန် အက်ပလီကေးရှင်းမရှိပါ</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">အဆင့်သတ်မှတ်ရန် ကျေးဇူးပြု၍ စခရိုးတင်ပါ</string>
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"ဖိုင်များကို ရယူသုံးစွဲနိုင်ခြင်းမရှိပါ"</string>
+    <string name="force_permission_sub_title">"စက်ထဲတွင် သင့်ဖိုင်များကို သိမ်းရန်နှင့် ဝင်သုံးခွင့်ရရန် %1$s က %2$s ခွင့်ပြုချက်ကို လိုပါမည်။"</string>
+    <string name="force_permission_turn_on">"ဖွင့်ပါ"</string>
+    <string name="force_permission_storage">"သိုလှောင်ခန်း"</string>
+    <string name="force_permission_settings">"ဆက်တင်မျာ"</string>
+    <string name="force_permission_show_settings">"&lt;b>အက်ပ်အချက်အလက်&lt;/b> &lt;b>ခွင့်ပြုချက်များ&lt;/b> ထဲရှိ &lt;b>ဆက်တင်များ&lt;/b> ကိုနှိပ်ပြီး &lt;b>%2$s&lt;/b> ကိုဖွင့်ပါ။ ပြီးနောက် %1$s ကိုပိတ်ပြီးပြန်ဖွင့်ပါ။"</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"လှည့်လည်သွားလာခြင်း အမူအရာ"</string>
+    <string name="navigate_tutorial_content">"စာမျက်နှာတွင် လွတ်လပ်စွာ လှည့်လည်သွားလာရန် လက်နှစ်ချောင်းကို သုံးပါ။ ဖတ်ရုံသာမုဒ်တွင်ရှိနေစဉ် သင်သည် ကြိုတင်ကြည့်ခြင်း ဝင်းဒိုးမှ စာမျက်နှာသို့ လှည့်လည်သွားလာနိုင်သည်။"</string>
+    <string name="navigate_tutorial_content_phone">"ကြိုတင်ကြည့်ခြင်း ဝင်းဒိုးမှ စာမျက်နှာသို့ လွတ်လပ်စွာ လှည့်လည်သွားလာရန် လက်နှစ်ချောင်းကို သုံးပါ။"</string>
+    <string name="navigate_tutorial_scroll">"စာမျက်နှာကို စခရိုးလုပ်ရန် ကိုင်ထားပါ"</string>
+    <!-- end smilefish -->
+</resources>

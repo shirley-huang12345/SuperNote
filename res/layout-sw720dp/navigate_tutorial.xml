@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6000000" >
+    
+    <FrameLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="140dp"
+		android:layout_marginStart="@dimen/navigate_tutorial_margin_start">
+    	
+    	<ImageView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/tutorial_10" />	
+		        
+    	<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginStart="166dp"
+	        android:layout_marginTop="86dp"
+	        android:maxWidth="270dp"
+	        android:textSize="32sp"
+	        android:textColor="#ffffff"
+	        android:text="@string/navigate_tutorial_scroll" />
+    		       		
+    </FrameLayout>
+    
+ 
+	    <LinearLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:gravity="bottom"
+		    android:layout_marginStart="578dp"
+		    android:layout_marginEnd="@dimen/navigate_tutorial_margin_end"
+		    android:layout_marginBottom="180dp"
+		    android:orientation="vertical">
+		    
+	    	<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textSize="30sp"
+		        android:textColor="#0dafed"
+		        android:text="@string/navigate_tutorial_title" />
+		        
+			<TextView
+		        android:id="@+id/navigate_tutorial_content"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="6dp"
+		        android:singleLine="false"
+		        android:textSize="20sp"
+		        android:textColor="#FFFFFFFF"
+		        android:text="@string/navigate_tutorial_content" />
+			
+			<Button
+		        android:id="@+id/btn_ok"
+		        android:layout_width="wrap_content"
+		        android:layout_height="45dp"
+		        android:layout_marginTop="80dp"
+		        android:minWidth="128dp"
+		        android:background="@drawable/asus_oval_button_selector"
+		        android:textSize="17sp"
+		        android:textColor="#FFFFFFFF"
+		        android:text="@string/bookpicker_ok" />
+	
+		</LinearLayout>
+	
+</FrameLayout>

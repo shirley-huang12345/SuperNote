@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.commonui.colorful.ColorfulLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/colorful_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.asus.commonui.drawerlayout.DrawerLayout
+         android:id="@+id/drawer_layout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@color/notebook_gridview_color" >
+
+    <RelativeLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="270dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/drawer_background_color"
+        android:choiceMode="singleChoice"
+        android:clickable="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="13dp"
+                    android:fontFamily="sans-serif-light"
+                    android:maxWidth="250dp"
+                    android:text="@string/app_name"
+                    android:textColor="#ebebeb"
+                    android:textSize="30sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/sync_book_setting"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/statebar_nosync"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="13dp"
+                    android:fontFamily="Roboto"
+                    android:maxWidth="250dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#ebebeb"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/drawer_itemview1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal" 
+                android:background="@drawable/drawer_item_container_selector" >
+
+                <TextView
+                    android:id="@+id/drawer_textview1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginStart="13dp"
+                    android:fontFamily="Roboto"
+                    android:maxWidth="200dp"
+                    android:textColor="@drawable/drawer_item_selector"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/drawer_numview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_marginEnd="12dp"
+                    android:fontFamily="Roboto"
+                    android:maxWidth="200dp"
+                    android:textColor="@drawable/drawer_item_selector"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/drawer_allpage"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal" 
+                android:background="@drawable/drawer_item_container_selector" >
+
+                <TextView
+                    android:id="@+id/drawer_allpage_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginStart="13dp"
+                    android:fontFamily="Roboto"
+                    android:maxWidth="300dp"
+                    android:textColor="@drawable/drawer_item_selector"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/drawer_allpage_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_marginEnd="12dp"
+                    android:fontFamily="Roboto"
+                    android:maxWidth="300dp"
+                    android:textColor="@drawable/drawer_item_selector"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/drawer_itemview2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:background="@drawable/drawer_item_container_selector" >
+
+                <TextView
+                    android:id="@+id/drawer_textview2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginStart="13dp"
+                    android:fontFamily="Roboto"
+                    android:maxWidth="200dp"
+                    android:textColor="@drawable/drawer_item_selector"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/drawer_numview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_marginEnd="12dp"
+                    android:fontFamily="Roboto"
+                    android:maxWidth="200dp"
+                    android:textColor="@drawable/drawer_item_selector"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/drawer_itemview3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:background="@drawable/drawer_item_container_selector" >
+
+                <TextView
+                    android:id="@+id/drawer_textview3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginStart="13dp"
+                    android:fontFamily="Roboto"
+                    android:maxWidth="200dp"
+                    android:textColor="@drawable/drawer_item_selector"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/drawer_numview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_marginEnd="12dp"
+                    android:fontFamily="Roboto"
+                    android:maxWidth="200dp"
+                    android:textColor="@drawable/drawer_item_selector"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/statebar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/statebar_syncpro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="Roboto"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxWidth="200dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="#ebebeb"
+                android:textSize="18sp"
+                android:layout_marginStart="13dp"
+                 />
+
+            <ImageView
+                android:id="@+id/statebar_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/asus_ep_sync" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <FrameLayout
+        android:id="@+id/left_side"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+	</com.asus.commonui.drawerlayout.DrawerLayout>
+</com.asus.commonui.colorful.ColorfulLinearLayout>

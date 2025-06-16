@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uf_sdk_feedback_and_help">意見與協助</string>
+    <string name="uf_sdk_user_forum">用戶討論區</string>
+    <string name="uf_sdk_help">協助</string>
+    <string name="uf_sdk_send_feedback">傳送意見</string>
+
+    <string name="uf_sdk_faq">常見問題</string>
+    <string name="uf_sdk_network_error">無網路連線，請檢查您的網路設定。</string>
+    <string name="uf_sdk_msg_ticket_created">已將您的意見傳送給華碩</string>
+    <string name="uf_sdk_unhelpful_article_message_question">您是否要提供意見回饋給華碩研發團隊？</string>
+    <string name="uf_sdk_name_hint">輸入您的姓名</string>
+<!-- ideas -->
+
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">主題</item>
+        <item quantity="other">主題</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s 個人說這個主題讚</item>
+        <item quantity="other">%1$s 個人說這個主題讚</item>
+    </plurals>
+    <string name="uf_sdk_submit_topic">發佈</string>
+    <string name="uf_sdk_topic_form_title">發佈新主題</string>
+    <string name="uf_sdk_title_topic">主題</string>
+    <string name="uf_sdk_subscribe_dialog_title">訂閱此主題</string>
+    <string name="uf_sdk_topic">主題</string>
+    <string name="uf_sdk_msg_topic_created">發佈成功</string>
+    <string name="uf_sdk_topic_description_heading">說明</string>
+    <string name="uf_sdk_topic_description_hint">詳盡描述您想討論的主題</string>
+    <string name="uf_sdk_topic_text_heading">討論區</string>
+    <string name="uf_sdk_topic_title">標題</string>
+    <string name="uf_sdk_topic_text_hint">輸入您的主題標題</string>
+    <string name="uf_sdk_topic_form_help">當您在用戶討論區發佈主題時，其他使用者將可以訂閱或評論您的主題貼文。此外，若華碩研發團隊回覆了您的主題，系統會寄送電子郵件通知您。</string>
+    <string name="uf_sdk_msg_subscribe">主題狀態更新會自動寄送通知到您的電子信箱</string>
+    <string name="uf_sdk_msg_subscribe_success">訂閱成功</string>
+    <string name="uf_sdk_msg_unsubscribe">取消訂閱成功。</string>
+    <string name="uf_sdk_msg_confirm_discard_topic_title">取消發佈？</string>
+    <string name="uf_sdk_msg_confirm_discard_topic">您的草稿將不會被儲存。確認要取消發佈嗎？</string>
+    <string name="uf_sdk_publish_an_topic">發佈新主題</string>
+    <string name="uf_sdk_topic_filter">主題</string>
+
+
+    <string name="uf_sdk_search_hint">搜尋協助</string>
+    <string name="uf_sdk_translation_117562">意見類型</string>
+    <string name="uf_sdk_translation_2530478">建議</string>
+    <string name="uf_sdk_translation_2529543">錯誤回報</string>
+    <string name="uf_sdk_translation_2529544">其他</string>
+    <string name="uf_sdk_msg_bad_email_format">電子郵件位址不正確，請再試一次。</string>
+    <string name="uf_sdk_warning">警告</string>
+    <string name="uf_sdk_like">讚</string>
+
+    <string name="uf_sdk_instant_answer_question">這篇文章對您有幫助嗎？</string>
+    <string name="uf_sdk_forum_description">在討論區與其他華碩使用者分享您的經驗與密技</string>
+    <string name="uf_sdk_nothing_found">沒有找到符合項目</string>
+    <string name="uf_sdk_send_feedback_help">您的意見回饋與電子郵件信箱將被寄送給華碩，服務團隊會以電子郵件與您聯繫。</string>
+
+
+
+    <string name="uf_sdk_no_network_connection_title">無網路連線</string>
+    <string name="uf_sdk_no_network_connection_content">無法更新資訊，請檢查您的網路設定。</string>
+    <string name="uf_sdk_wifi_settings">Wi-Fi設定</string>
+    <string name="uf_sdk_notice">注意</string>
+    <string name="uf_sdk_select_common_bug">選擇常見問題</string>
+    <string name="uf_sdk_wlan_settings">WLAN設定</string>
+</resources>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.asus.supernote"
+    android:versionCode="4821"
+    android:versionName="1.5.0.151030" >
+   <!--  android:sharedUserId="android.uid.system">  -->  <!-- Better -->
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="23"/>
+    <uses-feature android:name="asus.software.zenui"/>  <!-- Dave -->
+
+    <!-- <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+   <!--  <uses-permission android:name="android.permission.GET_TASKS"/> -->
+	 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ 	<uses-permission android:name="android.permission.VIBRATE" />
+	<!--<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.BROADCAST_STICKY"/> -->
+	<uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS"/>
+	<uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+	<uses-permission android:name="android.permission.GET_TASKS"/>
+	
+    <supports-screens
+        android:largeScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:icon="@mipmap/app_icon_release"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:windowActionBar="false" 
+        android:allowBackup="false"
+        android:hardwareAccelerated="false" android:name="SuperNoteApplication">   <!-- By Show -->
+        
+        <uses-library android:name="com.visionobjects.myscript.shape"
+             android:required="false"></uses-library>"
+        <uses-library android:name="com.visionobjects.myscript.engine" android:required="false"></uses-library>
+        <uses-library android:name="com.visionobjects.myscript.hwr" android:required="false"></uses-library>
+        <uses-library android:name="com.visionobjects.myscript.inksearch" android:required="false"></uses-library>
+
+     	<activity
+            android:name=".sync.SyncSetprivatePassword" 
+            android:theme="@style/ThemeSuperNote_setpassword"
+          ></activity>
+  
+ <!-- BEGIN:Show -->   	     	
+     	<activity
+            android:name=".CropImageActivity" 
+            android:theme="@style/ThemeSuperNote"/>
+ <!-- END:Show -->   
+ 
+ <!-- BEGiN:shaun_xu@asus.com -->
+        <activity
+            android:name=".picker.BookPickerView"
+            android:configChanges="orientation|smallestScreenSize|screenSize|screenLayout|keyboard|keyboardHidden"
+            android:theme="@style/ThemeSuperNote"
+            >
+        </activity>
+        <!-- END:shaun_xu@asus.com -->   
+       
+       <activity
+            android:name=".picker.NoteBookPickerActivity"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ThemeSuperNote_home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".picker.PickerActivity"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ThemeSuperNote">
+            <intent-filter>
+                <!--action android:name="android.intent.action.MAIN" /-->
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="EditorActivity"
+            android:hardwareAccelerated="true"
+           
+            android:theme="@style/ThemeSuperNote"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.asus.supernote.PHONE_MEMO_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- shane -->
+        <activity
+            android:name="MyBitCastImportActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+            <intent-filter>
+		        <action android:name="com.asus.supernote.ImportNote" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="SettingActivity"
+            android:theme="@style/ThemeSuperNote" >
+        </activity>
+        
+        <activity
+            android:name=".sync.SyncSettingActivity" 
+            android:theme="@style/ThemeSuperNote" >
+        </activity>
+		<activity
+            android:name=".RestoreDBActivity" 
+            android:theme="@style/NullTheme">
+              <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+               </intent-filter>
+        </activity>
+        <provider
+            android:name="NoteProvider"
+            android:authorities="com.asus.supernote.NoteProvider"
+            android:multiprocess="false" android:exported="true"/>
+
+        <receiver android:name=".widget.WidgetOneProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.asus.supernote.action.SUPERNOTE_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_one_provider" />
+        </receiver>
+        
+        <service android:enabled="true" android:name=".widget.WidgetService">
+            <intent-filter >
+                <action android:name = "com.asus.supernote.ALLNotebooks" />
+                <action android:name = "com.asus.supernote.Templates" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".widget.WidgetGridViewService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" >
+            <intent-filter>
+                <action android:name="com.asus.supernote.Remote" />
+            </intent-filter>
+        </service>
+ 
+<!-- Siupo -->
+        <activity
+            android:name=".picker.FavoriteActivity"
+            android:configChanges="orientation|smallestScreenSize|screenSize|screenLayout|keyboard|keyboardHidden"
+            android:theme="@style/ThemeSuperNote" />
+        <activity
+            android:name="MemoPreviewActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver android:name=".widget.MemoReceiver" >
+            <intent-filter>
+                <action android:name="com.asus.supernote.MEMO_RECEIVER" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".picker.TutorialIntroPageActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        
+        <activity
+            android:name=".picker.ForcedPermissionActivity"
+            android:theme="@style/ThemeSuperNote_setpassword" />
+
+        <activity android:name=".inksearch.SearchActivity"
+            android:configChanges="smallestScreenSize|keyboard|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@style/ThemeSuperNote">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+<!--         android:launchMode="singleTask" -->
+<!--         noah 注释掉;for share; -->
+        
+        <service android:name=".indexservice.IndexService"  android:exported="true" android:enabled="true">
+            <!-- Service start intent --> 
+	        <intent-filter>
+	            <action android:name="com.asus.supernote.indexservice.intent.action.START"></action>
+	        </intent-filter>
+	        <!-- Service stop intent -->
+	        <intent-filter>
+	            <action android:name="com.asus.supernote.indexservice.intent.action.STOP"></action>
+	        </intent-filter>
+	        <!-- Battery notifications for service pause mode -->
+	        <intent-filter>
+	            <action android:name="android.intent.action.BATTERY_CHANGED"></action>
+	        </intent-filter>
+        </service>
+        
+        <activity android:name=".editable.ContiniousLineTipsActivity" 
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity> 
+        
+        <activity android:name=".editable.NavigateTutorialActivity" 
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity> 
+
+	    <!-- Begin Allen -->
+	    <!-- -->
+        <activity android:name=".widget.WidgetShowAllBookActivity"
+            android:taskAffinity="com.asus.surpernote.widgetactivity"
+            android:noHistory="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">            
+        </activity>
+         
+        
+        <activity android:name=".template.widget.ToDoWidgetDialogActivity"
+            android:taskAffinity="com.asus.surpernote.todowidgetactivity"
+            android:noHistory="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">            
+        </activity>
+        
+        <receiver android:name=".template.widget.ToDoWidgetProvider" android:label="@string/widget_memo_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.asus.supernote.action.SUPERNOTE_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/todo_widget_provider" />
+        </receiver>
+        
+        <service
+            android:name=".template.widget.ToDoWidgetRemoteViewsService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" >
+            <intent-filter>
+                <action android:name="com.asus.supernote.Remote" />
+            </intent-filter>
+        </service>
+        
+        <service android:name=".template.widget.ToDoWidgetService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.asus.supernote.action.INIT_TODO_WIDGET" />
+             </intent-filter>
+        </service>
+        <!-- End Allen -->
+        <!-- Begin noah -->
+        <activity
+            android:name="com.asus.supernote.ShareToMeActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.asus.supernote.datacopy.DataCopyActivity"
+            android:theme="@style/ThemeSuperNote"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <!-- End noah -->
+        
+		<!-- Begin Dave -->
+        <activity
+            android:name="com.asus.supernote.ImportFileActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:mimeType="*/*" />
+                <data android:pathPattern=".*\\.sne"/>
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:mimeType="*/*" />
+                <data android:pathPattern=".*\\.snb"/>
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:mimeType="*/*" />
+                <data android:pathPattern=".*\\.snem"/>
+            </intent-filter>
+        </activity>
+		<!-- End Dave -->
+        
+        <!-- added for User Voice -->
+		<receiver android:name="FeedbackReceiver">
+			<intent-filter>
+				<action android:name="com.asus.quickmemo.intent.action.USERFEEDBACK"></action>
+        	</intent-filter>
+        </receiver>
+        <!-- <activity android:name="com.uservoice.uservoicesdk.activity.PortalActivity"/> -->
+        <activity android:name="com.uservoice.uservoicesdk.activity.PortalActivity"  
+              android:launchMode="singleTop">
+              <meta-data android:name="android.app.searchable"
+                  android:resource="@xml/uf_sdk_searchable"/>
+             <intent-filter>
+                 <action android:name="android.intent.action.SEARCH" />
+             </intent-filter>
+          </activity>
+        <activity android:name="com.uservoice.uservoicesdk.activity.ForumActivity"/>
+        <activity android:name="com.uservoice.uservoicesdk.activity.ArticleActivity"/>
+        <activity android:name="com.uservoice.uservoicesdk.activity.TopicActivity"/>
+        <activity android:name="com.uservoice.uservoicesdk.activity.ContactActivity" android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity android:name="com.uservoice.uservoicesdk.activity.PostIdeaActivity"  android:configChanges="orientation|keyboardHidden|screenSize" />
+     
+        <!--  emmanual -->
+        <activity android:name=".textsearch.TextSearchActivity"
+            android:configChanges="smallestScreenSize|keyboard|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@style/ThemeSuperNote">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        
+        <!-- Used for Google Play Store Campaign Measurement-->
+		<service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+		<receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+		          android:exported="true">
+		  <intent-filter>
+		    <action android:name="com.android.vending.INSTALL_REFERRER" />
+		  </intent-filter>
+		</receiver>
+		
+		<!-- added for GA service and receiver -->
+		<service android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver> 
+        <receiver android:name="com.asus.updatesdk.analytic.CheckAppUpdateReceiver" />
+		
+		<!-- added for Zen UI Family -->
+		<activity
+            android:name="com.asus.updatesdk.activity.ZenFamilyActivity"
+            android:launchMode="singleTop">
+        </activity>
+        <receiver
+            android:name="com.asus.updatesdk.ZenFamilyUpdateReceiver"
+            android:exported="true"
+            tools:ignore="ExportedReceiver" >
+            <intent-filter>
+                <action android:name="com.asus.zenuifamily.action.UPDATE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.asus.updatesdk.ZenFamilyShareReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.asus.zenuifamily.action.REQUEST_MASTER" />
+            </intent-filter>
+        </receiver> 
+        
+        <meta-data
+                android:name="com.asus.updatesdk.cache.CacheGlideModule"
+                android:value="GlideModule" />
+    </application>
+
+</manifest>

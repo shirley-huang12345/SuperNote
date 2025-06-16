@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/widget_replace_dialog_width"
+    android:layout_height="@dimen/widget_replace_dialog_height"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/page_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="26dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+		android:horizontalSpacing="9dp"
+        android:verticalSpacing="5dp"
+        android:numColumns="4"
+		android:scrollbarStyle="outsideOverlay"/>
+	<ImageView
+        android:id="@+id/aboveCancelLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdcdc"/>
+	<Button
+        android:id="@+id/widget_cancel_button"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_cancel_button_height"
+        android:text="@android:string/cancel" />
+</LinearLayout>

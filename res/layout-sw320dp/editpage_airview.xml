@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/editpage_airview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:visibility="gone"
+        android:gravity="start|top"/>
+ <LinearLayout
+     android:id="@+id/editpage_air_parent"
+     android:orientation="vertical"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" 
+	 android:paddingStart="18dp"
+	 android:paddingEnd="18dp"
+	 android:paddingTop="18dp"
+	 android:paddingBottom="18dp"
+	 android:background="@drawable/asus_airview_popup" >
+    <TextView
+        android:id="@+id/editpage_tipview"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="start|center_vertical"
+	    android:textSize="18sp"
+	    android:fontFamily="sans-serif"
+	    android:singleLine="true"
+	    android:textColor="#000000"/>
+	<TextView
+	    android:id="@+id/editpage_size_air"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="start|center_vertical"
+	    android:layout_marginBottom="1dp"
+	    android:layout_marginTop="1dp"
+	    android:textSize="18sp"
+	    android:fontFamily="sans-serif"
+	    android:textColor="#000000"/>
+	<TextView
+	    android:id="@+id/editpage_type_air"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="start|center_vertical"
+	    android:textSize="18sp"
+	    android:fontFamily="sans-serif"
+	    android:textColor="#000000"/>
+	</LinearLayout>
+</FrameLayout>

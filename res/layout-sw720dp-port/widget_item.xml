@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="316dp"
+    android:layout_height="237dp" >
+
+    <ImageView
+        android:id="@+id/memoImage"
+        android:layout_width="316dp"
+        android:layout_height="237dp"
+        android:adjustViewBounds="false"
+        android:paddingBottom="2dp"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:paddingTop="2dp"
+        android:scaleType="fitXY"
+        android:src="#FF0000" />
+
+    <ImageView
+        android:layout_width="316dp"
+        android:layout_height="237dp"
+        android:adjustViewBounds="false"
+        android:clickable="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/asus_ep_memo_bg" />
+
+    <TextView
+        android:id="@+id/memoPageNumber"
+        android:layout_width="316dp"
+        android:layout_height="237dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/asus_ep_memo_s"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:shadowColor="#FF59A2F1"
+        android:shadowDx="1.0"
+        android:shadowRadius="10.0"
+        android:textColor="#AA2C2C2C"
+        android:textSize="30dp"
+        android:visibility="gone" />
+
+</FrameLayout>

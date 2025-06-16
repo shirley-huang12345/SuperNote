@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="62dp"
+    android:padding="0dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_gravity="start"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/note_kb_d_group"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="36dp"
+            android:background="@drawable/no_bg"
+            android:drawableTop="@drawable/group_press_selector"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_group"/>
+
+        <Button
+            android:id="@+id/note_kb_d_ungroup"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/no_bg"
+            android:drawableTop="@drawable/ungroup_press_selector"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_ungroup"/>   	
+       
+        <Button
+            android:id="@+id/note_kb_copy"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/no_bg"
+            android:drawableTop="@drawable/copy_press_selector"
+            android:visibility="gone" 
+            android:maxLines="0"
+            android:text="@string/editor_func_button_copy"/>
+        <!-- BEGIN Show-->
+        <Button
+            android:id="@+id/note_kb_d_crop"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/no_bg"
+            android:drawableTop="@drawable/icedit_press_selector"
+            android:visibility="gone"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_crop" />
+                
+        <Button
+            android:id="@+id/note_kb_d_textedit"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/no_bg"
+            android:drawableTop="@drawable/icedit_press_selector"
+            android:visibility="gone"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_textedit" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_gravity="end|center_vertical"
+        android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="1dp"
+	        android:layout_height="29dp"
+	        android:layout_gravity="center"
+	        android:layout_marginEnd="10dp"
+	        android:src="@color/function_bar_line_color"/>
+        
+        <Button
+	        android:id="@+id/note_kb_d_done"
+	        android:layout_width="36dp"
+	        android:layout_height="match_parent"
+	        android:layout_marginEnd="28dp"
+	        android:gravity="center"
+	        android:background="@drawable/done_press_selector"/>
+        
+    </LinearLayout>
+</FrameLayout>

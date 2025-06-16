@@ -1,0 +1,16 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ud_sdk_update_sdk" maxwidth="-1">ZenUI မိသားစု</string>
+    <string name="ud_sdk_update_sdk_asus" maxwidth="-1">ZenUI အလွယ်တကူ အသစ်မွမ်းမံမှု</string>
+    <string name="ud_sdk_asus_app_slogan">အသုံးဝင်သော app</string>
+    <string name="ud_sdk_downloads">ဒေါင်းလုဒ်များ</string>
+    <string name="ud_sdk_free_download">အခမဲ့ဒေါင်းလုဒ်</string>
+    <string name="ud_sdk_more_zen_family">နောက်ထပ် ZenUI app များကို စူးစမ်းရှာဖွေပါ</string>
+    <string name="ud_sdk_install">ထည့်သွင်းပါ</string>
+    <string name="ud_sdk_update">အသစ်မွမ်းမံပါ</string>
+    <string name="ud_sdk_open">ဖွင့်ပါ</string>
+    <string name="ud_sdk_no_network_connection_title">ကွန်ရက် ချိတ်ဆက်မှု မရှိ</string>
+    <string name="ud_sdk_no_network_connection_content">ဒေတာကို အသစ် မမွမ်းမံနိုင်ပါ။ ကျေးဇူးပြု၍ သင့်ကွန်ရက်ဆက်တင်များကို စစ်ဆေးပါ။</string>
+    <string name="ud_sdk_wifi_settings">Wi-Fi ဆက်တင်များ</string>
+    <string name="ud_sdk_all_app_update">"အက်ပလီကေးရှင်းများအားလုံးသည် သူတို့၏လက်ရှိဗားရှင်းကို လုပ်ဆောင်နေသည်။"</string>
+    <string name="ud_sdk_important_remind_text">"အရေးကြီး"</string>
+</resources>

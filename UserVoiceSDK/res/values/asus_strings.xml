@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uf_sdk_feedback_and_help">Feedback &amp; Help</string>
+    <string name="uf_sdk_user_forum">User forum</string>
+    <string name="uf_sdk_help">Help</string>
+    <string name="uf_sdk_send_feedback">Send feedback</string>
+
+    <string name="uf_sdk_faq">FAQ</string>
+    <string name="uf_sdk_network_error">No Internet connection, please check your network settings.</string>
+    <string name="uf_sdk_msg_ticket_created">Your feedback was sent to ASUS successfully</string>
+    <string name="uf_sdk_unhelpful_article_message_question">Would you like to send feedback to ASUS develop team?</string>
+    <string name="uf_sdk_name_hint">Enter your name</string>
+<!-- ideas -->
+
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">topic</item>
+        <item quantity="other">topics</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s likes this topic</item>
+        <item quantity="other">%1$s like this topic</item>
+    </plurals>
+
+    <string name="uf_sdk_submit_topic">Publish</string>
+    <string name="uf_sdk_topic_form_title">Publish new topic</string>
+    <string name="uf_sdk_title_topic">Topic</string>
+    <string name="uf_sdk_subscribe_dialog_title">Subscribe to this topic</string>
+    <string name="uf_sdk_topic">Topic</string>
+    <string name="uf_sdk_msg_topic_created">Successfully published</string>
+    <string name="uf_sdk_topic_description_heading">Description</string>
+    <string name="uf_sdk_topic_description_hint">Describe your topic in detail</string>
+    <string name="uf_sdk_topic_text_heading">Forum</string>
+    <string name="uf_sdk_topic_title">Title</string>
+    <string name="uf_sdk_topic_text_hint">Type your topic title</string>
+    <string name="uf_sdk_topic_form_help">When you publish a topic on user forum, other users will be able to subscribe and comment to it. In addition, when ASUS develop team respond to the topic, you’ll be notified via E-mail.</string>
+    <string name="uf_sdk_msg_subscribe">Topic status notification subscription will be delivered to you by e-mail.</string>
+    <string name="uf_sdk_msg_subscribe_success">Subscription successful</string>
+    <string name="uf_sdk_msg_unsubscribe">Unsubscription successful</string>
+    <string name="uf_sdk_msg_confirm_discard_topic_title">Delete post?</string>
+    <string name="uf_sdk_msg_confirm_discard_topic">Your draft won’t be saved. Do you want to delete it anyway?</string>
+    <string name="uf_sdk_publish_an_topic">Publish new topic</string>
+    <string name="uf_sdk_topic_filter">TOPICS</string>
+
+
+    <string name="uf_sdk_search_hint">Search help</string>
+    <string name="uf_sdk_translation_117562">Feedback type</string>
+    <string name="uf_sdk_translation_2530478">Suggestion</string>
+    <string name="uf_sdk_translation_2529543">Bug report</string>
+    <string name="uf_sdk_translation_2529544">Others</string>
+    <string name="uf_sdk_msg_bad_email_format">Email address is not valid, please try again.</string>
+    <string name="uf_sdk_warning">Warning</string>
+    <string name="uf_sdk_like">Like</string>
+
+
+    <string name="uf_sdk_instant_answer_question">Is this FAQ helpful?</string>
+    <string name="uf_sdk_forum_description">Join the conversation with ASUS users to find and share your solutions</string>
+    <string name="uf_sdk_nothing_found">Nothing found</string>
+    <string name="uf_sdk_send_feedback_help">Your feedback and email address will be sent to ASUS. Service team will contact you via Email.</string>
+
+
+    <string name="uf_sdk_no_network_connection_title">No network connection</string>
+    <string name="uf_sdk_no_network_connection_content">Unable to update data. Please check your network settings. </string>
+    <string name="uf_sdk_wifi_settings">Wi-Fi settings</string>
+    <string name="uf_sdk_wlan_settings">WLAN settings</string>
+    <string name="uf_sdk_notice">Notice</string>
+    <string name="uf_sdk_select_common_bug">Select common bug</string>
+</resources>

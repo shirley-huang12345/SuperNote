@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ud_sdk_update_sdk" maxwidth="-1">ZenUI-perhe</string>
+    <string name="ud_sdk_update_sdk_asus" maxwidth="-1">ZenUI-pikapäivitys</string>
+    <string name="ud_sdk_asus_app_slogan">hyödyllinen sovellus</string>
+    <string name="ud_sdk_downloads">Lataukset</string>
+    <string name="ud_sdk_free_download">Ilmainen lataus</string>
+    <string name="ud_sdk_more_zen_family">Löydä lisää ZenUI-sovelluksia</string>
+    <string name="ud_sdk_install">Asenna</string>
+    <string name="ud_sdk_update">Päivitä</string>
+    <string name="ud_sdk_open">Avaa</string>
+    <string name="ud_sdk_no_network_connection_title">Ei verkkoyhteyttä</string>
+    <string name="ud_sdk_no_network_connection_content">Tietoja ei voi päivittää. Tarkista verkkoasetukset.</string>
+    <string name="ud_sdk_wifi_settings">Wi-Fi-asetukset</string>
+    <string name="ud_sdk_all_app_update">"Kaikki sovellukset käyvät nykyisillä versioillaan."</string>
+    <string name="ud_sdk_important_remind_text">"Tärkeä"</string>
+</resources>

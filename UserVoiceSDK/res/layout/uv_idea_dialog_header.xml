@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/uv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/uf_sdk_make_the_app_more_android_friendly"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/uv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:text="@string/uf_sdk_badges_are_cool"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#666666" />
+
+    <TextView
+        android:id="@+id/uv_creator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:text="@string/uf_sdk_posted_by_anonymous"
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
+    <include layout="@layout/uv_divider" />
+
+    <RelativeLayout
+        android:id="@+id/uv_subscribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uv_clickable"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uv_i_want_this"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/uv_subscriber_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uf_sdk_12_people"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/uv_subscribe_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/uv_admin_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/uv_response_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/uf_sdk_admin_response"
+            android:textAllCaps="true"
+            android:textColor="#8dc13c"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/uv_response_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#8dc13c" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingRight="10dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        android:id="@+id/uv_admin_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
+                        android:text="@string/uf_sdk_evan_hamilton"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/uv_response_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uf_sdk_feb_12"
+                        android:textColor="#666666"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/uv_response_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:text="@string/uf_sdk_we_are_looking"
+                    android:textColor="#666666"
+                    android:textSize="14sp" 
+                    android:autoLink="web"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/uv_admin_avatar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingTop="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical" >
+        <ProgressBar android:id="@+id/uf_sdk_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/uv_comment_count"
+            style="@style/uv_ListSeparatorLight"
+            android:paddingLeft="5dp"
+            android:text="@string/uf_sdk_14_comments"
+            android:textIsSelectable="false"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/uv_post_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uv_clickable"
+        android:clickable="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/uv_post_a_comment"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#20000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/uv_comment" />
+    </LinearLayout>
+
+    <include layout="@layout/uv_divider" />
+
+</LinearLayout>

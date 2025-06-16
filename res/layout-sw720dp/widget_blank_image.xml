@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blank_image_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/asus_widget_bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+	    <ImageView
+	        android:id="@+id/imageView_blank"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:clickable="true"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/asus_ep_bg_right" />
+	    <TextView
+	        android:id="@+id/widget_addbook_tip"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:gravity="center"
+	        android:layout_marginTop="15dp"
+	        android:text="@string/widget_select_notebook"
+	        android:textSize="25dp"
+		 	android:textColor="#969696"/>
+	</LinearLayout>
+</RelativeLayout>

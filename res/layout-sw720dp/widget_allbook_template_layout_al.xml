@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asus_widget_bg">
+	
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/widget_gridview_marginTop"
+        android:layout_marginStart="16dp"
+    	android:layout_marginEnd="16dp"
+    	android:layout_marginBottom="3.5dp"
+        android:verticalSpacing="@dimen/widget_gridview_vertSpace"
+        android:horizontalSpacing="@dimen/widget_gridview_horiSpace"
+        android:gravity="center_horizontal"
+        android:scrollbarStyle="outsideOverlay"
+        android:columnWidth="@dimen/widget_allbook_width"
+        android:numColumns="auto_fit"
+        android:fadingEdgeLength="0dp"
+        android:requiresFadingEdge="vertical"
+        android:layout_centerInParent="true"/>
+    
+ 	<ImageButton
+       android:id="@+id/btReplace1"
+       android:layout_width="50dp"
+       android:layout_height="46dp"
+       android:layout_marginBottom="10dp"
+       android:layout_marginEnd="0dp"
+       android:background="@drawable/widget_book_button_replace_selector"
+       android:src="@drawable/asus_widget_supernote2_replace_n"
+       android:clickable="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"/>
+</RelativeLayout>

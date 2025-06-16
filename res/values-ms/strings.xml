@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <string name="next" description="Next" maxwidth="">Seterusnya</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Kongsi teks sahaja</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Sembunyikan grid</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Saiz: </string>
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">Mengenai SuperNote</string>
+    <string name="set_on" description="On" maxwidth="">Hidup</string>
+    <string name="set_off" description="Off" maxwidth="">Mati</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Mati</string>
+    <string name="app_name">SuperNote</string>
+    <string name="setting" description="Settings" maxwidth="">Tetapan</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s halaman telah dipadam</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Salin halaman kepada</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">Alihkan %d halaman kepada </string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Nama buku nota</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Warna halaman</string>
+    <string name="password" description="Password" maxwidth="">Kata laluan</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Sila masukkan 4 hingga 7 aksara/digit.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Kata laluan sekarang</string>
+    <string name="password_newpin" description="New password" maxwidth="">Kata laluan baru</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Sahkan kata laluan baru</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">Perhatian: kata laluan boleh menjadi 4 hingga 7 nombor kedudukan dan/atau aksara.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Tetapkan/Tukar kata laluan</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">Kata laluan tidak sepadan.</string>
+    <string name="share_to" description="Share to..." maxwidth="">Kongsi ke</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">Kata laluan SuperNote</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">Pada %s, kata laluan SuperNote ditukar. Kata laluan baru ialah: %s</string>
+    <string name="choose_a_template" description="choose a template for your notebook" maxwidth="">Pilih templat untuk buku nota anda</string>
+    <string name="name" description="Name" maxwidth="">Nama</string>
+    <string name="del" description="Delete" maxwidth="">Padam</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Mulakan import daripada</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Import buku nota</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">Cara dibuka dikaitkan dengan fail ini tidak ditemui</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Import berjaya!</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Import gagal. Fail rosak.</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Alihkan ke</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Salin kepada</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Padam halaman yang dipilih?</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Pilih semua</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Nyahpilih semua</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">Alihkan halaman</string>
+    <string name="memo_del" description="Deleted memo">Padam memo yang dipilih?</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">Memo kosong</string>
+    <string name="book_grid_title" description="the title of the page display property">Gaya garisan</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">Salin halaman</string>
+    <string name="wrong_file_type" description="wrong_file_type">Anda membuka jenis fail yang salah</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Tekan lama pada halaman dan seret untuk menyusun semula halaman</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Alih halaman kepada</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">Halaman tidak wujud</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Halaman terakhir</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">Halaman pertama</string>
+    <string name="phone_book_name" description="Phone book name">Buku telefon</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">Halaman baru</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">Anda pasti ingin memadam semua lukisan? Tindakan tidak selesai.</string>
+    <string name="delete_alert" description="warning of deleting">Anda mahu memadam lukisan ini?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Gunakan jari anda untuk mengalih atau mengubah saiz objek</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Ketik untuk memilih atau menyeret objek atau berbilang objek.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">halaman ini penuh</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Ketebalan &amp; warna berus</string>   
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Halaman ini kosong</string>
+    <string name="editor_menu_share">Kongsi</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Penanda buku</string>
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Baca sahaja</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Buku nota</string>
+    <string name="warning_activity_not_found" description="Activity not found">Peranti anda tidak menyokong jenis fail ini atau jenis kodek</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">Tiada imej dalam papan klip untuk ditampal</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Alih keluar</string>
+    <string-array name="pg_size">
+        <item>Pad</item>
+        <item>Telefon</item>
+    </string-array>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Tambah buku nota baru</string>
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d halaman telah disalin kepada %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">Saiz halaman</string>
+    <!-- 2012-02-08 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Putih</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Kuning</string>
+    <string name="book_grid_line" description="the background style of the notebook">Garisan</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Grid</string>
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Tunjukkan maklumat buku nota</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">Pautan kepada: \n%s</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Tiada buku atau halaman untuk dibaca</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Tiada halaman penanda buku.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Padam?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Anda pasti mahu memadam halaman ini?</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Warna</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Salin</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Potong</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Edit</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Kumpulan</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Tidak dibuat kumpulan</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Garis dasar</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Buat asal</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Buat semula</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Masukkan</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Pilih</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Tampal</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Padam</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Berus</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Pemadam</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Batal</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Selesai</string>
+   <!-- new by Ryan -->
+    <string name="editor_menu_addpage" maxwidth="12">Tambah halaman</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Keluarkan halaman</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Format halaman tidak serasi</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Tuliskan</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Taipkan</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Lukis</string>
+    <!-- send to 4th -->
+    <string name="load_tutorial" description="" maxwidth="">Menyedia untuk penggunaan pertama...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Tambah pada penanda buku</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="">Keluarkan daripada penanda buku</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Keluarkan daripada penanda buku?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Tunjukkan penanda buku</string>
+    <!-- send to 5th -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Pantas</item>
+        <item>Normal</item>
+        <item>Perlahan</item>
+    </string-array>
+    <string name="reset_password_title" description="reset the password">Tetapkan semula kata laluan</string>
+    <string name="reset_password_summary">Kosongkan kata laluan</string>
+    <string name="reset_password_dialog_title">Tetapkan semula kata laluan</string>
+    <string name="reset_password_dialog_password_invalid">Kata laluan tidak sah</string>
+    <string name="confirm_reset_dialog_title">Tetapkan semula kata laluan</string>
+    <string name="no_memory_dialog_content">Memori tidak mencukupi</string>
+    <!-- 6th -->
+    <string name="dialog_file_name">Nama fail</string>
+    <string name="dialog_save_to">Simpan pada</string>
+    <!-- 10th, Start New String -->
+   <string name="new_page" description="Create New Page" maxwidth="15">Buat halaman baru</string>
+   <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Buku nota dieksport kepada</string>
+   <string name="pg_title_counter" description="show total pages number of the all page view\'s title">%s penanda buku</string>
+   <string-array name="pg_sort">
+        <item>Melalui nama</item>
+        <item>Melalui terakhir diubah suai</item>
+    </string-array>
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">Anda mahu memadam buku nota ini?</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Menamakan semula</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Sembunyikan</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Padam</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Eksport</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Kelajuan pengecaman input</string>
+    <string name="notebook_selected" description="show how many pages are selected">%s dipilih</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">Buku nota</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">Penanda buku</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">Cap masa</string>
+    <string-array name="week_of_day">
+        <item>Ahad</item>
+        <item>Isnin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Khamis</item>
+        <item>Jumaat</item>
+        <item>Sabtu</item>
+        <item>Hari ini</item>
+        <item>Semalam</item>
+        <item>Minggu lepas</item>
+        <item>Dua minggu lepas</item>
+        <item>Tiga minggu lepas</item>
+        <item>Esok</item>
+        <item>Minggu hadapan</item>
+        <item>Dua minggu kemudian</item>
+        <item>Tiga minggu kemudian</item>
+    </string-array>
+   <string-array name="month_of_year">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Mac</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Julai</item>
+        <item>Ogos</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Disember</item>
+        <item>Bulan lepas</item>
+        <item>Separuh tahun lalu</item>
+        <item>Lebih daripada setahun lalu</item>
+        <item>Bulan hadapan</item>
+        <item>Separuh tahun kemudian</item>
+        <item>Selepas setahun</item>
+    </string-array>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Pangkas</string>
+    <!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Edit</string>
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <string name="password_or_account_empty">Medan akaun atau kata laluan tidak boleh kosong</string>
+    <string name="nb_sync">Dayakan penyegerakan awan</string>
+    <string name="nb_async">Batalkan penyegerakan awan</string>
+    <string name="sync_status_syncing">Menyegerak...</string>
+    <string name="sync_status_failed">Gagal untuk menyegerakkan data.</string>
+    <string name="sync_account_text">Akaun</string>
+    <string name="sync_sign_off">Daftar keluar</string>
+    <string name="account_space_usage">Ruang yang digunakan</string>  
+    <string name="account_and_sync">Tetapan penyegerakan akaun</string>
+    <string name="sync_setting_auto">Auto-Segerak</string>
+    <string name="sync_setting_auto_frequency">Kekerapan Auto-Segerak</string>
+    <string name="sync_auto_interval_1">Setiap 1 min</string>
+    <string name="sync_auto_interval_15">Setiap 15 minit</string>
+    <string name="sync_auto_interval_30">Setiap 30 minit</string>
+    <string name="sync_auto_interval_60">Setiap 60 minit</string>
+    <string name="sync_auto_interval_1d">Setiap hari</string>
+    <!-- add by Better -->
+<!-- Begin: show -->
+    <string name="webstorage_register">Daftar</string>
+    <string name="webstorage_signon">Daftar masuk</string>
+<!-- End: show -->
+    <!--Begin: Show-->
+    <string name="Crop_Done">Selesai</string>  
+    <string name="Crop_Free">Lasso</string>
+    <string name="Crop_Rect">Segi empat tepat</string>
+     <!--End: Show--> 
+    <string name="prompt_export_pdf_to">Fail PDF disimpan dalam</string>
+    <string name="browse_folder">Semak imbas</string>
+    <string name="export_supernote_format">Eksport sebagai format Supernote</string>
+    <string name="file_export">Eksport fail</string>
+    <string name="editor_func_button_search">Cari</string>
+    <string name="no_search_result">Tiada item yang sepadan dengan carian anda</string>
+    <string name="SearchResultItemInfo_Loading">Memuat...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Gagal untuk membaca fail.</string>
+    <string name="SearchResultItemInfo_NoteBooks">NoteBooks</string>
+    <string name="SearchResultItemInfo_Pages">Halaman</string>
+    <string name="SearchResultItemInfo_Personal">Peribadi</string> 
+    <string name="SearchResultItemInfo_Page_Space">Halaman </string>   
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Tulis pengecaman teks</string>
+      <!-- wendy  -->
+   <string name="password_not_set_sync">Buku nota disimpan pada awan diatur sebagai persendirian dan awam. Anda ingin membuat kata laluan untuk buku nota persendirian? Jika tidak, maka, semua buku nota akan diatur sebagai awam.</string>
+   <string name="bookpicker_sync_books_list">Segerak senarai buku</string>
+   <string name="bookpicker_cancel">Batal</string>
+   <string name="bookpicker_ok">OK</string>
+   <string name="newto_editor_func_popup_d_brush_stroke">Palang</string>
+   <string name="newto_editor_func_popup_d_brush_alpha">Kelegapan</string> 
+   <string name="export">Eksport</string>
+   <string name="transfer">Pindahkan</string>
+   <string name="book_export">Eksport buku nota</string>
+   <string name="prompt_exports_pdf_to">Fail PDF disimpan dalam</string> 
+<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Tajuk</string>  
+   <string name="template_travel_tips_date">Tarikh</string>
+   <!--wendy begin -->
+    <string name="select_all">Semua</string>
+   <string name="prompt_no_book_selected">Tiada buku yang dipilih</string>
+   <!-- Begin: Better -->
+   <string name="sync_file_no_version">Versi tidak tersedia.</string>
+   <string name="loading_page">Memuat data halaman...</string>
+   <string name="prompt_transfer_format">Anda perlu memformat semula buku ini dan proses mungkin mengambil masa. Anda mahu meneruskan?</string>
+   <string name="prompt_saving">Menyimpan...</string>
+   <string name="prompt_incompatible_syncing">%s bukan versi yang serasi. Sila kemas kini SuperNote anda.</string>
+   <string name="prompt_incompatible_file">%s bukan versi yang serasi</string>
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <string name="webstorage_login_signing_in">Mendaftar masuk. Sila tunggu...</string>
+   <string name="webstorage_login_account_password_wrong">Akaun atau kata lalulan salah</string>
+   <string name="sync_setting_sign_failure">Tidak dapat mendaftar masuk dalam %s</string>
+   <string name="sync_setting_sign_success">Daftar masuk %s</string>
+   <string name="sync_setting_networkless_title">Tiada sambungan</string>
+    <string name="sync_setting_networkless">Anda memerlukan sambungan Internet untuk menggunakan perkhidmatan ini. Sila dayakan sambungan rangkaian mudah alih anda atau Wi-Fi dalam Tetapan.</string>
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <string name="Sort">Susun</string>
+    <!-- End: Allen -->   
+ <string-array name="editor_func_insert_array" description="insert mode" maxwidth="20">
+        <item>Ambil foto</item>
+        <item>Gambar dari fail</item>
+        <item>Imej teks</item>
+        <item>Halaman PDF</item>
+        <item>Rakaman audio</item>
+        <item>Ambil video</item>
+        <item>Fail teks</item>
+        <item>Cap masa</item>
+        <item>Kerja seni dari papan klip</item>
+        <item>Setem</item>
+        <item>Bentuk</item>
+    </string-array>
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <string-array name="nb_editcover_choose_item">
+        <item>Kamera</item>
+        <item>Gambar dari fail</item>
+    </string-array>
+ <!-- End  :Darwin -->
+    <string name="sync_setting_sign_out">Mendaftar keluar %s</string>
+    <string name="sync_setting_sign_out_msg">Melog keluar akan mengeluarkan akses kepada buku nota pada akaun awan anda dan menyahdaya penyegerakan awan. Anda mahu teruskan?\n</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">Kata laluan anda telah ditukar. Anda mahu menghantar kata laluan anda kepada akaun e-mel anda untuk rujukan pada masa hadapan? Ini akan menghalang kehilangan akses kepada buku nota yang tersembunyi.\n</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Kunci</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">Buka kunci</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">Kunci untuk sembunyikan</string>
+    <string name="editor_phone_toast_seletext">Seret untuk menyerlahkan teks</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">Kunci</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Anda mahu mengunci buku nota ini?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Buka kunci</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Anda mahu membuka kunci buku nota ini?</string>
+    <string name="set_password_dialog_title">Tetapkan kata laluan</string>
+    <string name="editor_func_button_recognize">Mengecam</string>
+    <string name="editor_func_button_transform">Tukar</string>   
+    <string name="editor_phone_toast_readonly">Mod baca sahaja: anda berada dalam Mod Baca. Gunakan jari anda untuk menyelak atau menatal ke atas/bawah halaman.</string>   
+    <string name="export_pdf">Eksport sebagai PDF</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Gagal mencari.</string>
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Garisan</string>
+    <string name="book_type_grid">Grid</string>
+    <string name="book_type_meeting">Mesyuarat</string>
+    <string name="book_type_diary">Diari</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Isyarat backspace</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">Dalam mod Menulis, sapu jari dari kanan hingga kiri untuk memadam teks terakhir yang dimasukkan.</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <string name="template_meeting_start_date_tips">Tarikh mula</string>
+    <string name="template_meeting_end_date_tips">Tarikh tamat</string>
+    <string name="template_meeting_start_time_tips">Masa mula</string>
+    <string name="template_meeting_end_time_tips">Masa tamat</string>
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Tunjukkan buku nota yang dikunci </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Sembunyikan buku nota yang dikunci </string>
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Garisan Menulis Berterusan</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Apabila penulisan anda melepasi garisan merah, teks bertulis anda akan beranjak ke kiri secara automatik.</string>
+    <string name="text_continue" description="continue" max_width="-1">Teruskan</string>
+    <!-- End: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">SuperNote mengecam dan menukarkan teks tulisan tangan kepada teks bertaip, dan teks bertaip ini dibuat pendua sebagai buku nota baru.</string>
+    <string name="set_index_language_title">Tetapkan bahasa pengecaman</string> 
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">Semua halaman</string>
+    <!-- darwin add -->
+   <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">Anda boleh melog masuk menggunakan akaun ASUS WebStorage anda.</string>
+   <!-- Begin: show -->
+   <string name="username" description="User Name" maxwidth="15">Nama pengguna</string>
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">Buku nota yang dikunci telah disembunyikan</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">Buku nota yang dikunci boleh dibaca sekarang</string>
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Tuliskan perkataan panjang secara berterusan tidak kira saiz skrin.</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\'s title">%s Cap masa</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Mencari, sila tunggu</string>
+<!-- Begin Allen -->
+    <string name="content_search" description="Inform the user whether to open the search function when create a new book" max_width="5">Carian kandungan</string>
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">Besar</string>
+    <string name="share_medium" description="Medium" max_width="6">Sederhana</string>
+    <string name="share_small" description="Small" max_width="5">Kecil</string>
+    <string name="recognizing">Mengecam</string>
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+    <string name="book_type_blank" description="blank book name" maxwidth="">Kosong</string>
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+    <string name="import_export_book_fail_reason" description="reason of failing to import book" maxwidth="">tiada pengurus fail</string>
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+    <string name="editor_menu_savepage" maxwidth="12">Simpan halaman</string>
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+    <string name="my_bit_cast_wait_text">Sila tunggu...</string>
+<!-- End: Shane -->
+<!-- Begin: Better -->
+    <string name="password_not_set_import">Buku nota diatur sebagai persendirian dan awam. Anda ingin membuat kata laluan untuk buku nota persendirian? Jika tidak, maka, semua buku nota akan diatur sebagai awam.</string>
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="book_grid_none" description="the background style of the notebook">Tiada</string>
+    <!-- End Allen -->    
+<!-- clare begin -->
+    <string name="widget_bt_add_a_notebook">Tambah buku nota</string>
+    <string name="widget_passwordTip">Sila masukkan kata laluan:</string>
+<!-- clare end -->
+<!-- darwin begin -->
+   <string name="nb_editcover">Edit muka hadapan</string>
+   <string name="nb_editcover_choose_title">Pilih gambar</string>
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+    <string name="widget_dialog_replace_notebook">Gantikan buku nota</string>
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+    <string name="widget_book_locked">Dikunci</string> <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">Tambah pada</string>
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Susun mengikut halaman</item>
+        <item>Susun mengikut masa</item>
+    </string-array>
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Tinggi</item>
+        <item>Normal</item>
+        <item>Rendah</item>
+    </string-array>
+    <string name="todo_item_completed" description="todo item is completed">Selesai</string>
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Pilih buku nota</string>
+    <!-- Begin Allen -->
+    <string name="meeting_form" description="meeting start time">Daripada</string>
+    <string name="meeting_to" description="meeting end time">Ke</string>
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">Dikenal pasti</string>
+ <!-- add for 'SyncCancelDialogFragment'-->
+ <string name="sync_cancel_confirmText">Sahkan</string>
+    <string name="sync_cancel_promptTop">Ia akan dipadam pada peranti lain.</string>
+    <string name="sync_cancel_promptBottom">Anda ingin membatalkan penyegerakan buku nota ini?</string>
+    <string name="sync_cancel_noMoreHint">Jangan ingatkan lagi.</string>
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+    <string name="pen_only_enabled">Gunakan pen sahaja</string>
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <string name="export_as" description="used as title of export_format dialog">Eksport sebagai</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>Format Supernote</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog">Pilih format</string>
+    <string-array name="share_format_array" description="share format chooser">
+        <item>Gambar</item>
+        <item>PDF</item>
+        <item>Format Supernote</item>
+    </string-array>
+    <string name="todo_title" description="memo template title" maxwidth="">Memo</string>
+    <string name="todo_widget_all_todos" description="All memos">SEMUA MEMO</string>
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">Pilih cap</string>
+    <string name="insert_shape_dlg">Pilih bentuk</string>
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">Apakah topik anda?</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">Tambah orang yang hadir</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">Nota mesyuarat anda di sini …</string>
+<!-- for A86 style by smilefish -->
+    <string name="statusbar_login">Log masuk</string>
+    <string name="editcover_photo">Foto</string>
+    <string name="editcover_save">Simpan</string>
+    <string name="brush_edit_dialog_library">Pustaka</string>
+    <string name="brush_edit_dialog_back">Kembali</string>
+    <string name="brush_edit_dialog_pencil">Pensil</string>
+    <string name="brush_edit_dialog_rollerpen">Pen gulung</string>
+    <string name="brush_edit_dialog_pen">Pen</string>
+    <string name="brush_edit_dialog_marker">Penanda</string>
+    <string name="brush_edit_dialog_brush">Berus</string>
+    <string name="brush_edit_dialog_airbrush">Berus udara</string>
+    <string name="todo_title_task">Tekan 1 untuk menambah tugas baru.</string>
+    <string name="brush_edit_dialog_full">Telah menyimpan bilangan maksimum berus hingga 12</string>
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+    <string name="data_fomat_upgrade">Naik taraf format data</string>
+    <string name="the_book">Buku</string>
+    <string name="exits">sudah ada</string>
+    <string name="replace_the_book">Gantikan buku?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="successful_upgrade">Naik taraf berjaya. Kami akan memulakan semula SuperNote</string>
+    <string name="upgrade_fails">Naik taraf gagal</string>
+    <string name="not_enough_space">Tidak mencukupi ruang pada sdcard</string>
+    <string name="try_again">Sila padam fail yang tidak digunakan, dan mulakan semula SuperNote untuk cuba lagi</string>
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <string name="airview_type">Taipkan</string>
+    <!-- jason -->
+<!-- Begin Carol-->
+    <string name="version_info">Versi</string>
+    <string name="widget_memo_title">Memo SuperNote</string>
+    <string name="editor_phone_readonly">Baca sahaja: Gunakan jari anda untuk menatal halaman.</string>
+<!-- End Carol-->
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">Tiada memo</string>
+    <string name="widget_password_hint">Masukkan kata laluan</string>
+    <string name="widget_all_book_template">Semua buku nota</string>
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <string name="content_is_too_long" description="content_is_too_long">Kandungan terlalu panjang</string>
+    <string name="todo_title_max_character_num">Bilangan maksimum aksara ialah 50</string>
+    <!-- smilefish -->
+    <string name="vo_shape_failed">Tidak dapat membentuk lukisan ini</string>
+    <!-- smilefish -->
+    <string name="todo_widget_create" description="Create">Buat</string> <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+    <string name="editor_color_picker">Sila tekan untuk memilih warna untuk warna berus</string> 
+<!-- end smilefish -->
+    <string name="brush_edit_dialog_save_successful">Berjaya disimpan.</string>
+    <string name="brush_edit_dialog_save">Sudah ada.</string>
+    <!--jason  -->
+    <string name="cannot_play_media_when_calling">Tidak dapat memainkan media semasa menghubungi</string>
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+    <string name="template_travel_text_hint" description="hint for inputting travelling notes">Nota diari anda di sini …</string>
+    <string name="template_travel_change_photos" description="hint for changing photos">Ketik untuk menukar foto</string>
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+    <string name="bm_in_notebook" description="Page in notebook" maxwidth="">Penanda buku dalam  %1$s</string>
+<!-- smilefish -->
+    <string name="page_copy" description="Copy the page" maxwidth="">Salin</string>
+    <string name="page_move" description="Move the page" maxwidth="">Alihkan</string>
+    <string name="page_delete" description="Delete the page" maxwidth="">Padam</string>
+    <string name="page_reorder" description="Reorder the page" maxwidth="">Susun semula</string>
+    <string name="pg_in_notebook" description="Page in notebook" maxwidth="">Halaman %1$s dalam %2$s</string>
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <string name="todo_widget_add_new_memo" description="All memos">Tambah Memo Baru</string>
+    <!-- Emmanual -->
+    <string name="drawer_menu" description="menu on drawer" maxwidth="">Menu</string>
+    <!-- smilefish -->
+    <string name="editor_menu_read_later" description="read later" maxwidth="">Baca pada waktu lain</string>
+    <!-- smilefish -->
+    <string name="sdcard_full_no_add" description="sdcard is full">Gagal menyimpan halaman atau buku nota baharu. Storan penuh.</string>
+    <!-- emmanual -->
+    <string name="sdcard_full_no_save" description="sdcard is full">Gagal menyimpan halaman atau buku nota yang diedit. Storan penuh.</string>
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <string name="pg_sort_by_name" description="page sort by name">Simpan semula pada susunan lalai, susun mengikut nama</string>
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <string name="tutorial_info_content1" description="tutorial info for supernote">Pengambil nota terbaik anda.</string>
+    <string name="tutorial_info_title2" description="Cloud sync">Segerak awan</string>
+    <string name="tutorial_info_content2" description="tutorial info for cloud sync">Dapatkan akaun awan percuma untuk menyimpan data anda pada awan di mana sahaja, pada bila-bila masa..</string>
+    <string name="tutorial_info_title3" description="3 editing modes">3 mod mengedit</string>
+    <string name="tutorial_info_content3" description="tutorial info for editing modes">Tulis, taip dan lukis pada Supernote. Pilih kaedah paling sesuai untuk tugas anda.</string>
+    <string name="tutorial_info_title4" description="Insert content">Masukkan kandungan</string>
+    <string name="tutorial_info_content4" description="tutorial info for insert content">Masukkan imej, bunyi atau video untuk mengayakan kandungan anda.</string>
+    <string name="skip_this_tutorial" description="skip this tutorial">"Langkau"</string>
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <string name="editor_menu_nextpage" maxwidth="12">Halaman seterusnya</string>
+    <string name="editor_menu_prepage" maxwidth="12">Halaman sebelumnya</string>
+    <string name="auto_add_page" maxwidth="12">Memproses...</string>
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <string name="insert_audiofile">Fail audio</string>
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <string name="audiofile_not_exist">Fail tersebut tidak wujud!</string>
+    <string name="audiofile_not_mp4">Fail audio tidak boleh dimasukkan ke dalam buku nota!</string>
+    <string name="editor_func_button_last_edit_page">Lancarkan pada halaman yang diedit kali terakhir</string>
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <string name="title_send_email">Hantar E-mel</string>
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <string name="about_title">Mengenai</string>
+    <string name="about_legal_information">Maklumat Undang-undang</string>
+    <string name="about_legal_information_des">Penggunaan perisian ini tertakluk pada terma dan syarat mengenai ASUS.</string>
+    <string name="about_website">Laman Web</string>
+    <string name="about_allrights">ASUSTek Computer Inc. Hak cipta terpelihara.</string>
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="nb_add_choose_title">Wujudkan buku nota baharu</string>
+    <string-array name="nb_add_choose_item">
+        <item>Buku nota kosong</item>
+        <item>Pilih templat</item>
+    </string-array>
+    <string name="no_notebooks">Tiada buku nota</string>
+    <string name="stub_app_notice_title" description="stub app notice title" maxwidth="-1">Notis</string>
+    <string name="stub_app_notice_content" description="stub app notice content" maxwidth="-1">Sila kemas kini kepada versi terkini daripada gedung apl Google Play dahulu. Terima kasih.</string>
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"Sila kemas kini ke versi terkini daripada gedung aplikasi Asus dahulu. Terima kasih."</string>
+    <string name="cta_act_mobile_network">"Rangkaian Mudah Alih"</string>
+    <string name="cta_msg_mobile_network">"cuba untuk menyambung pada rangkaian mudah alih. Menggunakan rangkaian mudah alih mungkin dikenakan bayaran. Untuk mengelakkan daripada dikenakan bayaran, putuskan rangkaian mudah alih apabila tidak digunakan."</string>
+    <string name="voice">Suara</string>
+    <string name="error_sdcard_access_nosdcard">Tidak dapat mengakses storan USB</string>
+    <string name="error_sdcard_access">Tidak dapat mengakses kad SD</string>
+    <string name="startfail">Tidak dapat memulakan rakaman, sila pastikan bahawa tiada aplikasi lain yang menggunakan mikrofon.</string>
+    <string name="sync_setting_wifi_auto">Segerak Auto melalui Wi-Fi sahaja</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <string name="reading_pdf_prompt">Membaca PDF...</string>
+    <string name="choose_pdf_prompt">Pilih Halaman PDF</string>
+    <string name="import_pdf_prompt">Bersedia untuk mengimport Halaman PDF...</string>
+    <string name="pdf_import" description="Import PDF" maxwidth="">Import PDF</string>
+    <string name="pdf_seelcted">Dipilih: </string>
+    <string name="import_pdf_progress" formatted="false">Mengimport PDF: %s daripada %s</string>
+    <string name="add_book_from_pdf" maxwidth="">Daripada PDF</string>
+    <string name="reading_pdf_error" maxwidth="">Tidak boleh membuka fail!</string>
+    <string name="reading_pdf_encrypted" maxwidth="">Tidak boleh mengimport fail PDF dengan perlindungan kata laluan.</string>
+    <string name="reading_pdf_invalid" maxwidth="">Tidak boleh mengimport fail. Sila pastikan fail tersebut tidak rosak.</string>
+    <string name="error" maxwidth="">Ralat</string>
+    <string name="editor_func_button_page_transtion">Kesan animasi kerana menukar halaman</string>
+    <string name="download_title" maxwidth="12">Memuat turun\u2026</string>
+    <!-- smilefish -->
+    <string name="settings_encourage_us_title" maxWidth="">Galakkan kami</string>
+    <string name="settings_encourage_us_detail" translate="true">Jika anda menikmati menggunakan %s, sila tarafkan kami 5 bintang pada Play Store. Ini akan menjadi galakan yang hebat untuk kami meneruskan usaha penambahbaikan produk!\n\nUntuk memberi cadangan, tulis kepada kami melalui Maklum Balas &amp; Bantuan.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">Tarafkan sekarang</string>
+    <string name="later_action_no_apps" description="Text for indicating there are no apps to open the content" maxwidth="-1">Tiada permohonan untuk menyelesaikan tindakan</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">Sila skrol ke atas untuk menilai</string>
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"Tidak boleh mengakses fail"</string>
+    <string name="force_permission_sub_title">"%1$s akan memerlukan keizinan %2$s untuk mengakses dan menyimpan fail anda dalam peranti."</string>
+    <string name="force_permission_turn_on">"Hidupkan"</string>
+    <string name="force_permission_storage">"Storan"</string>
+    <string name="force_permission_settings">"Tetapan"</string>
+    <string name="force_permission_show_settings">"Ketik &lt;b>Tetapan&lt;/b> untuk menghidupkan keizinan &lt;b>%2$s&lt;/b> dalam &lt;b>Maklumat Apl&lt;/b> &lt;b>Keizinan&lt;/b>, kemudian mulakan semula %1$s."</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"Menavigasi gerak isyarat"</string>
+    <string name="navigate_tutorial_content">"Gunakan dua jari untuk menavigasi halaman secara bebas. Apabila dalam mod Baca sahaja, anda boleh menavigasi halaman pada tetingkap pratonton."</string>
+    <string name="navigate_tutorial_content_phone">"Gunakan dua jari untuk menavigasi halaman secara bebas pada tetingkap pratonton."</string>
+    <string name="navigate_tutorial_scroll">"Tahan untuk menskrol halaman"</string>
+    <!-- end smilefish -->
+</resources>

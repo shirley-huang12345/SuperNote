@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <string name="next" description="Next" maxwidth="">"بعدی"</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">"فقط اشتراک گذاری متن"</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">"محو خطوط شبکه ای"</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">"اندازه:" </string>
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">"درباره SuperNote"</string>
+    <string name="set_on" description="On" maxwidth="">"روشن"</string>
+    <string name="set_off" description="Off" maxwidth="">"خاموش"</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">"حالت مطالعه"</string>
+    <string name="app_name">"SuperNote"</string>
+    <string name="setting" description="Settings" maxwidth="">"تنظیمات"</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">"%s صفحه حذف شد"</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">"کپی کردن صفحه(ها) در"</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">"انتقال %d صفحه به" </string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">"نام دفترچه یادداشت"</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">"رنگ صفحه"</string>
+    <string name="password" description="Password" maxwidth="">"رمز عبور"</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">"لطفاً بین 4 تا 7 نویسه/عدد وارد نمایید."</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">"رمز عبور فعلی"</string>
+    <string name="password_newpin" description="New password" maxwidth="">"رمز عبور جدید"</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">"تأیید رمز عبور جدید"</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">"توجه: رمز عبور باید بین 4 تا 7 نویسه باشد (حروف یا اعداد)."</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">"تعیین/تغییر رمز عبور"</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">"رمزهای عبور با هم مطابقت ندارند"</string>
+    <string name="share_to" description="Share to..." maxwidth="">"اشتراک گذاری در"</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">"رمز عبور SuperNote"</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">"در تاریخ %s، رمز عبور SuperNote من تغییر یافت. رمز عبور جدید: %s"</string>
+    <string name="choose_a_template" description="choose a template for your notebook" maxwidth="">"قالبی را برای دفترچه یادداشت خود انتخاب نمایید"</string>
+    <string name="name" description="Name" maxwidth="">"نام"</string>
+    <string name="del" description="Delete" maxwidth="">"حذف"</string>
+    <string name="prompt_import" description="Import..." maxwidth="">"شروع واردسازی از"</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">"وارد کردن دفترچه یادداشت"</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">"روش باز کردنی که متعلق به این فایل است یافت نشد"</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">"واردسازی موفقیت آمیز بود!"</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">"واردسازی ناموفق بود. فایل خراب است."</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">"انتقال به"</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">"کپی در"</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">"صفحه(های) انتخاب شده حذف گردد؟"</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">"انتخاب همه"</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">"لغو انتخاب همه"</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">"انتقال صفحه(ها)"</string>
+    <string name="memo_del" description="Deleted memo">"یادداشت(های) انتخاب شده حذف گردد؟"</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">"یادداشت خالی است"</string>
+    <string name="book_grid_title" description="the title of the page display property">"سبک خطوط"</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">"کپی کردن صفحه(ها)"</string>
+    <string name="wrong_file_type" description="wrong_file_type">"شما دارید نوع اشتباهی از فایل را باز می کنید"</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">"برای تغییر چینش صفحات، انگشت خود را لحظه ای روی صفحه نگه دارید و سپس حرکت دهید"</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">"انتقال صفحه(ها) به"</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">"این صفحه موجود نیست"</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">"صفحه آخر"</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">"صفحه اول"</string>
+    <string name="phone_book_name" description="Phone book name">"دفترچه تلفن"</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">"صفحه جدید"</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">"آیا برای حذف همه ترسیم ها مطمئن هستید؟ این عمل قابل بازگردانی نخواهد بود."</string>
+    <string name="delete_alert" description="warning of deleting">"می خواهید این ترسیم را حذف کنید؟"</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">"از انگشت خود برای جابجایی یا تغییر اندازه شیء استفاده نمایید"</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">"برای انتخاب یا کشیدن یک یا چند شیء، ضربه بزنید."</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">"این صفحه پر است"</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">"رنگ و ضخامت قلم مو"</string>   
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">"این صفحه خالی است"</string>
+    <string name="editor_menu_share">"اشتراک گذاری"</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">"نشانک"</string>
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">"فقط خوانش"</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">"دفترچه یادداشت"</string>
+    <string name="warning_activity_not_found" description="Activity not found">"دستگاه شما از این نوع فایل یا این نوع کدک پشتیبانی نمی کند"</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">"تصویری در حافظه کپی وجود ندارد که آن را در اینجا بچسبانید"</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">"حذف"</string>
+    <string-array name="pg_size">
+        <item>"پد"</item>
+        <item>"تلفن"</item>
+    </string-array>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">"افزودن یک دفترچه یادداشت جدید"</string>
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">"%d صفحه در %s کپی شد"</string>
+    <string name="page_size" description="Page Size" maxwidth="">"اندازه صفحه"</string>
+    <!-- 2012-02-08 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">"سفید"</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">"زرد"</string>
+    <string name="book_grid_line" description="the background style of the notebook">"خطوط"</string>
+    <string name="book_grid_grid" description="the background style of the notebook">"خطوط شبکه ای"</string>
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">"نمایش اطلاعات دفترچه یادداشت"</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">"پیوند به: \n%s"</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">"کتاب یا صفحه ای برای مطالعه وجود ندارد"</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">"صفحه ای نشانک گذاری نشده است."</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">"حذف شود؟"</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">"آیا برای حذف کردن این صفحه مطمئن هستید؟"</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">"رنگی"</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">"کپی"</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">"برش"</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">"ویرایش"</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">"گروه"</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">"خارج سازی از گروه"</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">"خط پایه"</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">"برگرداندن عمل"</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">"لغو برگرداندن عمل"</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">"وارد کردن"</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">"انتخاب"</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">"چسباندن"</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">"حذف"</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">"قلم مو"</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">"پاک کن"</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">"لغو"</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">"انجام شد"</string>
+   <!-- new by Ryan -->
+    <string name="editor_menu_addpage" maxwidth="12">"افزودن صفحه"</string>
+    <string name="editor_menu_rmpage" maxwidth="12">"حذف صفحه"</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">"قالب صفحه سازگار نیست"</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">"نوشتن"</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">"نوع"</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">"ترسیم"</string>
+    <!-- send to 4th -->
+    <string name="load_tutorial" description="" maxwidth="">"در حال آماده سازی برای اولین استفاده..."</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">"افزودن به نشانک ها"</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="Remove from bookmarks">"حذف از نشانک ها"</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">"از نشانک ها حذف شود؟"</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">"نمایش نشانک ها"</string>
+    <!-- send to 5th -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>"سریع"</item>
+        <item>"عادی"</item>
+        <item>"آهسته"</item>
+    </string-array>
+    <string name="reset_password_title" description="reset the password">"بازنشانی رمز عبور"</string>
+    <string name="reset_password_summary">"پاک کردن رمز عبور"</string>
+    <string name="reset_password_dialog_title">"بازنشانی رمز عبور"</string>
+    <string name="reset_password_dialog_password_invalid">"رمز عبور نامعبتر"</string>
+    <string name="confirm_reset_dialog_title">"بازنشانی رمز عبور"</string>
+    <string name="no_memory_dialog_content">"حافظه کافی نیست."</string>
+    <!-- 6th -->
+    <string name="dialog_file_name">"نام فایل"</string>
+    <string name="dialog_save_to">"ذخیره سازی در"</string>
+    <!-- 10th, Start New String -->
+   <string name="new_page" description="Create New Page" maxwidth="15">"ایجاد صفحه جدید"</string>
+   <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">"از دفترچه یادداشت خروجی گرفته شد در"</string>
+   <string name="pg_title_counter" description="show total pages number of the all page view\'s title">"%s نشانک"</string>
+   <string-array name="pg_sort">
+        <item>"بر اساس نام"</item>
+        <item>"بر اساس آخرین تاریخ تغییر"</item>
+    </string-array>
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">"آیا می خواهید این دفترچه یادداشت را حذف کنید؟"</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">"تغییر نام"</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">"مخفی کردن"</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">"حذف"</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">"خروجی گرفتن"</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">"سرعت تشخیص ورودی"</string>
+    <string name="notebook_selected" description="show how many pages are selected">"%s انتخاب شد"</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">"دفترچه های یادداشت"</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">"نشانک"</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">"زمان نگار"</string>
+    <string-array name="week_of_day">
+        <item>"یکشنبه"</item>
+        <item>"دوشنبه"</item>
+        <item>"سه شنبه"</item>
+        <item>"چهارشنبه"</item>
+        <item>"پنج شنبه"</item>
+        <item>"جمعه"</item>
+        <item>"شنبه"</item>
+        <item>"امروز"</item>
+        <item>"دیروز"</item>
+        <item>"هفته پیش"</item>
+        <item>"دو هفته پیش"</item>
+        <item>"سه هفته پیش"</item>
+        <item>"فردا"</item>
+        <item>"هفته بعد"</item>
+        <item>"دو هفته بعد"</item>
+        <item>"سه هفته بعد"</item>
+    </string-array>
+   <string-array name="month_of_year">
+        <item>"ژانویه"</item>
+        <item>"فوریه"</item>
+        <item>"مارس"</item>
+        <item>"آوریل"</item>
+        <item>"می"</item>
+        <item>"ژوئن"</item>
+        <item>"ژوئیه"</item>
+        <item>"آگوست"</item>
+        <item>"سپتامبر"</item>
+        <item>"اکتبر"</item>
+        <item>"نوامبر"</item>
+        <item>"دسامبر"</item>
+        <item>"ماه پیش"</item>
+        <item>"شش ماه پیش"</item>
+        <item>"بیش از یک سال پیش"</item>
+        <item>"ماه آینده"</item>
+        <item>"شش ماه آینده"</item>
+        <item>"بیش از یک سال آینده"</item>
+    </string-array>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">"برش"</string>
+    <!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">"ویرایش"</string>
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <string name="password_or_account_empty">"قسمت حساب یا رمز عبور را نمی توان خالی گذاشت"</string>
+    <string name="nb_sync">"فعال کردن همگام سازی ابری"</string>
+    <string name="nb_async">"لغو همگام سازی ابری"</string>
+    <string name="sync_status_syncing">"در حال همگام سازی"</string>
+    <string name="sync_status_failed">"همگام سازی داده ها ناموفق بود."</string>
+    <string name="sync_account_text">"حساب"</string>
+    <string name="sync_sign_off">"خروج از حساب"</string>
+    <string name="account_space_usage">"فضای اشغال شده"</string>  
+    <string name="account_and_sync">"تنظیمات همگام سازی حساب"</string>
+    <string name="sync_setting_auto">"همگام سازی خودکار"</string>
+    <string name="sync_setting_auto_frequency">"دفعات همگام سازی خودکار"</string>
+    <string name="sync_auto_interval_1">"هر 1 دقیقه"</string>
+    <string name="sync_auto_interval_15">"هر 15 دقیقه"</string>
+    <string name="sync_auto_interval_30">"هر 30 دقیقه"</string>
+    <string name="sync_auto_interval_60">"هر 60 دقیقه"</string>
+    <string name="sync_auto_interval_1d">"هر روز"</string>
+    <!-- add by Better -->
+<!-- Begin: show -->
+    <string name="webstorage_register">"ثبت نام"</string>
+    <string name="webstorage_signon">"ورود به حساب"</string>
+<!-- End: show -->
+    <!--Begin: Show-->
+    <string name="Crop_Done">"انجام شد"</string>  
+    <string name="Crop_Free">"کمند"</string>
+    <string name="Crop_Rect">"مستطیل"</string>
+     <!--End: Show--> 
+    <string name="prompt_export_pdf_to">"فایل PDF ذخیره شد در"</string>
+    <string name="browse_folder">"جستجو"</string>
+    <string name="export_supernote_format">"گرفتن خروجی در قالب SuperNote"</string>
+    <string name="file_export">"فایل خروجی"</string>
+    <string name="editor_func_button_search">"جستجو"</string>
+    <string name="no_search_result">"هیچ موردی مطابق با جستجوی شما یافت نشد"</string>
+    <string name="SearchResultItemInfo_Loading">"در حال بارگیری..."</string>
+    <string name="SearchResultItemInfo_Read_File_Error">"خوانش فایل ناموفق بود"</string>
+    <string name="SearchResultItemInfo_NoteBooks">"دفترچه های یادداشت"</string>
+    <string name="SearchResultItemInfo_Pages">"صفحات"</string>
+    <string name="SearchResultItemInfo_Personal">"شخصی"</string> 
+    <string name="SearchResultItemInfo_Page_Space">"صفحه" </string>   
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">"تشخیص نوشتار متن"</string>
+      <!-- wendy  -->
+   <string name="password_not_set_sync">"دفترچه های یادداشتی که در حافظه ابری ذخیره شوند در دو دسته خصوصی و عمومی طبقه بندی می گردند. آیا می خواهید رمز عبوری را برای دفترچه های یادداشت خصوصی ایجاد کنید؟ در غیر این صورت، تمامی دفترچه های یادداشت در دسته عمومی قرار خواهند گرفت."</string>
+   <string name="bookpicker_sync_books_list">"همگام سازی فهرست کتابها"</string>
+   <string name="bookpicker_cancel">"لغو"</string>
+   <string name="bookpicker_ok">"تأیید"</string>
+   <string name="newto_editor_func_popup_d_brush_stroke">"خط"</string>
+   <string name="newto_editor_func_popup_d_brush_alpha">"تاری"</string> 
+   <string name="export">"خروجی گرفتن"</string>
+   <string name="transfer">"انتقال"</string>
+   <string name="book_export">"خروجی گرفتن از دفترچه یادداشت"</string>
+   <string name="prompt_exports_pdf_to">"فایل های PDF ذخیره شدند در"</string> 
+<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">"عنوان"</string>  
+   <string name="template_travel_tips_date">"تاریخ"</string>
+   <!--wendy begin -->
+    <string name="select_all">"همه موارد"</string>
+   <string name="prompt_no_book_selected">"کتابی انتخاب نشده است"</string>
+   <!-- Begin: Better -->
+   <string name="sync_file_no_version">"نسخه موجود نیست"</string>
+   <string name="loading_page">"در حال بارگیری داده های صفحه..."</string>
+   <string name="prompt_transfer_format">"لازم است این کتاب را دوباره قالب بندی کنید، و فرآیند آن ممکن است کمی زمان ببرد. می خواهید ادامه دهید؟"</string>
+   <string name="prompt_saving">"در حال ذخیره سازی..."</string>
+   <string name="prompt_incompatible_syncing">"%s نسخه ای سازگار نیست. لطفاً SuperNote خود را به روزرسانی کنید."</string>
+   <string name="prompt_incompatible_file">"%s نسخه ای سازگار نیست"</string>
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <string name="webstorage_login_signing_in">"در حال ورود به حساب. لطفاً منتظر بمانید..."</string>
+   <string name="webstorage_login_account_password_wrong">"حساب یا رمز عبور اشتباه است"</string>
+   <string name="sync_setting_sign_failure">"ورود به حساب %s امکان پذیر نیست"</string>
+   <string name="sync_setting_sign_success">"ورود به حساب %s"</string>
+   <string name="sync_setting_networkless_title">"عدم اتصال"</string>
+    <string name="sync_setting_networkless">"برای استفاده از این سرویس نیاز به اتصال اینترنت دارید. لطفاً اتصال شبکه داده همراه یا Wi-Fi را در تنظیمات فعال نمایید."</string>
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <string name="Sort">"مرتب سازی"</string>
+    <!-- End: Allen -->   
+ <string-array name="editor_func_insert_array" description="insert mode" maxwidth="20">
+        <item>"گرفتن عکس"</item>
+        <item>"فایل عکس"</item>
+        <item>"تصویر متن"</item>
+        <item>"صفحه PDF"</item>
+        <item>"ضبط صدا"</item>
+        <item>"فیلم برداری"</item>
+        <item>"فایل متن"</item>
+        <item>"زمان نگار"</item>
+        <item>"اثر هنری از حافظه کپی"</item>
+        <item>"مهر"</item>
+        <item>"شکل"</item>
+    </string-array>
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <string-array name="nb_editcover_choose_item">
+        <item>"دوربین"</item>
+        <item>"عکس از فایل"</item>
+    </string-array>
+ <!-- End  :Darwin -->
+    <string name="sync_setting_sign_out">"خروج از حساب %s"</string>
+    <string name="sync_setting_sign_out_msg">"خروج از حساب منجر به قطع دسترسی به دفترچه های یادداشت در حساب ابری شما خواهد شد، و همگام سازی شبکه ابری نیز غیرفعال می شود. می خواهید ادامه دهید؟\n"</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">"رمز عبور شما تغییر یافت. آیا می خواهید رمز عبورتان برای ارجاع به آن در آینده به حساب ایمیل شما ارسال شود؟ این عمل از قطع دسترسی به دفترچه های یادداشت مخفی جلوگیری خواهد کرد.\n"</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">"قفل"</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">"بازگشایی قفل"</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">"برای مخفی سازی قفل کنید"</string>
+    <string name="editor_phone_toast_seletext">"برای پررنگ کردن متن، روی آن بکشید"</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">"قفل"</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">"آیا می خواهید این دفترچه یادداشت را قفل کنید؟"</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">"بازگشایی قفل"</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">"آیا می خواهید قفل این دفترچه یادداشت را باز کنید؟"</string>
+    <string name="set_password_dialog_title">"تنظیم رمز عبور"</string>
+    <string name="editor_func_button_recognize">"شناسایی"</string>
+    <string name="editor_func_button_transform">"تبدیل"</string>   
+    <string name="editor_phone_toast_readonly">"فقط حالت مطالعه: شما در حالت مطالعه هستید. برای برگه زدن یا بالا و پایین کردن صفحات، از انگشت خود استفاده نمایید."</string>   
+    <string name="export_pdf">"گرفتن خروجی در قالب PDF"</string>
+    <string name="SearchResultItemInfo_Wrong_Index">"جستجو ناموفق بود."</string>
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">"خط"</string>
+    <string name="book_type_grid">"شبکه خطوط"</string>
+    <string name="book_type_meeting">"جلسه"</string>
+    <string name="book_type_diary">"خاطرات"</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">"حرکت پس بَر"</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">"در حالت نوشتار، با کشیدن انگشت از راست به چپ می توانید آخرین متن وارد شده را پاک کنید."</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <string name="template_meeting_start_date_tips">"تاریخ شروع"</string>
+    <string name="template_meeting_end_date_tips">"تاریخ پایان"</string>
+    <string name="template_meeting_start_time_tips">"زمان شروع"</string>
+    <string name="template_meeting_end_time_tips">"زمان پایان"</string>
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">"نمایش دفترچه یادداشت های قفل دار" </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">"مخفی کردن دفترچه یادداشت های قفل دار" </string>
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">"خط نوشتار ممتد"</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">"وقتی نوشته شما از خط قرمز بگذرد، متن شما به صورت خودکار به چپ تغییر مکان می دهد."</string>
+    <string name="text_continue" description="continue" max_width="-1">"ادامه"</string>
+    <!-- End: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">"برنامه SuperNote قادر به شناسایی و تبدیل متون دست نوشته به متون تایپی است، و این متون تایپی در قالب یک دفترچه یادداشت جدید ایجاد می شوند."</string>
+    <string name="set_index_language_title">"تعیین زبان تشخیص"</string> 
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">"تمامی صفحات"</string>
+    <!-- darwin add -->
+   <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">"می توانید با استفاده از حساب ASUS WebStorage وارد شوید."</string>
+   <!-- Begin: show -->
+   <string name="username" description="User Name" maxwidth="15">"نام کاربری"</string>
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">"دفترچه های یادداشت قفل دار مخفی شدند"</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">"دفترچه های یادداشت قفل دار اکنون قابل مطالعه هستند"</string>
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">"لغات طولانی را در هر اندازه ای از صفحه سر هم بنویسید."</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\'s title">"%s زمان نگار"</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">"در حال جستجو؛ لطفاً منتظر بمانید"</string>
+<!-- Begin Allen -->
+    <string name="content_search" description="Inform the user whether to open the search function when create a new book" max_width="5">"جستجوی محتوا"</string>
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">"بزرگ"</string>
+    <string name="share_medium" description="Medium" max_width="6">"متوسط"</string>
+    <string name="share_small" description="Small" max_width="5">"کوچک"</string>
+    <string name="recognizing">"تشخیص"</string>
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+    <string name="book_type_blank" description="blank book name" maxwidth="">"خالی"</string>
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+    <string name="import_export_book_fail_reason" description="reason of failing to import book" maxwidth="">"فاقد برنامه مدیریت فایل"</string>
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+    <string name="editor_menu_savepage" maxwidth="12">"ذخیره صفحه"</string>
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+    <string name="my_bit_cast_wait_text">"لطفاً صبر کنید..."</string>
+<!-- End: Shane -->
+<!-- Begin: Better -->
+    <string name="password_not_set_import">"دفترچه های یادداشت در دو دسته خصوصی و عمومی طبقه بندی می شوند. آیا می خواهید رمز عبوری را برای دفترچه های یادداشت خصوصی ایجاد کنید؟ در غیر این صورت، تمامی دفترچه های یادداشت در دسته عمومی قرار خواهند گرفت."</string>
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="book_grid_none" description="the background style of the notebook">"هیچکدام"</string>
+    <!-- End Allen -->    
+<!-- clare begin -->
+    <string name="widget_bt_add_a_notebook">"افزودن دفترچه یادداشت"</string>
+    <string name="widget_passwordTip">"لطفاً رمز عبور را وارد کنید"</string>
+<!-- clare end -->
+<!-- darwin begin -->
+   <string name="nb_editcover">"ویرایش جلد"</string>
+   <string name="nb_editcover_choose_title">"انتخاب عکس"</string>
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+    <string name="widget_dialog_replace_notebook">"جایگزین سازی دفترچه یادداشت"</string>
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+    <string name="widget_book_locked">"قفل دار"</string> <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">"افزودن به"</string>
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>"مرتب سازی بر اساس صفحه"</item>
+        <item>"مرتب سازی بر اساس زمان"</item>
+    </string-array>
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>"بالا"</item>
+        <item>"عادی"</item>
+        <item>"پایین"</item>
+    </string-array>
+    <string name="todo_item_completed" description="todo item is completed">"کامل شد"</string>
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">"دفترچه یادداشتی را انتخاب کنید"</string>
+    <!-- Begin Allen -->
+    <string name="meeting_form" description="meeting start time">"از"</string>
+    <string name="meeting_to" description="meeting end time">"تا"</string>
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">"شناسایی شده"</string>
+ <!-- add for 'SyncCancelDialogFragment'-->
+ <string name="sync_cancel_confirmText">"تأیید"</string>
+    <string name="sync_cancel_promptTop">"آنها در دستگاه دیگر حذف خواهند شد."</string>
+    <string name="sync_cancel_promptBottom">"آیا همگام سازی این دفترچه های یادداشت را لغو می کنید؟"</string>
+    <string name="sync_cancel_noMoreHint">"دیگر یادآوری نشود."</string>
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+    <string name="pen_only_enabled">"فقط از خودکار استفاده شود"</string>
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <string name="export_as" description="used as title of export_format dialog">"خروجی گرفتن در قالب"</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>"PDF"</item>
+        <item>"قالب SuperNote"</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog">"قالب را انتخاب کنید"</string>
+    <string-array name="share_format_array" description="share format chooser">
+        <item>"عکس"</item>
+        <item>"PDF"</item>
+        <item>"قالب SuperNote"</item>
+    </string-array>
+    <string name="todo_title" description="memo template title" maxwidth="">"یادداشت"</string>
+    <string name="todo_widget_all_todos" description="All memos">"همه یادداشت ها"</string>
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">"مهری را انتخاب کنید"</string>
+    <string name="insert_shape_dlg">"شکلی را انتخاب کنید"</string>
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">"موضوع شما چیست؟"</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">"افزودن شرکت کنندگان خود"</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">"یادداشت های جلسات شما در اینجا نوشته شود..."</string>
+<!-- for A86 style by smilefish -->
+    <string name="statusbar_login">"ورود به حساب"</string>
+    <string name="editcover_photo">"عکس ها"</string>
+    <string name="editcover_save">"ذخیره"</string>
+    <string name="brush_edit_dialog_library">"کتابخانه"</string>
+    <string name="brush_edit_dialog_back">"بازگشت"</string>
+    <string name="brush_edit_dialog_pencil">"مداد"</string>
+    <string name="brush_edit_dialog_rollerpen">"خودنویس"</string>
+    <string name="brush_edit_dialog_pen">"خودکار"</string>
+    <string name="brush_edit_dialog_marker">"ماژیک"</string>
+    <string name="brush_edit_dialog_brush">"قلم مو"</string>
+    <string name="brush_edit_dialog_airbrush">"قلم بادی"</string>
+    <string name="todo_title_task">"برای افزودن امور جدید، 1 را فشار دهید."</string>
+    <string name="brush_edit_dialog_full">"تعداد ذخیره سازی قلم ها به حداکثر یعنی 12 عدد رسید"</string>
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+    <string name="data_fomat_upgrade">"ارتقای قالب داده ها"</string>
+    <string name="the_book">"این کتاب"</string>
+    <string name="exits">"از قبل وجود دارد"</string>
+    <string name="replace_the_book">"کتاب جایگزین شود؟"</string>
+    <string name="yes">"بله"</string>
+    <string name="no">"خیر"</string>
+    <string name="successful_upgrade">"ارتقا با موفقیت انجام شد. ما SuperNote را از نو اجرا خواهیم کرد"</string>
+    <string name="upgrade_fails">"ارتقا ناموفق بود"</string>
+    <string name="not_enough_space">"عدم وجود فضای کافی در کارت SD"</string>
+    <string name="try_again">"لطفاً تعدادی از فایل های بلااستفاده را پاک کرده و پس از اجرای مجدد SuperNote، دوباره امتحان کنید"</string>
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <string name="airview_type">"نوع"</string>
+    <!-- jason -->
+<!-- Begin Carol-->
+    <string name="version_info">"نسخه"</string>
+    <string name="widget_memo_title">"یادداشت SuperNote"</string>
+    <string name="editor_phone_readonly">"فقط مطالعه: برای حرکت دادن صفحه، از انگشتتان استفاده کنید."</string>
+<!-- End Carol-->
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">"فاقد یادداشت"</string>
+    <string name="widget_password_hint">"وارد کردن رمز عبور"</string>
+    <string name="widget_all_book_template">"همه دفترچه های یادداشت"</string>
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <string name="content_is_too_long" description="content_is_too_long">"محتوا بیش از حد طولانی است"</string>
+    <string name="todo_title_max_character_num">"حداکثر تعداد نویسه ها 50 است"</string>
+    <!-- smilefish -->
+    <string name="vo_shape_failed">"امکان شکل دهی این ترسیم وجود ندارد"</string>
+    <!-- smilefish -->
+    <string name="todo_widget_create" description="Create">"ایجاد کردن"</string> <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+    <string name="editor_color_picker">"لطفاً فشار دهید تا رنگی را برای قلم انتخاب کنید"</string> 
+<!-- end smilefish -->
+    <string name="brush_edit_dialog_save_successful">"با موفقیت ذخیره شد."</string>
+    <string name="brush_edit_dialog_save">"از قبل وجود دارد."</string>
+    <!--jason  -->
+    <string name="cannot_play_media_when_calling">"امکان پخش محتوای رسانه ای در حین تماس وجود ندارد"</string>
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+    <string name="template_travel_text_hint" description="hint for inputting travelling notes">"یادداشت های روزانه در اینجا نوشته شود..."</string>
+    <string name="template_travel_change_photos" description="hint for changing photos">"برای تغییر عکس ها ضربه بزنید"</string>
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+    <string name="bm_in_notebook" description="Page in notebook" maxwidth="">"نشانک در %1$s"</string>
+<!-- smilefish -->
+    <string name="page_copy" description="Copy the page" maxwidth="">"کپی"</string>
+    <string name="page_move" description="Move the page" maxwidth="">"انتقال"</string>
+    <string name="page_delete" description="Delete the page" maxwidth="">"حذف"</string>
+    <string name="page_reorder" description="Reorder the page" maxwidth="">"چینش مجدد"</string>
+    <string name="pg_in_notebook" description="Page in notebook" maxwidth="">"صفحه %1$s در %2$s"</string>
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <string name="todo_widget_add_new_memo" description="All memos">"افزودن یادداشت جدید"</string>
+    <!-- Emmanual -->
+    <string name="drawer_menu" description="menu on drawer" maxwidth="">"منو"</string>
+    <!-- smilefish -->
+    <string name="editor_menu_read_later" description="read later" maxwidth="">"بعداً مطالعه می کنم"</string>
+    <!-- smilefish -->
+    <string name="sdcard_full_no_add" description="sdcard is full">"ذخیره سازی صفحه جدید یا دفترچه یادداشت ناموفق بود. حافظه پر است."</string>
+    <!-- emmanual -->
+    <string name="sdcard_full_no_save" description="sdcard is full">"ذخیره سازی صفحه یا دفترچه یادداشت ویرایش شده ناموفق بود. حافظه پر است."</string>
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <string name="pg_sort_by_name" description="page sort by name">"به ترتیب پیش فرض بازگردانده شد؛ ترتیب بر اساس نام"</string>
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <string name="tutorial_info_content1" description="tutorial info for supernote">"بهترین برنامه یادداشت برداری در زیر انگشتان شما."</string>
+    <string name="tutorial_info_title2" description="Cloud sync">"همگام سازی ابری"</string>
+    <string name="tutorial_info_content2" description="tutorial info for cloud sync">"با دریافت یک حساب ابری رایگان، داده های خود را در هر جا و زمانی روی حافظه ابری ذخیره نمایید."</string>
+    <string name="tutorial_info_title3" description="3 editing modes">"3 حالت ویرایش"</string>
+    <string name="tutorial_info_content3" description="tutorial info for editing modes">"در Supernote بنویسید، تایپ کنید، و رسم کنید. مناسب ترین روش را مطابق به امور خود انتخاب نمایید."</string>
+    <string name="tutorial_info_title4" description="Insert content">"وارد کردن محتوا"</string>
+    <string name="tutorial_info_content4" description="tutorial info for insert content">"با وارد کردن تصاویر، صداها یا ویدئوها، محتوای خود را غنی کنید."</string>
+    <string name="skip_this_tutorial" description="skip this tutorial">"پرش"</string>
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <string name="editor_menu_nextpage" maxwidth="12">"صفحه بعدی"</string>
+    <string name="editor_menu_prepage" maxwidth="12">"صفحه قبلی"</string>
+    <string name="auto_add_page" maxwidth="12">"در حال پردازش\u2026"</string>
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <string name="insert_audiofile">"فایل صوتی"</string>
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <string name="audiofile_not_exist">"فایل وجود ندارد!"</string>
+    <string name="audiofile_not_mp4">"فایل صوتی را نمی توان وارد دفترچه یادداشت کرد!"</string>
+    <string name="editor_func_button_last_edit_page">"اجرا در آخرین صفحه ویرایش شده"</string>
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <string name="title_send_email">"ارسال ایمیل"</string>
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <string name="about_title">"درباره"</string>
+    <string name="about_legal_information">"اطلاعات حقوقی"</string>
+    <string name="about_legal_information_des">"استفاده ا این نرم افزار منوط به رعایت شرایط و ضوابط ASUS است."</string>
+    <string name="about_website">"وب سایت"</string>
+    <string name="about_allrights">"شرکت رایانه ای ASUSTek. کلیه حقوق محفوظ است."</string>
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="nb_add_choose_title">"ایجاد دفترچه یادداشت جدید"</string>
+    <string-array name="nb_add_choose_item">
+        <item>"دفترچه یادداشت خالی"</item>
+        <item>"قالبی را انتخاب کنید"</item>
+    </string-array>
+    <string name="no_notebooks">"دفترچه یادداشتی وجود ندارد"</string>
+    <string name="stub_app_notice_title" description="stub app notice title" maxwidth="-1">"توجه"</string>
+    <string name="stub_app_notice_content" description="stub app notice content" maxwidth="-1">"لطفاً ابتدا با رفتن به فروشگاه برنامه Google Play، برنامه را به آخرین نسخه موجود به روزرسانی کنید. متشکریم."</string>
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"لطفاً ابتدا با رفتن به فروشگاه برنامه Asus، برنامه را به آخرین نسخه موجود به روزرسانی کنید. متشکریم."</string>
+    <string name="cta_act_mobile_network">"شبکه"</string>
+    <string name="cta_msg_mobile_network">"سعی می کند به شبکه تلفن همراه متصل شود. استفاده از شبکه تلفن همراه ممکن است هزینه در بر داشته باشد. برای اجتناب از ایجاد هزینه، اتصال شبکه تلفن همراه را در صورت عدم استفاده قطع کنید."</string>
+    <string name="voice">"صدا"</string>
+    <string name="error_sdcard_access_nosdcard">"دسترسی به حافظه USB امکان پذیر نیست"</string>
+    <string name="error_sdcard_access">"دسترسی به کارت SD امکان پذیر نیست"</string>
+    <string name="startfail">"شروع فرآیند ضبط امکان پذیر نیست؛ لطفاً اطمینان حاصل کنید که برنامه دیگری در حال استفاده از میکروفن نباشد."</string>
+    <string name="sync_setting_wifi_auto">"همگام سازی خودکار فقط از طریق WiFi"</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <string name="reading_pdf_prompt">"در حال خوانش PDF..."</string>
+    <string name="choose_pdf_prompt">"صفحات PDF را انتخاب نمایید"</string>
+    <string name="import_pdf_prompt">"در حال آماده سازی برای وارد کردن صفحه(های) PDF..."</string>
+    <string name="pdf_import" description="Import PDF" maxwidth="">"وارد کردن PDF"</string>
+    <string name="pdf_seelcted">"انتخاب شده ها:" </string>
+    <string name="import_pdf_progress" formatted="false">"واردسازی PDF: %s از %s"</string>
+    <string name="add_book_from_pdf" maxwidth="">"از PDF"</string>
+    <string name="reading_pdf_error" maxwidth="">"امکان باز کردن فایل وجود ندارد!"</string>
+    <string name="reading_pdf_encrypted" maxwidth="">"فایل PDF که دارای رمز عبور باشد قابل واردسازی نیست."</string>
+    <string name="reading_pdf_invalid" maxwidth="">"واردسازی فایل امکان پذیر نیست. لطفاً از سالم بودن فایل اطمینان حاصل کنید."</string>
+    <string name="error" maxwidth="">"خطا"</string>
+    <string name="editor_func_button_page_transtion">"جلوه پویانمایی برای صفحه زدن"</string>
+    <string name="download_title" maxwidth="12">"در حال دانلود\u2026"</string>
+    <string name="insert_text_too_large">"وارد کردن ناموفق بود، زیرا فایل متنی حاوی کلمات بسیار زیاد است."</string>
+    <!-- smilefish -->
+    <string name="settings_encourage_us_title" maxWidth="">"ما را تشویق کنید"</string>
+    <string name="settings_encourage_us_detail" translate="true">"اگر %s را دوست دارید، در Play Store با 5 ستاره به ما امتیاز دهید. ما را تشویق می کنید تا محصول را بهبود ببخشیم!\n\nاگر پیشنهادی دارید، از طریق Facebook و قسمت راهنمایی با ما در میان بگذارید."</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">"اکنون امتیاز دهید"</string>
+    <string name="later_action_no_apps" description="Text for indicating there are no apps to open the content" maxwidth="-1">"هیچ برنامه ای برای تکمیل این کار نیست"</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">"برای امتیاز دادن به بالا بروید"</string>
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"دسترسی به فایل ها امکان پذیر نیست"</string>
+    <string name="force_permission_sub_title">"%1$s برای دسترسی و ذخیره فایل های شما در دستگاه، مجوز %2$s را درخواست می کند."</string>
+    <string name="force_permission_turn_on">"فعال کردن"</string>
+    <string name="force_permission_storage">"حافظه"</string>
+    <string name="force_permission_show_settings">"برای فعال کردن مجوز <b>%2$s</b> در <b>اطلاعات برنامه</b> > <b>مجوزها</b> روی <b>تنظیمات</b> ضربه بزنید، سپس %1$s را مجدداً راه اندازی کنید."</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"حرکات پیمایش"</string>
+    <string name="navigate_tutorial_content">"با استفاده از دو انگشت، آزادانه در صفحه پیمایش کنید. وقتی در حالت فقط مطالعه هستید، می توانید در پنجره پیش نمایش، صفحه را حرکت دهید."</string>
+    <string name="navigate_tutorial_content_phone">"با استفاده از دو انگشت، صفحه را در پنجره پیش نمایش آزادانه به حرکت در آورید."</string>
+    <string name="navigate_tutorial_scroll">"برای حرکت دادن صفحه در جهت عمودی، نگه دارید"</string>
+    <!-- end smilefish -->
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="uf_sdk_faq">ČPP</string>
+  <string name="uf_sdk_feedback_and_help">Povratne informacije i pomoć</string>
+  <string name="uf_sdk_forum_description">Pridružite se razgovoru s ASUS-ovim korisnicima i saznajte ili podijelite svoja rješenja</string>
+  <string name="uf_sdk_help">Pomoć</string>
+  <string name="uf_sdk_instant_answer_question">Jesu li vam ova česta pitanja pomogla?</string>
+  <string name="uf_sdk_like">Sviđa mi se</string>
+  <string name="uf_sdk_msg_bad_email_format">Adresa e-pošte nije ispravna, pokušajte ponovno.</string>
+  <string name="uf_sdk_msg_confirm_discard_topic">Vaša skica neće se spremiti. Želite li ju svejedno izbrisati?</string>
+  <string name="uf_sdk_msg_confirm_discard_topic_title">Izbrisati objavu?</string>
+  <string name="uf_sdk_msg_subscribe">Obavijesti o statusu teme dobit ćete putem e-pošte.</string>
+  <string name="uf_sdk_msg_subscribe_success">Uspješna aktivacija praćenja</string>
+  <string name="uf_sdk_msg_ticket_created">Vaše povratne informacije uspješno su poslane u ASUS</string>
+  <string name="uf_sdk_msg_topic_created">Uspješno objavljeno</string>
+  <string name="uf_sdk_msg_unsubscribe">Uspješni prekid praćenja</string>
+  <string name="uf_sdk_name_hint">Unesite svoje ime</string>
+  <string name="uf_sdk_network_error">Nema veze s internetom, provjerite mrežne postavke.</string>
+  <string name="uf_sdk_no_network_connection_content">Ažuriranje podataka nije moguće. Provjerite mrežne postavke. </string>
+  <string name="uf_sdk_no_network_connection_title">Nema mrežne veze</string>
+  <string name="uf_sdk_nothing_found">Ništa nije pronađeno</string>
+  <string name="uf_sdk_notice">Obavijest</string>
+  <string name="uf_sdk_publish_an_topic">Objavi novu temu</string>
+  <string name="uf_sdk_search_hint">Potraži pomoć</string>
+  <string name="uf_sdk_select_common_bug">Odaberite uobičajenu pogrešku</string>
+  <string name="uf_sdk_send_feedback">Pošalji povratnu informaciju</string>
+  <string name="uf_sdk_send_feedback_help">Vaše povratne informacije i adresa e-pošte bit će poslani u ASUS. Servisni tim će vas kontaktirati putem e-pošte.</string>
+  <string name="uf_sdk_submit_topic">Objavi</string>
+  <string name="uf_sdk_subscribe_dialog_title">Prati ovu temu</string>
+  <string name="uf_sdk_title_topic">Tema</string>
+  <string name="uf_sdk_topic">Tema</string>
+  <string name="uf_sdk_topic_description_heading">Opis</string>
+  <string name="uf_sdk_topic_description_hint">Detaljno opišite svoju temu</string>
+  <string name="uf_sdk_topic_filter">TEME</string>
+  <string name="uf_sdk_topic_form_help">Kada objavite temu na korisničkom forumu, ostali korisnici moći će ju pratiti i komentirati. Osim toga, kada član ASUS-ovog razvojnog tima odgovori na temu, dobit ćete obavijest putem e-pošte.</string>
+  <string name="uf_sdk_topic_form_title">Objavi novu temu</string>
+  <string name="uf_sdk_topic_text_heading">Forum</string>
+  <string name="uf_sdk_topic_text_hint">Unesite naslov teme</string>
+  <string name="uf_sdk_topic_title">Naslov</string>
+  <string name="uf_sdk_translation_117562">Vrsta povratne informacije</string>
+  <string name="uf_sdk_translation_2529543">Izvješće o pogrešci</string>
+  <string name="uf_sdk_translation_2529544">Drugo</string>
+  <string name="uf_sdk_translation_2530478">Prijedlog</string>
+  <string name="uf_sdk_unhelpful_article_message_question">Želite li poslati povratne informacije ASUS-ovom razvojnom timu?</string>
+  <string name="uf_sdk_user_forum">Korisnički forum</string>
+  <string name="uf_sdk_warning">Upozorenje</string>
+  <string name="uf_sdk_wifi_settings">Postavke bežične mreže</string>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s izraza sviđanja za ovu temu</item>
+        <item quantity="other">%1$s izraz sviđanja za ovu temu</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">tema</item>
+        <item quantity="other">teme</item>
+    </plurals>
+</resources>

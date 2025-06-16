@@ -1,0 +1,73 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="ud_sdk_portrait_layout_paddingStart">13dp</dimen>
+    <dimen name="ud_sdk_portrait_layout_paddingEnd">13dp</dimen>
+
+    <dimen name="ud_sdk_item_linearLayout_layout_marginBottom">10dp</dimen>
+    <dimen name="ud_sdk_footer_layout_offset">4dp</dimen>
+
+    <!--ListView item-->
+    <dimen name="ud_sdk_item_slogan_text_view_marginTop">7dp</dimen>
+    <dimen name="ud_sdk_item_slogan_text_view_drawablePadding">7dp</dimen>
+    <dimen name="ud_sdk_item_slogan_text_view_layout_height">38dp</dimen>
+    <dimen name="ud_sdk_item_slogan_text_view_textSize">12sp</dimen>
+
+    <dimen name="ud_sdk_item_image_view_icon_width">60dp</dimen>
+    <dimen name="ud_sdk_item_image_view_icon_height">60dp</dimen>
+    <dimen name="ud_sdk_item_image_view_icon_marginEnd">12dp</dimen>
+    <dimen name="ud_sdk_item_image_view_icon_marginBottom">10dp</dimen>
+    <dimen name="ud_sdk_item_image_view_icon_marginTop">7dp</dimen>
+
+    <dimen name="ud_sdk_item_app_title_textSize">15sp</dimen>
+    <dimen name="ud_sdk_item_app_title_marginBottom">8dp</dimen>
+    <dimen name="ud_sdk_item_app_title_marginTop">1dp</dimen>
+
+    <dimen name="ud_sdk_item_app_rating_textSize">34sp</dimen>
+    <dimen name="ud_sdk_item_app_rating_layout_marginEnd">10dp</dimen>
+
+    <dimen name="ud_sdk_item_app_rating_bar_layout_height">12dp</dimen>
+    <dimen name="ud_sdk_item_app_rating_bar_layout_marginBottom">3dp</dimen>
+
+    <dimen name="ud_sdk_item_app_downloads_text_size">10sp</dimen>
+    <dimen name="ud_sdk_item_app_downloads_layout_marginTop">3dp</dimen>
+
+    <dimen name="ud_sdk_list_view_button_layout_width">70dp</dimen>
+    <dimen name="ud_sdk_list_view_button_textSize">15sp</dimen>
+    <dimen name="ud_sdk_list_view_button_layout_height">34dp</dimen>
+    <dimen name="ud_sdk_list_view_button_paddingStart">10dp</dimen>
+    <dimen name="ud_sdk_list_view_button_paddingEnd">10dp</dimen>
+
+    <dimen name="ud_sdk_list_view_footer_layout_paddingStart">40dp</dimen>
+    <dimen name="ud_sdk_list_view_footer_layout_paddingEnd">40dp</dimen>
+    <dimen name="ud_sdk_list_view_footer_layout_paddingTop">10dp</dimen>
+    <dimen name="ud_sdk_list_view_footer_layout_paddingBottom">10dp</dimen>
+    <dimen name="ud_sdk_list_view_footer_layout_layout_height">68dp</dimen>
+    <dimen name="ud_sdk_list_view_button_more_text_size">16sp</dimen>
+    <dimen name="ud_sdk_list_view_button_more_height">48dp</dimen>
+
+    <dimen name="ud_sdk_list_view_dividerHeight">1dp</dimen>
+
+    <dimen name="ud_sdk_important_icon_layout_marginStart">10dp</dimen>
+    <dimen name="ud_sdk_important_icon_layout_marginEnd">4dp</dimen>
+    <dimen name="ud_sdk_important_text_size">11sp</dimen>
+
+    <!--Panel ViewPager-->
+    <dimen name="ud_sdk_list_view_header_root_layout_height">170dp</dimen>
+    <dimen name="ud_sdk_list_view_header_pager_layout_height">150dp</dimen>
+    <dimen name="ud_sdk_list_view_header_pager_dot_marginBottom">2dp</dimen>
+
+    <!--Landscape Layout-->
+    <dimen name="ud_sdk_land_list_view_layout_marginStart">55dp</dimen>
+    <dimen name="ud_sdk_land_list_view_layout_marginEnd">55dp</dimen>
+    <dimen name="ud_sdk_land_list_view_layout_marginTop">10dp</dimen>
+    <dimen name="ud_sdk_land_list_view_paddingStart">10dp</dimen>
+    <dimen name="ud_sdk_land_list_view_paddingEnd">10dp</dimen>
+
+    <dimen name="ud_sdk_land_slogan_text_view_layout_height">28dp</dimen>
+
+    <dimen name="ud_sdk_land_list_view_footer_layout_paddingStart">45dp</dimen>
+    <dimen name="ud_sdk_land_list_view_footer_layout_paddingEnd">45dp</dimen>
+
+    <!--ActionBar-->
+    <dimen name="ud_sdk_action_bar_title_size">25dp</dimen>
+</resources>

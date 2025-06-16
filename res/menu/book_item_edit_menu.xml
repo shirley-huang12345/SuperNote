@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:id="@+id/menu_book_rename" 
+        android:title="@string/rename"/>
+    
+    <item 
+        android:id="@+id/menu_book_hide" 
+        android:title="@string/nb_lock"/>
+    <item 
+        android:id="@+id/menu_book_unhide" 
+        android:title="@string/nb_unhide"/>
+  	<item 
+        android:id="@+id/menu_book_lock_hide" 
+        android:title="@string/nb_lock_hide"/>
+    <item 
+        android:id="@+id/menu_book_delete" 
+        android:title="@string/nb_del"/>
+    
+   <item android:id="@+id/menu_export" android:title="@string/export">
+        <menu>
+            <item android:id="@+id/menu_book_export_to_pdf" android:title="@string/export_pdf" />
+            <item android:id="@+id/menu_book_export" android:title="@string/export_supernote_format" />
+        </menu>
+    </item>
+    <item android:id="@+id/menu_book_sync" android:title="@string/nb_sync" />
+    <item android:id="@+id/menu_book_async" android:title="@string/nb_async" />
+    <!--begin darwin  -->
+    <item android:id="@+id/menu_book_editcover" android:title="@string/nb_editcover"   />
+    <!--end   darwin  -->
+    <item 
+        android:id="@+id/menu_book_hwr" 
+        android:title="@string/nb_Write_Text_Recognition"/>
+    <item 
+        android:id="@+id/menu_book_property" 
+        android:title="@string/nb_property"/>
+</menu>

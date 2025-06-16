@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group 
+        android:id="@+id/menu_edit_group" 
+        android:visible="false">
+        
+	    <item
+            android:id="@+id/menu_page_del"
+            android:icon="@drawable/asus_ic_delete"
+            android:showAsAction="always"
+            android:title="@string/page_delete"/>
+                
+       <item android:id="@+id/menu_page_share"
+            android:showAsAction="never"
+            android:title="@string/editor_menu_share"/> 
+
+        <item
+            android:id="@+id/menu_page_copy"
+            android:showAsAction="never"
+            android:title="@string/page_copy"/>
+
+        <item
+            android:id="@+id/menu_page_move"
+            android:showAsAction="never"
+            android:title="@string/page_move"/>
+        
+        <item android:id="@+id/menu_export" 
+            android:title="@string/nb_export"
+            android:showAsAction="never"/>
+        </group>
+		<!--editor_share_to_dialog_title & editor_menu_share -->
+<!-- Carol -->
+    
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0px" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="start|center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/note_kb_color_bold"
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="9dp"
+            android:background="@drawable/function_bar_item_press_selector"
+            android:layout_gravity="center"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_color" />           
+        
+        <Button
+            android:id="@+id/note_kb_sel_write_to_type"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/recognize_press_selector"
+            android:drawablePadding="0dp"
+            android:maxLines="0"
+            android:textSize="10dp"
+            android:text="@string/editor_func_button_recognize"/>
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="end|center_vertical"
+        android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="1dp"
+	        android:layout_height="26dp"
+	        android:layout_gravity="center"
+	        android:layout_marginEnd="10dp"
+	        android:src="@color/function_bar_line_color"/>
+        
+        <Button
+	        android:id="@+id/note_kb_done"
+	        android:layout_width="30dp"
+	        android:layout_height="match_parent"
+	        android:layout_marginEnd="18dp"
+	        android:gravity="center"
+	        android:background="@drawable/done_press_selector"/>
+        
+    </LinearLayout>
+
+</FrameLayout>

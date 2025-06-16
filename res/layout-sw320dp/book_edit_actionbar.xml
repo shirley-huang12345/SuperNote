@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+    <Button
+        android:id="@+id/book_select_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:paddingStart="0dp"
+        android:singleLine="true"
+        android:paddingEnd="20dp"
+        android:layout_gravity="start|center_vertical"
+        android:textColor="@color/action_bar_text_color"
+        android:textSize="@dimen/action_mode_title_text_size"
+        android:background="@drawable/spinner_background_holo_light" />
+
+</LinearLayout>

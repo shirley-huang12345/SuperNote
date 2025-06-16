@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="direction">
+        <enum name="rightToLeft" value="0" />
+        <enum name="bottomToTop" value="1" />
+        <enum name="leftToRight" value="2" />
+        <enum name="topToBottom" value="3" />
+    </attr>
+    
+    <declare-styleable name="MultiDirectionSlidingDrawer">
+        <attr name="handle" format="reference" />
+        <attr name="content" format="reference" />
+        <attr name="direction" />
+        <attr name="bottomOffset" format="dimension"  />
+        <attr name="topOffset" format="dimension"  />
+        <attr name="allowSingleTap" format="boolean" />
+        <attr name="animateOnClick" format="boolean" />
+    </declare-styleable>
+        <declare-styleable name="TemplateEditText">  
+        <attr name="needDrawBackground" format="boolean" />  
+    	</declare-styleable>  
+    <declare-styleable name="FuncBarFrameLayout">
+        <attr name="drag" format="reference"/>
+        <attr name="funcbar" format="reference" />
+        <attr name="more_hide" format="reference"/>
+        <attr name="more_content" format="reference"/>
+    </declare-styleable>
+</resources>

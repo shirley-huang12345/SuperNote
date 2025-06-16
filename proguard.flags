@@ -1,0 +1,186 @@
+-dontoptimize
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Fragment
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.asus.supernote.NoteProvider
+-keep public class com.visionobjects.**{*;}
+-keep public class com.asus.supernote.pdfconverter.PdfConverter
+
+-dontwarn com.itextpdf.**
+-keep public class com.itextpdf.**{ *; }
+-keep public class * extends com.itextpdf.**
+
+-dontwarn com.asus.pen.**
+-keep public class com.asus.pen.**{*;}
+-dontwarn com.asus.supernote.CropImageActivity$MyView
+-keep public class com.asus.supernote.CropImageActivity{*;}
+
+-dontwarn com.asus.supernote.template.TemplateToDoEditText
+-keep public class com.asus.supernote.template.TemplateToDoEditText{*;}
+
+-dontwarn com.asus.supernote.template.TemplateEditText
+-keep public class  com.asus.supernote.template.TemplateEditText{ *;}
+
+-dontwarn sus.supernote.microview.MicroView
+-keep public class com.asus.supernote.microview.MicroView{ *;}
+
+-dontwarn com.asus.supernote.template.TemplateToDoTitleEditText
+-keep public class  com.asus.supernote.template.TemplateToDoTitleEditText{ *;}
+
+-dontwarn com.asus.supernote.editable.attacher.GalleryAttacher
+-keep public class  com.asus.supernote.editable.attacher.GalleryAttacher{ *;}
+
+-dontwarn com.asus.supernote.editable.noteitem.NoteImageItem
+-keep public class  com.asus.supernote.editable.noteitem.NoteImageItem{ *;}
+
+-dontwarn com.asus.supernote.editable.noteitem.NoteTimestampItem
+-keep public class  com.asus.supernote.editable.noteitem.NoteTimestampItem{ *;}
+
+-dontwarn com.asus.supernote.microview.MicroView
+-keep public class  com.asus.supernote.microview.MicroView{ *;}
+
+-dontwarn com.asus.supernote.editable.PageEditorScrollBar
+-keep public class  com.asus.supernote.editable.PageEditorScrollBar{ *;}
+
+-dontwarn com.asus.supernote.editable.NoteEditText
+-keep public class  com.asus.supernote.editable.NoteEditText{ *;}
+
+-dontwarn com.asus.supernote.editable.HandWritingView
+-keep public class  com.asus.supernote.editable.HandWritingView{ *;}
+
+-dontwarn com.asus.supernote.MyBitCastImportActivity
+-keep public class  com.asus.supernote.MyBitCastImportActivity{ *;}
+
+-dontwarn com.asus.supernote.editable.noteitem.NoteSendIntentItem
+-keep public class  com.asus.supernote.editable.noteitem.NoteSendIntentItem{ *;}
+
+-dontwarn com.asus.supernote.widget.WidgetProvider$WidgetInitTask
+-keep public class  com.asus.supernote.widget.WidgetProvider$WidgetInitTask{ *;}
+
+-dontwarn com.asus.supernote.EditorActivity
+-keep public class  com.asus.supernote.EditorActivity{ *;}
+
+-dontwarn com.asus.supernote.widget.WidgetShowAllBookActivity
+-keep public class com.asus.supernote.widget.WidgetShowAllBookActivity{ *;}
+
+-dontwarn com.asus.supernote.data.MetaData
+-keep public class com.asus.supernote.data.MetaData{ *;}
+
+-dontwarn com.asus.supernote.picker.PickerUtility
+-keep public class com.asus.supernote.picker.PickerUtility{ *;}
+
+
+-dontwarn com.uservoice.uservoicesdk.**
+-keep public class com.uservoice.uservoicesdk.**{ *; }
+
+-dontwarn  android.support.v4.**
+
+-dontwarn com.asus.supernote.doodle.DoodleView
+-keep public class com.asus.supernote.doodle.DoodleView{ *;}
+
+-dontwarn com.asus.supernote.doodle.drawinfo.ArcDrawInfo
+-dontwarn com.asus.supernote.doodle.drawinfo.ShapeDrawInfo
+-dontwarn com.asus.supernote.doodle.drawtool.PenDrawTool
+-dontwarn com.asus.supernote.inksearch.**
+-dontwarn com.asus.supernote.ga.GACollector
+-dontwarn oauth.signpost.signature.OAuthMessageSigner
+-dontwarn com.asus.commonui.drawerlayout.DrawerLayout
+-dontwarn com.asus.supernote.doodle.DoodleView
+-dontwarn com.asus.supernote.doodle.DoodleView$ActionRecord
+-dontwarn com.asus.supernote.widget.**
+
+-keep public class com.asus.supernote.EditorActivity{ *;}
+-keep public class com.asus.supernote.MyBitCastImportActivity{ *;}
+-keep public class com.asus.supernote.data.MetaData{ *;}
+-keep public class com.asus.supernote.doodle.DoodleView{ *;}
+-keep public class com.asus.supernote.editable.**{ *;}
+-keep public class com.asus.supernote.microview.MicroView{ *;}
+-keep public class com.asus.supernote.quicknote.QuickNoteService{ *;}
+-keep public class com.asus.supernote.template.**{ *;}
+-keep public class com.asus.supernote.widget.**{ *;}
+-keep public class com.asus.supernote.ga.GACollector{ *;}
+-keep public class com.asus.supernote.FeedbackReceiver{ *;}
+-keep public class com.asus.supernote.WebStorageLogin{ *;}
+-keep public class com.asus.supernote.widget.WidgetItemStore{ *;}
+-keep public class com.asus.supernote.doodle.DoodleView$ActionRecord{ *;}
+
+-dontwarn com.android.volley.toolbox.**
+-dontwarn com.asus.supernote.classutils.MethodUtils
+-keep public class com.asus.supernote.classutils.MethodUtils{*;}
+-dontwarn com.asus.supernote.doodle.ShapeRecgnizeTask
+-keep public class com.asus.supernote.doodle.ShapeRecgnizeTask{*;}
+-dontwarn com.asus.supernote.uservoice.UserVoiceConfig
+-keep public class com.asus.supernote.uservoice.UserVoiceConfig{*;}
+-dontwarn com.asus.supernote.picker.NoteBookPickerActivity
+-keep public class com.asus.supernote.picker.NoteBookPickerActivity{*;}
+
+
+
+
+
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclassmembers class *{
+    @android.content.Context <fields>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+# AsusUpdateSdk
+-keep class com.asus.updatesdk.** {
+public *;
+}
+
+# SafeParcelable
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+public static final *** NULL;
+}
+
+# GoogleAnalytics
+-keep public class com.google.android.gms.analytics.** {
+public protected *;
+}
+
+# Glide and GlideModule
+-keep public class * implements com.bumptech.glide.module.GlideModule
+-keep public enum com.bumptech.glide.load.resource.bitmap.ImageHeaderParser$** {
+**[] $VALUES;
+public *;
+}
+
+# Apache Http
+-keep class org.apache.http.** { *; }
+
+-dontwarn com.asus.updatesdk.**
+-dontwarn com.google.android.gms.**
+-dontwarn com.bumptech.glide.**
+-dontwarn org.apache.http.**
+-dontwarn org.apache.commons.**
+-dontwarn android.net.**

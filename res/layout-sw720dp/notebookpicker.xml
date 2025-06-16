@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.commonui.colorful.ColorfulLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/colorful_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.asus.commonui.drawerlayout.DrawerLayout
+         android:id="@+id/drawer_layout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@color/notebook_gridview_color" >
+
+    <RelativeLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/drawer_background_color"
+        android:choiceMode="singleChoice"
+        android:clickable="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="13dp"
+                    android:fontFamily="sans-serif-light"
+                    android:maxWidth="300dp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/theme_color"
+                    android:textSize="30sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal" >
+                
+                <ImageView 
+                    android:layout_width="4dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="start|top"
+                    android:layout_marginTop="5dp"
+                    android:src="#ffc600"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|top"
+                    android:layout_marginStart="15dp"
+                    android:maxWidth="300dp"
+                    android:text="@string/drawer_menu"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp" />
+            </LinearLayout>
+            
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:src="#ffffff" />
+
+            <LinearLayout
+                android:id="@+id/sync_book_setting"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+                
+                <ImageView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginStart="15dp"
+	                android:src="@drawable/asus_menu_log_in" />
+
+                <TextView
+                    android:id="@+id/statebar_nosync"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:maxWidth="300dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/drawer_itemview1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" 
+                android:background="@drawable/drawer_item_container_selector" >
+                
+                <ImageView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginStart="15dp"
+	                android:src="@drawable/asus_menu_notebooks" />
+
+                <TextView
+                    android:id="@+id/drawer_textview1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginStart="15dp"
+                    android:maxWidth="250dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/drawer_numview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_marginEnd="10dp"
+                    android:maxWidth="50dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/drawer_allpage"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" 
+                android:background="@drawable/drawer_item_container_selector" >
+                
+                <ImageView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginStart="15dp"
+	                android:src="@drawable/asus_menu_pages" />
+
+                <TextView
+                    android:id="@+id/drawer_allpage_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginStart="15dp"
+                    android:maxWidth="250dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/drawer_allpage_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_marginEnd="10dp"
+                    android:maxWidth="50dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/drawer_itemview2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/drawer_item_container_selector" >
+
+                <ImageView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginStart="15dp"
+	                android:src="@drawable/asus_menu_bookmark" />
+                                
+                <TextView
+                    android:id="@+id/drawer_textview2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginStart="15dp"
+                    android:maxWidth="250dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/drawer_numview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_marginEnd="10dp"
+                    android:maxWidth="50dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/drawer_itemview3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/drawer_item_container_selector" >
+                
+                <ImageView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginStart="15dp"
+	                android:src="@drawable/asus_menu_timestamp" />
+                
+                <TextView
+                    android:id="@+id/drawer_textview3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:layout_marginStart="15dp"
+                    android:maxWidth="250dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/drawer_numview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:layout_marginEnd="10dp"
+                    android:maxWidth="50dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/statebar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/statebar_syncpro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxWidth="300dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"
+                 />
+
+            <ImageView
+                android:id="@+id/statebar_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/asus_ep_sync" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/left_side"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+	</com.asus.commonui.drawerlayout.DrawerLayout>
+</com.asus.commonui.colorful.ColorfulLinearLayout>

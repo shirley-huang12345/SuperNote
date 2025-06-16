@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/editor_func_button_search"
+    android:hint="@string/editor_func_button_search"
+    android:searchMode="showSearchIconAsBadge"
+    android:imeOptions="actionSearch"
+    android:inputType="textCapSentences"  
+    android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"
+    android:voiceLanguageModel="web_search">
+</searchable>

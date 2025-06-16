@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uf_sdk_feedback_and_help">Zpětná vazba a nápověda</string>
+    <string name="uf_sdk_user_forum">Uživatelské fórum</string>
+    <string name="uf_sdk_help">Nápověda</string>
+    <string name="uf_sdk_send_feedback">Odeslat zpětnou vazbu</string>
+    
+    <!--asus-->
+    <string name="uf_sdk_faq">FAQ</string>
+    <string name="uf_sdk_network_error">Žádné připojení k Internetu, prosím zkontrolujte nastavení vaší sítě.</string>
+    <string name="uf_sdk_msg_ticket_created">Váš názor byl úspěšně odeslán společnosti ASUS</string>
+    <string name="uf_sdk_unhelpful_article_message_question">Chcete odeslat názor týmu vývojářů ASUS?</string>
+    <string name="uf_sdk_name_hint">Zadejte vaše jméno</string>
+
+
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">téma</item>
+        <item quantity="other">témat</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s se libí toto téma</item>
+        <item quantity="other">%1$s se libí toto téma</item>
+    </plurals>
+
+    <string name="uf_sdk_submit_topic">Zveřejnit</string>
+    <string name="uf_sdk_topic_form_title">Zveřejnit nové téma</string>
+    <string name="uf_sdk_title_topic">Téma</string>
+    <string name="uf_sdk_subscribe_dialog_title">Přihlásit se k odběru tohoto tématu</string>
+    <string name="uf_sdk_topic">Téma</string>
+    <string name="uf_sdk_msg_topic_created">Úspěšně zveřejněno</string>
+    <string name="uf_sdk_topic_description_heading">Popis</string>
+    <string name="uf_sdk_topic_description_hint">Popište podrobně vaše téma</string>
+    <string name="uf_sdk_topic_text_heading">Fórum</string>
+    <string name="uf_sdk_topic_title">Titul</string>
+    <string name="uf_sdk_topic_text_hint">Zapište název vašeho tématu</string>
+    <string name="uf_sdk_topic_form_help">Po zveřejnění tématu na uživatelském fóru se mohou ostatní uživatelé přihlásit k odběru tématu a komentovat jej. Když tým vývojářů ASUS odpoví na vaše téma, budete informováni e-mailem.</string>
+    <string name="uf_sdk_msg_subscribe">Přihlášení k odběru oznámení o stavu tématu vám bude doručeno e-mailem.</string>
+    <string name="uf_sdk_msg_subscribe_success">Přihlášení k odběru bylo úspěšné</string>
+    <string name="uf_sdk_msg_unsubscribe">Zrušení přihlášení k odběru bylo úspěšné</string>
+    <string name="uf_sdk_msg_confirm_discard_topic_title">Odstranit příspěvek?</string>
+    <string name="uf_sdk_msg_confirm_discard_topic">Váš koncept nebude uložen Chcete jej přesto odstranit?</string>
+    <string name="uf_sdk_publish_an_topic">Zveřejnit nové téma</string>
+    <string name="uf_sdk_topic_filter">TÉMATA</string>
+
+    <string name="uf_sdk_search_hint">Hledat</string>
+    <string name="uf_sdk_translation_117562">Typ zpětné vazby</string>
+    <string name="uf_sdk_translation_2530478">Návrh</string>
+    <string name="uf_sdk_translation_2529543">Hlášení o chybě</string>
+    <string name="uf_sdk_translation_2529544">Jiné</string>
+    <string name="uf_sdk_msg_bad_email_format">Neplatná e-mailová adresa, zkuste to prosím znovu.</string>
+    <string name="uf_sdk_warning">Varování</string>
+
+    <string name="uf_sdk_instant_answer_question">Jsou tyto odpovědi na nejčastější dotazy užitečné?</string>
+    <string name="uf_sdk_forum_description">Připojte se konverzaci s uživateli ASUS a nalézejte a sdílejte vaše řešení</string>
+    <string name="uf_sdk_nothing_found">Nic nenalezeno</string>
+    <string name="uf_sdk_send_feedback_help">Vaše zpětná vazba a adresa budou odeslány společnosti ASUS. Servisní tým vás bude kontaktovat e-mailem.</string>
+
+
+
+    <string name="uf_sdk_no_network_connection_content">Nelze zaktualizovat data. Prosím zkontrolujte vaše nastavení sítě. </string>
+    <string name="uf_sdk_no_network_connection_title">Žádné síťové připojení</string>
+    <string name="uf_sdk_notice">Upozornění</string>
+    <string name="uf_sdk_select_common_bug">Vyberte běžnou chybu</string>
+    <string name="uf_sdk_wifi_settings">Nastavení Wi-Fi</string>
+    <string name="uf_sdk_wlan_settings">Nastavení WLAN</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.supernote.template.TemplateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/templateTravellayoutpad"
+    android:layout_width="match_parent"
+    android:layout_height="248.667dp"
+    android:layout_gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.asus.supernote.template.TemplateImageView
+                android:id="@+id/travel_image"
+                android:layout_width="match_parent"
+                android:layout_height="218.66667dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pf_p_picture_l_pad" />
+
+            <RelativeLayout
+                android:id="@+id/travel_date"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|top"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/asus_diary_edit_bg"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/travel_date_ic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/asus_diary_edit_ic" />
+
+                <com.asus.supernote.template.TemplateEditText
+                    android:id="@+id/travel_date_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="7dp"
+                    android:layout_toStartOf="@+id/travel_date_ic"
+                    android:focusable="false"
+                    android:fontFamily="Roboto"
+                    android:gravity="end|center_vertical"
+                    android:hint="@string/template_travel_tips_date"
+                    android:textColorHint="@color/diary_template_date_font_color"
+                    android:singleLine="false"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/travel_image_edit"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:layout_gravity="bottom"
+                android:background="#19000000"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Roboto"
+                    android:singleLine="false"
+                    android:text="@string/template_travel_change_photos"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:src="@drawable/asus_diary_camera_ic" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <com.asus.supernote.template.TemplateEditText
+            android:id="@+id/travel_title_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/template_travel_titleheight"
+            android:hint="@string/template_travel_tips_title"
+            android:imeOptions="flagNoFullscreen"
+            android:textColorHint="#46b3f5"
+            android:singleLine="true"
+            android:textCursorDrawable="@drawable/cursor3px_50px"
+            android:textSize="@dimen/font_size"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</com.asus.supernote.template.TemplateLayout>

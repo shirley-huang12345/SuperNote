@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uf_sdk_connection_error_title">\u63a5\u7d9a\u30a8\u30e9\u30fc</string>
+    <string name="uf_sdk_connection_error_msg">\u63a5\u7d9a\u306f\u30b5\u30fc\u30d0\u30fc\u306b\u3088\u3063\u3066\u4e2d\u6b62\u3055\u308c\u307e\u3057\u305f\u3002\u5f8c\u3067\u3084\u308a\u76f4\u3057\u3066\u304f\u3060\u3055\u3044\u3002</string>
+</resources>

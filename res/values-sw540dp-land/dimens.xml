@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="baseline_top">30dp</dimen>
+    <dimen name="baseline_shift">0px</dimen>
+    <dimen name="baseline_bottom_shift">22.71dp</dimen>
+    <dimen name="baseline_scale">6px</dimen>
+	<!-- Begin: show -->
+	<dimen name="all_page_view_itemspace">47dp</dimen>
+	<!-- End: show -->
+	
+	<!-- Begin Richard For Multi Window-->
+	<dimen name="multi_window_page_item">148dp</dimen>
+	<dimen name="multi_window_page_item_left_margin">47dp</dimen>
+	<!-- End Richard -->
+
+	<!-- Begin: smilefish -->
+	<dimen name="edit_cover_dialog_width">778dp</dimen>
+	<dimen name="edit_cover_dialog_height">494dp</dimen>
+	
+	<dimen name="bottom_bar_button_scribble_width">313dp</dimen>
+	
+	<dimen name="todo_widget_item_content_width">290dp</dimen>
+	
+	<dimen name="forced_permission_page">52dp</dimen>
+	<dimen name="forced_permission_text_margin_left">130dp</dimen>
+	<dimen name="forced_permission_image_margin_top">38dp</dimen>
+	<dimen name="forced_permission_image_width">340dp</dimen>
+	<dimen name="forced_permission_image_height">210dp</dimen>
+	<!-- End: smilefish -->
+	<dimen name="hand_panel_view_height">280dp</dimen>
+	<dimen name="hand_panel_view_min_height">290dp</dimen>
+	
+    <!-- Begin Emmanual -->
+    <dimen name="insert_dropdown_lmr_position_x">0dp</dimen>
+    <dimen name="insert_dropdown_lmr_position_y">-484dp</dimen>
+    <!-- End Emmanual -->
+    
+    <dimen name="widget_replace_dialog_width">540dp</dimen>
+    <dimen name="widget_replace_dialog_height">398dp</dimen>
+    
+    <dimen name="widget_dialog_book_width">220dp</dimen>
+	<dimen name="widget_dialog_book_height">295dp</dimen>
+
+	<dimen name="widget_tab_allBook_width_al">143dp</dimen>
+	<dimen name="widget_tab_allBook_height">36dp</dimen>
+	<dimen name="widget_template_book_width">120dp</dimen>
+	<dimen name="widget_template_book_height">145dp</dimen>
+	<dimen name="widget_tab_hori_space">30dp</dimen>
+	<dimen name="widget_gridview_margin">23dp</dimen>
+	
+	<dimen name="continious_line_tips_desc_margin_top">88dp</dimen>
+	<dimen name="continious_line_tips_welcome1_margin_top">248dp</dimen>
+	<dimen name="continious_line_tips_welcome2_margin_top">226dp</dimen>
+</resources>

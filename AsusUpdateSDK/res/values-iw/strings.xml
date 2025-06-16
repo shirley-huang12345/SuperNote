@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ud_sdk_update_sdk" maxwidth="-1">משפחת ZenUI</string>
+    <string name="ud_sdk_update_sdk_asus" maxwidth="-1">עדכון מיידי של ZenUI</string>
+    <string name="ud_sdk_asus_app_slogan">יישומים שימושיים</string>
+    <string name="ud_sdk_downloads">הורדות</string>
+    <string name="ud_sdk_free_download">הורדה בחינם</string>
+    <string name="ud_sdk_more_zen_family">גלה עוד יישומי ZenUI</string>
+    <string name="ud_sdk_install">התקן</string>
+    <string name="ud_sdk_update">עדכן</string>
+    <string name="ud_sdk_open">פתח</string>
+    <string name="ud_sdk_no_network_connection_title">אין חיבור לרשת</string>
+    <string name="ud_sdk_no_network_connection_content">לא ניתן לעדכן את הנתונים. בדוק את הגדרות הרשת שלך.</string>
+    <string name="ud_sdk_wifi_settings">הגדרות Wi-Fi</string>
+    <string name="ud_sdk_all_app_update">"כל היישומים משתמשים בגרסה עדכנית."</string>
+    <string name="ud_sdk_important_remind_text">"חשוב"</string>
+</resources>

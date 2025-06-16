@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="151dp"
+    android:layout_height="73dp"
+    android:orientation="vertical"
+    android:padding="0px" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+        
+        <ImageView
+            android:id="@+id/editor_func_bold_false"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/asus_supernote_b_press_selector"
+            android:scaleType="center">
+        </ImageView>
+        
+        <ImageView
+            android:id="@+id/editor_func_color_red"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="19dp"
+            android:background="@drawable/asus_supernote_b_red_n"
+            android:scaleType="center"
+            android:src="@drawable/asus_supernote_b_color_press_selector"/>
+
+        <ImageView
+            android:id="@+id/editor_func_color_blue"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/asus_supernote_b_blue_n"
+            android:scaleType="center"
+            android:src="@drawable/asus_supernote_b_color_press_selector"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:id="@+id/editor_func_bold_true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/asus_supernote_b_bold_press_selector"
+            android:scaleType="center">
+        </ImageView>
+        
+        <ImageView
+            android:id="@+id/editor_func_color_green"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="19dp"
+            android:background="@drawable/asus_supernote_b_green_n"
+            android:scaleType="center"
+            android:src="@drawable/asus_supernote_b_color_press_selector"/>
+        
+        <ImageView
+            android:id="@+id/editor_func_color_black"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/asus_supernote_b_black_n"
+            android:scaleType="center"
+            android:src="@drawable/asus_supernote_b_color_press_selector"/>
+    </LinearLayout>
+
+</LinearLayout>

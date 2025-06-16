@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left">6dp</dimen>
+    <dimen name="top">4.66dp</dimen>
+    <dimen name="right">0.63dp</dimen>
+    <dimen name="bottom">0.63dp</dimen>
+    
+    <dimen name="font_size">51.851852px</dimen>
+    <dimen name="memo_link_text_size">20dp</dimen>
+    
+    <dimen name="baseline_top">215dp</dimen>
+    <dimen name="baseline_shift">-25dp</dimen>
+    <dimen name="baseline_bottom_shift">6dp</dimen>
+    <dimen name="baseline_scale">8px</dimen>
+    
+    <dimen name="thumb_padding_left">5dp</dimen>
+    <dimen name="thumb_padding_top">15dp</dimen>
+    
+    <dimen name="phone_book_width">800px</dimen>
+    <dimen name="phone_book_text_size_normal">49px</dimen>
+    <dimen name="phone_book_text_size_big">59.33333px</dimen>
+    <dimen name="phone_book_text_size_small">43.0166667px</dimen>
+    
+    <dimen name="pad_book_width">1724.4px</dimen>
+    <dimen name="pad_book_text_size_normal">49px</dimen>
+    <dimen name="pad_book_text_size_big">59.33333px</dimen>
+    <dimen name="pad_book_text_size_small">43.0166667px</dimen>
+        
+    <!-- Begin Siupo value = 600/1164-->
+    <dimen name="edittext_scale_pad">0.515464px</dimen>
+    <!-- End SIupo -->
+    
+    <!-- Begin Siupo -->
+    
+    <dimen name="touch_tolerance">30.0px</dimen>
+    <dimen name="click_tolerance">20.0px</dimen>
+    <dimen name="phone_vertical_scroll_bar_height">140.0px</dimen>
+    <dimen name="default_canvas_width">1280.0px</dimen>
+    <dimen name="default_canvas_height">1593.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_width">1724.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_height">2316.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_width">800.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_height">894.0px</dimen>
+    <!-- End Siupo -->
+    
+    <!-- Begin Show -->
+    <dimen name="insert_textimg_boxedit_width">383dp</dimen>
+    <dimen name="all_page_view_itemspace">40dp</dimen>
+    <!-- End show -->
+    
+    <!-- Begin Allen depends on font_size -->
+    <dimen name="template_travel_titleheight">72.5dp</dimen>
+    <!-- End Allen -->
+	<!-- Begin Siupo -->
+	<dimen name = "widget_cover_width">627px</dimen>
+	<dimen name = "widget_cover_height">701px</dimen>
+	<dimen name = "leftRatio">0.036px</dimen>
+	<dimen name = "topRatio">0.12px</dimen>
+	<dimen name = "pageLeftRatio">0.031px</dimen>
+	<dimen name = "pageTopRatio">0.115px</dimen>
+	
+	<dimen name = "AirView_BookView_One_Width">199dp</dimen>
+	<dimen name = "AirView_BookView_One_Height">256dp</dimen>
+	<dimen name = "AirView_BookView_Four_Width">371.84dp</dimen>
+	<dimen name = "AirView_BookView_Four_Height">486.07dp</dimen>
+	<!-- End Siupo -->
+	
+	<!-- Begin Richard For Multi Window-->
+	<dimen name="multi_window_page_item">148dp</dimen>
+	<dimen name="multi_window_page_item_left_margin">40dp</dimen>
+	<!-- End Richard -->
+	<!-- Begin Allen -->
+	<dimen name="pageview_airview_width">318px</dimen>
+    <dimen name="pageview_airview_height">426px</dimen>
+	<!-- End Allen -->
+	
+	<!-- Begin Emmanual -->
+	<dimen name="bottom_button_padding_top">0dp</dimen>
+    <dimen name="page_search_result_fontsize">32dp</dimen>
+	<!-- End Emmanual -->
+</resources>

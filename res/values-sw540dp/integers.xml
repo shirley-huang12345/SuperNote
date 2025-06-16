@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+      
+    <integer name="first_line_height">25</integer>
+
+    <integer name="text_line_count_big">27</integer>
+    <integer name="text_line_count_normal">32</integer>
+    <integer name="text_line_count_small">37</integer>
+
+    <integer name="first_line_height_small_screen">10</integer>
+
+    <integer name="text_line_count_big_small_screen">11</integer>
+    <integer name="text_line_count_normal_small_screen">13</integer>
+    <integer name="text_line_count_small_small_screen">15</integer>
+
+    <!-- Begin:shane -->
+    <integer name="color_picker_width">342</integer><!--by jason  -->
+    <integer name="color_picker_height">80</integer><!--by jason  -->
+    <!-- End:shane -->
+    
+    <!-- Begin:show -->
+    <integer name="is_orientation_allow">1</integer>
+    <integer name="orientation_lock_init_horizontal">0</integer>
+    <!-- End:show -->
+    
+    <!-- Begin Allen -->
+    <integer name="item_per_row">3</integer>
+    <integer name="item_per_row_landscape">5</integer>
+	<!-- Begin Allen -->
+    
+	<!-- Begin Clare -->
+	<integer name="dashline_STROKE_WIDTH">3</integer>
+	<integer name="dashline_real">25</integer>
+	<integer name="dashline_imag">10</integer>
+	<integer name="BASELINE_SOLID_LINE_ALPHA">18</integer>
+	<integer name="BASELINE_DASH_LINE_ALPHA">100</integer>
+	<!-- End  Clare -->
+	
+	<!-- Begin darwin -->
+	<integer name="baseline_dashline_blank">21</integer>
+	<integer name="baseline_dashline_line">7</integer>
+	<!-- End  darwin -->
+	
+  	<!-- BEGIN: RICHARD -->
+	<integer name="device_type">3</integer>
+	<!-- END: RICHARD -->
+	
+	<!-- Shane -->
+	<integer name="eraser_popup_menu_position_x">-110</integer>
+	<integer name="eraser_popup_menu_position_y">4</integer>
+	
+	<!-- Begin:show -->
+    <integer name="is_continue_write">1</integer>
+    <integer name="bottomMackView_Width">570</integer>
+    <integer name="sel_color_bold_popup_menu_position_x">0</integer>
+	<integer name="sel_color_bold_popup_menu_position_y">4</integer>
+	<integer name="color_bold_popup_menu_position_x">0</integer>
+	<integer name="color_bold_popup_menu_position_y">4</integer>
+	<integer name="penmenu_popup_position_x">-68</integer>
+	<integer name="penmenu_popup_position_y">6</integer>
+	<integer name="mode_popup_menu_position_x">0</integer>
+	<integer name="mode_popup_menu_position_y">4</integer>
+    <!-- End:show -->
+    
+    <!-- Allen -->
+    <!-- LineHeight+LineSpace+paddingTop -->
+    <integer name="todo_line_height">68</integer>
+    <!-- Allen --> 
+    
+    <!-- Begin:show -->
+    <!-- tutorial load mode:0,phone;1,pad;2,both -->
+    <integer name="tutorial_mode">0</integer> 
+    <integer name="cropimage_out_view_height">150</integer>
+    <!-- End:show -->  
+    
+    <integer name="paint_stroke_factor">3</integer>  <!-- Carol -->
+    
+    <!-- Being Emmanual -->
+    <integer name="select_dlg_colums_num">4</integer>
+	<!-- End Emmanual -->
+
+	<integer name="meeting_template_font_size">17</integer> <!-- Smilefish -->
+	
+	<!-- Being Dave -->
+    <integer name="drawer_item_textsize_normal">20</integer>
+    <integer name="drawer_item_textsize_pressed">21</integer>
+    <!-- End Dave -->
+    
+    <integer name="start_width">380</integer> <!-- Carol -->
+    <integer name="increment_width">133</integer> <!-- Carol -->
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+	<!-- Begin:show -->
+    <integer name="is_continue_write">0</integer>
+    <!-- End:show -->
+    
+    <!-- Being Emmanual -->
+    <integer name="select_dlg_colums_num">7</integer>
+	<dimen name="select_dlg_shadow">12dp</dimen>    
+	<!-- End Emmanual -->
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/uv_listPreferredItemHeightSmall"
+        android:orientation="vertical"
+        android:paddingLeft="8dip"
+        android:layout_weight="1" >
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/uv_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/uf_sdk_user_forum" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/uv_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#666666"
+            android:text="@string/uf_sdk_forum_description"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+        <ProgressBar android:id="@+id/uf_sdk_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+        <LinearLayout android:id="@+id/uf_sdk_forum_count_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView android:id="@+id/uf_sdk_forum_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#ff8400"
+                android:textStyle="bold"
+                android:layout_marginBottom="-7dp"/>"
+            <TextView android:id="@+id/uf_sdk_forum_count_unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="#666666"/>"
+        </LinearLayout>
+    </FrameLayout>
+    "
+</LinearLayout>

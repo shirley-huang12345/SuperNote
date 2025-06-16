@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_bar_button_height">
+
+    <View
+        android:id="@+id/bottom_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/content_bg_bar" >
+    </View>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/bottom_bar_button_padding_bottom">
+
+        <Button
+            android:id="@+id/note_kb_insert"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:paddingTop="@dimen/bottom_button_padding_top"
+            android:drawableTop="@drawable/asus_supernote_insert"
+            android:background="@drawable/function_bar_item_press_selector"
+            android:layout_gravity="start"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_insert" />
+        			
+            <FrameLayout 
+	            android:layout_width="@dimen/bottom_bar_button_scribble_width"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center">
+            
+	            <Button
+		            android:id="@+id/bottom_last"
+		            android:layout_width="34.6dp"
+		            android:layout_height="match_parent"
+		        	android:background="@drawable/asus_supernote_pro_press_selector"
+		        	android:layout_gravity="start|center_vertical"/>
+	            
+	            <Button
+		            android:id="@+id/bottom_next"
+		            android:layout_width="34.6dp"
+		            android:layout_height="match_parent"
+		        	android:background="@drawable/asus_supernote_next_press_selector"
+		        	android:layout_gravity="end|center_vertical"/>
+            
+	            <LinearLayout
+		            android:id="@+id/linearLayout1_1"
+	                android:layout_width="wrap_content"
+		            android:orientation="horizontal"
+		            android:layout_height="match_parent"
+		            android:layout_gravity="center" >
+			
+		            <TextView
+		                android:id="@+id/textview_page_number"
+		                android:layout_width="wrap_content"
+		                android:layout_height="match_parent"
+		                android:gravity="center_vertical"
+		                android:textColor="#5a5a5a"
+		                android:textSize="17sp" />
+		
+		            <TextView
+		                android:id="@+id/textview_page_number_slash"
+		                android:layout_width="wrap_content"
+		                android:layout_height="match_parent"
+		                android:gravity="center_vertical"
+		                android:text="@string/slash"
+		                android:textColor="#5a5a5a"
+		                android:textSize="17sp" />
+		
+		            <TextView
+		                android:id="@+id/textview_page_number_total"
+		                android:layout_width="wrap_content"
+		                android:layout_height="match_parent"
+		                android:background="@null"
+		                android:gravity="center_vertical"
+		                android:textColor="#5a5a5a"
+		                android:textSize="17sp" />
+	            </LinearLayout>
+
+        </FrameLayout>
+        
+        <ImageButton
+            android:id="@+id/note_kb_add"
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_marginEnd="26dp"
+            android:src="@drawable/asus_supernote_add_n"
+        	android:background="@drawable/asus_floating_button_selector"
+            android:layout_gravity="end|center_vertical"
+            android:maxLines="0"
+            android:text="@string/editor_menu_addpage" />
+        
+    </FrameLayout>
+</FrameLayout>

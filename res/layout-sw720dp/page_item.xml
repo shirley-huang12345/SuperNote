@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/notebook_item_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="@dimen/notebook_item_width"
+        android:layout_height="@dimen/notebook_item_height" >
+
+        <ImageView
+            android:id="@+id/page_cover"
+            android:layout_width="@dimen/notebook_item_width"
+            android:layout_height="@dimen/notebook_item_height"
+            android:layout_gravity="start|bottom"
+            android:scaleType="fitXY"
+            android:src="#555555" />
+
+        <ImageView
+            android:layout_width="@dimen/notebook_item_width"
+            android:layout_height="@dimen/notebook_item_height"
+            android:background="@drawable/notebook_item_border" />
+        
+		<ImageView
+                android:id="@+id/page_check"
+                android:layout_width="@dimen/notebook_item_width"
+                android:layout_height="@dimen/notebook_item_height"
+                android:scaleType="fitXY"
+				android:background="@drawable/asus_icon_c"
+                android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/page_cover_mask"
+            android:layout_width="@dimen/notebook_item_width"
+            android:layout_height="@dimen/notebook_item_height"
+            android:layout_gravity="start|bottom"
+            android:clickable="true"
+            android:src="@drawable/asus_ep_page_pressed_selector" />
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="@dimen/notebook_item_width"
+        android:layout_height="28dp" >
+    		
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:gravity="center"
+		    android:orientation="horizontal" >
+
+		        <TextView
+		            android:id="@+id/page_time"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="#505050"
+		            android:textSize="16dp"
+		            android:fontFamily="sans-serif"/>
+		        
+		        <TextView
+		            android:id="@+id/page_date"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginStart="1dp"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="#505050"
+		            android:textSize="16dp"
+		            android:fontFamily="sans-serif"/>
+        </LinearLayout>
+        
+		<TextView
+            android:id="@+id/page_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:textColor="#e9ac1d"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed"/>
+		
+	</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/asus_commonui_textfield_clearable_pressed_right_dark"
+    android:insetBottom="@dimen/asus_commonui_widget_inset_bottom"
+    android:insetRight="@dimen/asus_commonui_widget_inset_right"
+    android:insetTop="@dimen/asus_commonui_widget_inset_top" />

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.supernote.template.TemplateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:supernote="http://schemas.android.com/apk/res/com.asus.supernote"
+    android:id="@+id/templateMeetinglayoutpad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="#eeeeee"/>
+     
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/asus_meeting_topic"/>         
+
+            <com.asus.supernote.template.TemplateEditText
+                android:id="@+id/topic_edit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textSize="@dimen/pad_book_text_size_normal"
+                android:imeOptions="flagNoFullscreen"
+                android:background="@drawable/no"
+		        supernote:needDrawBackground="true"
+                android:textCursorDrawable="@drawable/cursor3px_50px"
+                android:hint="@string/template_meeting_topic_hint"
+                android:textColorHint="#969696"
+                android:textColor="#00aed7"/>
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:src="#cacaca"/>
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+			    android:layout_marginEnd="12dp"
+                android:src="@drawable/asus_meeting_time"/>
+            <LinearLayout 
+                android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="4"
+	            android:layout_gravity="center_vertical"
+	            android:orientation="horizontal" >
+	            <com.asus.supernote.template.TemplateEditText
+	                android:id="@+id/start_time_edit"
+	                android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+	                android:singleLine="false"
+	                android:focusable="false"
+	                android:gravity="center"
+	                android:layout_gravity="center_vertical"
+	                android:paddingStart="0dp"
+	                android:background="@drawable/no"
+			        supernote:needDrawBackground="true" />
+	            <com.asus.supernote.template.TemplateEditText
+	                android:id="@+id/start_date_edit"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:singleLine="false"
+	                android:focusable="false"
+	                android:paddingStart="10dp"
+	                android:gravity="center"
+	                android:layout_gravity="center_vertical"
+	                android:background="@drawable/no"
+			        supernote:needDrawBackground="true"/>
+	            <com.asus.supernote.template.TemplateTextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginStart="10dp" 
+	                android:layout_marginEnd="10dp"
+	                android:layout_gravity="center_vertical"        
+	                android:text="@string/shortLine"/>
+	            <com.asus.supernote.template.TemplateEditText
+	                android:id="@+id/end_time_edit"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:singleLine="false"
+	                android:focusable="false"
+	                android:paddingStart="0dp"
+	                android:gravity="center_vertical"  
+	                android:background="@drawable/no"
+			        supernote:needDrawBackground="true"
+	                android:layout_gravity="center_vertical"/>
+	            <com.asus.supernote.template.TemplateEditText
+	                android:id="@+id/end_date_edit"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:singleLine="false"
+	                android:focusable="false"
+	                android:paddingStart="10dp"
+	                android:gravity="center"
+	                android:layout_gravity="center_vertical"
+	                android:background="@drawable/no"
+	                supernote:needDrawBackground="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        
+		<ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:src="#cacaca"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal" >
+
+           <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="12dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/asus_meeting_cooper"/>
+            <LinearLayout 
+                android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:layout_gravity="center_vertical"
+	            android:orientation="horizontal" >
+                
+                <com.asus.supernote.template.TemplateEditText
+	                android:id="@+id/attendee_edit"
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                android:singleLine="true"
+	                android:textSize="@dimen/pad_book_text_size_normal" 
+	                android:gravity="center_vertical"
+	                android:imeOptions="flagNoFullscreen"
+	                android:background="@drawable/no"
+					supernote:needDrawBackground="true"
+                	android:textCursorDrawable="@drawable/cursor3px_50px"
+                	android:hint="@string/template_meeting_attendee_hint"
+                	android:textColorHint="#969696"
+                    android:textColor="#00aed7"/>
+	            
+                <ImageView
+                    android:id="@+id/attendee_button"
+                    android:layout_width="44dp"
+	                android:layout_height="44dp"
+	                android:layout_gravity="end|center_vertical"
+                	android:layout_marginEnd="16dp"
+                    android:src="@drawable/asus_addcontact_selector" />
+            </LinearLayout>
+        </LinearLayout>        
+    </LinearLayout>
+
+</com.asus.supernote.template.TemplateLayout>

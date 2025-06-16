@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uf_sdk_feedback_and_help">التعليقات والتعليمات</string>
+    <string name="uf_sdk_user_forum">منتدى المستخدم</string>
+    <string name="uf_sdk_help">التعليمات</string>
+    <string name="uf_sdk_send_feedback">إرسال تعليق</string>
+    
+    <!--asus-->
+    <string name="uf_sdk_faq">الأسئلة الشائعة</string>
+    <string name="uf_sdk_network_error">إذا كان لا يوجد اتصال بالإنترنت, فيُرجَى التحقق من إعدادات الشبكة لديك.</string>
+    <string name="uf_sdk_msg_ticket_created">تم إرسال تعقيبك بنجاح إلى ASUS </string>
+    <string name="uf_sdk_unhelpful_article_message_question">هل تريد إرسال تعقيب إلى فريق تطوير ASUS؟ </string>
+    <string name="uf_sdk_name_hint">أدخل اسمك</string>
+
+
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">الموضوع</item>
+        <item quantity="other">الموضوعات</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s يعجبه هذا الموضوع</item>
+        <item quantity="other">%1$s يعجبهم هذا الموضوع</item>
+    </plurals>
+
+    <string name="uf_sdk_submit_topic">نشر</string>
+    <string name="uf_sdk_topic_form_title">نشر موضوع جديد</string>
+    <string name="uf_sdk_title_topic">الموضوع</string>
+    <string name="uf_sdk_subscribe_dialog_title">الاشتراك في هذا الموضوع</string>
+    <string name="uf_sdk_topic">الموضوع</string>
+    <string name="uf_sdk_msg_topic_created">تم النشر بنجاح</string>
+    <string name="uf_sdk_topic_description_heading">الوصف</string>
+    <string name="uf_sdk_topic_description_hint">صف موضوعك بالتفصيل</string>
+    <string name="uf_sdk_topic_text_heading">المنتدى</string>
+    <string name="uf_sdk_topic_title">العنوان</string>
+    <string name="uf_sdk_topic_text_hint">أكتب عنوان موضوعك</string>
+    <string name="uf_sdk_topic_form_help">عندما تنشر موضوعك على منتدى المستخدم, سيتمكن المستخدمون الآخرون من المشاركة فيه والتعليق عليه. عندما يستجيب فريق تطوير ASUS لموضوعك, سيتم إعلامك عبر البريد الإلكتروني..</string>
+    <string name="uf_sdk_msg_subscribe">سيتم تسليم الاشترك في إشعارات حالة الموضوع لك عبر البريد الإلكتروني.</string>
+    <string name="uf_sdk_msg_subscribe_success">تم الاشتراك بنجاح</string>
+    <string name="uf_sdk_msg_unsubscribe">تم إلغاء الاشتراك بنجاح</string>
+    <string name="uf_sdk_msg_confirm_discard_topic_title">هل تريد حذف المنشور؟</string>
+    <string name="uf_sdk_msg_confirm_discard_topic">لن يتم حفظ مسودتك. هل تريد الحذف على أي حال؟</string>
+    <string name="uf_sdk_publish_an_topic">نشر موضوع جديد</string>
+    <string name="uf_sdk_topic_filter">الموضوعات</string>
+
+    <string name="uf_sdk_search_hint">بحث</string>
+    <string name="uf_sdk_translation_117562">نوع التعقيب</string>
+    <string name="uf_sdk_translation_2530478">اقتراح</string>
+    <string name="uf_sdk_translation_2529543">إبلاغ عن مشكلة</string>
+    <string name="uf_sdk_translation_2529544">أخرى</string>
+    <string name="uf_sdk_msg_bad_email_format">عنوان البريد الإلكتروني غير صالح, يُرجَى المحاولة مرة أخرى.</string>
+    <string name="uf_sdk_warning">تحذير</string>
+    
+    <string name="uf_sdk_instant_answer_question">هل هذه الأسئلة الشائعة مفيدة؟</string>
+    <string name="uf_sdk_forum_description">الانضمام للمحادثة مع مستخدمي ASUS للعثور على الحلول الخاصة بك ومشاركتها</string>
+    <string name="uf_sdk_nothing_found">لم يتم العثور على شيء</string>
+    <string name="uf_sdk_send_feedback_help">سيتم إرسال تعقيبك وعنوان بريدك الإلكتروني إلى ASUS. سيتصل بك فريق الخدمة عبر البريد الإلكتروني.</string>
+
+
+    <string name="uf_sdk_no_network_connection_content">يتعذر تحديث البيانات. يُرجَى التحقق من إعدادات الشبكة لديك. </string>
+    <string name="uf_sdk_no_network_connection_title">لا يوجد اتصال بالشبكة</string>
+    <string name="uf_sdk_notice">ملحوظة</string>
+    <string name="uf_sdk_select_common_bug">اختيار مشكلة شائعة</string>
+    <string name="uf_sdk_wifi_settings">إعدادات Wi-Fi</string>
+    <string name="uf_sdk_wlan_settings">إعدادات WLAN</string>
+</resources>

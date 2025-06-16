@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <group android:id="@+id/menu_lock_group" 
+        android:visible="false">
+        <item
+            android:id="@+id/menu_lock"
+            android:showAsAction="always"
+            android:title="@string/null_string"
+            android:actionLayout="@layout/notebooks_menu_lock_and_unlock"/>
+    </group> 
+
+    <item
+        android:id="@+id/menu_page_unbookmark"
+        android:icon="@drawable/asus_ic_delete"
+        android:showAsAction="always"
+        android:title="@string/remove_from_jump"
+        android:visible="false"/>
+
+    <group 
+        android:id="@+id/menu_edit_group_book" 
+        android:visible="false">
+   
+        <item
+	        android:id="@+id/menu_page_del_book"
+	        android:icon="@drawable/asus_ic_delete"
+	        android:showAsAction="always"
+	        android:title="@string/page_delete"/>
+    
+        <item android:id="@+id/menu_export" android:title="@string/nb_export" 
+            android:showAsAction="never">
+            <menu>
+                <item android:id="@+id/menu_page_export_pdf" android:title="@string/export_pdf"/>
+                <item android:id="@+id/menu_page_export" android:title="@string/export_supernote_format" />
+            </menu>
+        </item>
+    </group>
+</menu>

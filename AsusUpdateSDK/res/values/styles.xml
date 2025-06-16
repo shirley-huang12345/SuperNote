@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AsusUpdateSdkTheme" parent="android:Theme.DeviceDefault.Light">
+        <item name="android:homeAsUpIndicator">@drawable/ud_sdk_asus_ic_up</item>
+        <item name="android:actionBarStyle">@style/ud_sdk_ActionBarStyle</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="ud_sdk_ActionBarStyle"
+           parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/ud_sdk_ActionBarTitleTextStyle</item>
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+        <item name="android:backgroundStacked">@color/ud_sdk_background_white</item>
+    </style>
+
+    <style name="ud_sdk_ActionBarTitleTextStyle"
+           parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse">
+        <item name="android:textColor">@color/ud_sdk_action_bar_text_grey</item>
+        <item name="android:textSize">@dimen/ud_sdk_action_bar_title_size</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/airview_layout"
+        android:layout_width="164dp"
+        android:layout_height="224dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/air1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/asus_airview_page_default" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/asus_airview_photo_board_light" />
+
+        <ImageView
+            android:id="@+id/airview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000ff"
+            android:scaleType="fitXY" >
+        </ImageView>
+</RelativeLayout>

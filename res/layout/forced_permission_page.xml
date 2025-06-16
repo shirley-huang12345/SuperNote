@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fafafa" >
+
+    <TextView
+        android:id="@+id/force_permission_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/forced_permission_page"
+        android:layout_marginStart="@dimen/forced_permission_text_margin_left"
+        android:layout_marginEnd="@dimen/forced_permission_text_margin_left"
+        android:layout_gravity="center"
+        android:text="@string/force_permission_title"
+        android:textColor="#0dafed"
+        android:textSize="@dimen/forced_permission_title_text_size"/>
+
+    <TextView
+        android:id="@+id/force_permission_sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/forced_permission_subtext_margin_top"
+        android:layout_marginStart="@dimen/forced_permission_text_margin_left"
+        android:layout_marginEnd="@dimen/forced_permission_text_margin_left"
+        android:gravity="center"
+        android:text="@string/force_permission_sub_title"
+        android:textColor="#282929"
+        android:textSize="@dimen/forced_permission_subtitle_text_size" />
+    
+    <ImageView
+        android:id="@+id/force_permission_image"
+        android:layout_marginTop="@dimen/forced_permission_image_margin_top"
+        android:layout_width="@dimen/forced_permission_image_width"
+        android:layout_height="@dimen/forced_permission_image_height"
+        android:layout_gravity="center"
+        android:background="@drawable/asus_permission_image_p"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/turn_on_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/forced_permission_button_height"
+            android:minWidth="@dimen/forced_permission_button_min_width"
+            android:layout_marginBottom="@dimen/forced_permission_button_margin_bottom"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/asus_oval_button_selector"
+            android:textSize="@dimen/continious_line_tips_continue_text_size"
+            android:textColor="#FFFFFF"
+            android:text="@string/force_permission_turn_on" />
+    </FrameLayout>
+
+</LinearLayout>

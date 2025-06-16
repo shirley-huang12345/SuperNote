@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+		android:id="@+id/menu_page_copy"
+		android:title="@string/page_copy"/>
+    <item
+        android:id="@+id/menu_page_move"
+        android:title="@string/page_move"/>
+    <item
+        android:id="@+id/menu_page_del"
+        android:title="@string/page_delete"/>
+    <item
+        android:id="@+id/menu_page_reorder"
+        android:title="@string/page_reorder"/>
+    <item
+        android:id="@+id/menu_page_share"
+        android:title="@string/editor_menu_share"/>
+    <item
+        android:id="@+id/menu_page_export"
+        android:title="@string/nb_export"/>
+</menu>

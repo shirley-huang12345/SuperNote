@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="0px" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="start"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/note_kb_textimg_scribble"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:background="@drawable/scribble_mode_selector"
+            android:text="@string/editor_func_button_scribble"
+			android:maxLines="0" />
+
+        <Button
+            android:id="@+id/note_kb_textimg_keyboard"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/type_press_selector"
+            android:text="@string/editor_func_button_keyboard"
+            android:maxLines="0"/>
+
+        <Button
+            android:id="@+id/note_kb_color_bold"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:gravity="center"
+            android:background="@drawable/function_bar_item_press_selector"
+            android:layout_gravity="center"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_color" />
+
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="end|center_vertical"
+        android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/note_kb_undo"
+            android:layout_width="34.5dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/no_bg"
+            android:drawableTop="@drawable/undo_press_selector"
+            android:layout_gravity="center"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_undo" />
+        
+        <Button
+            android:id="@+id/note_kb_redo"
+            android:layout_width="34.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:gravity="center"
+            android:background="@drawable/no_bg"
+            android:drawableTop="@drawable/redo_press_selector"
+            android:layout_gravity="center"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_redo" />
+        
+        <ImageView 
+            android:layout_width="1dp"
+	        android:layout_height="26dp"
+	        android:layout_gravity="center"
+	        android:layout_marginStart="10dp"
+	        android:layout_marginEnd="10dp"
+	        android:src="@color/function_bar_line_color"/>
+        
+        <Button
+	        android:id="@+id/note_kb_textimg_cancle"
+	        android:layout_width="34.5dp"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:background="@drawable/cancel_press_selector"/>
+        
+        <Button
+	        android:id="@+id/note_kb_textimg_done"
+	        android:layout_width="34.5dp"
+	        android:layout_height="match_parent"
+	        android:layout_marginStart="22dp"
+	        android:layout_marginEnd="26dp"
+	        android:gravity="center"
+	        android:background="@drawable/next_press_selector"/>
+        
+    </LinearLayout>
+
+</FrameLayout>

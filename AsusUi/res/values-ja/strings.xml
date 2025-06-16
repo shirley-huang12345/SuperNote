@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Label for button to confirm chosen date or time [CHAR LIMIT=30] -->
+    <string name="asus_commonui_done_label">"OK"</string>
+    <string name="asus_commonui_cancel_label">"キャンセル"</string>
+    <!--
+         Content description for the hour selector in the time picker, which displays
+         selectable hours of the day along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="asus_commonui_hour_picker_description">"円形スライダー（時）"</string>
+    <!--
+         Content description for the minute selector in the time picker, which displays
+         selectable five-minute intervals along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="asus_commonui_minute_picker_description">"円形スライダー（分）"</string>
+    <!-- Accessibility announcement for hour circular picker [CHAR LIMIT=NONE] -->
+    <string name="asus_commonui_select_hours">"時間を選択"</string>
+    <!-- Accessibility announcement for minute circular picker [CHAR LIMIT=NONE] -->
+    <string name="asus_commonui_select_minutes">"分を選択"</string>
+    <!--
+        Content description for the month and day selector in the date picker, which displays
+        a selectable grid of days laid out by month.
+        [CHAR LIMIT=50]
+     -->
+    <string name="asus_commonui_day_picker_description">"日グリッド（月別）"</string>
+    <!--
+        Content description for the year selector in the date picker, which displays
+        a scrolling, vertical list of years.
+        [CHAR LIMIT=50]
+     -->
+    <string name="asus_commonui_year_picker_description">"年リスト"</string>
+    <!-- Accessibility announcement for the day picker [CHAR LIMIT=NONE] -->
+    <string name="asus_commonui_select_day">"月と日を選択"</string>
+    <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
+    <string name="asus_commonui_select_year">"年を選択"</string>
+    <!-- Accessibility description for the item that is currently selected. -->
+    <string name="asus_commonui_item_is_selected">"<xliff:g id="ITEM">%1$s</xliff:g>を選択しました"</string>
+    <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
+    <string name="asus_commonui_deleted_key">"<xliff:g id="KEY">%1$s</xliff:g>を削除しました"</string>
+    <!-- DO NOT TRANSLATE -->
+    <!-- DO NOT TRANSLATE -->
+    <!-- DO NOT TRANSLATE -->
+    <!-- DO NOT TRANSLATE -->
+    <!-- DO NOT TRANSLATE -->
+    <!-- Alarm hint: Describes how long from now until alarm fires -->
+    <string-array name="alarm_set">
+        <item>"アラームは今から1分以内に設定されています。"</item>
+        <item>"アラームは<xliff:g id="DAYS">%1$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="HOURS">%2$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="HOURS">%2$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="HOURS">%2$s</xliff:g>
+            <xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています。"</item>
+        <item>"アラームは<xliff:g id="DAYS">%1$s</xliff:g>と<xliff:g id="HOURS">%2$s</xliff:g>
+            <xliff:g id="MINUTES">%3$s</xliff:g>後に設定されています"</item>
+    </string-array>
+    <!-- Alarm hint: singular day -->
+    <string name="day">"1日"</string>
+    <!-- Alarm hint: plural days -->
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g>日"</string>
+    <!-- Alarm hint: singular hour -->
+    <string name="hour">"1時間"</string>
+    <!-- Alarm hint: plural hours -->
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g>時間"</string>
+    <!-- Alarm hint: singular minute  -->
+    <string name="minute">"1分"</string>
+    <!-- Alarm hint: plural minutes  -->
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g>分"</string>
+    <!-- BEGIN aaron_juan@asus.com -->
+    <string name="asus_commonui_terms_of_use_notice" tools:ignore="UnusedResources">利用規約の通知</string>
+    <string name="asus_commonui_privacy_policy" tools:ignore="UnusedResources">プライバシーポリシー</string>
+    <string name="asus_commonui_terms_of_use_notice_url" tools:ignore="UnusedResources,MissingTranslation">http://www.asus.com/JP/Terms_of_Use_Notice_Privacy_Policy/Official_Site/</string>
+    <string name="asus_commonui_privacy_policy_url" tools:ignore="UnusedResources,MissingTranslation">http://www.asus.com/JP/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy</string>
+    <!-- END aaron_juan@asus.com -->
+    <!-- BEGIN dean2_huang@asus.com -->
+    <string name="asus_commonui_shareactionprovider_share_with_application">
+        "<xliff:g id="APPLICATION_NAME">%s</xliff:g>と共有"</string>
+    <string name="asus_commonui_shareactionprovider_share_with">"共有"</string>
+    <string name="asus_commonui_activity_chooser_view_see_all">"すべて表示"</string>
+    <string name="asus_commonui_activitychooserview_choose_application">"アプリの選択"</string>
+    <string name="asus_commonui_activitychooserview_choose_application_error">
+        "<xliff:g id="APPLICATION_NAME">%s</xliff:g>を起動できませんでした"</string>
+    <string name="asus_commonui_whichHomeApplication">"ホームアプリを選択"</string>
+    <string name="asus_commonui_whichApplication">"アプリケーションを選択"</string>
+    <string name="asus_commonui_chooseActivity">"操作の選択"</string>
+    <string name="asus_commonui_noApplications">"この操作を実行できるアプリはありません。"</string>
+    <string name="asus_commonui_activity_resolver_use_always">"常時"</string>
+    <string name="asus_commonui_activity_resolver_use_once">"1回のみ"</string>
+    <!-- END dean2_huang@asus.com -->
+</resources>

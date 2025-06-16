@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="23dp"
+        android:singleLine="true"
+        android:text="@string/name"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nb_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/nb_name_hint"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:id="@+id/pageSizeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="23dp"
+            android:singleLine="true"
+            android:text="@string/page_size"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/pageSize"
+            android:layout_width="459dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"
+            android:paddingEnd="5dp"
+            android:spinnerMode="dropdown"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="23dp"
+            android:singleLine="true"
+            android:text="@string/pagecolor"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/nb_pagecolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"
+            android:checkedButton="@+id/nb_white"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@id/nb_white"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dip"
+                android:singleLine="true"
+                android:text="@string/white"
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/nb_yellow"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dip"
+                android:singleLine="true"
+                android:text="@string/yellow"
+                android:textSize="16dp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="23dp"
+            android:singleLine="true"
+            android:text="@string/book_grid_title"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/nb_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="26dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"
+            android:checkedButton="@+id/nb_grid_line"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/nb_grid_line"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/book_grid_line"
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/nb_grid_grid"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/book_grid_grid"
+                android:textSize="16dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

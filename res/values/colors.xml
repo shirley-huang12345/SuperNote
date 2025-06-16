@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="no">#00000000</drawable>
+    <drawable name="no_bg">#00FFFFFF</drawable>
+
+    <color name="note_editor_func_bar_text_color">#e9ac1d</color>
+    <color name="page_item_pressed_color">#48563B03</color>
+    
+    <drawable name="pen_picker_nobg">#00ffffff</drawable>
+    
+    <!-- BEGIN: RICHARD -->
+    <color name="search_text_high_light">#FFFF6C00</color>
+    <!-- END: RICHARD -->
+    
+     <!-- BEGIN :Clare -->
+    <color name="dashline_BOUND_GROUP_COLOR">#FF717171</color>
+     <color name="dashline_BOUND_SELECT_COLOR">#FF717171</color>
+      <color name="dashline_BOUND_CONTAIN_GROUP_COLOR">#FF717171</color>
+      
+      <color name="BASELINE_COLOR">#0051a8</color>
+        <color name="PAGELINE_COLOR">#FFcccccc</color>
+    <!-- End :Clare -->
+    
+    <!-- begin  smilefish -->
+    <color name="theme_color">#e9ac1d</color>
+    <color name="floating_button_pressed">#d19a1a</color>
+    <color name="window_background_color">#fefefe</color>
+    <color name="action_bar_bg_color">#fefefe</color>
+    <color name="uservoice_action_bar_color">#505050</color>
+    <color name="action_bar_text_color">#505050</color>
+    <color name="notebook_gridview_color">#ffffff</color>
+    <color name="edit_page_bg_color">#f7f7f7</color>
+    <color name="editor_func_bar_color">#00FFFFFF</color>
+    <drawable name="brush_preview_background_color">#f5f3db</drawable>
+    <drawable name="brush_popup_line_color">#dedede</drawable>
+    <color name="brush_library_item_press_color">#c8c8c8</color>
+    <color name="function_bar_line_color">#cbcbcb</color>
+    <color name="function_bar_dividing_line_color">#cacaca</color>
+    <color name="menu_item_press_color">#f4e3b7</color>
+    <color name="menu_item_dividing_line_color">#d3d3d3</color>
+    <color name="oval_button_color">#0dafed</color>
+    <color name="oval_button_pressed_color">#0a7fc2</color>
+    
+    <color name="timestamp_item_left_color">#1cb77b</color>
+    <color name="timestamp_item_right_color">#b5f1da</color>
+    <color name="timestamp_item_text_color">#1cb77b</color>
+    <color name="video_item_left_color">#f48941</color>
+    <color name="video_item_right_color">#f5dccb</color>
+    <color name="video_item_text_color">#f48941</color>
+    <color name="audio_item_left_color">#61b2e1</color>
+    <color name="audio_item_right_color">#d2ecfb</color>
+    <color name="audio_item_text_color">#61b2e1</color>
+    
+    <color name="dialog_content_color">#6b6b6b</color>
+    <!-- end    smilefish -->
+    <!-- begin jason -->
+    <color name="insert_selected_color">#efefef</color>
+    <!-- end jason -->
+    <!--begin Carol-->
+    <color name="eraser_selected_color">#adadad</color>
+    <!--end-->
+    
+    <!-- 蓝色 -->
+    <color name="noteeditext_link_default_color">#1122cc</color>
+    <!-- Begin Emmanual	 -->
+	<color name="diary_template_date_font_color">#ffffff</color>
+  	<!-- End Emmanual	 -->
+
+    <drawable name="hand_write_panel_background">#eaeaea</drawable>
+    <drawable name="hand_write_panel_enter_background">#505050</drawable>
+    
+	<!--     Dave -->
+    <color name="drawer_background_color">#3a4040</color>
+    <color name="drawer_item_pressed">#ffffff</color>
+    <color name="drawer_item_normal">#ebebeb</color>
+    
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="spinner_pressed_color">#90c7eb</drawable>
+    <drawable name="spinner_focused_color">#c0ddee</drawable>
+    
+    <color name="memoWidgetItemTextColor">#323232</color>
+
+</resources>

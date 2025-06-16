@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/uv_suggestion_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uf_sdk_suggestion_title"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="3dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/uv_heart" 
+                android:layout_gravity="center_vertical"/>
+            <TextView
+                android:id="@+id/uv_subscriber_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uf_sdk_12"
+                android:paddingLeft="3dp"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/uv_suggestion_status_color"
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="2dp"
+                android:background="#666666" 
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/uv_suggestion_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uf_sdk_under_review"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/uv_divider" />
+
+</LinearLayout>

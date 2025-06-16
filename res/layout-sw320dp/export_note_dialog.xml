@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/export_file_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/dialog_file_name"
+        android:textSize="18sp"
+        android:textColor="#282929" />
+
+    <EditText
+        android:id="@+id/export_file_name_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:textColor="#282929" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/dialog_save_to"
+        android:textSize="18sp"
+        android:textColor="#282929"/>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp" >
+
+        <TextView
+            android:id="@+id/export_dir_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="4dp"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true" 
+            android:focusable="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxWidth="@dimen/max_export_dir_text"
+            android:paddingEnd="0px"
+            android:singleLine="true"
+            android:textSize="15sp" 
+            android:textColor="#6b6b6b"/>
+
+        <Button
+            android:id="@+id/browser_button"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_gravity="end|center_vertical"
+            android:text="@string/browse_folder" 
+            android:textSize="18sp" 
+            android:textColor="#282929"/>
+    </FrameLayout>
+
+</LinearLayout>

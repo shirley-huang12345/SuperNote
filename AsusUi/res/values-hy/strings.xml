@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="asus_commonui_shareactionprovider_share_with_application">
+        "Համօգտագործել <xliff:g id="APPLICATION_NAME">%s</xliff:g>-ի հետ"
+    </string>
+    <string name="asus_commonui_shareactionprovider_share_with">"Տարածել"</string>
+    <string name="asus_commonui_activity_chooser_view_see_all">"Տեսնել բոլորը"</string>
+    <string name="asus_commonui_activitychooserview_choose_application">"Ընտրել ծրագիր"</string>
+    <string name="asus_commonui_activitychooserview_choose_application_error">"Սխալ"</string>
+    <string name="asus_commonui_whichHomeApplication">Select a home app</string>
+    <string name="asus_commonui_whichApplication">"ավարտել գործողությունը` օգտագործելով"</string>
+    <string name="asus_commonui_chooseActivity">"Ընտրել գործողություն"</string>
+    <string name="asus_commonui_noApplications">"Ոչ մի հավելված չի կարող կատարել այս գործողությունը:"</string>
+    <string name="asus_commonui_activity_resolver_use_always">"Միշտ"</string>
+    <string name="asus_commonui_activity_resolver_use_once">"Միայն մեկ անգամ"</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="external_libs/asus-ui.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/itextg-5.5.4.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/juniversalchardet-1.0.3.jar"/>
+	<classpathentry kind="lib" path="external_libs/com.visionobjects.myscript.engine.jar"/>
+	<classpathentry kind="lib" path="external_libs/com.visionobjects.myscript.hwr.jar"/>
+	<classpathentry kind="lib" path="external_libs/com.visionobjects.myscript.inksearch.jar"/>
+	<classpathentry kind="lib" path="external_libs/com.visionobjects.myscript.shape.jar"/>
+	<classpathentry kind="lib" path="external_libs/layoutlib.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

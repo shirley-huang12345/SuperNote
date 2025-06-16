@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.supernote.template.TemplateTodoItemLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:orientation="horizontal" >
+
+    <com.asus.supernote.template.TemplateCheckBox
+        android:id="@+id/todoCheckBox"
+        style="@style/TemplateTodoCheckBox"
+        android:layout_width="25.33dp"
+        android:layout_height="25.33dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="14dp" />
+
+    <com.asus.supernote.template.TemplateToDoPriorityButton
+        android:id="@+id/todoPriorityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/asus_memo_normal_ic" />
+
+    <com.asus.supernote.template.TemplateToDoEditText
+        android:id="@+id/todoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_weight="1"
+        android:imeOptions="flagNoFullscreen"
+        android:maxLength="@integer/todo_title_max_character_num"
+        android:singleLine="false"
+        android:textColor="#5a5a5a"
+        android:textCursorDrawable="@drawable/cursor3px"
+        android:textSize="18dp"
+        android:typeface="sans" >
+    </com.asus.supernote.template.TemplateToDoEditText>
+
+    <Button
+        android:id="@+id/todoDeleteButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/asus_memo_delete_ic" />
+
+</com.asus.supernote.template.TemplateTodoItemLinearLayout>

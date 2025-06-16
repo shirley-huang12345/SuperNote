@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="uf_sdk_faq">Česta pitanja</string>
+  <string name="uf_sdk_feedback_and_help">Povratne informacije i pomoć</string>
+  <string name="uf_sdk_forum_description">Pridružite se razgovoru sa ASUS korisnicima da biste pronašli i podelili svoja rešenja</string>
+  <string name="uf_sdk_help">Pomoć</string>
+  <string name="uf_sdk_instant_answer_question">Da li su ova česta pitanja od pomoći?</string>
+  <string name="uf_sdk_like">Sviđa mi se</string>
+  <string name="uf_sdk_msg_bad_email_format">Imejl adresa nije ispravna, pokušajte ponovo.</string>
+  <string name="uf_sdk_msg_confirm_discard_topic">Radna verzija neće biti sačuvana. Želite li svejedno da je izbrišete?</string>
+  <string name="uf_sdk_msg_confirm_discard_topic_title">Želite li da izbrišete objavu?</string>
+  <string name="uf_sdk_msg_subscribe">Prijava na obaveštenje o statusu teme će vam biti isporučena imejlom.</string>
+  <string name="uf_sdk_msg_subscribe_success">Pretplata je uspešna</string>
+  <string name="uf_sdk_msg_ticket_created">Povratne informacije su uspešno poslate ASUS-u</string>
+  <string name="uf_sdk_msg_topic_created">Uspešno objavljeno</string>
+  <string name="uf_sdk_msg_unsubscribe">Pretplata je uspešno otkazana</string>
+  <string name="uf_sdk_name_hint">Unesite ime</string>
+  <string name="uf_sdk_network_error">Nema internet veze, proverite mrežna podešavanja.</string>
+  <string name="uf_sdk_no_network_connection_content">Ažuriranje podataka nije moguće. Proverite mrežna podešavanja. </string>
+  <string name="uf_sdk_no_network_connection_title">Nema mrežne veze</string>
+  <string name="uf_sdk_nothing_found">Ništa nije pronađeno</string>
+  <string name="uf_sdk_notice">Napomena</string>
+  <string name="uf_sdk_publish_an_topic">Objavite novu temu</string>
+  <string name="uf_sdk_search_hint">Pretražite pomoć</string>
+  <string name="uf_sdk_select_common_bug">Izaberite uobičajenu grešku</string>
+  <string name="uf_sdk_send_feedback">Pošalji povratne informacije</string>
+  <string name="uf_sdk_send_feedback_help">Vaše povratne informacije i imejl adresa će biti poslati ASUS-u Uslužni tim će vas kontaktirati putem imejla.</string>
+  <string name="uf_sdk_submit_topic">Objavi</string>
+  <string name="uf_sdk_subscribe_dialog_title">Prijavite se na ovu temu</string>
+  <string name="uf_sdk_title_topic">Tema</string>
+  <string name="uf_sdk_topic">Tema</string>
+  <string name="uf_sdk_topic_description_heading">Opis</string>
+  <string name="uf_sdk_topic_description_hint">Detaljno opišite temu</string>
+  <string name="uf_sdk_topic_filter">TEME</string>
+  <string name="uf_sdk_topic_form_help">Kada objavite temu na korisničkom forumu, drugi korisnici će moći da se pretplate na nju i da ostave svoje komentare. Pored toga, kada ASUS razvojni tim odgovori na temu, bićete obavešteni putem imejla.</string>
+  <string name="uf_sdk_topic_form_title">Objavite novu temu</string>
+  <string name="uf_sdk_topic_text_heading">Forum</string>
+  <string name="uf_sdk_topic_text_hint">Unesite naslov teme</string>
+  <string name="uf_sdk_topic_title">Naziv</string>
+  <string name="uf_sdk_translation_117562">Tip povratne informacije</string>
+  <string name="uf_sdk_translation_2529543">Prijava greške</string>
+  <string name="uf_sdk_translation_2529544">Drugo</string>
+  <string name="uf_sdk_translation_2530478">Predlog</string>
+  <string name="uf_sdk_unhelpful_article_message_question">Želite li da pošaljete povratne informacije ASUS razvojnom timu?</string>
+  <string name="uf_sdk_user_forum">Korisnički forum</string>
+  <string name="uf_sdk_warning">Upozorenje</string>
+  <string name="uf_sdk_wifi_settings">Podešavanja Wi-Fi-ja</string>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s kaže da mu/joj se sviđa ova tema</item>
+        <item quantity="other">%1$s kažu da im se sviđa ova tema</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">tema</item>
+        <item quantity="other">tema/e</item>
+    </plurals>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#E6000000" >
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+        <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:src="@drawable/tutorial_10" />
+        
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginStart="160dp"
+	        android:layout_marginTop="40dp"
+	        android:maxWidth="160dp"
+	        android:textSize="15sp"
+	        android:textColor="#ffffff"
+	        android:text="@string/navigate_tutorial_scroll" />
+    </FrameLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:textSize="23sp"
+        android:textColor="#0dafed"
+        android:text="@string/navigate_tutorial_title" />
+	        
+	<TextView
+        android:id="@+id/navigate_tutorial_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+		android:layout_marginStart="32dp"
+		android:layout_marginEnd="32dp"
+        android:singleLine="false"
+        android:textSize="18sp"
+        android:textColor="#FFFFFFFF"
+        android:text="@string/navigate_tutorial_content" />
+
+	<Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:minWidth="106dp"
+        android:background="@drawable/asus_oval_button_selector"
+        android:textSize="15sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/bookpicker_ok" />
+	
+</LinearLayout>

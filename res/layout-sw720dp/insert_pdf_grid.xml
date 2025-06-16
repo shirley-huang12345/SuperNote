@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/select_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/pg_select_all"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#66CACACA" />
+
+    <GridView
+        android:id="@+id/pdf_select_content"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/insert_selected_color"
+        android:clickable="true"
+        android:columnWidth="@dimen/select_dlg_grid_widthheight"
+        android:horizontalSpacing="@dimen/select_dlg_grid_space"
+        android:numColumns="7"
+        android:stretchMode="spacingWidth"
+        android:verticalSpacing="@dimen/select_dlg_grid_space" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pdf_select_cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="@android:string/cancel" />
+
+        <Button
+            android:id="@+id/pdf_select_ok"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="@android:string/ok" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference 
+        android:key="@string/sync_setting_account_key" 
+        android:title="@string/sync_account_text"/>
+    
+    <CheckBoxPreference 
+        android:key="@string/sync_setting_auto_key" 
+        android:title="@string/sync_setting_auto"/>
+    
+    <CheckBoxPreference 
+        android:key="@string/sync_setting_wifi_auto_key" 
+        android:title="@string/sync_setting_wifi_auto"/>
+    
+    <Preference 
+        android:key="@string/sync_setting_auto_frequency_key" 
+        android:title="@string/sync_setting_auto_frequency"
+        android:summary="@string/sync_auto_interval_15"/>
+    
+	<!-- BEGIN: Show -->
+    <Preference
+        android:key="@string/account_space_usage" 
+        android:title="@string/account_space_usage"
+        android:summary="0MB of 5GB"/>
+	<!-- END: Show -->
+
+</PreferenceScreen>

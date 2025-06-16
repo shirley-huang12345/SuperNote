@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asus.supernote.template.TemplateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/templateTodolayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" >
+
+    <LinearLayout
+        android:id="@+id/templateTodoLinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/notebook_gridview_color"
+        android:orientation="vertical" >
+        
+        <com.asus.supernote.template.TemplateTodoItemLinearLayout
+            android:id="@+id/todoTitleLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:orientation="vertical" >
+            
+            <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="18dp"
+                android:src="#d2d2d2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="11dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="@string/todo_title"
+                    android:textColor="#797979"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/asus_memo_date_ic" />
+                
+                <TextView 
+                    android:id="@+id/todo_title_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:textColor="#797979"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/asus_memo_input_selector"
+                android:orientation="horizontal"
+                android:paddingStart="24dp" >
+
+                <com.asus.supernote.template.TemplateToDoTitleEditText
+                    android:id="@+id/todoTitleEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="Roboto"
+                    android:gravity="start|center_vertical"
+                    android:hint="@string/todo_title_task"
+                    android:imeOptions="flagNoFullscreen"
+                    android:maxLength="@integer/todo_title_max_character_num"
+                    android:singleLine="true"
+                    android:text="@string/todo_title_task"
+                    android:textColor="#969696"
+                    android:textCursorDrawable="@drawable/cursor3px_50px"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/memoVoiceButton"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/asus_memo_voice_ic" />
+            </LinearLayout>
+        </com.asus.supernote.template.TemplateTodoItemLinearLayout>
+
+    </LinearLayout>
+
+</com.asus.supernote.template.TemplateLayout>

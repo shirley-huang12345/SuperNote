@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editor_func_bar_keyboard_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0px" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_gravity="start|center_vertical"
+        android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/note_inputmode"
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:drawableTop="@drawable/asus_supernote_mode_keyboard_p"
+            android:background="@drawable/asus_supernote_mode_select"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_keyboard" />
+
+        <Button
+            android:id="@+id/note_kb_color_bold"
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/function_bar_item_press_selector"
+            android:layout_gravity="center"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_color" />
+
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="end|center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/note_kb_undo"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/no_bg"
+            android:drawableTop="@drawable/undo_press_selector"
+            android:layout_gravity="center"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_undo" />
+
+		<Button
+            android:id="@+id/note_kb_redo"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/no_bg"
+            android:drawableTop="@drawable/redo_press_selector"
+            android:layout_gravity="center"
+            android:maxLines="0"
+            android:text="@string/editor_func_button_redo" />
+		
+		<Button
+            android:id="@+id/note_kb_k_more"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/no_bg"
+            android:drawableTop="@drawable/asus_supernote_menu_press_selector"
+            android:layout_gravity="center"
+            android:maxLines="0"/>
+    </LinearLayout>
+
+</FrameLayout>

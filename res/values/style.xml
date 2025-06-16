@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ThemeSuperNote" parent="android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:dividerVertical">@drawable/divider_vertical_dark</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/supernotePopupTextColorLarge</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/supernotePopupTextColorSmall</item>
+        <item name="android:actionMenuTextColor">#FFFFFF</item>
+        <item name="android:actionOverflowButtonStyle">@style/supernotOverflow</item>
+        <item name="android:spinnerItemStyle">@style/supernoteSpinnerStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/supernoteSpinnerDropDownItemStyle</item>
+        <item name="android:itemTextAppearance">@style/supernoteMenuTextApearance</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionModeStyle">@style/supernoteActionMode</item>
+        <item name="android:actionButtonStyle">@style/supernoteActionButton</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asus_ic_done</item>
+        <item name="android:homeAsUpIndicator">@drawable/asus_ic_up</item>
+        <item name="android:spinnerStyle">@style/supernoteAddBookSpinnerStyle</item>
+        <item name="android:windowContentOverlay">@null</item> <!--Carol-->
+        <item name="android:actionDropDownStyle">@style/ActionDropDownStyle</item>
+        <item name="android:windowBackground">@drawable/preview_background</item>
+    </style>
+      <!-- wendy begin-->
+    <style name="ThemeSuperNote_setpassword" parent="style/ThemeSuperNote">
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+ 	<!-- wendy end-->
+ 	<!-- smilefish begin-->
+    <style name="ThemeSuperNote_home" parent="style/ThemeSuperNote">
+		<item name="android:actionBarStyle">@style/HomeActionBar</item>
+    </style>
+    <style name="HomeActionBar" parent="android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:background">@color/action_bar_bg_color</item>
+        <item name="android:height">@dimen/action_bar_height</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/Home.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="Home.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/app_title_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:textColor">@color/theme_color</item>
+    </style>
+    <!-- smilefish end-->
+ 	<!-- Begin Allen -->
+ 	<style name="TemplateTodoCheckBox" parent="android:style/Widget.CompoundButton.CheckBox">
+ 	    <item name="android:button">@drawable/template_todo_checkbox_selector</item>
+ 	</style>
+ 	<!-- End Allen -->
+    <style name="supernotePopupTextColorLarge">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="supernotePopupTextColorSmall">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ActionBar" parent="android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:background">@color/action_bar_bg_color</item>
+        <item name="android:height">@dimen/action_bar_height</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/action_bar_text_color</item>
+        <item name="android:textSize">@dimen/app_title_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">4dp</item>
+    </style>
+
+    <style name="supernoteMenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Change ActionBar Overflow -->
+    <style name="supernotOverflow" parent="android:style/Widget.DeviceDefault.ActionButton.Overflow">
+        <item name="android:src">@drawable/asus_ic_menu</item>
+        <item name="android:minHeight">@dimen/action_bar_height</item>
+        <item name="android:paddingStart">@dimen/overflow_padding_left</item>
+        <item name="android:paddingEnd">@dimen/overflow_padding_right</item>
+    </style>
+
+    <style name="supernoteSpinnerStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="supernoteSpinnerDropDownItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@drawable/spinitemcolor</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:paddingStart">10dp</item>
+    </style>
+
+   	<style name="SpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+   		<item name="android:textColor">#00FF00</item>
+	</style>
+    <style name="supernoteAddBookSpinnerStyle" parent="android:Widget.DeviceDefault.Light.Spinner">
+	   <item name="android:textColor">#FF00ff00</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="supernoteActionMode" parent="android:style/Widget.DeviceDefault.ActionMode">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/supernoteActionModeTitle</item>
+    </style>
+
+    <style name="supernoteActionModeTitle" parent="android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Title">
+        <item name="android:textSize">@dimen/action_mode_title_text_size</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:textColor">@color/action_bar_text_color</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+		<item name="android:background">@android:color/white</item>
+		<item name="android:windowBackground">@android:color/white</item>
+		<item name="android:windowNoTitle">true</item>
+</style>
+   <!-- add by mars -->
+    <style name="progress_dialog" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item> 
+        <item name="android:windowIsFloating">true</item> 
+        <item name="android:windowContentOverlay">@null</item>     
+    </style>
+    <!-- end by mars -->
+
+	<style name="NullTheme"/>
+
+    <style name="EmptyMemoTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Large">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#b4b5b5</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:shadowColor">#FFFFFF</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:gravity">top</item>
+    </style>
+    <!-- end jason -->
+    
+    <!-- add by smilefish 2013/6/20 -->
+    <style name="supernoteActionButton" parent="android:style/Widget.ActionButton">
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/action_button_padding_left</item>
+        <item name="android:paddingEnd">@dimen/action_button_padding_right</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <!-- end smilefish -->
+    
+    <style name="ActionDropDownStyle" parent="@android:style/Widget.DeviceDefault.Light.Spinner">
+    <item name="android:background">@drawable/asus_spinner_ab_light_color</item>
+	</style>
+</resources>

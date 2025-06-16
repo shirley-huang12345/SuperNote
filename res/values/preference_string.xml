@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="pref_is_sync_files_inited" description="书籍的同步信息是否被初始化过" translatable="false">pref_is_sync_files_inited</string>
+    <string name="pref_first_load" description="程式是否第一次啟動" translatable="false">first_load</string>
+    <string name="pref_first_start" description="程式是否第一次啟動" translatable="false">first_start</string>
+    <string name="pref_has_password" description="是否已經設定密碼" translatable="false">has_password</string>
+    <string name="pref_password" description="密碼" translatable="false">password</string>
+    <string name="pref_default_selected_book" description="所選擇的書本" translatable="false">default_selected_book</string>
+    <string name="pref_default_read_mode" description="預設為閱讀模式" translatable="false">default_read_mode</string>
+    <string name="pref_fast_input_value" description="輸入截斷時間" translatable="false">default_fast_input_value</string>
+    <string name="pref_picker_display_type" description="PICKER顯示方式" translatable="false">picker_display_type</string>
+    <string name="pref_about" description="SuperNote版本" translatable="false">about</string>
+    <string name="book_id" description="bookId for all page view" translatable="false">bookId</string>
+    <string name="page_id" description="pageId for all page view" translatable="false">pageId</string>
+    <string name="pref_pad_tutorial_id" description="pad tatorial book id" translatable="false">pad_tutorial_id</string>
+    <string name="pref_phone_tutorial_id" description="phone tatorial book id" translatable="false">phone_tutorial_id</string>
+    <string name="pref_default_sync_time" translatable="false">default_sync_time</string>
+    <string name="pref_AsusAccount" translatable="false">AsusAccount</string>
+    <string name="pref_AsusPassword" translatable="false">AsusPassword</string>
+    <string name="pref_AsusKey" translatable="false">AsusKey</string>
+    <string name="pref_AsusIV" translatable="false">AsusIV</string>
+    <string name="pref_Asus_AccountUsed" translatable="false">Asus AccountUsed</string>  <!-- By Show -->
+    <string name="pref_asus_auto_sync" translatable="false">Asus Auto Sync</string>
+    <string name="pref_asus_wifi_auto_sync" translatable="false">Asus wifi Auto Sync </string>    
+    <string name="pref_reset_password" translatable="false">reset_password</string>
+    <string name="pref_export_dir" translatable="false">export_dir</string>
+    <string name="timestamp_pos" translatable="false">timestamp_pos</string>
+    <string name="timestampid" translatable="false">timestampid</string>
+    <string name="pref_export_pdf_dir" translatable="false">export_pdf_dir</string>
+    <string name="lock_state" translatable="false">lock_state</string>
+    <string name="last_sync_time" translatable="false">last_sync_time</string>
+    
+    <string name="pref_index_language" translatable="false">select index language</string>
+    <string name="pref_backspace_gesture" translatable="false">select backspace gesture</string>
+    <string name="pref_prompt_handwriting_animating" translatable="false">prompt_handwriting_animating</string>
+    
+    <!-- BEGIN: Better -->
+    <string name="pref_upgrade_first_time" translatable="false">pref_upgrade_first_time</string>
+    <string name="pref_sync_upgrade_first_time" translatable="false">pref_sync_upgrade_first_time</string>
+    <!-- END: Better -->
+    <string name="pref_imported_bookid" translatable="false">imported_bookid</string>
+    
+    <string name="pref_hide_syncpompt" translatable="false">show_hide_prompt</string> <!--Carol-add for confirming sync removal-->
+    <string name="pref_baseline" translatable="false">default_baseline</string> <!--Smilefish-->
+    
+    <string name="pref_last_edit_page" translatable="false">last_edit_page</string>
+    <string name="pref_page_transtion" translatable="false">page_transtion</string>
+    <string name="pref_book_sort_type" translatable="false">book_sort_type</string>
+    <string name="pref_page_sort_type" translatable="false">page_sort_type</string>
+    
+    <string name="pref_prompt_navigate_tutorial" translatable="false">prompt_navigate_tutorial</string>
+</resources>

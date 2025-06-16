@@ -1,0 +1,247 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+import com.android.builder.DefaultManifestParser
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.9.+'
+    }
+}
+apply plugin: 'android'
+
+configurations {
+    provided
+}
+
+
+def runCmd(String target){
+    def sout =new StringBuffer()
+    def serr = new StringBuffer()
+    def proc = Runtime.runtime.exec(target, [] as String[])
+    def runing = true
+    def bufferPrinter = {buffer->
+        def lastIndex = 0
+        while(runing){
+            def length = buffer.length()
+            if(length>lastIndex){
+                print buffer.subSequence(lastIndex, length)
+                lastIndex = length
+            }
+        }
+    }
+    //Thread.start bufferPrinter.curry(sout)
+    //Thread.start bufferPrinter.curry(serr)
+    proc.consumeProcessOutput(sout, serr)
+    proc.waitFor()
+}
+
+def copyRes(String target){
+    copy{
+        from('res'){
+        }
+        into target
+    }
+}
+
+dependencies {
+    compile project('AsusUi')
+    compile project('UserVoiceSDK')
+    compile fileTree(dir: 'libs', include: '*.jar')
+    provided fileTree(dir:'external_libs', include:'*.jar')
+}
+
+
+ext.androidSdkDir = System.env.ANDROID_HOME
+if(androidSdkDir == null){
+    Properties localProps = new Properties()
+    localProps.load(new FileInputStream(file('local.properties')))
+    ex.androidSdkDir = localProps['sdk.dir']
+}
+
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+    
+    String split = Os.isFamily(Os.FAMILY_WINDOWS)?';':':'
+
+    applicationVariants.all { variant->
+        variant.javaCompile.classpath += project.configurations.provided
+        project.configurations.provided.each{File file ->
+            //println "$file.path"
+        }
+        variant.javaCompile.actions.remove(0)
+        variant.javaCompile.doFirst{
+            println "########################$variant.javaCompile.options.bootClasspath"
+            String bootClassPath = "external_libs/classes.jar${split}${androidSdkDir}/platforms/${compileSdkVersion}/android.jar"
+            //println "$bootClassPath"
+            variant.javaCompile.options.bootClasspath = bootClassPath
+        }
+        if(variant.variantData.proguardTask != null) {
+            variant.variantData.proguardTask.doFirst {
+                project.configurations.provided.each { File file ->
+                    if (file.name != 'classes.jar'){ //exclude class.jar 
+                        variant.variantData.proguardTask.libraryjars(file.path)
+                    }
+                }
+                //variant.variantData.proguardTask.libraryjars('/home/mars_li/SuperNote/SuperNote/external_libs/classes.jar')
+                //variant.variantData.proguardTask.libraryjars("${androidSdkDir}/platforms/${compileSdkVersion}/android.jar")
+            }
+        }
+
+    
+        //add for pen widget build
+        variant.processManifest.doLast{
+            if(variant.dirName == 'widget'){
+                println "###################relplace AndroidManifest################################"
+                String contents = new File( "AndroidManifest.xml" ).getText( 'UTF-8' )
+                contents = contents.replaceAll('<!-- <receiver android:name=".widget.WidgetOneProvider" >',
+                                               '<receiver android:name=".widget.WidgetOneProvider" >')
+                contents = contents.replaceAll('android:resource="@xml/widget_one_provider" />\r\n        </receiver> -->', 
+                                               'android:resource="@xml/widget_one_provider" />\r\n        </receiver>')
+                new File("${buildDir}/manifests/${variant.dirName}/AndroidManifest.xml").write( contents, 'UTF-8') 
+            }
+        }
+        variant.processResources.doFirst{
+            if(variant.dirName == 'hdpi'){
+                //variant.processResources.resDir = new File('/home/mars_li/SuperNote/build/tmp/hdpi-res')
+                cmd = "./lessenRes.py res ${variant.processResources.resDir} hdpi"
+                project.runCmd(cmd)
+            }
+            if(variant.dirName == 'mdpi')
+            {
+                cmd = "./lessenRes.py res ${variant.processResources.resDir} mdpi"
+                project.runCmd(cmd)
+            }
+            if(variant.dirName == 'hdpi')
+            {
+                cmd = "./lessenRes.py res ${variant.processResources.resDir} hdpi"
+                project.runCmd(cmd)
+            }
+            if(variant.dirName == 'tvdpi')
+            {
+                cmd = "./lessenRes.py res ${variant.processResources.resDir} tvdpi"
+                project.runCmd(cmd)
+            }
+            if(variant.dirName == 'xhdpi')
+            {
+                cmd = "./lessenRes.py res ${variant.processResources.resDir} xhdpi"
+                project.runCmd(cmd)
+            }
+            if(variant.dirName == 'xxhdpi')
+            {
+                cmd = "./lessenRes.py res ${variant.processResources.resDir} xxhdpi"
+                project.runCmd(cmd)
+            }
+            if(variant.dirName == 'hdpi_tvdpi')
+            {
+                cmd = "./lessenRes.py res ${variant.processResources.resDir} hdpi,tvdpi"
+                project.runCmd(cmd)
+            }
+            if(variant.dirName == 'hdpi_xxdpi')
+            {
+                cmd = "./lessenRes.py res ${variant.processResources.resDir} hdpi,xxdpi"
+                project.runCmd(cmd)
+            }
+            if(variant.dirName == 'hdpi_xdpi')
+            {
+                cmd = "./lessenRes.py res ${variant.processResources.resDir} hdpi,xdpi"
+                project.runCmd(cmd)
+            }
+        }
+        
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    signingConfigs{
+        debug {
+            storeFile file("debug.keystore")
+        }
+        myConfig {
+            storeFile file("debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+
+
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+        
+
+        // Move the tests to tests/java, tests/res, etc...
+        instrumentTest.setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+        penWidget.setRoot('build-types/release')
+        hdpi.setRoot('build-types/release')
+        mdpi.setRoot('build-types/release')
+        tvdpi.setRoot('build-types/release')
+        xhdpi.setRoot('build-types/release')
+        xxhdpi.setRoot('build-types/release')
+    }
+    
+    buildTypes {
+        release {
+            //signingConfig signingConfigs.myConfig
+            //runProguard true
+            proguardFile 'proguard.cfg'
+            def manifestParser = new DefaultManifestParser()
+            def versionName = manifestParser.getVersionName(android.sourceSets.main.manifest.srcFile)
+            applicationVariants.all { variant ->
+                def file = variant.outputFile
+                variant.outputFile = new File(file.parent, file.name.replace(".apk", "-" + versionName + ".apk")) 
+            }
+        }
+        widget {
+            packageName="com.asus.supernote"
+        }
+        mdpi{
+            packageName="com.asus.supernote" 
+        }
+        hdpi{
+            packageName="com.asus.supernote" 
+        }
+        tvdpi{
+            packageName="com.asus.supernote" 
+        }
+        xhdpi{
+            packageName="com.asus.supernote" 
+        }
+        xxhdpi{
+            packageName="com.asus.supernote" 
+        }
+        hdpi_tvdpi{
+            packageName="com.asus.supernote" 
+        }
+        hdpi_xhpi{
+            packageName="com.asus.supernote" 
+        }
+        hdpi_xxhpi{
+            packageName="com.asus.supernote" 
+        }
+    }
+}

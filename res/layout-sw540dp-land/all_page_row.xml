@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/all_page_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="21dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+      	<ImageView
+            android:id="@+id/all_page_bookmark"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="start|center_vertical"
+        	android:layout_marginEnd="9dp"
+        	android:background="@drawable/asus_bookmark_ic"
+        	android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/all_page_title_book_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:singleLine="true"
+            android:maxWidth="300dp"
+            android:textStyle="bold"
+            android:textColor="#7f7e7e"
+            android:textSize="21sp" />
+		</LinearLayout>
+        <TextView
+            android:id="@+id/all_page_title_book_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:textColor="#7f7e7e"
+            android:singleLine="true"
+            android:maxWidth="200dp"
+            android:textSize="19sp" />
+        
+        <ImageView 
+            android:layout_width="917dp"
+        	android:layout_height="1dp"
+        	android:layout_gravity="bottom|center_horizontal"
+        	android:background="#a1a0a0"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/all_page_item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="21dp"
+        android:orientation="horizontal" >
+
+        <include 
+            android:id="@+id/all_page_1"
+            layout="@layout/page_item" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:visibility="invisible"/>
+        <include
+            android:id="@+id/all_page_2"
+            layout="@layout/page_item" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:visibility="invisible"/>
+        <include
+            android:id="@+id/all_page_3"
+            layout="@layout/page_item" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:visibility="invisible"/>
+        <include
+            android:id="@+id/all_page_4"
+            layout="@layout/page_item" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:visibility="invisible"/>
+        <include
+            android:id="@+id/all_page_5"
+            layout="@layout/page_item" />
+    </LinearLayout>
+
+</LinearLayout>

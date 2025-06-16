@@ -1,0 +1,27 @@
+
+# AsusUpdateSdk
+ -keep class com.asus.updatesdk.** {
+     public *;
+ }
+
+# SafeParcelable
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+# GoogleAnalytics
+-keep public class com.google.android.gms.analytics.** {
+    public protected *;
+}
+
+# Glide and GlideModule
+-keep public class * implements com.bumptech.glide.module.GlideModule
+-keep public enum com.bumptech.glide.load.resource.bitmap.ImageHeaderParser$** {
+    **[] $VALUES;
+    public *;
+}
+
+-dontwarn com.asus.updatesdk.**
+-dontwarn com.google.android.gms.**
+-dontwarn com.bumptech.glide.**
+-dontwarn android.support.v4.**

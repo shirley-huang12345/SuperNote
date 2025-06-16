@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/air_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/asus_airview_hint"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:minHeight="28dp"
+        android:minWidth="10dp"
+        android:paddingStart="13dp"
+        android:paddingEnd="13dp"
+        android:textColor="#ffffffff"
+        android:textSize="14sp" >
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <GridView android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/insert_select_content"
+        android:horizontalSpacing="@dimen/select_dlg_grid_space"
+        android:verticalSpacing="@dimen/select_dlg_grid_space"
+        android:clickable="true"
+        android:numColumns="4"
+        android:stretchMode="none"
+        android:columnWidth="@dimen/select_dlg_grid_widthheight"
+        android:background="@color/insert_selected_color"
+        />
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/menu_item_dividing_line_color"/>
+    
+    <Button android:layout_width="match_parent"
+        	style="?android:attr/buttonBarButtonStyle"
+        	android:layout_height="54dp"
+        	android:id="@+id/insert_select_cancel"
+        	android:text="@android:string/cancel"
+        	/>
+
+</LinearLayout>

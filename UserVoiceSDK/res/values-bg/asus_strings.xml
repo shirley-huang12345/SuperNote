@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uf_sdk_feedback_and_help">Обратна връзка и помощ</string>
+    <string name="uf_sdk_user_forum">Потребителски форум</string>
+    <string name="uf_sdk_help">Помощ</string>
+    <string name="uf_sdk_send_feedback">Изпращане на обратна връзка</string>
+    
+    <!--asus-->
+    <string name="uf_sdk_faq">Често задавани въпроси</string>
+    <string name="uf_sdk_network_error">Няма интернет връзка, проверете своите мрежови настройки.</string>
+    <string name="uf_sdk_msg_ticket_created">Вашата обратна връзка е успешно изпратена на ASUS</string>
+    <string name="uf_sdk_unhelpful_article_message_question">Искате ли да изпратите обратна връзка на екипа разработчици на ASUS?</string>
+    <string name="uf_sdk_name_hint">Въведете името си</string>
+
+
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">тема</item>
+        <item quantity="other">теми</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s харесва тази тема</item>
+        <item quantity="other">%1$s харесват тази тема</item>
+    </plurals>
+
+    <string name="uf_sdk_submit_topic">Публикуване</string>
+    <string name="uf_sdk_topic_form_title">Публикуване на нова тема</string>
+    <string name="uf_sdk_title_topic">Тема</string>
+    <string name="uf_sdk_subscribe_dialog_title">Абониране за тази тема</string>
+    <string name="uf_sdk_topic">Тема</string>
+    <string name="uf_sdk_msg_topic_created">Успешно публикуване</string>
+    <string name="uf_sdk_topic_description_heading">Описание</string>
+    <string name="uf_sdk_topic_description_hint">Опишете подробно темата</string>
+    <string name="uf_sdk_topic_text_heading">Форум</string>
+    <string name="uf_sdk_topic_title">Заглавие</string>
+    <string name="uf_sdk_topic_text_hint">Въведете заглавието на Вашата тема</string>
+    <string name="uf_sdk_topic_form_help">Когато публикувате тема в потребителския форум, други потребители ще могат да се абонират за нея и да я коментират. Ще бъдете уведомени чрез имейл, когато екипът разработчици на ASUS отговори на темата.</string>
+    <string name="uf_sdk_msg_subscribe">По имейл ще получите абонамент за известяване за състоянието на темата.</string>
+    <string name="uf_sdk_msg_subscribe_success">Успешно абониране</string>
+    <string name="uf_sdk_msg_unsubscribe">Успешно прекратяване на абонамента</string>
+    <string name="uf_sdk_msg_confirm_discard_topic_title">Изтриване на публикация?</string>
+    <string name="uf_sdk_msg_confirm_discard_topic">Вашата чернова няма да бъде записана. Желаете ли все пак да я изтриете?</string>
+    <string name="uf_sdk_publish_an_topic">Публикуване на нова тема</string>
+    <string name="uf_sdk_topic_filter">ТЕМИ</string>
+
+    <string name="uf_sdk_search_hint">Search (Търсене)</string>
+    <string name="uf_sdk_translation_117562">Feedback type (Тип обратна връзка)</string>
+    <string name="uf_sdk_translation_2530478">Suggestion (Предположение)</string>
+    <string name="uf_sdk_translation_2529543">Bug report (Отчет за грешки)</string>
+    <string name="uf_sdk_translation_2529544">Others (Други)</string>
+    <string name="uf_sdk_msg_bad_email_format">Email address is not valid, please try again. (Имейл адресът е невалиден, опитайте отново)</string>
+    <string name="uf_sdk_warning">Предупреждение</string>
+
+    <string name="uf_sdk_instant_answer_question">Полезни ли са тези въпроси и отговори?</string>
+    <string name="uf_sdk_forum_description">Присъединете се към разговор с потребители на ASUS, за да откриете решения и да споделите своите</string>
+    <string name="uf_sdk_nothing_found">Нищо не е намерено</string>
+    <string name="uf_sdk_send_feedback_help">Вашата обратна връзка и имейл адрес ще бъдат изпратени на ASUS. Сервизният екип ще се свърже с Вас по имейл.</string>
+
+
+    <string name="uf_sdk_no_network_connection_content">Данни не могат да се актуализират. Проверете настройките на Вашата мрежа. </string>
+    <string name="uf_sdk_no_network_connection_title">Няма връзка с мрежата</string>
+    <string name="uf_sdk_notice">Декларация</string>
+    <string name="uf_sdk_select_common_bug">Изберете обща грешка</string>
+    <string name="uf_sdk_wifi_settings">Wi-Fi настройки</string>
+    <string name="uf_sdk_wlan_settings">WLAN настройки</string>
+
+
+</resources>

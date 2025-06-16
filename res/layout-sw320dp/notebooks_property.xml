@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	
+    	android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="15dp"
+        android:maxWidth="333dp"
+        android:singleLine="true"
+        android:text="@string/name"
+        android:textColor="#919191"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/nb_info_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        
+        
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="15dp"
+        android:maxWidth="333dp"
+        android:singleLine="true"
+        android:text="@string/page_size"
+        android:textColor="#919191"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/nb_info_pageSize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:maxWidth="320dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="15dp"
+        android:maxWidth="333dp"
+        android:singleLine="true"
+        android:text="@string/pagecolor"
+        android:textColor="#919191"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/nb_info_pagecolor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:maxWidth="320dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="15dp"
+        android:maxWidth="333dp"
+        android:singleLine="true"
+        android:text="@string/book_grid_title"
+        android:textColor="#919191"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/nb_info_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:maxWidth="320dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+    </LinearLayout>
+</ScrollView>

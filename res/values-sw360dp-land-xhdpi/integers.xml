@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Begin:show -->
+    <integer name="is_continue_write">0</integer>
+    <!-- End:show -->
+    <integer name="paint_stroke_factor">3</integer>  <!-- Carol -->
+</resources>

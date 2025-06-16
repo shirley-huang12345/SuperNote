@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/asus_widget_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/button_panel"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1">
+		        <Button
+		            android:id="@+id/todo_widget_switch_notebook_button"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_marginEnd="3dp"
+		            android:drawableEnd="@drawable/asus_widget_supernote_icon_d"
+		            android:background="#00000000"
+		            android:gravity="start|center_vertical"
+		            android:layout_gravity="center_vertical"
+		            android:ellipsize="end"
+		            android:singleLine="true"
+		            android:textColor="#ffa800"
+		            android:textSize="@dimen/todo_widget_switch_fontsize"
+		            android:fontFamily="serif-light" />
+	        </LinearLayout>
+	        <ImageButton
+	            android:id="@+id/todo_widget_sort_button"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="end|top"
+	            android:background="@drawable/asus_widget_supernote_icon_g" />
+        </LinearLayout>
+
+	    <FrameLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:layout_marginTop="-5dp">
+	        <TextView
+	            android:id="@+id/todo_widget_no_item_tips_layout"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:orientation="vertical" 
+	            android:visibility="gone"
+	            android:text="@string/todo_widget_no_item_tips"
+	            android:paddingBottom="8dp"
+	            style="@style/EmptyMemoTextStyle"/>
+	        <ListView
+	            android:id="@+id/todo_widget_listview"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:divider="@color/notebook_gridview_color" 
+	            android:scrollbarThumbVertical="@drawable/asus_memo_widget_scroll"
+	            android:scrollbarStyle="insideInset"/>	        
+	    </FrameLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/asus_widget_supernote_btn_n" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/todo_widget_add_new_memo"
+            android:textColor="#ffffff"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="60dp"
+            android:textSize="17dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <ImageButton
+            android:id="@+id/todo_widget_voice_input_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/todo_widget_add_button"
+            android:layout_marginEnd="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:src="@drawable/asus_widget_supernote_icon_voice" 
+            android:padding="5dp"
+            android:background="@drawable/template_todo_widget_left_button_bg_selector"/>
+
+        <ImageButton
+            android:id="@+id/todo_widget_add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:src="@drawable/asus_widget_supernote_icon_draw" 
+            android:padding="5dp"
+            android:background="@drawable/template_todo_widget_right_button_bg_selector"/>
+    </RelativeLayout>
+
+</FrameLayout>

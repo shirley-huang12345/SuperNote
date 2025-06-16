@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <!-- 1st PadFone String Revised -->
+    <!-- 2012-02-08 -->
+   <!-- new by Ryan -->
+    <!-- send to 4th -->
+    <!-- send to 5th -->
+    <!-- 6th -->
+    <!-- 10th, Start New String -->
+    <!--by show-->
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <!-- add by Better -->
+<!-- Begin: show -->
+<!-- End: show -->
+    <!--Begin: Show-->
+     <!--End: Show--> 
+      <!-- wendy  -->
+<!--wendy allen++ begin -->
+   <!--wendy begin -->
+   <!-- Begin: Better -->
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <!-- End: Allen -->   
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <!-- End  :Darwin -->
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <!-- End: Better -->
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <!-- darwin add -->
+   <!-- Begin: show -->
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+<!-- Begin Allen -->
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- Begin: Better -->
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <!-- End Allen -->    
+<!-- clare begin -->
+<!-- clare end -->
+<!-- darwin begin -->
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+     <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <!-- Begin Allen -->
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <!-- add for 'SyncCancelDialogFragment'-->
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+<!-- for A86 style by smilefish -->
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <!-- jason -->
+<!-- Begin Carol-->
+<!-- End Carol-->
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <!-- smilefish -->
+    <!-- smilefish -->
+     <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+<!-- end smilefish -->
+    <!--jason  -->
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+<!-- smilefish -->
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <!-- Emmanual -->
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <!-- emmanual -->
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"Asus အက္ပ္စတိုးမွ ေနာက္ဆုံးထုတ္ဗားရွင္းျဖင့္ ေက်းဇူးျပဳ၍ ဦးစြာမြမ္းမံပါ။ ေက်းဇူးတင္ပါတယ္။"</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <!-- smilefish -->
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"ဖိုင္မ်ားကို ရယူသုံးစြဲႏုိင္ျခင္းမရွိပါ"</string>
+    <string name="force_permission_sub_title">"စက္ထဲတြင္ သင့္ဖုိင္မ်ားကုိ သိမ္းရန္ႏွင့္ ဝင္သံုးခြင့္ရရန္ %1$s က %2$s ခြင့္ျပဳခ်က္ကုိ လုိပါမည္။"</string>
+    <string name="force_permission_turn_on">"ဖြင့္ပါ"</string>
+    <string name="force_permission_storage">"သုိေလွာင္ခန္း"</string>
+    <string name="force_permission_settings">"ဆက္တင္မ်ား္"</string>
+    <string name="force_permission_show_settings">"&lt;b>အက္ပ္အခ်က္အလက္&lt;/b> &lt;b>ခြင့္ျပဳခ်က္မ်ား&lt;/b> ထဲရွိ &lt;b>ဆက္တင္မ်ား္&lt;/b> ကုိႏွိပ္ၿပီး &lt;b>%2$s&lt;/b> ကိုဖြင့္ပါ။ ၿပီးေနာက္ %1$s ကုိပိတ္ၿပီးျပန္ဖြင့္ပါ။"</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"လွည့္လည္သြားလာျခင္း အမူအရာ"</string>
+    <string name="navigate_tutorial_content">"စာမ်က္ႏွာတြင္ လြတ္လပ္စြာ လွည့္လည္သြားလာရန္ လက္ႏွစ္ေခ်ာင္းကို သုံးပါ။ ဖတ္႐ုံသာမုဒ္တြင္ရွိေနစဥ္ သင္သည္ ႀကိဳတင္ၾကည့္ျခင္း ဝင္းဒိုးမွ စာမ်က္ႏွာသို႔ လွည့္လည္သြားလာႏုိင္သည္။"</string>
+    <string name="navigate_tutorial_content_phone">"ႀကိဳတင္ၾကည့္ျခင္း ဝင္းဒိုးမွ စာမ်က္ႏွာသို႔ လြတ္လပ္စြာ လွည့္လည္သြားလာရန္ လက္ႏွစ္ေခ်ာင္းကို သုံးပါ။"</string>
+    <string name="navigate_tutorial_scroll">"စာမ်က္ႏွာကို စခ႐ိုးလုပ္ရန္ ကိုင္ထားပါ"</string>
+    <!-- end smilefish -->
+</resources>

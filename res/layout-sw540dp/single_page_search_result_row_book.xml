@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/Search_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="0dp"
+        android:layout_height="56dp"
+        android:background="@drawable/page_search_bg_selector" >
+
+        <TextView
+            android:id="@+id/Search_page_title_book_name"
+            android:layout_width="fill_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"            
+            android:singleLine="true"
+            android:background="@null"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Search_page_title_book_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="end|center_vertical"            
+            android:singleLine="true"
+            android:maxWidth="0dp"
+            android:background="@null"
+            android:textColor="#8E8E8E"
+            android:textSize="20dp" />
+    </FrameLayout>
+    
+    <ImageView
+    		android:id="@+id/search_line_image"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:src="#FF747474"
+            android:scaleType="fitXY"
+            />
+</LinearLayout>

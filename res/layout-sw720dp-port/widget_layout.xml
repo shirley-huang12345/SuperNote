@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <StackView
+        android:id="@+id/memoStackView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top|center_horizontal"
+        android:animateFirstView="true"
+        android:loopViews="true"
+        android:overScrollMode="always"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/noMemoHintView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/asus_ep_memo_empty_bg"
+        android:gravity="center"
+        android:scaleType="matrix"
+        android:shadowColor="#000000"
+        android:shadowRadius="3.0"
+        android:text="@string/memo_not_exists"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/memoLoadingSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uf_sdk_feedback_and_help">Feedback &amp; Help</string>
+    <string name="uf_sdk_user_forum">Fórum de usuário</string>
+    <string name="uf_sdk_help">Ajuda</string>
+    <string name="uf_sdk_send_feedback">Enviar comentário</string>
+    
+    <!--asus-->
+    <string name="uf_sdk_faq">Veelgestelde vragen</string>
+    <string name="uf_sdk_network_error">Geen internetverbinding, controleer uw netwerkinstellingen.</string>
+    <string name="uf_sdk_msg_ticket_created">Uw feedback is naar ASUS verzonden</string>
+    <string name="uf_sdk_unhelpful_article_message_question">Wilt u feedback verzenden naar het ASUS-ontwikkelingsteam?</string>
+    <string name="uf_sdk_name_hint">Voer uw naam in</string>
+
+
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">onderwerp</item>
+        <item quantity="other">onderwerpen</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s vindt dit onderwerp leuk</item>
+        <item quantity="other">%1$s vinden dit onderwerp leuk</item>
+    </plurals>
+
+    <string name="uf_sdk_submit_topic">Publiceren</string>
+    <string name="uf_sdk_topic_form_title">Nieuw onderwerp publiceren</string>
+    <string name="uf_sdk_title_topic">Onderwerp</string>
+    <string name="uf_sdk_subscribe_dialog_title">Abonneren op dit onderwerp</string>
+    <string name="uf_sdk_topic">Onderwerp</string>
+    <string name="uf_sdk_msg_topic_created">Publicatie gelukt</string>
+    <string name="uf_sdk_topic_description_heading">Beschrijving</string>
+    <string name="uf_sdk_topic_description_hint">Beschrijf uw onderwerp in detail</string>
+    <string name="uf_sdk_topic_text_heading">Forum</string>
+    <string name="uf_sdk_topic_title">Titel</string>
+    <string name="uf_sdk_topic_text_hint">Voer de titel van uw onderwerp in</string>
+    <string name="uf_sdk_topic_form_help">Als u een onderwerp publiceert op het gebruikersforum, kunnen andere gebruikers zich hierop abonneren en commentaar erop geven. Wanneer het ASUS-ontwikkelingsteam reageert op het onderwerp, wordt u op de hoogte gebracht via e-mail.</string>
+    <string name="uf_sdk_msg_subscribe">Het abonneren op de statusmeldingen van het onderwerp, worden u geleverd via e-mail.</string>
+    <string name="uf_sdk_msg_subscribe_success">Abonnement gelukt</string>
+    <string name="uf_sdk_msg_unsubscribe">Opzegging abonnement is gelukt</string>
+    <string name="uf_sdk_msg_confirm_discard_topic_title">Publicatie verwijderen?</string>
+    <string name="uf_sdk_msg_confirm_discard_topic">Uw concept wordt niet opgeslagen. Wilt u het toch verwijderen?</string>
+    <string name="uf_sdk_publish_an_topic">Nieuw onderwerp publiceren</string>
+    <string name="uf_sdk_topic_filter">ONDERWERPEN</string>
+
+    <string name="uf_sdk_search_hint">Zoeken</string>
+    <string name="uf_sdk_translation_117562">Feedbacktype</string>
+    <string name="uf_sdk_translation_2530478">Suggestie</string>
+    <string name="uf_sdk_translation_2529543">Bugrapport</string>
+    <string name="uf_sdk_translation_2529544">Overige</string>
+    <string name="uf_sdk_msg_bad_email_format">Het e-mailadres is ongeldig. Probeer het opnieuw.</string>
+    <string name="uf_sdk_warning">Waarschuwing</string>
+
+    <string name="uf_sdk_instant_answer_question">Is deze FAQ nuttig?</string>
+    <string name="uf_sdk_forum_description">Neem deel aan de conversatie met ASUS-gebruikers om oplossingen te zoeken en te delen</string>
+    <string name="uf_sdk_nothing_found">Niets gevonden</string>
+    <string name="uf_sdk_send_feedback_help">Uw feedback en e-mailadres worden verzonden naar ASUS. Het serviceteam zal contact met u opnemen via e-mail.</string>
+
+
+    <string name="uf_sdk_no_network_connection_content">Kan gegevens niet bijwerken. Controleer uw netwerkinstellingen. </string>
+    <string name="uf_sdk_no_network_connection_title">Geen netwerkverbinding</string>
+    <string name="uf_sdk_notice">Opmerking</string>
+    <string name="uf_sdk_select_common_bug">Algemene fout selecteren</string>
+    <string name="uf_sdk_wifi_settings">Wifi-instellingen</string>
+    <string name="uf_sdk_wlan_settings">WLAN-instellingen</string>
+</resources>

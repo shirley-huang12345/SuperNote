@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridItem"
+    android:layout_width="@dimen/widget_allbook_width"
+    android:layout_height="146dp"
+    android:layout_gravity="start"
+    android:background="#e6e6e6">
+
+    <ImageView
+        android:id="@+id/image_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_gravity="start|top"
+        android:gravity="start|top" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#e6e6e6">
+    
+	    <TextView
+	        android:id="@+id/text_item"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginStart="4dp"
+	        android:layout_marginTop="2dp"
+	        android:gravity="start|center"
+	        android:textColor="#444444"
+	        android:textSize="14dp"
+	        android:fontFamily="Roboto"
+	        android:maxLines="2"
+	        android:ellipsize="end"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentStart="true"/>
+
+		<TextView
+		    android:id="@+id/notebook_date"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="4dp"
+	        android:layout_marginStart="5dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentStart="true"
+	        android:textColor="#888888"
+	        android:textSize="10dp"/>
+		
+		<ImageView
+		    android:id="@+id/type_mark"
+		    android:layout_width="16dp"
+	        android:layout_height="16dp"
+	        android:layout_marginBottom="4dp"
+	        android:layout_marginEnd="4dp"
+	        android:gravity="end|bottom"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentEnd="true"/>
+		
+	</RelativeLayout>
+</FrameLayout>
+
+<!-- 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:scaleType="matrix"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_gravity="start|center"
+        android:gravity="start|center" />
+
+    <TextView
+        android:id="@+id/text_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="start|top"
+        android:paddingStart="1.2dp"
+        android:paddingEnd="0.5dp"
+        android:gravity="start|top"
+        android:ellipsize="end"
+        android:textColor="#464646"
+        android:textSize="14dp"
+        android:singleLine="false"
+        android:lines="2"
+        android:fontFamily="sans-serif-condensed"/>
+
+</LinearLayout> -->

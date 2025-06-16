@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+  	<!-- BEGIN: RICHARD -->
+	<integer name="device_type">5</integer>
+	<!-- END: RICHARD -->
+	
+	<!-- Shane -->
+	<integer name="eraser_popup_menu_position_x">-76</integer>
+	<integer name="eraser_popup_menu_position_y">8</integer>
+	
+	<!-- Begin:show -->
+    <integer name="is_continue_write">1</integer>
+    <integer name="bottomMackView_Width">1200</integer>
+    <integer name="sel_color_bold_popup_menu_position_x">0</integer>
+	<integer name="sel_color_bold_popup_menu_position_y">8</integer>
+	<integer name="color_bold_popup_menu_position_x">0</integer>
+	<integer name="color_bold_popup_menu_position_y">8</integer>
+	<integer name="penmenu_popup_position_x">-81</integer>
+	<integer name="penmenu_popup_position_y">8</integer>
+	<integer name="mode_popup_menu_position_x">0</integer>
+	<integer name="mode_popup_menu_position_y">8</integer>
+    <!-- End:show -->
+    
+    <!-- Allen -->
+    <!-- LineHeight+LineSpace+paddingTop -->
+    <integer name="todo_line_height">135</integer>
+    <!-- Allen --> 
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <ViewStub
+        android:id="@+id/editorMenuViewStub"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout="@layout/editor_func_popup_menu_edit"
+    	android:visibility="invisible"/>
+    
+   <ViewStub
+        android:id="@+id/readonlyMenuViewStub"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout="@layout/editor_func_popup_menu_readonly"
+    	android:visibility="invisible"/>
+    
+    <ViewStub
+        android:id="@+id/bookmarkMenuViewStub"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout="@layout/editor_func_popup_menu_bookmark"
+    	android:visibility="invisible"/>
+    
+</FrameLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	
+	<!-- two prompts -->
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginStart="20dp"
+	    android:layout_marginTop="15dp"
+	    android:layout_marginEnd="16dp"
+	    android:text="@string/sync_cancel_promptTop"
+	    android:textSize="18dp"/>
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginStart="20dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginEnd="16dp"
+	    android:text="@string/sync_cancel_promptBottom"
+	    android:textColor="#FF0000"
+	    android:textSize="18dp"/>
+
+	<!--a list of removed sync books --> <!-- need a vertical scrollbar -->
+	<ListView
+	    android:id="@+id/syncCancelbook_listview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginStart="20dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginEnd="16dp"
+	    android:layout_marginBottom="10dp"
+	    android:textSize="18dp"
+	    />
+
+    <!-- SyncCancelConfirmDialog -->
+    <CheckBox
+        android:id="@+id/syncCancel_hideHint_checkbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/sync_cancel_noMoreHint"
+        android:textSize="17dp"/>
+
+</LinearLayout>

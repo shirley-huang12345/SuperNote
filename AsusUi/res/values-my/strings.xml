@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="asus_commonui_done_label">"ကောင်းပြီ"</string>
+    <string name="asus_commonui_cancel_label">"ထားတော့"</string>
+    <string-array name="alarm_set">
+        <item>ယခုအချိန်မှ ၁ မိနစ်အောက်အတွက် နှိုးစက် သတ်မှတ်ချက်။</item>
+        <item>ယခုအချိန်မှ <xliff:g id="DAYS" example="2 days">%1$s </xliff:g> ရက် အတွက် နှိုးစက် သတ်မှတ်ချက်။ </item>
+        <item>ယခုအချိန်မှ <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g>နာရီ အတွက် နှိုးစက် သတ်မှတ်ချက်။</item>
+        <item>ယခုအချိန်မှ <xliff:g id="DAYS" example="2 days">%1$s </xliff:g>ရက် နှင့် <xliff:g id="HOURS" example="2 hours"> %2$s </xliff:g> နာရီ အတွက် နှိုးစက် သတ်မှတ်ချက်။</item>
+        <item>ယခုအချိန်မှ <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g> မိနစ် အတွက် နှိုးစက် သတ်မှတ်ချက်။ </item>
+        <item>ယခုအချိန်မှ <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> ရက် နှင့် <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> မိနစ်အတွက် နှိုးစက် သတ်မှတ်ချက်။ </item>
+        <item>ယခုအချိန်မှ <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> နာရီ နှင့်  <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g> မိနစ် အတွက် နှိုးစက် သတ်မှတ်ချက်။ </item>
+        <item>ယခုအချိန်မှ <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> ရက်၊<xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> နာရီ နှင့် <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g> မိနစ်အတွက် နှိုးစက် သတ်မှတ်ချက်။</item>
+    </string-array>
+    <string name="day">&quot;၁ ရက်&quot;</string>
+    <string name="days">&quot;<xliff:g id="days">&quot;%s &quot;</xliff:g> &quot;ရက်</string>
+    <string name="hour">၁ နာရီ</string>
+    <string name="hours"><xliff:g id="hours">%s </xliff:g>နာရီ</string>
+    <string name="minute">&quot;၁ မိနစ်&quot;</string>
+    <string name="minutes">&quot;<xliff:g id="minutes">%s</xliff:g> &quot;မိနစ်</string>
+
+    <string name="asus_commonui_terms_of_use_notice">သုံးစွဲမှုစည်းကမ်းများ သတိပေးချက်</string>
+    <string name="asus_commonui_privacy_policy">ကိုယ်ပိုင်ပေါ်လစီ</string>
+</resources>

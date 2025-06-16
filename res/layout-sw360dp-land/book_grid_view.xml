@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <GridView
+        android:id="@+id/book_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@color/notebook_gridview_color"
+        android:fadingEdgeLength="13dp"
+        android:horizontalSpacing="5dp"
+        android:columnWidth="@dimen/notebook_item_width"
+        android:numColumns="auto_fit"
+        android:paddingStart="11dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="8dp"
+        android:requiresFadingEdge="vertical"
+        android:verticalSpacing="10dp"
+        android:paddingBottom="8dp"  />
+    
+    <TextView
+        android:id="@+id/book_gridview_mask"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#797979"
+        android:textSize="20dp"
+        android:text="@string/no_notebooks"
+        android:visibility="gone" />
+        
+    <ImageButton
+        android:id="@+id/book_add"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/asus_supernote_add_n"
+        android:background="@drawable/asus_floating_button_selector"
+        android:tint="@android:color/white" 
+        android:elevation="5dp"
+        android:layout_gravity="end|bottom"/>
+
+</FrameLayout>

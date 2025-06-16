@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <string name="next" description="Next" maxwidth="">Ďalej</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Zdieľať len text</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Skryť mriežku</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Veľkosť&#157;:</string>
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">O SuperNote</string>
+    <string name="set_on" description="On" maxwidth="">Zap.</string>
+    <string name="set_off" description="Off" maxwidth="">Vyp.</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Pred. je režim Snímanie</string>
+    <string name="setting" description="Settings" maxwidth="">Nastavenie</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s strán je vymazaných.</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Stránku(-y) skop. do</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">Pres. %d stránku(-y) do </string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Názov poznámkového bloku</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Farba strany</string>
+    <string name="password" description="Password" maxwidth="">Heslo</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Prosím, zadajte heslo, ktoré obsahuje 4 až 7 znakov/číslic.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Aktuálne heslo</string>
+    <string name="password_newpin" description="New password" maxwidth="">Nové heslo</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Potvrďte nové heslo</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">Upozornenie: Heslo môže obsahovať 4 až 7 znakov a/alebo číslic.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Nastavenie/zmena hesla</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">Heslá sa nezhodujú.</string>
+    <string name="share_to" description="Share to..." maxwidth="">Zdieľať s...</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">Heslo pre SuperNote</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">Dňa %s sa moje heslo pre SuperNote zmenilo. Nové heslo je: %s</string>
+    <string name="choose_a_template" description="choose a template for your notebook" maxwidth="">Vyberte šablónu pre svoj zápisník</string>
+    <string name="name" description="Name" maxwidth="">Názov</string>
+    <string name="del" description="Delete" maxwidth="">Odstrániť</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Importovať...</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Importovať poznámky</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">Spôsob otvorenia spojený s týmto súborom sa nenašiel</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Importovanie bolo úspešné!</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Pošk. súbor. Zlyhalo import. súboru.</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Presunúť do</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Kopírovať do</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Odstrániť vybrané strany?</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Vybrať vš.</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Zrušiť všet.</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">pres. stránku(-y)</string>
+    <string name="memo_del" description="Deleted memo">Vymazať vybranú pamäť(-e)?</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">Pamäť je prázdna</string>
+    <string name="book_grid_title" description="the title of the page display property">Štýl riadku</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">kop. stránku(-y)</string>
+    <string name="wrong_file_type" description="wrong_file_type">Nesprávny typ súboru.</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Dlhým stlačením a ťahaním môžete zmeniť poradie stránok.</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Pres. stánku(-y) do</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">Stránka neexistuje</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Posl. stránka</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">Prvá stránka</string>
+    <string name="phone_book_name" description="Phone book name">Phonebook</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">nov. str.</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">Naozaj chcete vymazať všetky nákresy? Táto akcia sa nedá vykonať.</string>
+    <string name="delete_alert" description="warning of deleting">Chcete vymazať tento nákres?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Objekt presuňte alebo zmeňte jeho veľkosť prstom.</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Poklepaním vyberte alebo ťahajte jeden alebo viac objektov. </string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Táto stránka je zaplnená.</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Farba a hrúbka štetca</string>   
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Táto stránka je prázdna.</string>
+    <string name="editor_menu_share">Zdieľať</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Záložka</string>
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Iba na čítanie</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Pren. poč</string>
+    <string name="warning_activity_not_found" description="Activity not found">Vaše zariadenie nepodporuje tento typ súboru alebo typ kódovača</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">V schránke nie je žiadny obraz na prilepenie.</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Odstr.</string>
+    <string-array name="pg_size">
+        <item>Pre Pad</item>
+        <item>Pre Telefón</item>
+    </string-array>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Nová</string>
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d stránka(-y) sa skopírovala do %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">Veľk. str.</string>
+    <!-- 2012-02-08 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Biela</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Žltá</string>
+    <string name="book_grid_line" description="the background style of the notebook">Riadky</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Mriežky</string>
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Ukázať informácie o zápisníku</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">Odkaz na:\n%s</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Žiadna kniha alebo stránky na čítanie</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Žiadne záložky stránok </string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Vymazať?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Ste si istí, že si želáte vymazať túto stránku&#157;?</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Farba</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Kopírovať</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Vystrihnúť</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Upraviť</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Zoskupiť</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Oddeliť</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Základná čiara</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Zrušiť</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Znovu</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Vložiť</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Vybrať</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Prilepiť</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Vymazať</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Štetec</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Guma</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Zrušiť</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Hotovo</string>
+   <!-- new by Ryan -->
+    <string name="editor_menu_addpage" maxwidth="12">Prid. strán.</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Odst. strán.</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Nekompatib. formát stránky</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Písať</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Typ</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Kres.</string>
+    <!-- send to 4th -->
+    <string name="load_tutorial" description="" maxwidth="">Nahráva sa kurz ...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Pridať do záložiek</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="">Odstrániť zo záložiek</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Má sa odstr. zo záložiek?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Ukázať záložky</string>
+    <!-- send to 5th -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Rých</item>
+        <item>Štand.</item>
+        <item>Pom</item>
+    </string-array>
+    <string name="reset_password_title" description="reset the password">Resetovať heslo</string>
+    <string name="reset_password_summary">Vymazať heslo</string>
+    <string name="reset_password_dialog_title">Resetovať heslo</string>
+    <string name="reset_password_dialog_password_invalid">Neplatné heslo</string>
+    <string name="confirm_reset_dialog_title">Resetovať heslo</string>
+    <string name="no_memory_dialog_content">Nedostatok miesta v pamäti</string>
+    <!-- 6th -->
+    <string name="dialog_file_name">Náz. súb.</string>
+    <string name="dialog_save_to">Ulož. do</string>
+    <!-- 10th, Start New String -->
+   <string name="new_page" description="Create New Page" maxwidth="15">Vytvorte novú stránku</string>
+   <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Poznámkový blok bol exportovaný do</string>
+   <string name="pg_title_counter" description="show total pages number of the all page view\'s title">%s záložky</string>
+   <string-array name="pg_sort">
+        <item>Podľa názvu</item>
+        <item>Podľa poslednej úpravy</item>
+    </string-array>
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">Chcete odstrániť poznámkový blok?</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Premenovať</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Skryť</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Odstrániť</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Exportovať</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Rýchlosť rozpoznávania vstupu</string>
+    <string name="notebook_selected" description="show how many pages are selected">%s vybraných</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">Poznámkové bloky</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">Záložka</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">Časová značka</string>
+    <string-array name="week_of_day">
+        <item>Nedeľa</item>
+        <item>Pondelok</item>
+        <item>Utorok</item>
+        <item>Streda</item>
+        <item>Štvrtok</item>
+        <item>Piatok</item>
+        <item>Sobota</item>
+        <item>Dnes</item>
+        <item>Včera</item>
+        <item>Posledný týždeň</item>
+        <item>Pred dvoma týždňami</item>
+        <item>Pred troma týždňami</item>
+        <item>Zajtra</item>
+        <item>Budúci týždeň</item>
+        <item>O dva týždne</item>
+        <item>O tri týždne</item>
+    </string-array>
+   <string-array name="month_of_year">
+        <item>Január</item>
+        <item>Február</item>
+        <item>Marec</item>
+        <item>Apríl</item>
+        <item>Máj</item>
+        <item>Jún</item>
+        <item>Júl</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Október</item>
+        <item>November</item>
+        <item>December</item>
+        <item>Minulý mesiac</item>
+        <item>Pred polrokom</item>
+        <item>Pred viac než rokom</item>
+        <item>Nasledujúci mesiac</item>
+        <item>O polroka</item>
+        <item>O rok</item>
+    </string-array>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Orezať</string>
+    <!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Upraviť</string>
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <string name="password_or_account_empty">Pole na zadanie konta alebo hesla nesmie byť prázdne.</string>
+    <string name="nb_sync">Povoliť synchronizáciu cloud</string>
+    <string name="nb_async">Zrušiť synchronizáciu cloud</string>
+    <string name="sync_status_syncing">Prebieha synchronizácia…</string>
+    <string name="sync_status_failed">Chyba pri synchronizácii údajov.</string>
+    <string name="sync_account_text">Konto</string>
+    <string name="sync_sign_off">Odhlásiť sa</string>
+    <string name="account_space_usage">Využitý priestor</string>  
+    <string name="account_and_sync">Nas. syn. Konta</string>
+    <string name="sync_setting_auto">Automat. synch.</string>
+    <string name="sync_setting_auto_frequency">Frek. aut. synch.</string>
+    <string name="sync_auto_interval_1">Každú minútu</string>
+    <string name="sync_auto_interval_15">Každých 15 minút</string>
+    <string name="sync_auto_interval_30">Každých 30 minút</string>
+    <string name="sync_auto_interval_60">Každých 60 minút</string>
+    <string name="sync_auto_interval_1d">Každý deň</string>
+    <!-- add by Better -->
+<!-- Begin: show -->
+    <string name="webstorage_register">Zaregistrovať</string>
+    <string name="webstorage_signon">Prihlásiť sa v rámci</string>
+<!-- End: show -->
+    <!--Begin: Show-->
+    <string name="Crop_Done">Hotovo</string>  
+    <string name="Crop_Free">Nepravidelný výber</string>
+    <string name="Crop_Rect">Obdĺžnik</string>
+     <!--End: Show--> 
+    <string name="prompt_export_pdf_to">PDF súbor bol uložený do</string>
+    <string name="browse_folder">Prehľadávať</string>
+    <string name="export_supernote_format">Exp. v SuperNote</string>
+    <string name="file_export">Exportovať súbor</string>
+    <string name="editor_func_button_search">Vyhľadať</string>
+    <string name="no_search_result">Žiadne položky nevyhovujú podmienkam vyhľadávania.</string>
+    <string name="SearchResultItemInfo_Loading">Prebieha načítanie...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Chyba pri načítaní súboru.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Poznámkové bloky</string>
+    <string name="SearchResultItemInfo_Pages">Strany</string>
+    <string name="SearchResultItemInfo_Personal">Osobné</string> 
+    <string name="SearchResultItemInfo_Page_Space">Strana </string>   
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Roz. pís. textu</string>
+      <!-- wendy  -->
+   <string name="password_not_set_sync">Poznámkové bloky uložené v rámci služby cloud sú usporiadané ako súkromné a verejné. Chcete vytvoriť heslo pre súkromné poznámkové bloky? Ak nie, všetky poznámkové bloky budú usporiadané ako verejné.</string>
+   <string name="bookpicker_sync_books_list">Synchronizovať zoznam kníh</string>
+   <string name="bookpicker_cancel">Zrušiť</string>
+   <string name="bookpicker_ok">Ok</string>
+   <string name="newto_editor_func_popup_d_brush_stroke">Ťah</string>
+   <string name="newto_editor_func_popup_d_brush_alpha">Nepriehľ.</string> 
+   <string name="export">Exportovať</string>
+   <string name="transfer">Preniesť</string>
+   <string name="book_export">Exportovať poznámkový blok</string>
+   <string name="prompt_exports_pdf_to">PDF súbory boli uložené do</string> 
+<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Titul</string>  
+   <string name="template_travel_tips_date">Dátum</string>
+   <!--wendy begin -->
+    <string name="select_all">Všetky</string>
+   <string name="prompt_no_book_selected">Nie je zvolená žiadna kniha.</string>
+   <!-- Begin: Better -->
+   <string name="sync_file_no_version">Verzia nie je dostupná.</string>
+   <string name="loading_page">Načítavajú sa dáta strany...</string>
+   <string name="prompt_transfer_format">Túto knihu musíte preformátovať, čo môže nejakú dobu trvať. Chcete pokračovať?</string>
+   <string name="prompt_saving">Ukladanie...</string>
+   <string name="prompt_incompatible_syncing">%s nie je kompatibilná verzia. Prosím, aktualizujte svoju aplikáciu SuperNote.</string>
+   <string name="prompt_incompatible_file">%s nie je kompatibilná verzia.</string>
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <string name="webstorage_login_signing_in">Prebieha prihlasovanie. Čakajte, prosím.</string>
+   <string name="webstorage_login_account_password_wrong">Konto alebo heslo je nesprávne</string>
+   <string name="sync_setting_sign_failure">Nemožno sa prihlásiť v rámci %s</string>
+   <string name="sync_setting_sign_success">Prihlásiť sa v rámci %s</string>
+   <string name="sync_setting_networkless_title">Žiadne pripojenie</string>
+    <string name="sync_setting_networkless">Na používanie tejto služby potrebujete internetové pripojenie. Prosím, povoľte pripojenie v rámci svojej mobilnej siete alebo Wi-Fi v nastaveniach.</string>
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <string name="Sort">Triediť</string>
+    <!-- End: Allen -->   
+ <string-array name="editor_func_insert_array" description="insert mode" maxwidth="20">
+        <item>Foto</item>
+        <item>Obrázok zo súboru</item>
+        <item>Textový obrázok</item>
+        <item>Stránka PDF</item>
+        <item>Nahrávanie zvuku</item>
+        <item>Video</item>
+        <item>Textový súbor</item>
+        <item>Časová značka</item>
+        <item>Predloha zo schránky</item>
+        <item>Pečať</item>
+        <item>Tvar</item>
+    </string-array>
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <string-array name="nb_editcover_choose_item">
+        <item>Foto</item>
+        <item>Obrázok zo súboru</item>
+    </string-array>
+ <!-- End  :Darwin -->
+    <string name="sync_setting_sign_out">Odhlásenie %s</string>
+    <string name="sync_setting_sign_out_msg">Odhlásením sa zablokuje prístup k poznámkovým blokom na vašom účte Cloud a zablokuje sa synchronizácia Cloud. Chcete pokračovať?\n</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">Vaše heslo sa zmenilo. Chcete odoslať heslo na váš e-mailový účet pre budúce použitie? Tým sa zabráni strate prístupu ku skrytým poznámkovým blokom.\n</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Zamknúť</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">Odomknúť</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">Zamk. skryť</string>
+    <string name="editor_phone_toast_seletext">Ťahaním zvýraznite text</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">Zamknúť</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Chcete zamknúť poznámkový blok?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Odomknúť</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Chcete odomknúť poznámkový blok?</string>
+    <string name="set_password_dialog_title">Zadať heslo</string>
+    <string name="editor_func_button_recognize">Rozpoznať</string>
+    <string name="editor_func_button_transform">Zmeniť</string>   
+    <string name="editor_phone_toast_readonly">Iba režim Čítať: Ste v režime Čítať. Prstom prechádzate alebo rolujte na stránke hore/dole.</string>   
+    <string name="export_pdf">Exportovať ako PDF</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Vyhľadávanie zlyhalo</string>
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Riadok</string>
+    <string name="book_type_grid">Sieť</string>
+    <string name="book_type_meeting">Stretnut.</string>
+    <string name="book_type_diary">Denn.</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Gesto Krok späť</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">Na zrušenie posl. vlož. textu potiah. v režime rukopisu prstom sprava doľava.</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <string name="template_meeting_start_date_tips">Dát. zač.</string>
+    <string name="template_meeting_end_date_tips">Dát. skon.</string>
+    <string name="template_meeting_start_time_tips">Čas zač.</string>
+    <string name="template_meeting_end_time_tips">Čas skon.</string>
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Uk. zam.poz.blok</string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Skr.zam.poz.blok</string>
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Riadok s plynulým písaním</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Keď vaše písmo prekročí červenú čiaru, napísané písmená by sa mali automaticky posunúť doľava.</string>
+    <string name="text_continue" description="continue" max_width="-1">Pokračovať</string>
+    <!-- End: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">SuperNote rozozná všetky rukou napísané texty od textov napísaných klávesnicou a vytvorí duplikát tohto poznámkového bloku.</string>
+    <string name="set_index_language_title">Nast. Rozpoznávanie jaz.</string> 
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">Všetky stránky</string>
+    <!-- darwin add -->
+   <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">Prihlásiť sa môžete pomocou účtu ASUS WebStorage.</string>
+   <!-- Begin: show -->
+   <string name="username" description="User Name" maxwidth="15">Používat. meno</string>
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">Uzamknuté pren. počítače sú skryté.</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">Teraz možno snímať uzamk. pren. poč.</string>
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Priebežne píšte dlhé slovo bez ohľadu na veľkosť obrazovky.</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\'s title">%s Časový údaj(-y)</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Vyhľadáva sa, čakajte.</string>
+<!-- Begin Allen -->
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">Veľký</string>
+    <string name="share_medium" description="Medium" max_width="6">Stred.</string>
+    <string name="share_small" description="Small" max_width="5">Malý</string>
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+    <string name="book_type_blank" description="blank book name" maxwidth="">Prázd.</string>
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+    <string name="editor_menu_savepage" maxwidth="12">Ulož. strán.</string>
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+    <string name="my_bit_cast_wait_text">Čakajte, prosím...</string>
+<!-- End: Shane -->
+<!-- Begin: Better -->
+    <string name="password_not_set_import">Poznámkové bloky možno usporiadať ako sú súkromné ​​a verejné. Chcete vytvoriť heslo pre súkromné poznámkové bloky? Ak heslo nie je vytvorené, všetky vaše poznámkové bloky budú usporiadané ako verejné.</string>
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="book_grid_none" description="the background style of the notebook">Žiad.</string>
+    <!-- End Allen -->    
+<!-- clare begin -->
+    <string name="widget_bt_add_a_notebook">Pridať zápisník</string>
+    <string name="widget_passwordTip">Zadajte heslo</string>
+<!-- clare end -->
+<!-- darwin begin -->
+   <string name="nb_editcover">Upr. obal</string>
+   <string name="nb_editcover_choose_title">Zatv. obrázok</string>
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+    <string name="widget_dialog_replace_notebook">Vymeniť pozn. blok</string>
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+     <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">Pridať do</string>
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Triediť podľa stránky</item>
+        <item>Triediť podľa času</item>
+    </string-array>
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Vysoká</item>
+        <item>Štandardná</item>
+        <item>Nízka</item>
+    </string-array>
+    <string name="todo_item_completed" description="todo item is completed">Dokončené</string>
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Zvoľte zápisník</string>
+    <!-- Begin Allen -->
+    <string name="meeting_form" description="meeting start time">Od</string>
+    <string name="meeting_to" description="meeting end time">Komu</string>
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">Rozpoznané</string>
+ <!-- add for 'SyncCancelDialogFragment'-->
+ <string name="sync_cancel_confirmText">Potvrdiť</string>
+    <string name="sync_cancel_promptTop">Zrušené zosynch. položky budú odstránené aj z iného zariadenia.</string>
+    <string name="sync_cancel_promptBottom">Chcete zrušiť zosynch. týchto pozn. blokov?</string>
+    <string name="sync_cancel_noMoreHint">Nepýtať sa ma sa znovu</string>
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+    <string name="pen_only_enabled">Použiť iba pero</string>
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <string name="export_as" description="used as title of export_format dialog">Export. ako</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>Formát SuperNote</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog">Zvoliť formát</string>
+    <string-array name="share_format_array" description="share format chooser">
+        <item>Obrázok</item>
+        <item>PDF</item>
+        <item>Formát SuperNote</item>
+    </string-array>
+    <string name="todo_title" description="memo template title" maxwidth="">Poznámka</string>
+    <string name="todo_widget_all_todos" description="All memos">Vš. poznám.</string>
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">Vybrať pečať</string>
+    <string name="insert_shape_dlg">Vybrať tvar</string>
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">Čo máš na mysli?</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">Pridajte účastníkov</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">Vaše zápisy z porád tu ...</string>
+<!-- for A86 style by smilefish -->
+    <string name="statusbar_login">Prihlásiť</string>
+    <string name="editcover_save">Uložiť</string>
+    <string name="brush_edit_dialog_library">Knižnica</string>
+    <string name="brush_edit_dialog_back">Späť</string>
+    <string name="brush_edit_dialog_pencil">Ceruzka</string>
+    <string name="brush_edit_dialog_rollerpen">Guľôčkové pero</string>
+    <string name="brush_edit_dialog_pen">Pero</string>
+    <string name="brush_edit_dialog_marker">Značkovač</string>
+    <string name="brush_edit_dialog_brush">Štetec</string>
+    <string name="brush_edit_dialog_airbrush">Sprej</string>
+    <string name="todo_title_task">Ak chcete pridať novú úlohu, stlačte 1.</string>
+    <string name="brush_edit_dialog_full">Uložiť maximálne 12 štetcov</string>
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+    <string name="data_fomat_upgrade">Aktualizovať formát údajov</string>
+    <string name="the_book">Táto kniha</string>
+    <string name="exits">už existuje</string>
+    <string name="replace_the_book">Nahradiť túto knihu?</string>
+    <string name="yes">Áno</string>
+    <string name="no">Nie</string>
+    <string name="successful_upgrade">Aktualizácia bola úspešná. Znovu spustíme SuperNote</string>
+    <string name="upgrade_fails">Aktualizácia zlyhala</string>
+    <string name="not_enough_space">Na karte SD je málo miesta</string>
+    <string name="try_again">Odstráňte zbytočné súbory a skúste to znova reštartovaním SuperNote</string>
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <!-- jason -->
+<!-- Begin Carol-->
+    <string name="editor_phone_readonly">Iba na čítanie: Prstom rolujte na stránke.</string>
+<!-- End Carol-->
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">Žiadne poznámky</string>
+    <string name="widget_password_hint">Zadajte heslo</string>
+    <string name="widget_all_book_template">Všetky poznámkové bloky</string>
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <string name="content_is_too_long" description="content_is_too_long">Obsah je príliš dlhý</string>
+    <string name="todo_title_max_character_num">Maximálny počet znakov je 50</string>
+    <!-- smilefish -->
+    <string name="vo_shape_failed">Túto kresbu nemožno vytvoriť</string>
+    <!-- smilefish -->
+    <string name="todo_widget_create" description="Create">Vytvoriť</string> <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+    <string name="editor_color_picker">Ak chcete vybrať farbu štetca, stlačte toto tlačidlo</string> 
+<!-- end smilefish -->
+    <string name="brush_edit_dialog_save_successful">Uloženie bolo úspešné.</string>
+    <string name="brush_edit_dialog_save">Už existuje.</string>
+    <!--jason  -->
+    <string name="cannot_play_media_when_calling">Počas hovoru nemožno prehrávať médiá</string>
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+    <string name="template_travel_text_hint" description="hint for inputting travelling notes">Poznámky do denníka píšte sem …</string>
+    <string name="template_travel_change_photos" description="hint for changing photos">Klepnutím zmeňte fotog.</string>
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+    <string name="bm_in_notebook" description="Page in notebook" maxwidth="">Záložka v %1$s</string>
+<!-- smilefish -->
+    <string name="page_copy" description="Copy the page" maxwidth="">Skopírovať</string>
+    <string name="page_move" description="Move the page" maxwidth="">Presunúť</string>
+    <string name="page_delete" description="Delete the page" maxwidth="">Odstrániť</string>
+    <string name="page_reorder" description="Reorder the page" maxwidth="">Zmeniť poradie</string>
+    <string name="pg_in_notebook" description="Page in notebook" maxwidth="">Strana %1$s z %2$s</string>
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <string name="todo_widget_add_new_memo" description="All memos">Pridať nový záznam</string>
+    <!-- Emmanual -->
+    <string name="drawer_menu" description="menu on drawer" maxwidth="">Ponuka</string>
+    <!-- smilefish -->
+    <string name="editor_menu_read_later" description="read later" maxwidth="">Prečítať neskôr</string>
+    <!-- smilefish -->
+    <string name="sdcard_full_no_add" description="sdcard is full">Novú stránku alebo poznámkový blok sa nepodarilo uložiť. Ukladací priestor je plný.</string>
+    <!-- emmanual -->
+    <string name="sdcard_full_no_save" description="sdcard is full">Upravenú stránku alebo poznámkový blok sa nepodarilo uložiť. Ukladací priestor je plný.</string>
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <string name="pg_sort_by_name" description="page sort by name">Obnovené v predvolenom usporiadaní, usporiadaní podľa názvu</string>
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <string name="tutorial_info_content1" description="tutorial info for supernote">Váš najlepší poznámkový blok na používanie prsta.</string>
+    <string name="tutorial_info_title2" description="Cloud sync">Cloud synchronizácia</string>
+    <string name="tutorial_info_content2" description="tutorial info for cloud sync">Získajte bezplatné cloud konto na ukladanie svojich údajov v službe cloud kdekoľvek a kedykoľvek.</string>
+    <string name="tutorial_info_title3" description="3 editing modes">3 režimy úprav</string>
+    <string name="tutorial_info_content3" description="tutorial info for editing modes">Píšte rukou, klávesnicou a kreslite v Supernote. Zvoľte najvhodnejšie spôsoby pre svoju úlohu.</string>
+    <string name="tutorial_info_title4" description="Insert content">Vloženie obsahu</string>
+    <string name="tutorial_info_content4" description="tutorial info for insert content">Vkladajte obrázky, zvuky alebo videá s cieľom obohatiť svoj obsah.</string>
+    <string name="skip_this_tutorial" description="skip this tutorial">"Preskočiť"</string>
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <string name="editor_menu_nextpage" maxwidth="12">Nasledujúca stránka</string>
+    <string name="editor_menu_prepage" maxwidth="12">Predchádzajúca stránka</string>
+    <string name="auto_add_page" maxwidth="12">Spracovanie...</string>
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <string name="insert_audiofile">Zvukový súbor</string>
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <string name="audiofile_not_exist">Súbor neexistuje!</string>
+    <string name="audiofile_not_mp4">Súbor so zvukom nemožno do poznámkového bloku vložiť!</string>
+    <string name="editor_func_button_last_edit_page">Spustiť na naposledy upravovanej stránke</string>
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <string name="title_send_email">Odoslať e-mail</string>
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <string name="about_title">Informácie</string>
+    <string name="about_legal_information">Právne informácie</string>
+    <string name="about_legal_information_des">Na používanie tohto softvéru sa vzťahujú podmienky spoločnosti ASUS.</string>
+    <string name="about_website">Webová lokalita</string>
+    <string name="about_allrights">ASUSTek Computer Inc. Všetky práva vyhradené.</string>
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="nb_add_choose_title">Vytvoriť nový zápisník</string>
+    <string-array name="nb_add_choose_item">
+        <item>Prázdny zápisník</item>
+        <item>Vybrať šablónu</item>
+    </string-array>
+    <string name="no_notebooks">Žiadne poznámkové bloky</string>
+    <string name="stub_app_notice_title" description="stub app notice title" maxwidth="-1">Upozornenie</string>
+    <string name="stub_app_notice_content" description="stub app notice content" maxwidth="-1">Najskôr z obchodu App Store Google Play inovujte na najnovšiu verziu. Ďakujeme vám.</string>
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"Najskôr vykonajte aktualizáciu z Asus apps store na najnovšiu verziu. Ďakujeme vám."</string>
+    <string name="cta_act_mobile_network">„Mobilná sieť“</string>
+    <string name="cta_msg_mobile_network">„pokúša sa pripojiť k mobilnej sieti.“ Za používanie mobilnej siete môžu byť účtované poplatky. Ak sa chcete vyhnúť vysokým nákladom, odpojte sa od mobilnej siete, keď ju nepoužívate".</string>
+    <string name="voice">Hlas</string>
+    <string name="error_sdcard_access_nosdcard">Nemožno získať prístup k USB úložisku</string>
+    <string name="error_sdcard_access">Nemožno získať prístup ku karte SD</string>
+    <string name="startfail">Nahrávanie nemožno spustiť; skontrolujte že žiadne iné aplikácie nepoužívajú mikrofón.</string>
+    <string name="sync_setting_wifi_auto">Automaticky synchronizovať len pomocou siete WiFi</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <string name="reading_pdf_prompt">Načítanie PDF...</string>
+    <string name="choose_pdf_prompt">Zvoľte PDF stránky</string>
+    <string name="import_pdf_prompt">Príprava na importovanie PDF stránok...</string>
+    <string name="pdf_import" description="Import PDF" maxwidth="">Importovať PDF</string>
+    <string name="pdf_seelcted">Zvolené: </string>
+    <string name="import_pdf_progress" formatted="false">Importuje sa PDF: %s z %s</string>
+    <string name="add_book_from_pdf" maxwidth="">Z PDF</string>
+    <string name="reading_pdf_error" maxwidth="">Do súboru nemožno písať perom.</string>
+    <string name="reading_pdf_encrypted" maxwidth="">PDF chránené heslom importovať nemožno.</string>
+    <string name="reading_pdf_invalid" maxwidth="">Súbor nemožno importovať. Skontrolujte, že súbor nie je poškodený.</string>
+    <string name="error" maxwidth="">Chyba</string>
+    <string name="editor_func_button_page_transtion">Efekt animácie pri otáčaní stránky</string>
+    <string name="download_title" maxwidth="12">Sťahovanie\u2026</string>
+    <!-- smilefish -->
+    <string name="settings_encourage_us_title" maxWidth="">Podporte nás</string>
+    <string name="settings_encourage_us_detail" translate="true">Ak radi používate %s, ohodnoťte nás 5 hviezdičkami v Play Store. Bolo by to pre nás veľkým povzbudením na pokračovanie v zlepšovaní tohto produktu!\n\nAk máte návrhy, napíšte nám cez spätnú väzbu&amp;Pomocníka.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">Hodnotiť teraz</string>
+    <string name="later_action_no_apps" description="Text for indicating there are no apps to open the content" maxwidth="-1">Pre ukončenia chýba aplikácia</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">Ak chcete hodnotiť, posúvajte hore</string>
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"K súborom nemožno získať prístup"</string>
+    <string name="force_permission_sub_title">"Aplikácia %1$s vyžaduje povolenie %2$s, aby bol možný prístup k súborom v zariadeniu a ich ukladanie."</string>
+    <string name="force_permission_turn_on">"Zapnúť"</string>
+    <string name="force_permission_storage">"Ukladací priestor"</string>
+    <string name="force_permission_settings">"Nastavenia"</string>
+    <string name="force_permission_show_settings">"Ťuknutím na &lt;b>Nastavenie&lt;/b> zapnite povolenie &lt;b>%2$s&lt;/b> v položke &lt;b>Informácie o aplikácii&lt;/b> &lt;b>Povolenia&lt;/b>. Potom reštartujte %1$s."</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"Gesto navigovania"</string>
+    <string name="navigate_tutorial_content">"Dvoma prstami voľne posúvajte po stránke. V režime Iba na čítanie môžete posúvať na stránke v okne s ukážkou."</string>
+    <string name="navigate_tutorial_content_phone">"Dvoma prstami voľne posúvajte na stránke v okne s ukážkou."</string>
+    <string name="navigate_tutorial_scroll">"Podržaním môžete stránku posúvať."</string>
+    <!-- end smilefish -->
+</resources>

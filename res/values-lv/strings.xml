@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <string name="next" description="Next" maxwidth="">Tālāk</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Kopīgot tikai ar tekstu</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Paslēpt režģi</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Izmērs: </string>
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">Par „SuperNote”</string>
+    <string name="set_on" description="On" maxwidth="">Iesl.</string>
+    <string name="set_off" description="Off" maxwidth="">Izsl.</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Lasīšanas režīms</string>
+    <string name="app_name">SuperNote</string>
+    <string name="setting" description="Settings" maxwidth="">Iestatījumi</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s lapa(s) ir izdzēsta(s)</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Kopēt lapu(as) uz</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">Pārvietot %d lapu(as) uz </string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Piezīmju grāmatiņas nosaukums</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Lapas krāsa</string>
+    <string name="password" description="Password" maxwidth="">Parole</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Ievadiet 4 līdz 7 rakstzīmes/ciparus.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Pašreizējā parole</string>
+    <string name="password_newpin" description="New password" maxwidth="">Jauna parole</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Apstipriniet jauno paroli</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">Uzmanību! Parolē jābūt no 4 līdz 7 rakstzīmēm (burtiem vai cipariem).</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Iestatīt/mainīt paroli</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">Paroles neatbilst.</string>
+    <string name="share_to" description="Share to..." maxwidth="">Kopīgot:</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">„SuperNote” parole</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">%s tika mainīta „SuperNote” parole. Jaunā parole: %s</string>
+    <string name="choose_a_template" description="choose a template for your notebook" maxwidth="">Izvēlieties piezīmju grāmatiņas veidni.</string>
+    <string name="name" description="Name" maxwidth="">Vārds</string>
+    <string name="del" description="Delete" maxwidth="">Dzēst</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Sākt importēšanu no</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Importēt piezīmju grāmatiņu</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">Nav atrasta ar šo failu saistītā atvēršanas metode</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Importēšana pabeigta!</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Importēšana neizdevās. Fails ir bojāts.</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Pārvietot uz</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Kopēt uz</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Vai dzēst atlasīto(-ās) lapu(-as)?</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Atlasīt visu</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Noņemt visu atlasi</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">Pārvietot lapu(-as)</string>
+    <string name="memo_del" description="Deleted memo">Vai dzēst atlasīto(-ās) atgādni(-es)?</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">Atgādne ir tukša</string>
+    <string name="book_grid_title" description="the title of the page display property">Līnijas stils</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">Kopēt lapu(-as)</string>
+    <string name="wrong_file_type" description="wrong_file_type">Jūs mēģināt atvērt nepareizu faila veidu</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Lai pārkārtotu lapas, turiet lapu nospiestu un velciet vēlamajā virzienā.</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Pārvietot lapu(as) uz</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">Lapa neeksistē</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Pēdējā lapa</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">Pirmā lapa</string>
+    <string name="phone_book_name" description="Phone book name">Tālruņu grāmata</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">Jauna lapa</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">Vai tiešām vēlaties dzēst visus zīmējumus? Šo darbību nevar atsaukt.</string>
+    <string name="delete_alert" description="warning of deleting">Vai vēlaties dzēst šo zīmējumu?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Ar pirkstu pārvietojiet vai mainiet objekta izmēru.</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Pieskarieties, lai atlasītu vai vilktu vienu vai vairākus objektus.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Šī lapa ir pilna</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Otas krāsa un biezums</string>   
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Šī lapa ir tukša</string>
+    <string name="editor_menu_share">Kopīgot</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Grāmatzīme</string>
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Tikai lasāms</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Piezīmju grāmatiņa</string>
+    <string name="warning_activity_not_found" description="Activity not found">Jūsu ierīce neatbalsta šo faila vai kodeka veidu</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">Starpliktuvē nav neviena attēla, ko ielīmēt</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Noņemt</string>
+    <string-array name="pg_size">
+        <item>Planšetdators</item>
+        <item>Tālrunis</item>
+    </string-array>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Pievienot jaunu piezīmju grāmatiņu</string>
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d lapa(s) ir pārkopēta(s) uz %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">Lapas izmērs</string>
+    <!-- 2012-02-08 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Balts</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Dzeltens</string>
+    <string name="book_grid_line" description="the background style of the notebook">Līnijas</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Režģi</string>
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Rādīt piezīmju grāmatiņas informāciju</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">Saite uz: \n%s</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Lasīšanai nav pieejama neviena grāmata vai lapa</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Nav grāmatzīmēs saglabātu lapu.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Vai dzēst?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Vai tiešām vēlaties dzēst šo lapu?</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Krāsa</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Kopēt</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Izgriezt</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Rediģēt</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Grupa</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Atgrupēt</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Pamatlīnija</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Atsaukt</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Atcelt atsaukšanu</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Ievietot</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Atlasīt</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Ielīmēt</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Dzēst</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Ota</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Dzēšgumija</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Atcelt</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Gatavs</string>
+   <!-- new by Ryan -->
+    <string name="editor_menu_addpage" maxwidth="12">Pievienot lapu</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Noņemt lapu</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Lapas formāts nav saderīgs</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Rakstīt</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Veids</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Zīmēt</string>
+    <!-- send to 4th -->
+    <string name="load_tutorial" description="" maxwidth="">Notiek sagatavošana pirmajai izmantošanas reizei...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Pievienot grāmatzīmēm</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="">Noņemt no grāmatzīmēm</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Vai noņemt no grāmatzīmēm?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Rādīt grāmatzīmes</string>
+    <!-- send to 5th -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Ātri</item>
+        <item>Parasts</item>
+        <item>Lēni</item>
+    </string-array>
+    <string name="reset_password_title" description="reset the password">Atiestatīt paroli</string>
+    <string name="reset_password_summary">Notīrīt paroli</string>
+    <string name="reset_password_dialog_title">Atiestatīt paroli</string>
+    <string name="reset_password_dialog_password_invalid">Nederīga parole</string>
+    <string name="confirm_reset_dialog_title">Atiestatīt paroli</string>
+    <string name="no_memory_dialog_content">Atmiņā nepietiek vietas</string>
+    <!-- 6th -->
+    <string name="dialog_file_name">Faila nosaukums</string>
+    <string name="dialog_save_to">Saglabāt</string>
+    <!-- 10th, Start New String -->
+   <string name="new_page" description="Create New Page" maxwidth="15">Izveidot jaunu lapu</string>
+   <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Piezīmju grāmatiņa eksportēta uz</string>
+   <string name="pg_title_counter" description="show total pages number of the all page view\'s title">%s grāmatzīme(-s)</string>
+   <string-array name="pg_sort">
+        <item>Pēc nosaukuma</item>
+        <item>Pēc pēdējās modifikācijas</item>
+    </string-array>
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">Vai vēlaties dzēst piezīmju grāmatiņu?</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Pārdēvēt</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Paslēpt</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Dzēst</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Eksportēt</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Ievades atpazīšanas ātrums</string>
+    <string name="notebook_selected" description="show how many pages are selected">%s atlasītas</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">Piezīmju grāmatiņas</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">Grāmatzīme</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">Laikspiedols</string>
+    <string-array name="week_of_day">
+        <item>Svētdiena</item>
+        <item>Pirmdiena</item>
+        <item>Otrdiena</item>
+        <item>Trešdiena</item>
+        <item>Ceturtdiena</item>
+        <item>Piektdiena</item>
+        <item>Sestdiena</item>
+        <item>Šodien</item>
+        <item>Vakar</item>
+        <item>Pagājušonedēļ</item>
+        <item>Pirms divām nedēļām</item>
+        <item>Pirms trim nedēļām</item>
+        <item>Rīt</item>
+        <item>Nākamnedēļ</item>
+        <item>Pēc divām nedēļām</item>
+        <item>Pēc trim nedēļām</item>
+    </string-array>
+   <string-array name="month_of_year">
+        <item>Janvāris</item>
+        <item>Februāris</item>
+        <item>Marts</item>
+        <item>Aprīlis</item>
+        <item>Maijs</item>
+        <item>Jūnijs</item>
+        <item>Jūlijs</item>
+        <item>Augusts</item>
+        <item>Septembris</item>
+        <item>Oktobris</item>
+        <item>Novembris</item>
+        <item>Decembris</item>
+        <item>Pagājušajā mēnesī</item>
+        <item>Pirms pusgada</item>
+        <item>Vairāk nekā pirms gada</item>
+        <item>Nākammēnes</item>
+        <item>Pēc pusgada</item>
+        <item>Pēc gada</item>
+    </string-array>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Apgriezt</string>
+    <!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Rediģēt</string>
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <string name="password_or_account_empty">Konta vai paroles lauks nedrīkst būt tukšs</string>
+    <string name="nb_sync">Iespējot mākoņa sinhronizāciju</string>
+    <string name="nb_async">Atcelt mākoņa sinhronizāciju</string>
+    <string name="sync_status_syncing">Notiek sinhronizācija...</string>
+    <string name="sync_status_failed">Datu sinhronizācija neizdevās.</string>
+    <string name="sync_account_text">Konts</string>
+    <string name="sync_sign_off">Izrakstīties</string>
+    <string name="account_space_usage">Izmantotā vieta</string>  
+    <string name="account_and_sync">Kontu sinhronizācijas iestatījumi</string>
+    <string name="sync_setting_auto">Automātiskā sinhronizācija</string>
+    <string name="sync_setting_auto_frequency">Automātiskās sinhronizācijas biežums</string>
+    <string name="sync_auto_interval_1">Ik pēc 1 min.</string>
+    <string name="sync_auto_interval_15">Ik pēc 15 min.</string>
+    <string name="sync_auto_interval_30">Ik pēc 30 min.</string>
+    <string name="sync_auto_interval_60">Ik pēc 60 min.</string>
+    <string name="sync_auto_interval_1d">Katru dienu</string>
+    <!-- add by Better -->
+<!-- Begin: show -->
+    <string name="webstorage_register">Reģistrēties</string>
+    <string name="webstorage_signon">Pierakstīties</string>
+<!-- End: show -->
+    <!--Begin: Show-->
+    <string name="Crop_Done">Gatavs</string>  
+    <string name="Crop_Free">Laso</string>
+    <string name="Crop_Rect">Taisnstūris</string>
+     <!--End: Show--> 
+    <string name="prompt_export_pdf_to">PDF fails saglabāts</string>
+    <string name="browse_folder">Pārlūkot</string>
+    <string name="export_supernote_format">Eksportēt „SuperNote” formātā</string>
+    <string name="file_export">Eksportēt failu</string>
+    <string name="editor_func_button_search">Meklēt</string>
+    <string name="no_search_result">Nav vienumu, kas atbilstu meklēšanas kritērijiem</string>
+    <string name="SearchResultItemInfo_Loading">Notiek ielāde...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Neizdevās nolasīt failu.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Piezīmju grāmatiņas</string>
+    <string name="SearchResultItemInfo_Pages">Lapas</string>
+    <string name="SearchResultItemInfo_Personal">Privāts</string> 
+    <string name="SearchResultItemInfo_Page_Space">Lapa </string>   
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Rakstītā teksta atpazīšana</string>
+      <!-- wendy  -->
+   <string name="password_not_set_sync">Mākonī saglabātās piezīmju grāmatiņas varbūt gan privātas, gan publiskas. Vai vēlaties izveidot paroli privātajām piezīmju grāmatiņām? Bez paroles visas piezīmju grāmatiņas būs publiskas.</string>
+   <string name="bookpicker_sync_books_list">Sinhronizēt grāmatu sarakstu</string>
+   <string name="bookpicker_cancel">Atcelt</string>
+   <string name="bookpicker_ok">LABI</string>
+   <string name="newto_editor_func_popup_d_brush_stroke">Vilkums</string>
+   <string name="newto_editor_func_popup_d_brush_alpha">Caurspīdīgums</string> 
+   <string name="export">Eksportēt</string>
+   <string name="transfer">Pārsūtīt</string>
+   <string name="book_export">Eksportēt piezīmju grāmatiņu</string>
+   <string name="prompt_exports_pdf_to">PDF faili saglabāti</string> 
+<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Nosaukums</string>  
+   <string name="template_travel_tips_date">Datums</string>
+   <!--wendy begin -->
+    <string name="select_all">Visi</string>
+   <string name="prompt_no_book_selected">Nav atlasīta neviena grāmata</string>
+   <!-- Begin: Better -->
+   <string name="sync_file_no_version">Versija nav pieejama.</string>
+   <string name="loading_page">Notiek lapas datu ielāde...</string>
+   <string name="prompt_transfer_format">Ir nepieciešama grāmatas pārformatēšana, tas var ilgt kādu laiku. Vai vēlaties turpināt?</string>
+   <string name="prompt_saving">Notiek saglabāšana...</string>
+   <string name="prompt_incompatible_syncing">%s versija nav saderīga Atjauniniet „SuperNote” versiju.</string>
+   <string name="prompt_incompatible_file">%s versija nav saderīga</string>
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <string name="webstorage_login_signing_in">Notiek pierakstīšanās. Lūdzu, uzgaidiet...</string>
+   <string name="webstorage_login_account_password_wrong">Konts vai parole ir nepareiza</string>
+   <string name="sync_setting_sign_failure">Neizdevās pierakstīšanās kontā %s</string>
+   <string name="sync_setting_sign_success">Pierakstīties %s</string>
+   <string name="sync_setting_networkless_title">Nav savienojuma</string>
+    <string name="sync_setting_networkless">Lai izmantotu šo pakalpojumu, ir nepieciešams interneta pieslēgums. Dodieties uz sadaļu „Iestatījumi” un iespējojiet mobilā tīkla savienojumu vai Wi-Fi.</string>
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <string name="Sort">Kārtot</string>
+    <!-- End: Allen -->   
+ <string-array name="editor_func_insert_array" description="insert mode" maxwidth="20">
+        <item>Uzņemt fotoattēlu</item>
+        <item>Attēla fails</item>
+        <item>Teksta attēls</item>
+        <item>PDF faila lapa</item>
+        <item>Ierakstīt audiofailu</item>
+        <item>Uzņemt video</item>
+        <item>Teksta fails</item>
+        <item>Laikspiedols</item>
+        <item>Mākslas darbs no starpliktuves</item>
+        <item>Zīmogs</item>
+        <item>Forma</item>
+    </string-array>
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <string-array name="nb_editcover_choose_item">
+        <item>Kamera</item>
+        <item>Attēls no faila</item>
+    </string-array>
+ <!-- End  :Darwin -->
+    <string name="sync_setting_sign_out">Izrakstīšanās no %s</string>
+    <string name="sync_setting_sign_out_msg">Izrakstīšanās liegs piekļuvi mākoņa kontā esošajām piezīmju grāmatiņām un atspējos mākoņa sinhronizāciju. Vai vēlaties turpināt?\n</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">Parole nomainīta. Vai vēlaties nosūtīt paroli uz savu e-pastu turpmākai lietošanai? Tādējādi varēsiet vienmēr piekļūt slēptajām piezīmju grāmatiņām.\n</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Bloķēt</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">Atbloķēt</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">Bloķēt, lai paslēptu</string>
+    <string name="editor_phone_toast_seletext">Velciet, lai izceltu tekstu.</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">Bloķēt</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Vai vēlaties bloķēt piezīmju grāmatiņu?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Atbloķēt</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Vai vēlaties atbloķēt piezīmju grāmatiņu?</string>
+    <string name="set_password_dialog_title">Iestatīt paroli</string>
+    <string name="editor_func_button_recognize">Atpazīt</string>
+    <string name="editor_func_button_transform">Pārveidot</string>   
+    <string name="editor_phone_toast_readonly">Lasīšanas režīms: jūs skatāt lasīšanas režīmu. Ar pirkstu šķirstiet lapas vai ritiniet tās augšup vai lejup.</string>   
+    <string name="export_pdf">Eksportēt kā PDF failu</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Meklēšana neizdevās.</string>
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Līnija</string>
+    <string name="book_type_grid">Režģis</string>
+    <string name="book_type_meeting">Sapulce</string>
+    <string name="book_type_diary">Dienasgrāmata</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Atpakaļatkāpes žests</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">Rakstīšanas režīmā ar pirkstu pavelciet no labās uz kreiso pusi, lai dzēstu pēdējo ievadīto tekstu.</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <string name="template_meeting_start_date_tips">Sākuma datums</string>
+    <string name="template_meeting_end_date_tips">Beigu datums</string>
+    <string name="template_meeting_start_time_tips">Sākuma laiks</string>
+    <string name="template_meeting_end_time_tips">Beigu laiks</string>
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Rādīt bloķēto piezīmju grāmatiņu </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Paslēpt bloķēto piezīmju grāmatiņu </string>
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Nepārtraukta rakstīšanas rindiņa</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Ja uzrakstītais teksts pārsniedz sarkano līniju, tas automātiski tiks pabīdīts pa kreisi.</string>
+    <string name="text_continue" description="continue" max_width="-1">Turpināt</string>
+    <!-- End: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">„SuperNote” atpazīst un konvertē ar roku rakstītu tekstu drukātā tekstā, un šāds drukātais teksts tiek dublēts kā jauna piezīmju grāmatiņa.</string>
+    <string name="set_index_language_title">Iestatīt atpazīšanas valodu</string> 
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">Visas lapas</string>
+    <!-- darwin add -->
+   <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">Varat pierakstīties, izmantojot savu ASUS „WebStorage” kontu.</string>
+   <!-- Begin: show -->
+   <string name="username" description="User Name" maxwidth="15">Lietotājvārds</string>
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">Bloķētās piezīmju grāmatiņas ir paslēptas</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">Bloķētās piezīmju grāmatiņas tagad var lasīt</string>
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Rakstiet neierobežoti garu vārdu, neņemot vērā ekrāna izmēru.</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\'s title">%s laikspiedols(-i)</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Notiek meklēšana, lūdzu, uzgaidiet</string>
+<!-- Begin Allen -->
+    <string name="content_search" description="Inform the user whether to open the search function when create a new book" max_width="5">Satura meklēšana</string>
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">Liels</string>
+    <string name="share_medium" description="Medium" max_width="6">Vidējs</string>
+    <string name="share_small" description="Small" max_width="5">Mazs</string>
+    <string name="recognizing">Atpazīšana</string>
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+    <string name="book_type_blank" description="blank book name" maxwidth="">Tukšs</string>
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+    <string name="import_export_book_fail_reason" description="reason of failing to import book" maxwidth="">neviens failu pārvaldnieks</string>
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+    <string name="editor_menu_savepage" maxwidth="12">Saglabāt lapu</string>
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+    <string name="my_bit_cast_wait_text">Lūdzu, uzgaidiet...</string>
+<!-- End: Shane -->
+<!-- Begin: Better -->
+    <string name="password_not_set_import">Piezīmju grāmatiņas var būt gan privātas, gan publiskas. Vai vēlaties izveidot paroli privātajām piezīmju grāmatiņām? Bez paroles visas piezīmju grāmatiņas būs publiskas.</string>
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="book_grid_none" description="the background style of the notebook">Neviens</string>
+    <!-- End Allen -->    
+<!-- clare begin -->
+    <string name="widget_bt_add_a_notebook">Pievienot piezīmju grāmatiņu</string>
+    <string name="widget_passwordTip">Lūdzu, ievadiet paroli:</string>
+<!-- clare end -->
+<!-- darwin begin -->
+   <string name="nb_editcover">Rediģēt titulbildi</string>
+   <string name="nb_editcover_choose_title">Izvēlēties attēlu</string>
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+    <string name="widget_dialog_replace_notebook">Aizstāt piezīmju grāmatiņu</string>
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+    <string name="widget_book_locked">Bloķēta</string> <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">Pievienot</string>
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Kārtot pēc lapas</item>
+        <item>Kārtot pēc laika</item>
+    </string-array>
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Augsta</item>
+        <item>Parasts</item>
+        <item>Zema</item>
+    </string-array>
+    <string name="todo_item_completed" description="todo item is completed">Pabeigts</string>
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Atlasīt piezīmju grāmatiņu</string>
+    <!-- Begin Allen -->
+    <string name="meeting_form" description="meeting start time">No</string>
+    <string name="meeting_to" description="meeting end time">Līdz</string>
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">Nav identificēts</string>
+ <!-- add for 'SyncCancelDialogFragment'-->
+ <string name="sync_cancel_confirmText">Apstiprināt</string>
+    <string name="sync_cancel_promptTop">Tās tiks izdzēstas otrā ierīcē.</string>
+    <string name="sync_cancel_promptBottom">Vai vēlaties atcelt šo piezīmju grāmatiņu sinhronizāciju?</string>
+    <string name="sync_cancel_noMoreHint">Vairs neatgādināt.</string>
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+    <string name="pen_only_enabled">Izmantot tikai pildspalvu</string>
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <string name="export_as" description="used as title of export_format dialog">Eksportēt kā</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>„SuperNote” formāts</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog">Atlasiet formātu</string>
+    <string-array name="share_format_array" description="share format chooser">
+        <item>Attēls</item>
+        <item>PDF</item>
+        <item>„SuperNote” formāts</item>
+    </string-array>
+    <string name="todo_title" description="memo template title" maxwidth="">Atgādne</string>
+    <string name="todo_widget_all_todos" description="All memos">Visas ATGĀDNES</string>
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">Izvēlēties zīmogu</string>
+    <string name="insert_shape_dlg">Izvēlēties formu</string>
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">Kāda ir tēma?</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">Pievienojiet dalībniekus</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">Sapulces piezīmes...</string>
+<!-- for A86 style by smilefish -->
+    <string name="statusbar_login">Pieteikties</string>
+    <string name="editcover_photo">Fotoattēls</string>
+    <string name="editcover_save">Saglabāt</string>
+    <string name="brush_edit_dialog_library">Bibliotēka</string>
+    <string name="brush_edit_dialog_back">Atpakaļ</string>
+    <string name="brush_edit_dialog_pencil">Zīmuļa stils</string>
+    <string name="brush_edit_dialog_rollerpen">Lodīšpildspalva</string>
+    <string name="brush_edit_dialog_pen">Pildspalva</string>
+    <string name="brush_edit_dialog_marker">Marķieris</string>
+    <string name="brush_edit_dialog_brush">Ota</string>
+    <string name="brush_edit_dialog_airbrush">Pulverizators</string>
+    <string name="todo_title_task">Nospiediet „1”, lai pievienotu jaunu uzdevumu.</string>
+    <string name="brush_edit_dialog_full">Maksimālais saglabātais otu skaits ir 12</string>
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+    <string name="data_fomat_upgrade">Datu formāta jauninājums</string>
+    <string name="the_book">Grāmata</string>
+    <string name="exits">jau eksistē</string>
+    <string name="replace_the_book">Vai aizstāt grāmatu?</string>
+    <string name="yes">Jā</string>
+    <string name="no">Nē</string>
+    <string name="successful_upgrade">Jaunināšana pabeigta. „SuperNote” tiks restartēta</string>
+    <string name="upgrade_fails">Jaunināt failus</string>
+    <string name="not_enough_space">SD kartē nepietiek vietas</string>
+    <string name="try_again">Lūdzu, izdzēsiet nederīgos failus un restartējiet lietotni „SuperNote”, lai mēģinātu vēlreiz.</string>
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <string name="airview_type">Veids</string>
+    <!-- jason -->
+<!-- Begin Carol-->
+    <string name="version_info">Versija</string>
+    <string name="widget_memo_title">„SuperNote” atgādne</string>
+    <string name="editor_phone_readonly">Tikai lasāms: ritiniet lapu ar pirkstu.</string>
+<!-- End Carol-->
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">Nav atgādņu</string>
+    <string name="widget_password_hint">Ievadiet paroli</string>
+    <string name="widget_all_book_template">Visas piezīmju grāmatiņas</string>
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <string name="content_is_too_long" description="content_is_too_long">Saturs ir par garu</string>
+    <string name="todo_title_max_character_num">Maksimālais rakstzīmju skaits ir 50</string>
+    <!-- smilefish -->
+    <string name="vo_shape_failed">Nevar piešķirt formu šim zīmējumam</string>
+    <!-- smilefish -->
+    <string name="todo_widget_create" description="Create">Izveidot</string> <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+    <string name="editor_color_picker">Nospiediet, lai izvēlētos otas krāsu.</string> 
+<!-- end smilefish -->
+    <string name="brush_edit_dialog_save_successful">Veiksmīgi saglabāts.</string>
+    <string name="brush_edit_dialog_save">Jau eksistē</string>
+    <!--jason  -->
+    <string name="cannot_play_media_when_calling">Zvana laikā atskaņot multivides failu nevar</string>
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+    <string name="template_travel_text_hint" description="hint for inputting travelling notes">Dienasgrāmatas piezīmes...</string>
+    <string name="template_travel_change_photos" description="hint for changing photos">Pieskarieties, lai mainītu fotoattēlus</string>
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+    <string name="bm_in_notebook" description="Page in notebook" maxwidth="">Saglabāt kā grāmatzīmi %1$s</string>
+<!-- smilefish -->
+    <string name="page_copy" description="Copy the page" maxwidth="">Kopēt</string>
+    <string name="page_move" description="Move the page" maxwidth="">Pārvietot</string>
+    <string name="page_delete" description="Delete the page" maxwidth="">Dzēst</string>
+    <string name="page_reorder" description="Reorder the page" maxwidth="">Pārkārtot</string>
+    <string name="pg_in_notebook" description="Page in notebook" maxwidth="">%1$s. lapa %2$s</string>
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <string name="todo_widget_add_new_memo" description="All memos">Pievienot jaunu atgādni</string>
+    <!-- Emmanual -->
+    <string name="drawer_menu" description="menu on drawer" maxwidth="">Izvēlne</string>
+    <!-- smilefish -->
+    <string name="editor_menu_read_later" description="read later" maxwidth="">Lasīt vēlāk</string>
+    <!-- smilefish -->
+    <string name="sdcard_full_no_add" description="sdcard is full">Neizdevās saglabāt jauno lapu vai piezīmju grāmatiņu. Krātuve ir pilna.</string>
+    <!-- emmanual -->
+    <string name="sdcard_full_no_save" description="sdcard is full">Neizdevās saglabāt rediģēto lapu vai piezīmju grāmatiņu. Krātuve ir pilna.</string>
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <string name="pg_sort_by_name" description="page sort by name">Atjaunota noklusējuma kārtošana, kārtošana pēc nosaukuma</string>
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <string name="tutorial_info_content1" description="tutorial info for supernote">Labākais palīgs piezīmju rakstīšanā.</string>
+    <string name="tutorial_info_title2" description="Cloud sync">Mākoņa sinhronizācija</string>
+    <string name="tutorial_info_content2" description="tutorial info for cloud sync">Saņemiet bezmaksas mākoņa kontu, lai saglabātu savus datus jebkurā vietā un laikā.</string>
+    <string name="tutorial_info_title3" description="3 editing modes">3 rediģēšanas režīmi</string>
+    <string name="tutorial_info_content3" description="tutorial info for editing modes">Rakstiet, ievadiet un zīmējiet, izmantojot lietotni „Supernote”. Izvēlieties vispiemērotāko metodi vajadzīgā uzdevuma veikšanai.</string>
+    <string name="tutorial_info_title4" description="Insert content">Ievietot saturu</string>
+    <string name="tutorial_info_content4" description="tutorial info for insert content">Ievietojiet attēlus, skaņas vai videofailus, lai papildinātu saturu.</string>
+    <string name="skip_this_tutorial" description="skip this tutorial">"Izlaist"</string>
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <string name="editor_menu_nextpage" maxwidth="12">Nākamā lapa</string>
+    <string name="editor_menu_prepage" maxwidth="12">Iepriekšējā lapa</string>
+    <string name="auto_add_page" maxwidth="12">Notiek apstrāde\u2026</string>
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <string name="insert_audiofile">Audiofails</string>
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <string name="audiofile_not_exist">Fails neeksistē!</string>
+    <string name="audiofile_not_mp4">Audiofailu nav iespējams ievietot piezīmju grāmatiņā!</string>
+    <string name="editor_func_button_last_edit_page">Palaist no pēdējās rediģētās lapas</string>
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <string name="title_send_email">Sūtīt e-pastu</string>
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <string name="about_title">Par</string>
+    <string name="about_legal_information">Juridiskā informācija</string>
+    <string name="about_legal_information_des">Izmantojot šo programmatūru, jāievēro ASUS noteikumi un nosacījumi.</string>
+    <string name="about_website">Tīmekļa vietne</string>
+    <string name="about_allrights">ASUSTek Computer Inc. Visas tiesības aizsargātas.</string>
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="nb_add_choose_title">Jaunas piezīmju grāmatiņas izveide</string>
+    <string-array name="nb_add_choose_item">
+        <item>Tukša piezīmju grāmatiņa</item>
+        <item>Izvēlēties veidni</item>
+    </string-array>
+    <string name="no_notebooks">Nav piezīmju grāmatiņu</string>
+    <string name="stub_app_notice_title" description="stub app notice title" maxwidth="-1">Paziņojums</string>
+    <string name="stub_app_notice_content" description="stub app notice content" maxwidth="-1">Vispirms jauniniet lietotni uz jaunāko versiju, kuru varat iegūt vietnē „Google Play”. Paldies!</string>
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"Vispirms jauniniet lietotni uz jaunāko versiju, kuru varat lejupielādēt Asus programmu veikalā. Paldies."</string>
+    <string name="cta_act_mobile_network">"Mobilais tīkls"</string>
+    <string name="cta_msg_mobile_network">"mēģina savienoties ar mobilo tīklu. Par mobilā tīkla lietošanu var būt jāmaksā. Lai nebūtu jāmaksā, atvienojiet mobilo tīklu, kad to nelietojat."</string>
+    <string name="voice">Balss</string>
+    <string name="error_sdcard_access_nosdcard">Nevar piekļūt USB krātuvei</string>
+    <string name="error_sdcard_access">Nevar piekļūt SD kartei</string>
+    <string name="startfail">Nevar sākt ierakstīšanu. Lūdzu, pārliecinieties, vai citas programmas neizmanto mikrofonu.</string>
+    <string name="sync_setting_wifi_auto">Automātiska sinhronizācija, tikai izmantojot Wi-Fi</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <string name="reading_pdf_prompt">Lasa PDF...</string>
+    <string name="choose_pdf_prompt">Izvēlieties PDF lapas</string>
+    <string name="import_pdf_prompt">Gatavojas importēt PDF lapu(-as)...</string>
+    <string name="pdf_import" description="Import PDF" maxwidth="">Importēt PDF</string>
+    <string name="pdf_seelcted">Izvēlēts: </string>
+    <string name="import_pdf_progress" formatted="false">Importē PDF: %s no %s</string>
+    <string name="add_book_from_pdf" maxwidth="">No PDF</string>
+    <string name="reading_pdf_error" maxwidth="">Nevar atvērt failu.</string>
+    <string name="reading_pdf_encrypted" maxwidth="">Nevar importēt PDF failu, kas tiek aizsargāts ar paroli.</string>
+    <string name="reading_pdf_invalid" maxwidth="">Nevar importēt failu. Lūdzu, pārliecinieties, vai fails nav bojāts.</string>
+    <string name="error" maxwidth="">Kļūda</string>
+    <string name="editor_func_button_page_transtion">Animācijas efekts lapas pāršķiršanai</string>
+    <string name="download_title" maxwidth="12">Lejupielādē\u2026</string>
+    <!-- smilefish -->
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"Nevar piekļūt failiem"</string>
+    <string name="force_permission_sub_title">"%1$s nepieciešama piekļuves atļauja %2$s, lai piekļūtu ierīces failiem un tos saglabātu."</string>
+    <string name="force_permission_turn_on">"Ieslēgt"</string>
+    <string name="force_permission_storage">"Krātuve"</string>
+    <string name="force_permission_settings">"Iestatījumi"</string>
+    <string name="force_permission_show_settings">"Pieskarieties &lt;b>Iestatījumi&lt;/b>, lai sadaļā &lt;b>Lietotnes informācija&lt;/b> &lt;b>Atļaujas&lt;/b> ieslēgtu piekļuves atļaujas &lt;b>%2$s&lt;/b>. Pēc tam restartējiet %1$s."</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"Naviģēšanas žesti"</string>
+    <string name="navigate_tutorial_content">"Izmantojiet divus pirkstus, lai viegli naviģētu pa lapu. Ja ir ieslēgts režīms Tikai lasāms, varat naviģēt lapu priekšskatījuma logā."</string>
+    <string name="navigate_tutorial_content_phone">"Izmantojiet divus pirkstus, lai viegli naviģētu lapu priekšskatījuma logā."</string>
+    <string name="navigate_tutorial_scroll">"Turiet, lai ritinātu lapu"</string>
+    <!-- end smilefish -->
+</resources>

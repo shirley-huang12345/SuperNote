@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10px" >
+
+        <LinearLayout
+            android:id="@+id/layout_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/edit_popupmenu_arraw_bottom"
+            android:background="@drawable/asus_text_popup"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/note_popup_copy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="@drawable/no"
+                android:textColor="#282929"
+                android:text="@string/editor_func_button_copy" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#C7C7C7" />
+
+            <Button
+                android:id="@+id/note_popup_cut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="@drawable/no"
+                android:textColor="#282929"
+                android:text="@string/editor_func_button_cut" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#C7C7C7" />
+
+            <Button
+                android:id="@+id/note_popup_paste"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="@drawable/no"
+                android:textColor="#282929"
+                android:text="@string/editor_func_button_paste" />
+
+            <TextView
+                android:id="@+id/note_popup_division"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#C7C7C7" />
+
+            <Button
+                android:id="@+id/note_popup_delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="@drawable/no"
+                android:textColor="#282929"
+                android:text="@string/editor_func_button_delete" />
+            
+			<TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/no" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/asus_text_popup_01"/>
+
+</FrameLayout>

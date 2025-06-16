@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:key="@string/pref_password"
+        android:summary="@string/password_set"
+        android:title="@string/password" />
+    <PreferenceScreen
+        android:key="@string/pref_reset_password"
+        android:summary="@string/reset_password_summary"
+        android:title="@string/reset_password_title" />
+
+    <CheckBoxPreference
+        android:key="@string/pref_default_read_mode"
+        android:summaryOff="@string/set_off"
+        android:summaryOn="@string/set_on"
+        android:title="@string/set_readOnly" />
+
+    <PreferenceScreen
+        android:key="@string/pref_fast_input_value"
+        android:title="@string/handwrite_recognition_speed" />
+    <PreferenceScreen
+        android:key="@string/pref_index_language"
+        android:title="@string/set_index_language_title" />
+    
+	<!-- BEGIN: Show -->
+	<CheckBoxPreference 
+        android:key="@string/pref_backspace_gesture" 
+        android:title="@string/backspace_gesture_title"
+        android:summaryOff="@string/backspace_gesture_summary"
+		android:summaryOn="@string/set_on"/>
+	<!-- END: Show -->
+	
+	<CheckBoxPreference 
+        android:key="@string/pref_baseline" 
+        android:title="@string/editor_func_button_baseline"
+        android:summaryOff="@string/set_off"
+		android:summaryOn="@string/set_on"/>
+	
+	<CheckBoxPreference 
+        android:key="@string/pref_last_edit_page" 
+        android:title="@string/editor_func_button_last_edit_page"
+        android:summaryOff="@string/set_off"
+		android:summaryOn="@string/set_on"/>
+	
+	<CheckBoxPreference 
+        android:key="@string/pref_page_transtion" 
+        android:title="@string/editor_func_button_page_transtion"
+        android:summaryOff="@string/set_off"
+		android:summaryOn="@string/set_on"/>
+		
+    <PreferenceScreen
+        android:key="@string/pref_about"
+        android:title="@string/set_reg_info" />
+
+</PreferenceScreen>

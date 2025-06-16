@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="baseline_top">30dp</dimen>
+    <dimen name="baseline_shift">0px</dimen>
+    <dimen name="baseline_bottom_shift">20.71dp</dimen>
+    <dimen name="baseline_scale">6px</dimen>
+    <!-- Begin: show -->
+	<dimen name="all_page_view_itemspace">37dp</dimen>
+	<!-- End: show -->
+	
+	<!-- Begin Richard For Multi Window-->
+	<dimen name="multi_window_page_item">148dp</dimen>
+	<dimen name="multi_window_page_item_left_margin">37dp</dimen>
+	<!-- End Richard -->
+	
+</resources>

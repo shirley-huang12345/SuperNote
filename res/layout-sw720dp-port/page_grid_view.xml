@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <GridView
+        android:id="@+id/page_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/notebook_gridview_color"
+        android:horizontalSpacing="7dp"       
+        android:numColumns="4"
+        android:paddingBottom="24dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="23dp"
+        android:paddingTop="24dp"
+        android:verticalSpacing="24dp" 
+        android:fadingEdgeLength="13dp"
+        android:requiresFadingEdge="vertical"/>
+</FrameLayout>

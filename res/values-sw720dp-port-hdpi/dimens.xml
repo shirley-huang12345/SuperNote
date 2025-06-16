@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left">6dp</dimen>
+    <dimen name="top">4.66dp</dimen>
+    <dimen name="right">0.63dp</dimen>
+    <dimen name="bottom">0.63dp</dimen>
+    
+    <dimen name="font_size">28dp</dimen>
+    <dimen name="memo_link_text_size">20dp</dimen>
+    
+    <dimen name="baseline_top">453dp</dimen>
+    <dimen name="baseline_shift">-10dp</dimen>
+    <dimen name="baseline_bottom_shift">0dp</dimen>
+    <dimen name="baseline_scale">6.5dp</dimen>
+    
+    <dimen name="thumb_padding_left">10dp</dimen>
+    <dimen name="thumb_padding_top">30dp</dimen>
+    <dimen name="microview_width">212px</dimen>
+    <dimen name="microview_height">284px</dimen>
+    
+    <dimen name="phone_book_width">810px</dimen>
+    <dimen name="phone_book_text_size_normal">52.5px</dimen>
+    <dimen name="phone_book_text_size_big">60px</dimen>
+    <dimen name="phone_book_text_size_small">43.5px</dimen>
+    
+    <dimen name="pad_book_text_size_normal">52.5px</dimen>
+    <dimen name="pad_book_text_size_big">60px</dimen>
+    <dimen name="pad_book_text_size_small">43.5px</dimen>      
+    
+    <!-- Begin Siupo -->
+    
+    <dimen name="touch_tolerance">45px</dimen>
+    <dimen name="click_tolerance">30.0px</dimen>
+
+    <dimen name="phone_vertical_scroll_bar_height">210.0px</dimen>
+    <dimen name="default_canvas_width">1920.0px</dimen>
+    <dimen name="default_canvas_height">2389.5px</dimen>
+    <dimen name="pad_page_share_bitmap_default_width">1746.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_height">2389.5px</dimen>
+    <dimen name="phone_page_share_bitmap_default_width">810.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_height">970.5px</dimen>
+    <!-- End Siupo -->
+      
+     <!--Begin clare  -->
+	
+	<dimen name="widget_book_template_width">137.3dp</dimen>
+	<dimen name="widget_book_template_height">191.3dp</dimen>		
+	
+	<dimen name="widget_dialog_book_width">284dp</dimen>
+	<dimen name="widget_dialog_book_height">381.3dp</dimen>
+	
+	<!-- End clare -->
+	
+	<dimen name = "widget_cover_width">627px</dimen>
+	<dimen name = "widget_cover_height">701px</dimen>
+	<dimen name = "leftRatio">0.036px</dimen>
+	<dimen name = "topRatio">0.12px</dimen>
+	
+	<dimen name = "pageLeftRatio">0.031px</dimen>
+	<dimen name = "pageTopRatio">0.115px</dimen>
+	
+	<dimen name="insert_dropdown_lmr_position_x">0dp</dimen>
+	<dimen name="widget_width_ratio">0.885dp</dimen> <!-- Carol -->
+</resources>

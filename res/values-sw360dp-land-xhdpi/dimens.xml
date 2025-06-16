@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="baseline_top">20dp</dimen>
+    <dimen name="baseline_shift">0px</dimen>
+    <dimen name="baseline_bottom_shift">22.71dp</dimen>
+    <dimen name="baseline_scale">5px</dimen>
+
+</resources>

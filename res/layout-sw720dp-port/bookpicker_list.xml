@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFE"
+    android:orientation="vertical" >
+
+        <GridView
+        android:id="@+id/book_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:fadingEdgeLength="13dp"
+        android:horizontalSpacing="7dp"
+        android:columnWidth="@dimen/notebook_item_width"
+        android:numColumns="auto_fit"
+        android:paddingStart="24dp"
+        android:paddingEnd="23dp"
+        android:paddingTop="24dp"
+        android:requiresFadingEdge="vertical"
+        android:verticalSpacing="24dp" 
+        android:background="@color/notebook_gridview_color"
+        
+        />
+
+</LinearLayout>

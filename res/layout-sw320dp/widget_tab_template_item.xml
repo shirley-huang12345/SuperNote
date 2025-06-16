@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridItem"
+    android:layout_width="@dimen/widget_template_book_width"
+    android:layout_height="@dimen/widget_template_book_height"
+    android:layout_gravity="top"
+    android:background="#00000000"
+    android:gravity="top">
+
+    <ImageView
+        android:id="@+id/image_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+	
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:background="#e6e6e6">
+	    <TextView
+	        android:id="@+id/text_item"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:gravity="center"
+	        android:maxLines="2"
+	        android:ellipsize="end"
+	        android:textColor="#464646"
+	        android:textSize="12dp"
+	        android:fontFamily="sans-serif-condensed"/>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <string name="next" description="Next" maxwidth="">Kế tiếp</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Chỉ chia sẻ nội dung</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Ẩn lưới</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">K.thước: </string>
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">Về SuperNote</string>
+    <string name="set_on" description="On" maxwidth="">Bật</string>
+    <string name="set_off" description="Off" maxwidth="">Tắt</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Chế độ đọc là mặc định</string>
+    <string name="app_name">SuperNote</string>
+    <string name="setting" description="Settings" maxwidth="">Cài đặt</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">Đã xóa %s trang</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Chép (các) trang sang</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">Chuyển %d trang sang </string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Tên sổ tay</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Màu trang</string>
+    <string name="password" description="Password" maxwidth="">Mật khẩu</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Hãy nhập 4 - 7 ký tự/chữ số.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Mật khẩu hiện hành</string>
+    <string name="password_newpin" description="New password" maxwidth="">Mật khẩu mới</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Xác nhận mật khẩu mới</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">Lưu ý: mật khẩu có thể gồm 4 - 7 ký tự dương và/hoặc ký tự.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Cài/đổi mật khẩu</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">Các mật khẩu không khớp.</string>
+    <string name="share_to" description="Share to..." maxwidth="">Chia sẻ với</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">Mật khẩu SuperNote</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">Trên %s, mật khẩu của SuperNote của tôi đã được thay đổi. Mật khẩu mới là: %s</string>
+    <string name="choose_a_template" description="choose a template for your notebook" maxwidth="">Chọn mẫu cho sổ tay của bạn</string>
+    <string name="name" description="Name" maxwidth="">Tên</string>
+    <string name="del" description="Delete" maxwidth="">Xóa</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Bắt đầu nhập từ</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Nhập sổ tay</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">Không tìm thấy cách mở liên quan đến file này</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Nhập thành công!</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Ko thể nhập. File bị hỏng.</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Chuyển vào</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Chép vào</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Xóa (các) trang đã chọn?</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Chọn tất cả</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Hủy chọn tất cả</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">Chuyển (các) trang</string>
+    <string name="memo_del" description="Deleted memo">Xóa (các) ghi nhớ đã chọn?</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">Ghi nhớ trống</string>
+    <string name="book_grid_title" description="the title of the page display property">Kiểu dòng</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">Chép (các) trang</string>
+    <string name="wrong_file_type" description="wrong_file_type">Bạn đang mở sai kiểu file</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Nhấn giữ trang này và kéo để sắp xếp lại các trang</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Chuyển (các) trang sang</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">Trang này không tồn tại</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Trang cuối</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">Trang đầu</string>
+    <string name="phone_book_name" description="Phone book name">Danh bạ</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">Trang mới</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">Bạn có chắc muốn xóa mọi bản vẽ? Thao tác này sẽ không thể phục hồi.</string>
+    <string name="delete_alert" description="warning of deleting">Bạn có muốn xóa bản vẽ này?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Dùng ngón tay để chuyển hoặc chỉnh kích thước đối tượng</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Chạm để chọn hoặc kéo một hoặc nhiều đối tượng.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Trang này đã đầy</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Màu &amp; độ dày bút vẽ</string>   
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Trang này trống</string>
+    <string name="editor_menu_share">Chia sẻ</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Chỉ trang</string>
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Chỉ đọc</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Sổ tay</string>
+    <string name="warning_activity_not_found" description="Activity not found">Thiết bị của bạn không hỗ trợ loại file hoặc loại bộ mã hóa/giải mã này</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">Không có hình trong bộ nhớ tạm để dán</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Xóa</string>
+    <string-array name="pg_size">
+        <item>MT bảng</item>
+        <item>Điện thoại</item>
+    </string-array>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Thêm sổ tay mới</string>
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">Đã chép %d trang vào %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">Cỡ trang</string>
+    <!-- 2012-02-08 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Trắng</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Vàng</string>
+    <string name="book_grid_line" description="the background style of the notebook">Đường thẳng</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Lưới</string>
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Hiển thị thông tin sổ tay</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">Liên kết với: \n%s</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Ko có sách hoặc trang để đọc</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Ko có các trang chỉ trang.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Xóa?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Bạn chắc chắn muốn xóa trang này?</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Màu sắc</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Chép</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Cắt</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Sửa</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Nhóm</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Tách nhóm</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Vạch ranh giới</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Hoàn tác</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Thực hiện lại</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Chèn</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Chọn</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Dán</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Xóa</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Bút vẽ</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Bút xóa</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Hủy</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Xong</string>
+   <!-- new by Ryan -->
+    <string name="editor_menu_addpage" maxwidth="12">Thêm trang</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Xóa trang</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Định dạng trang không tương thích</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Viết</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Đánh chữ</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Vẽ</string>
+    <!-- send to 4th -->
+    <string name="load_tutorial" description="" maxwidth="">Đang chuẩn bị dùng lần đầu...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Thêm vào chỉ trang</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="">Xóa khỏi chỉ trang</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Xóa khỏi chỉ trang?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Hiển thị chỉ trang</string>
+    <!-- send to 5th -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Nhanh</item>
+        <item>Bình thường</item>
+        <item>Chậm</item>
+    </string-array>
+    <string name="reset_password_title" description="reset the password">Cài lại mật khẩu</string>
+    <string name="reset_password_summary">Xóa hết mật khẩu</string>
+    <string name="reset_password_dialog_title">Cài lại mật khẩu</string>
+    <string name="reset_password_dialog_password_invalid">Mật khẩu ko hợp lệ</string>
+    <string name="confirm_reset_dialog_title">Cài lại mật khẩu</string>
+    <string name="no_memory_dialog_content">Không đủ bộ nhớ</string>
+    <!-- 6th -->
+    <string name="dialog_file_name">Tên file</string>
+    <string name="dialog_save_to">Lưu vào</string>
+    <!-- 10th, Start New String -->
+   <string name="new_page" description="Create New Page" maxwidth="15">Tạo trang mới</string>
+   <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Đã xuất sổ tay sang</string>
+   <string name="pg_title_counter" description="show total pages number of the all page view\'s title">%s chỉ trang</string>
+   <string-array name="pg_sort">
+        <item>Theo tên</item>
+        <item>Theo sửa gần nhất</item>
+    </string-array>
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">Bạn có muốn xóa sổ tay?</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Đổi tên</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Ẩn</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Xóa</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Xuất</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Tốc độ nhận dạng mục nhập</string>
+    <string name="notebook_selected" description="show how many pages are selected">Đã chọn %s</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">Sổ tay</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">Chỉ trang</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">Nhãn giờ</string>
+    <string-array name="week_of_day">
+        <item>Chủ Nhật</item>
+        <item>Thứ 2</item>
+        <item>Thứ 3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+        <item>Hôm nay</item>
+        <item>Hôm qua</item>
+        <item>Tuần trước</item>
+        <item>Hai tuần trước</item>
+        <item>Ba tuần trước</item>
+        <item>Ngày mai</item>
+        <item>Tuần tới</item>
+        <item>Hai tuần sau</item>
+        <item>Ba tuần sau</item>
+    </string-array>
+   <string-array name="month_of_year">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+        <item>Tháng trước</item>
+        <item>Nửa năm trước</item>
+        <item>Hơn một năm trước</item>
+        <item>Tháng sau</item>
+        <item>Nửa năm sau</item>
+        <item>Sau một năm</item>
+    </string-array>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Cắt</string>
+    <!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Sửa</string>
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <string name="password_or_account_empty">Mục tài khoản hoặc mật khẩu không thể trống</string>
+    <string name="nb_sync">Bật đồng bộ đám mây</string>
+    <string name="nb_async">Hủy đồng bộ đám mây</string>
+    <string name="sync_status_syncing">Đang đ.bộ...</string>
+    <string name="sync_status_failed">Ko thể đồng bộ dữ liệu.</string>
+    <string name="sync_account_text">Tài khoản</string>
+    <string name="sync_sign_off">Đăng xuất</string>
+    <string name="account_space_usage">D.lượng đã dùng</string>  
+    <string name="account_and_sync">Cài đặt đồng bộ tài khoản</string>
+    <string name="sync_setting_auto">Tự đồng bộ</string>
+    <string name="sync_setting_auto_frequency">Tần suất tự đồng bộ</string>
+    <string name="sync_auto_interval_1">Mỗi 1 phút</string>
+    <string name="sync_auto_interval_15">Mỗi 15 phút</string>
+    <string name="sync_auto_interval_30">Mỗi 30 phút</string>
+    <string name="sync_auto_interval_60">Mỗi 60 phút</string>
+    <string name="sync_auto_interval_1d">Hàng ngày</string>
+    <!-- add by Better -->
+<!-- Begin: show -->
+    <string name="webstorage_register">Đăng ký</string>
+    <string name="webstorage_signon">Đăng nhập</string>
+<!-- End: show -->
+    <!--Begin: Show-->
+    <string name="Crop_Done">Xong</string>  
+    <string name="Crop_Free">Dây thòng lọng</string>
+    <string name="Crop_Rect">Hình chữ nhật</string>
+     <!--End: Show--> 
+    <string name="prompt_export_pdf_to">File PDF được lưu ở</string>
+    <string name="browse_folder">Duyệt tìm</string>
+    <string name="export_supernote_format">Xuất như định dạng Supernote</string>
+    <string name="file_export">Xuất file</string>
+    <string name="editor_func_button_search">Tìm kiếm</string>
+    <string name="no_search_result">Ko có mục khớp với tìm kiếm của bạn</string>
+    <string name="SearchResultItemInfo_Loading">Đang tải...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Không thể đọc file.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Sổ tay</string>
+    <string name="SearchResultItemInfo_Pages">Trang</string>
+    <string name="SearchResultItemInfo_Personal">Cá nhân</string> 
+    <string name="SearchResultItemInfo_Page_Space">Trang </string>   
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Nhận dạng viết văn bản</string>
+      <!-- wendy  -->
+   <string name="password_not_set_sync">Sổ tay lưu trên đám mây được sắp xếp như cá nhân và công cộng. Bạn có muốn tạo mật khẩu cho các sổ tay cá nhân? Nếu không, thì mọi sổ tay sẽ được sắp xếp như công cộng.</string>
+   <string name="bookpicker_sync_books_list">D.sách đồng bộ sách</string>
+   <string name="bookpicker_cancel">Hủy</string>
+   <string name="bookpicker_ok">OK</string>
+   <string name="newto_editor_func_popup_d_brush_stroke">Gõ phím</string>
+   <string name="newto_editor_func_popup_d_brush_alpha">Độ mờ đục</string> 
+   <string name="export">Xuất</string>
+   <string name="transfer">Truyền</string>
+   <string name="book_export">Xuất sổ tay</string>
+   <string name="prompt_exports_pdf_to">Các file PDF được lưu ở</string> 
+<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Tiêu đề</string>  
+   <string name="template_travel_tips_date">Ngày</string>
+   <!--wendy begin -->
+    <string name="select_all">Tất cả</string>
+   <string name="prompt_no_book_selected">Chưa chọn sách</string>
+   <!-- Begin: Better -->
+   <string name="sync_file_no_version">Phiên bản không có sẵn.</string>
+   <string name="loading_page">Đang tải dữ liệu trang...</string>
+   <string name="prompt_transfer_format">Bạn phải định dạng lại sách này và tiến trình có thể mất một ít thời gian. Bạn có muốn tiếp tục?</string>
+   <string name="prompt_saving">Đang lưu...</string>
+   <string name="prompt_incompatible_syncing">%s không phải là p.bản tương thích. Hãy cập nhật SuperNote.</string>
+   <string name="prompt_incompatible_file">%s không phải là p.bản tương thích</string>
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <string name="webstorage_login_signing_in">Đang đăng nhập. Hãy đợi...</string>
+   <string name="webstorage_login_account_password_wrong">Tài khoản hoặc mật khẩu sai</string>
+   <string name="sync_setting_sign_failure">Ko thể đ.nhập %s</string>
+   <string name="sync_setting_sign_success">Đ.nhập %s</string>
+   <string name="sync_setting_networkless_title">Ko có kết nối</string>
+    <string name="sync_setting_networkless">Bạn cần kết nối internet để sử dụng dịch vụ này. Hãy bật kết nối mạng di động hoặc Wi-Fi trong Cài đặt.</string>
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <string name="Sort">Phân loại</string>
+    <!-- End: Allen -->   
+ <string-array name="editor_func_insert_array" description="insert mode" maxwidth="20">
+        <item>Chụp ảnh</item>
+        <item>Hình từ file</item>
+        <item>Hình văn bản</item>
+        <item>Trang PDF</item>
+        <item>Ghi âm</item>
+        <item>Quay video</item>
+        <item>File văn bản</item>
+        <item>Nhãn giờ</item>
+        <item>Ảnh nghệ thuật từ bộ nhớ tạm</item>
+        <item>Tem</item>
+        <item>Hình dạng</item>
+    </string-array>
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <string-array name="nb_editcover_choose_item">
+        <item>Camera</item>
+        <item>Hình từ file</item>
+    </string-array>
+ <!-- End  :Darwin -->
+    <string name="sync_setting_sign_out">Đăng xuất %s</string>
+    <string name="sync_setting_sign_out_msg">Đăng xuất sẽ thoát khỏi truy cập các sổ tay trên tài khoản đám mây của bạn và tắt đồng bộ đám mây. Bạn có muốn tiếp tục?\n</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">Mật khẩu của bạn đã được thay đổi. Bạn có muốn gửi mật khẩu cho tài khoản email của mình để tham khảo sau này? Điều này sẽ đề phòng mất quyền truy cập vào các sổ tay bị ẩn.\n</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Khóa</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">Mở khóa</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">Khóa để ẩn</string>
+    <string name="editor_phone_toast_seletext">Kéo để chọn văn bản</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">Khóa</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Bạn có muốn khóa sổ tay?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Mở khóa</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Bạn có muốn mở khóa sổ tay?</string>
+    <string name="set_password_dialog_title">Cài mật khẩu</string>
+    <string name="editor_func_button_recognize">Nhận dạng</string>
+    <string name="editor_func_button_transform">Chuyển đổi</string>   
+    <string name="editor_phone_toast_readonly">Chỉ chế độ đọc: bạn đang ở Chế độ đọc. Dùng ngón tay lật qua hoặc cuộn lên/xuống trang.</string>   
+    <string name="export_pdf">Xuất như PDF</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Ko thể tìm.</string>
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Đường thẳng</string>
+    <string name="book_type_grid">Lưới</string>
+    <string name="book_type_meeting">Hội nghị</string>
+    <string name="book_type_diary">Nhật ký</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Thao tác phím lùi</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">Ở Chế độ viết, vuốt ngón tay từ phải sang trái để xóa văn bản vừa nhập.</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <string name="template_meeting_start_date_tips">Ngày bắt đầu</string>
+    <string name="template_meeting_end_date_tips">Ngày kết thúc</string>
+    <string name="template_meeting_start_time_tips">Giờ bắt đầu</string>
+    <string name="template_meeting_end_time_tips">Giờ kết thúc</string>
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Hiện sổ tay bị khóa </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Ẩn sổ tay bị khóa </string>
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Tiếp tục dòng viết</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Khi chữ viết của bạn qua dòng đỏ, chữ viết đó sẽ chuyển qua trái tự động.</string>
+    <string name="text_continue" description="continue" max_width="-1">Tiếp tục</string>
+    <!-- End: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">SuperNote nhận dạng và chuyển văn bản viết tay sang văn bản đánh máy, và văn bản đánh máy này được sao chép như một sổ tay mới.</string>
+    <string name="set_index_language_title">Cài ngôn ngữ nhận dạng</string> 
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">Mọi trang</string>
+    <!-- darwin add -->
+   <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">Bạn có thể đăng nhập bằng tài khoản ASUS WebStorage.</string>
+   <!-- Begin: show -->
+   <string name="username" description="User Name" maxwidth="15">Tên đăng nhập</string>
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">Đã ẩn các sổ tay bị khóa</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">Hiện có thể đọc các sổ tay bị khóa</string>
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Viết từ dài liên tục bất kể kích thước màn hình.</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\'s title">%s nhãn giờ</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Đang tìm, hãy đợi</string>
+<!-- Begin Allen -->
+    <string name="content_search" description="Inform the user whether to open the search function when create a new book" max_width="5">Tìm nội dung</string>
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">Lớn</string>
+    <string name="share_medium" description="Medium" max_width="6">Trung bình</string>
+    <string name="share_small" description="Small" max_width="5">Nhỏ</string>
+    <string name="recognizing">Đang nhận dạng</string>
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+    <string name="book_type_blank" description="blank book name" maxwidth="">Trống</string>
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+    <string name="import_export_book_fail_reason" description="reason of failing to import book" maxwidth="">ko có trình q.lý file</string>
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+    <string name="editor_menu_savepage" maxwidth="12">Lưu trang</string>
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+    <string name="my_bit_cast_wait_text">Hãy đợi...</string>
+<!-- End: Shane -->
+<!-- Begin: Better -->
+    <string name="password_not_set_import">Các sổ tay được sắp xếp như cá nhân và công cộng. Bạn có muốn tạo mật khẩu cho các sổ tay cá nhân? Nếu không, thì mọi sổ tay sẽ được sắp xếp như công cộng.</string>
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="book_grid_none" description="the background style of the notebook">Không có</string>
+    <!-- End Allen -->    
+<!-- clare begin -->
+    <string name="widget_bt_add_a_notebook">Thêm sổ tay</string>
+    <string name="widget_passwordTip">Hãy nhập mật khẩu:</string>
+<!-- clare end -->
+<!-- darwin begin -->
+   <string name="nb_editcover">Sửa ảnh bìa</string>
+   <string name="nb_editcover_choose_title">Chọn hình</string>
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+    <string name="widget_dialog_replace_notebook">Thay thế sổ tay</string>
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+    <string name="widget_book_locked">Đã khóa</string> <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">Thêm vào</string>
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Xếp theo trang</item>
+        <item>Xếp theo giờ</item>
+    </string-array>
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Cao</item>
+        <item>Bình thường</item>
+        <item>Thấp</item>
+    </string-array>
+    <string name="todo_item_completed" description="todo item is completed">Đã hoàn tất</string>
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Chọn một sổ tay</string>
+    <!-- Begin Allen -->
+    <string name="meeting_form" description="meeting start time">Từ</string>
+    <string name="meeting_to" description="meeting end time">Đến</string>
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">Đã nhận dạng</string>
+ <!-- add for 'SyncCancelDialogFragment'-->
+ <string name="sync_cancel_confirmText">Xác nhận</string>
+    <string name="sync_cancel_promptTop">Chúng sẽ bị xóa trên thiết bị kia.</string>
+    <string name="sync_cancel_promptBottom">Bạn có hủy đồng bộ các sổ tay này?</string>
+    <string name="sync_cancel_noMoreHint">Đừng nhắc lại.</string>
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+    <string name="pen_only_enabled">Chỉ dùng bút</string>
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <string name="export_as" description="used as title of export_format dialog">Xuất như</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>Định dạng Supernote</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog">Chọn định dạng</string>
+    <string-array name="share_format_array" description="share format chooser">
+        <item>Hình</item>
+        <item>PDF</item>
+        <item>Định dạng Supernote</item>
+    </string-array>
+    <string name="todo_title" description="memo template title" maxwidth="">Ghi nhớ</string>
+    <string name="todo_widget_all_todos" description="All memos">Mọi GHI NHỚ</string>
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">Chọn tem</string>
+    <string name="insert_shape_dlg">Chọn hình dạng</string>
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">Đề tài của bạn là gì?</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">Thêm người tham dự</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">Ghi chú cuộc họp của bạn ở đây …</string>
+<!-- for A86 style by smilefish -->
+    <string name="statusbar_login">Đăng nhập</string>
+    <string name="editcover_photo">Ảnh chụp</string>
+    <string name="editcover_save">Lưu</string>
+    <string name="brush_edit_dialog_library">Thư viện</string>
+    <string name="brush_edit_dialog_back">Trở về</string>
+    <string name="brush_edit_dialog_pencil">Bút chì</string>
+    <string name="brush_edit_dialog_rollerpen">Bút lăn</string>
+    <string name="brush_edit_dialog_pen">Bút</string>
+    <string name="brush_edit_dialog_marker">Dấu nhãn</string>
+    <string name="brush_edit_dialog_brush">Bút vẽ</string>
+    <string name="brush_edit_dialog_airbrush">Bút vẽ khí</string>
+    <string name="todo_title_task">Nhấn 1 để thêm c.việc mới.</string>
+    <string name="brush_edit_dialog_full">Số bút vẽ tối đa đã lưu lên đến 12</string>
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+    <string name="data_fomat_upgrade">Nâng cấp định dạng dữ liệu</string>
+    <string name="the_book">Sách</string>
+    <string name="exits">đã tồn tại.</string>
+    <string name="replace_the_book">Thay thế sách?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="successful_upgrade">Đã nâng cấp thành công. Chúng tôi sẽ khởi động lại SuperNote</string>
+    <string name="upgrade_fails">Ko thể nâng cấp</string>
+    <string name="not_enough_space">Ko đủ dung lượng trên thẻ SD</string>
+    <string name="try_again">Hãy xóa các file không dùng, và khởi động lại SuperNote để thử lại</string>
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <string name="airview_type">Loại</string>
+    <!-- jason -->
+<!-- Begin Carol-->
+    <string name="version_info">Phiên bản</string>
+    <string name="widget_memo_title">Ghi nhớ SuperNote</string>
+    <string name="editor_phone_readonly">Chỉ đọc: Dùng ngón tay để cuộn qua trang.</string>
+<!-- End Carol-->
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">Ko có ghi nhớ</string>
+    <string name="widget_password_hint">Nhập mật khẩu</string>
+    <string name="widget_all_book_template">Mọi sổ tay</string>
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <string name="content_is_too_long" description="content_is_too_long">Nội dung quá dài</string>
+    <string name="todo_title_max_character_num">Số ký tự tối đa là 50</string>
+    <!-- smilefish -->
+    <string name="vo_shape_failed">Không thể tạo hình bản vẽ này</string>
+    <!-- smilefish -->
+    <string name="todo_widget_create" description="Create">Tạo</string> <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+    <string name="editor_color_picker">Nhấn giữ để chọn một màu cho màu bút vẽ</string> 
+<!-- end smilefish -->
+    <string name="brush_edit_dialog_save_successful">Đã lưu thành công.</string>
+    <string name="brush_edit_dialog_save">Đã tồn tại.</string>
+    <!--jason  -->
+    <string name="cannot_play_media_when_calling">Không thể phát media khi gọi</string>
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+    <string name="template_travel_text_hint" description="hint for inputting travelling notes">Ghi chú nhật ký của bạn ở đây …</string>
+    <string name="template_travel_change_photos" description="hint for changing photos">Chạm để đổi ảnh chụp</string>
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+    <string name="bm_in_notebook" description="Page in notebook" maxwidth="">Chỉ trang trong %1$s</string>
+<!-- smilefish -->
+    <string name="page_copy" description="Copy the page" maxwidth="">Chép</string>
+    <string name="page_move" description="Move the page" maxwidth="">Chuyển</string>
+    <string name="page_delete" description="Delete the page" maxwidth="">Xóa</string>
+    <string name="page_reorder" description="Reorder the page" maxwidth="">Sắp xếp lại</string>
+    <string name="pg_in_notebook" description="Page in notebook" maxwidth="">Trang %1$s trong %2$s</string>
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <string name="todo_widget_add_new_memo" description="All memos">Thêm ghi nhớ mới</string>
+    <!-- Emmanual -->
+    <string name="drawer_menu" description="menu on drawer" maxwidth="">Menu</string>
+    <!-- smilefish -->
+    <string name="editor_menu_read_later" description="read later" maxwidth="">Đọc sau</string>
+    <!-- smilefish -->
+    <string name="sdcard_full_no_add" description="sdcard is full">Không thể lưu trang hoặc sổ tay mới. Bộ nhớ đã đầy.</string>
+    <!-- emmanual -->
+    <string name="sdcard_full_no_save" description="sdcard is full">Không thể lưu trang hoặc sổ tay vừa sửa. Bộ nhớ đã đầy.</string>
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <string name="pg_sort_by_name" description="page sort by name">Đã phục hồi về loại mặc định, xếp theo tên</string>
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <string name="tutorial_info_content1" description="tutorial info for supernote">Bộ ghi chú đầu ngón tay tốt nhất của bạn.</string>
+    <string name="tutorial_info_title2" description="Cloud sync">Đ.bộ đám mây</string>
+    <string name="tutorial_info_content2" description="tutorial info for cloud sync">Đăng ký tài khoản đám mấy miễn phí để lưu trữ dữ liệu trên đám mấy mọi lúc mọi nơi..</string>
+    <string name="tutorial_info_title3" description="3 editing modes">3 chế độ sửa</string>
+    <string name="tutorial_info_content3" description="tutorial info for editing modes">Viết, nhập và vẽ bằng Supernote. Chọn p.pháp thích hợp nhất cho công việc của bạn.</string>
+    <string name="tutorial_info_title4" description="Insert content">Chèn nội dung</string>
+    <string name="tutorial_info_content4" description="tutorial info for insert content">Chèn hình, âm thanh hoặc video để làm p.phú nội dung của bạn.</string>
+    <string name="skip_this_tutorial" description="skip this tutorial">"Bỏ qua"</string>
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <string name="editor_menu_nextpage" maxwidth="12">Trang sau</string>
+    <string name="editor_menu_prepage" maxwidth="12">Trang trước</string>
+    <string name="auto_add_page" maxwidth="12">Đang xử lý\u2026</string>
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <string name="insert_audiofile">File âm thanh</string>
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="nb_add_choose_title">Tạo sổ tay mới</string>
+    <string-array name="nb_add_choose_item">
+        <item>Sổ tay trống</item>
+        <item>Chọn một mẫu</item>
+    </string-array>
+    <string name="no_notebooks">Không có s tay</string>
+    <string name="stub_app_notice_title" description="stub app notice title" maxwidth="-1">Chú ý</string>
+    <string name="stub_app_notice_content" description="stub app notice content" maxwidth="-1">Trước hết hãy cập nhật lên phiên bản mới nhất từ kho ứng dụng Google Play. Xin cám ơn.</string>
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"Trước hết hãy cập nhật lên phiên bản mới nhất từ kho ứng dụng Asus. Cám ơn."</string>
+    <string name="cta_act_mobile_network">"Mạng di động"</string>
+    <string name="cta_msg_mobile_network">"thử kết nối mạng di động. Sử dụng mạng di động có thể trả phí. Để tránh bị tính phí, hãy ngắt kết nối mạng không dây khi không sử dụng."</string>
+    <string name="voice">Ging nói</string>
+    <string name="error_sdcard_access_nosdcard">Ko th truy cp thit b lu tr USB</string>
+    <string name="error_sdcard_access">Không th truy cp th SD</string>
+    <string name="startfail">Không th bt đu ghi âm, đm bo không có ng dng nào khác đang dùng micro.</string>
+    <string name="sync_setting_wifi_auto">Ch t đng b qua WiFi</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <string name="reading_pdf_prompt">Đang đc PDF...</string>
+    <string name="choose_pdf_prompt">Chn các trang PDF</string>
+    <string name="import_pdf_prompt">Chun b nhp (các) trang PDF...</string>
+    <string name="pdf_import" description="Import PDF" maxwidth="">Nhp PDF</string>
+    <string name="pdf_seelcted">Đã chn: </string>
+    <string name="import_pdf_progress" formatted="false">Đang nhp PDF: %s/%s</string>
+    <string name="add_book_from_pdf" maxwidth="">T PDF</string>
+    <string name="reading_pdf_error" maxwidth="">Ko th vit file!</string>
+    <string name="reading_pdf_encrypted" maxwidth="">Không th nhp file PDF qua cách bo v mt khu.</string>
+    <string name="reading_pdf_invalid" maxwidth="">Không th nhp file. Hãy đm bo file không b hng.</string>
+    <string name="error" maxwidth="">Li</string>
+    <string name="editor_func_button_page_transtion">Hiu ng nh đng đ chuyn trang</string>
+    <string name="download_title" maxwidth="12">Đang ti v\u2026</string>
+    <!-- smilefish -->
+    <string name="settings_encourage_us_title" maxWidth="">Khích lệ đối với chúng tôi</string>
+    <string name="settings_encourage_us_detail" translate="true">Nếu bạn thích sử dụng %s, xin xếp hạng chúng tôi 5 sao trên Play Store. Đó sẽ là sự khích lệ lớn để chúng tôi tiếp tục cải tiến sản phẩm!\n\nNếu bạn có đề nghị gì, xin gửi thông tin  cho chúng tôi qua mục Phản hồi &amp; Trợ giúp.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">X.hạng ngay</string>
+    <string name="later_action_no_apps" description="Text for indicating there are no apps to open the content" maxwidth="-1">Không có ứng dụng để hoàn tất thao tác</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">Hãy cuộn lên để xếp hạng</string>
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"Ko thể truy cập file"</string>
+    <string name="force_permission_sub_title">"%1$s sẽ cần quyền %2$s để truy cập và lưu các tập tin của bạn trong thiết bị."</string>
+    <string name="force_permission_turn_on">"Bật"</string>
+    <string name="force_permission_storage">"Bộ nhớ"</string>
+    <string name="force_permission_settings">"Cài đặt"</string>
+    <string name="force_permission_show_settings">"Chạm &lt;b>Cài đặt&lt;/b> để kích hoạt quyền &lt;b>%2$s&lt;/b> trong &lt;b>Thông tin ứng dụng&lt;/b> &lt;b>Quyền&lt;/b>, rồi khởi động lại %1$s."</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"Cử chỉ điều hướng"</string>
+    <string name="navigate_tutorial_content">"Dùng hai ngón tay để tha hồ điều hướng trang. Khi ở chế độ Chỉ đọc, bạn có thể điều hướng trang trên cửa sổ xem trước."</string>
+    <string name="navigate_tutorial_content_phone">"Dùng hai ngón tay để tha hồ điều hướng trang trên cửa sổ xem trước."</string>
+    <string name="navigate_tutorial_scroll">"Giữ để cuộn trang"</string>
+    <!-- end smilefish -->
+</resources>

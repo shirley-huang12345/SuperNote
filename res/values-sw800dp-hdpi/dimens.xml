@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Begin  Smilefish -->
+    <dimen name="pad_book_width">1164dp</dimen>
+   <!-- value = (1200-13*1.5*2)/1746-->
+    <dimen name="edittext_scale_pad">0.664948px</dimen>
+    <dimen name="notebook_gridview_horizontal_spacing">23.6dp</dimen>
+    <dimen name="edit_area_width_pad">1164dp</dimen>
+    <dimen name="todo_edit_text_width_pad">954dp</dimen>
+    
+    <dimen name="diary_crop_image_rate_pad">2.76px</dimen><!-- value = 1164/430-->
+    <!-- End    Smilefish -->
+
+</resources>

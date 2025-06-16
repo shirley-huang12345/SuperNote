@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<com.asus.supernote.editable.NoteFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pageActivityLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:background="@android:color/white" >
+
+        <com.asus.supernote.doodle.DoodleView
+            android:id="@+id/doodleSurfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        
+        <com.asus.supernote.template.TemplateLinearLayout
+            android:id="@+id/template_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal" >
+
+            <ViewStub
+                android:id="@+id/template_meeting_viewstub"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:layout="@layout/template_meeting_layout"
+                android:visibility="invisible" />
+                
+            <ViewStub
+                android:id="@+id/template_meeting_viewstub_pad"
+                android:layout_width="776dp"
+                android:layout_height="152dp"
+                android:layout="@layout/template_meeting_layout_pad"
+                android:visibility="invisible" />
+            <ViewStub
+	            android:id="@+id/template_travel_viewstub"
+	            android:layout_width="360dp"
+	            android:layout_height="290dp"
+	            android:layout="@layout/template_travel_layout"
+	            android:visibility="invisible" />
+            <ViewStub
+                android:id="@+id/template_travel_viewstub_pad"
+                android:layout_width="776dp"
+                android:layout_height="248.667dp"
+                android:layout="@layout/template_travel_layout_pad"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/template_todo_viewstub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout="@layout/template_todo_layout"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/template_todo_viewstub_pad"
+                android:layout_width="776dp"
+                android:layout_height="wrap_content"
+                android:layout="@layout/template_todo_layout"
+                android:visibility="invisible" />
+            
+            <com.asus.supernote.editable.NoteEditText
+                android:id="@+id/editText"
+                android:layout_width="360dp"
+                android:layout_height="428dp"
+                android:background="@null"
+                android:gravity="start|top"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="textMultiLine"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="20dp"
+                android:singleLine="false"
+                android:textColor="#FF000000"
+                android:textCursorDrawable="@drawable/cursor3px"
+                android:textSize="16dp" />
+        </com.asus.supernote.template.TemplateLinearLayout>
+        
+    <ImageView
+        android:id="@+id/editSelectionHandleLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/asus_text_select_handle_left"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/editSelectionHandleRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/asus_text_select_handle_right"
+        android:visibility="invisible" />
+        
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <com.asus.supernote.editable.NoteEditText
+                android:id="@+id/BoxEditText"
+                android:layout_width="320dp"
+                android:layout_height="127dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boxedittext_bg"
+                android:gravity="start|top"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:paddingBottom="3dp"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:paddingTop="3dp"
+                android:singleLine="false"
+                android:textColor="#FF000000"
+                android:textSize="@dimen/font_size"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <com.asus.supernote.editable.ReadOnlyMaskView
+            android:id="@+id/readOnlyMaskView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+	<com.asus.supernote.microview.MicroView
+        	android:id="@+id/microView"
+        	android:layout_width="@dimen/microview_width"
+        	android:layout_height="@dimen/microview_height"
+        	android:layout_gravity="start|bottom"
+        	android:layout_marginBottom="80dp"
+        	android:layout_marginStart="10dp"
+        	android:visibility="gone"/>
+
+
+        <com.asus.supernote.editable.EditorScrollBarContainer
+            android:id="@+id/horizontalScrollBarContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="70dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="40dp"
+            android:visibility="gone"
+            android:padding="0px" >
+
+            <View
+                android:id="@+id/editTextHoriScroller"
+                android:layout_width="93dp"
+                android:layout_height="35dp"
+                android:layout_gravity="start|center_vertical"
+                android:layout_margin="0dp"
+                android:background="@drawable/scroller_phone_down_dis"
+                android:padding="0dp"/>
+        </com.asus.supernote.editable.EditorScrollBarContainer>
+
+        <com.asus.supernote.editable.EditorScrollBarContainer
+            android:id="@+id/verticalScrollBarContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginBottom="70dp"
+            android:layout_marginTop="7dp"
+            android:visibility="gone"
+            android:padding="0px" >
+
+            <View
+                android:id="@+id/editTextScroller"
+                android:layout_width="35dp"
+                android:layout_height="93dp"
+                android:layout_gravity="end|top"
+                android:background="@drawable/asus_ep_scrollbar_n"
+                android:scaleType="fitStart" />
+        </com.asus.supernote.editable.EditorScrollBarContainer>
+
+    </com.asus.supernote.editable.NoteFrameLayout>
+

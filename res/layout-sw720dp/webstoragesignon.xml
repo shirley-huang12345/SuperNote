@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	
+    	android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <AutoCompleteTextView
+            android:id="@+id/webstorage_account"
+            android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"           
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:hint="@string/username"
+            android:textSize="18sp"
+            android:textColor="#282929"
+            android:inputType="textNoSuggestions" />
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:background="#FF00CCFF"/>
+
+        <EditText
+            android:id="@+id/webstorage_password"
+            android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:hint="@string/password"
+            android:textSize="18sp"
+            android:textColor="#282929"/>
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:background="#FF00CCFF"/>
+    </LinearLayout>
+    
+    <TextView
+	     android:id="@+id/webstorage_tip"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/webstorage_prompt_account"
+        android:textSize="18sp" 
+        android:textColor="#282929"/>
+    
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="15dp">
+
+        <TextView
+	        android:id="@+id/webstorage_info"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginStart="13dp"
+	        android:textSize="18sp"
+	        android:textColor="#282929"
+	        android:visibility="gone" />
+
+	</RelativeLayout>
+
+ </LinearLayout>
+</ScrollView>

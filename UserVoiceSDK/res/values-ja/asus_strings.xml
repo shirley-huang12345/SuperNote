@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="uf_sdk_feedback_and_help">\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af\uff06\u30d8\u30eb\u30d7</string>
+    <string name="uf_sdk_user_forum">\u30e6\u30fc\u30b6\u30fc\u30d5\u30a9\u30fc\u30e9\u30e0</string>
+    <string name="uf_sdk_help">\u30d8\u30eb\u30d7</string>
+    <string name="uf_sdk_send_feedback">\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af\u3092\u9001\u4fe1</string>
+    <string name="uf_sdk_faq">よくある質問</string>
+    <string name="uf_sdk_network_error">\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u63a5\u7d9a\u304c\u3042\u308a\u307e\u305b\u3093\u3002\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u8a2d\u5b9a\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002</string>
+    <string name="uf_sdk_msg_ticket_created">\u8cb4\u91cd\u306a\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af\u304cASUS\u306b\u9001\u4fe1\u3055\u308c\u307e\u3057\u305f\u3002</string>
+    <string name="uf_sdk_unhelpful_article_message_question">ASUS\u958b\u767a\u30c1\u30fc\u30e0\u306b\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af\u3092\u9001\u308a\u307e\u3059\u304b\uff1f</string>
+    <string name="uf_sdk_name_hint">\u540d\u524d\u3092\u5165\u529b\u3057\u307e\u3059</string>
+<!-- ideas -->
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">\u30c8\u30d4\u30c3\u30af</item>
+        <item quantity="other">\u30c8\u30d4\u30c3\u30af</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s \u304c\u3053\u306e\u30c8\u30d4\u30c3\u30af\u304c\u597d\u304d\u3060\u3068\u8a00\u3063\u3066\u3044\u307e\u3059\u3002</item>
+        <item quantity="other">%1$s \u304c\u3053\u306e\u30c8\u30d4\u30c3\u30af\u304c\u597d\u304d\u3060\u3068\u8a00\u3063\u3066\u3044\u307e\u3059\u3002</item>
+    </plurals>
+    <string name="uf_sdk_submit_topic">\u516c\u958b</string>
+    <string name="uf_sdk_topic_form_title">\u65b0\u3057\u3044\u30c8\u30d4\u30c3\u30af\u3092\u516c\u958b</string>
+    <string name="uf_sdk_title_topic">\u30c8\u30d4\u30c3\u30af</string>
+    <string name="uf_sdk_subscribe_dialog_title">\u3053\u306e\u30c8\u30d4\u30c3\u30af\u3092\u8cfc\u8aad\u3059\u308b</string>
+    <string name="uf_sdk_topic">\u30c8\u30d4\u30c3\u30af</string>
+    <string name="uf_sdk_msg_topic_created">\u6b63\u5e38\u306b\u516c\u958b\u3055\u308c\u307e\u3057\u305f</string>
+    <string name="uf_sdk_topic_description_heading">\u8aac\u660e</string>
+    <string name="uf_sdk_topic_description_hint">\u3042\u306a\u305f\u306e\u30c8\u30d4\u30c3\u30af\u3092\u8a73\u3057\u304f\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044</string>
+    <string name="uf_sdk_topic_text_heading">\u30d5\u30a9\u30fc\u30e9\u30e0</string>
+    <string name="uf_sdk_topic_title">\u30bf\u30a4\u30c8\u30eb</string>
+    <string name="uf_sdk_topic_text_hint">\u3042\u306a\u305f\u306e\u30c8\u30d4\u30c3\u30af\u306e\u30bf\u30a4\u30c8\u30eb\u3092\u5165\u529b\u3057\u307e\u3059</string>
+    <string name="uf_sdk_topic_form_help">\u30e6\u30fc\u30b6\u30fc\u30d5\u30a9\u30fc\u30e9\u30e0\u306b\u30c8\u30d4\u30c3\u30af\u3092\u516c\u958b\u3059\u308b\u3068\u3001\u4ed6\u306e\u30e6\u30fc\u30b6\u30fc\u304c\u8cfc\u8aad\u3057\u30b3\u30e1\u30f3\u30c8\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002 ASUS\u306e\u958b\u767a\u30c1\u30fc\u30e0\u304c\u30c8\u30d4\u30c3\u30af\u306b\u8fd4\u4fe1\u30fb\u5fdc\u7b54\u3059\u308b\u3068\u3001\u3042\u306a\u305f\u306f\u306b\u30e1\u30fc\u30eb\u3067\u901a\u77e5\u3055\u308c\u307e\u3059\u3002</string>
+    <string name="uf_sdk_msg_subscribe">\u30c8\u30d4\u30c3\u30af\u306e\u72b6\u614b\u306e\u901a\u77e5\u306f\u3001\u30e1\u30fc\u30eb\u3067\u304a\u77e5\u3089\u305b\u3057\u307e\u3059\u3002</string>
+    <string name="uf_sdk_msg_subscribe_success">\u8cfc\u8aad\u6210\u529f</string>
+    <string name="uf_sdk_msg_unsubscribe">\u8cfc\u8aad\u89e3\u9664\u306b\u6210\u529f</string>
+    <string name="uf_sdk_msg_confirm_discard_topic_title">\u6295\u7a3f\u3092\u524a\u9664\u3057\u307e\u3059\u304b\uff1f</string>
+    <string name="uf_sdk_msg_confirm_discard_topic">\u4e0b\u66f8\u304d\u306f\u4fdd\u5b58\u3055\u308c\u307e\u305b\u3093\u3002\u524a\u9664\u3057\u307e\u3059\u304b\uff1f</string>
+    <string name="uf_sdk_publish_an_topic">\u65b0\u3057\u3044\u30c8\u30d4\u30c3\u30af\u3092\u516c\u958b</string>
+    <string name="uf_sdk_topic_filter">\u30c8\u30d4\u30c3\u30af</string>
+    <string name="uf_sdk_search_hint">\u691c\u7d22</string>
+    <string name="uf_sdk_translation_117562">\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af\u306e\u30bf\u30a4\u30d7</string>
+    <string name="uf_sdk_translation_2530478">\u63d0\u6848</string>
+    <string name="uf_sdk_translation_2529543">\u30d0\u30b0\u306e\u5831\u544a</string>
+    <string name="uf_sdk_translation_2529544">\u305d\u306e\u4ed6</string>
+    <string name="uf_sdk_msg_bad_email_format">\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u304c\u6709\u52b9\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u3082\u3046\u4e00\u5ea6\u8a66\u3057\u3066\u304f\u3060\u3055\u3044\u3002</string>
+    <string name="uf_sdk_warning">\u8b66\u544a</string>
+    <string name="uf_sdk_instant_answer_question">\u3053\u306eFAQ\u306f\u53c2\u8003\u306b\u306a\u308a\u307e\u3057\u305f\u304b\uff1f</string>
+    <string name="uf_sdk_forum_description">\u4ed6\u306eASUS\u30e6\u30fc\u30b6\u30fc\u3068\u306e\u4ea4\u6d41\u306b\u3088\u308a\u3001\u89e3\u6c7a\u65b9\u6cd5\u304c\u898b\u3064\u304b\u308b\u304b\u3082\u3057\u308c\u307e\u305b\u3093\u3002</string>
+    <string name="uf_sdk_nothing_found">\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093</string>
+    <string name="uf_sdk_send_feedback_help">\u304a\u5ba2\u69d8\u306e\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af\u3068\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u306fASUS\u306b\u9001\u4fe1\u3055\u308c\u307e\u3059\u3002\u5f8c\u307b\u3069\u3001\u30b5\u30fc\u30d3\u30b9\u30c1\u30fc\u30e0\u3088\u308a\u30e1\u30fc\u30eb\u306b\u3066\u304a\u5ba2\u69d8\u306b\u3054\u9023\u7d61\u3044\u305f\u3057\u307e\u3059\u3002</string>
+    <string name="uf_sdk_no_network_connection_title">\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u63a5\u7d9a\u306a\u3057</string>
+    <string name="uf_sdk_no_network_connection_content">\u30c7\u30fc\u30bf\u3092\u66f4\u65b0\u3067\u304d\u307e\u305b\u3093\u3002\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u63a5\u7d9a\u3092\u3054\u78ba\u8a8d\u304f\u3060\u3055\u3044\u3002</string>
+    <string name="uf_sdk_wifi_settings">Wi-Fi \u8a2d\u5b9a</string>
+    <string name="uf_sdk_wlan_settings">WLAN \u8a2d\u5b9a</string>
+    <string name="uf_sdk_notice">\u6ce8</string>
+    <string name="uf_sdk_select_common_bug">\u4e00\u822c\u7684\u306a\u30d0\u30b0\u3092\u9078\u629e</string>
+</resources>

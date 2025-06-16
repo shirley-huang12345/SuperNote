@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/notebook_cover_item_width"
+        android:layout_height="@dimen/notebook_cover_item_height" >
+
+        <ImageView
+            android:id="@+id/notebook_cover"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/notebook_cover_item_height"
+            android:scaleType="fitXY"
+        />
+
+        <ImageView
+            android:id="@+id/notebook_cover_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/notebook_item_border"
+            android:visibility="gone" />
+        
+        <ImageView
+            android:id="@+id/notebook_cover_check"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:id="@+id/notebook_edit_cover_mask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/asus_ep_page_pressed_selector" />
+        
+        <TextView 
+            android:id="@+id/notebook_cover_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="@string/editcover_photo"
+            android:textSize="15sp"
+            android:textColor="#505050"
+            android:fontFamily="sans-serif-light"
+        	android:gravity="center_horizontal"
+        	android:visibility="gone"/>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ud_sdk_update_sdk" maxwidth="-1">Grupo de ZenUI</string>
+    <string name="ud_sdk_update_sdk_asus" maxwidth="-1">Actualización instantánea de ZenUI</string>
+    <string name="ud_sdk_asus_app_slogan">aplicación útil</string>
+    <string name="ud_sdk_downloads">Descargas</string>
+    <string name="ud_sdk_free_download">Descarga gratuita</string>
+    <string name="ud_sdk_more_zen_family">Descubrir más aplicaciones de ZenUI</string>
+    <string name="ud_sdk_install">Instalar</string>
+    <string name="ud_sdk_update">Actualizar</string>
+    <string name="ud_sdk_open">"Abrir"</string>
+    <string name="ud_sdk_no_network_connection_title">Sin conexión de red</string>
+    <string name="ud_sdk_no_network_connection_content">No es posible actualizar los datos. Compruebe la configuración de la red.</string>
+    <string name="ud_sdk_wifi_settings">Configuración de Wi-Fi</string>
+    <string name="ud_sdk_all_app_update">"Todas las aplicaciones están ejecutando su versión actual."</string>
+    <string name="ud_sdk_important_remind_text">"Importante"</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+    >
+
+		<Switch
+            android:id="@+id/notebook_menu_lock_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:switchMinWidth="0dp"
+            android:textOn="@string/null_string"
+            android:textOff="@string/null_string"
+            android:thumbTextPadding="18.67dp"
+            android:thumb="@drawable/asus_lock_switch_btn"
+            android:track="@drawable/asus_lock_switch_bg"/>
+
+
+</LinearLayout>

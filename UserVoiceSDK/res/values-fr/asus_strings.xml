@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uf_sdk_feedback_and_help">Commentaires et Aide</string>
+    <string name="uf_sdk_user_forum">Forum</string>
+    <string name="uf_sdk_help">Aide</string>
+    <string name="uf_sdk_send_feedback">Envoyer des commentaires	</string>
+    
+    <!--asus-->
+    <string name="uf_sdk_faq">FAQ</string>
+    <string name="uf_sdk_network_error">Erreur de connexion Internet. Veuillez v\u00e9rifier vos param\u00e8tres r\u00e9seau.</string>
+    <string name="uf_sdk_msg_ticket_created">Vos suggestions ont bien \u00e9t\u00e9 envoy\u00e9es \u00e0 ASUS</string>
+    <string name="uf_sdk_unhelpful_article_message_question">Souhaitez-vous faire parvenir vos suggestions \u00e0 l\'\u00e9quipe de d\u00e9veloppement d\'ASUS ?</string>
+    <string name="uf_sdk_name_hint">Nom</string>
+
+
+    <plurals name="uf_sdk_topics">
+        <item quantity="one">sujet</item>
+        <item quantity="other">sujets</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="one">%1$s aime ce sujet</item>
+        <item quantity="other">%1$s aiment ce sujet</item>
+    </plurals>
+
+    <string name="uf_sdk_submit_topic">Publier</string>
+    <string name="uf_sdk_topic_form_title">Nouveau sujet</string>
+    <string name="uf_sdk_title_topic">Sujet</string>
+    <string name="uf_sdk_subscribe_dialog_title">S\'abonner \u00e0 ce sujet</string>
+    <string name="uf_sdk_topic">Sujet</string>
+    <string name="uf_sdk_msg_topic_created">Publication r\u00e9ussie</string>
+    <string name="uf_sdk_topic_description_heading">Description</string>
+    <string name="uf_sdk_topic_description_hint">D\u00e9crivez votre sujet en d\u00e9tails</string>
+    <string name="uf_sdk_topic_text_heading">Forum</string>
+    <string name="uf_sdk_topic_title">Titre</string>
+    <string name="uf_sdk_topic_text_hint">Titre du sujet</string>
+    <string name="uf_sdk_topic_form_help">Lorsque vous publiez un sujet sur un forum, d\'autres utilisateurs seront en mesure d\'y souscrire et de publier des commentaires. Vous serez imm\u00e9diatement inform\u00e9 par email de la publication d\'une r\u00e9ponse.</string>
+    <string name="uf_sdk_msg_subscribe">Les notifications vous seront envoy\u00e9es par email.</string>
+    <string name="uf_sdk_msg_subscribe_success">Abonnement r\u00e9ussi</string>
+    <string name="uf_sdk_msg_unsubscribe">D\u00e9sabonnement r\u00e9ussi</string>
+    <string name="uf_sdk_msg_confirm_discard_topic_title">Supprimer le post ?</string>
+    <string name="uf_sdk_msg_confirm_discard_topic">Votre brouillon ne sera pas sauvegard\u00e9. Souhaitez-vous tout de m\u00eame continuer ?</string>
+    <string name="uf_sdk_publish_an_topic">Nouveau sujet</string>
+    <string name="uf_sdk_topic_filter">SUJETS</string>
+
+    <string name="uf_sdk_search_hint">Rechercher</string>
+    <string name="uf_sdk_translation_117562">Type de commentaire</string>
+    <string name="uf_sdk_translation_2530478">Suggestion</string>
+    <string name="uf_sdk_translation_2529543">Rapport de bogue</string>
+    <string name="uf_sdk_translation_2529544">Autres</string>
+    <string name="uf_sdk_msg_bad_email_format">L\'adresse email est invalide. Veuillez r\u00e9essayer.</string>
+    <string name="uf_sdk_warning">Avertissement</string>
+
+    <string name="uf_sdk_instant_answer_question">Cet article vous a-t-il \u00e9t\u00e9 utile ?</string>
+    <string name="uf_sdk_forum_description">Forum d\'utilisateurs ASUS d\u00e9di\u00e9 aux solutions de d\u00e9pannage</string>
+    <string name="uf_sdk_nothing_found">Aucun r\u00e9sultat</string>
+    <string name="uf_sdk_send_feedback_help">Vos commentaires et votre adresse email seront envoy\u00e9s \u00e0 ASUS. Le service client\u00e8le vous contactera par email.</string>
+
+    <string name="uf_sdk_no_network_connection_content">Mise \u00e0 jour des donn\u00e9es impossible. Veuillez v\u00e9rifier vos param\u00e8tres r\u00e9seau.</string>
+    <string name="uf_sdk_no_network_connection_title">Aucune connexion r\u00e9seau</string>
+    <string name="uf_sdk_notice">Notice</string>
+    <string name="uf_sdk_select_common_bug">Bogue fr\u00e9quent</string>
+    <string name="uf_sdk_wifi_settings">Param\u00e8tres Wi-Fi</string>
+    <string name="uf_sdk_wlan_settings">Param\u00e8tres WLAN</string>
+</resources>

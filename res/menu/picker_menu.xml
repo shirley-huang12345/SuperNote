@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu_search"
+          android:title="@string/editor_func_button_search"
+          android:icon="@drawable/asus_ic_search"
+          android:showAsAction="ifRoom|collapseActionView"/>
+    
+    <item
+        android:id="@+id/menu_edit"
+        android:showAsAction="always"
+        android:icon="@drawable/asus_ic_mode_edit"
+		android:title="@string/editor_func_button_editable"/> 
+
+     <item
+        android:id="@+id/menu_sort"
+        android:showAsAction="never"
+        android:title="@string/Sort"/>        
+    
+    <group 
+        android:id="@+id/picker_backup_menu_group"
+        android:visible="true">
+    <item
+        android:id="@+id/menu_set"
+        android:showAsAction="never"
+        android:title="@string/setting"/>
+    </group>
+    
+    <item android:id="@+id/menu_encourageUs"
+        android:showAsAction="never"
+        android:title="@string/settings_encourage_us_title"
+        android:visible="true"/>
+
+    <item android:id="@+id/menu_userVoice"
+        android:showAsAction="never"
+        android:title="@string/uf_sdk_feedback_and_help"
+        android:visible="true"/>
+    
+    <item android:id="@+id/menu_zenFamily"
+        android:showAsAction="never"
+        android:title="@string/null_string"/>
+    <!-- begin:clare 
+    <item android:id="@+id/menu_account_and_sync" android:title="@string/account_and_sync"></item>
+   end:clare -->
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/notebook_item_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="@dimen/notebook_item_width"
+        android:layout_height="@dimen/notebook_item_height">
+
+        <ImageView
+            android:id="@+id/page_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+        />
+
+        <ImageView
+            android:id="@+id/page_add_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/asus_supernote_add_new" />
+
+        <TextView
+            android:id="@+id/page_add_text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="127dp"
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:gravity="center_horizontal"
+            android:text="@string/new_page"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#505050"
+            android:textSize="15dp" />
+        
+		<ImageView
+            android:id="@+id/add_page_cover_mask"
+            android:layout_width="@dimen/notebook_item_width"
+            android:layout_height="@dimen/notebook_item_height"
+            android:src="@drawable/asus_ep_page_pressed_selector" />
+    </FrameLayout>
+    
+    <ImageView
+        android:layout_width="@dimen/notebook_item_width"
+        android:layout_height="24dp"
+        android:background="@drawable/no" />
+
+</LinearLayout>

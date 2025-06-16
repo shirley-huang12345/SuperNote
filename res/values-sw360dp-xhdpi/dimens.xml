@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left">6dp</dimen>
+    <dimen name="top">4.66dp</dimen>
+    <dimen name="right">0.63dp</dimen>
+    <dimen name="bottom">0.63dp</dimen>
+    
+    <dimen name="font_size">46.6666667px</dimen>
+    <dimen name="memo_link_text_size">13.33dp</dimen>
+    
+    <dimen name="baseline_top">166.67dp</dimen>
+    <dimen name="baseline_shift">-6.67px</dimen>
+    <dimen name="baseline_bottom_shift">15.33dp</dimen>
+    <dimen name="baseline_scale">5dp</dimen>
+    
+    <dimen name="thumb_padding_left">5dp</dimen>
+    <dimen name="thumb_padding_top">15dp</dimen>
+    
+    <dimen name="phone_book_width">720px</dimen>
+    <dimen name="phone_book_text_size_normal">44.4px</dimen>
+    <dimen name="phone_book_text_size_big">53.3333334px</dimen>
+    <dimen name="phone_book_text_size_small">38.6666667px</dimen>
+    
+    <dimen name="pad_book_width">1552px</dimen>
+    <dimen name="pad_book_text_size_normal">44.4px</dimen>
+    <dimen name="pad_book_text_size_big">53.3333334px</dimen>
+    <dimen name="pad_book_text_size_small">38.6666667px</dimen>
+        
+    <!-- Begin Siupo value = 800/1552-->
+    <dimen name="edittext_scale_pad">0.515464px</dimen>
+    <!-- End SIupo -->
+    
+    <!-- Begin Siupo all multifid by dpi_base_dpi-->
+    
+    <dimen name="touch_tolerance">40.0px</dimen>
+    <dimen name="click_tolerance">26.6666667px</dimen>
+    <dimen name="phone_vertical_scroll_bar_height">186.666667px</dimen>
+    <dimen name="default_canvas_width">1706.6666667px</dimen>
+    <dimen name="default_canvas_height">2124.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_width">1552.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_height">2325.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_width">720.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_height">960.0px</dimen>
+    <!-- End Siupo -->
+
+     <!-- Begin  clare -->   
+	
+	<dimen name="widget_book_template_width">120dp</dimen>
+	<dimen name="widget_book_template_height">150dp</dimen>
+	
+	<dimen name="widget_dialog_book_width">220dp</dimen>
+	<dimen name="widget_dialog_book_height">295dp</dimen>
+	<!-- End   clare -->
+	<!-- Begin Allen -->
+	<dimen name="template_travel_titleheight">35dp</dimen>
+	<dimen name="todo_widget_item_fontsize">16dp</dimen>
+    <dimen name="todo_widget_item_content_width">192dp</dimen>
+	<!-- End Allen -->
+	
+	<!-- BEGIN: Better -->
+	<dimen name="continious_line_tips_desc_margin_top">158dp</dimen>
+	<dimen name="continious_line_tips_desc_margin_left">14dp</dimen>
+	<dimen name="continious_line_tips_desc_margin_right">59dp</dimen>
+	<dimen name="continious_line_tips_welcome1_margin_top">398dp</dimen>
+	<dimen name="continious_line_tips_welcome1_margin_left">40dp</dimen>
+	<dimen name="continious_line_tips_welcome2_margin_top">376dp</dimen>
+	<dimen name="continious_line_tips_welcome2_margin_left">0dp</dimen>
+	<dimen name="continious_line_tips_continue_margin_right">15dp</dimen>
+	<dimen name="continious_line_tips_continue_margin_bottom">45dp</dimen>
+	<dimen name="continious_line_tips_redline_height">302dp</dimen>
+	<dimen name="continious_line_tips_redline_margin_right">54dp</dimen>
+	<!-- END: Better -->
+	
+	<dimen name="todo_total_height_phone">466dp</dimen>
+	<dimen name="todo_total_height_pad">1040dp</dimen>
+	
+	<dimen name="todo_widget_priority_width">28dp</dimen>
+	<dimen name="todo_widget_provider_width">294dp</dimen>
+	<dimen name="todo_widget_provider_height">220dp</dimen>
+</resources>

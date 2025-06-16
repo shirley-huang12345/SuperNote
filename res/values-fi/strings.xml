@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <string name="next" description="Next" maxwidth="">Seuraava</string>
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Jaa vain teksti</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Piil. ristik</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Koko:</string>
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">Tietoja SuperNotesta</string>
+    <string name="set_on" description="On" maxwidth="">Päälle</string>
+    <string name="set_off" description="Off" maxwidth="">Pois</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Lukutila oletuksena</string>
+    <string name="setting" description="Settings" maxwidth="">Asetus</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s sivu(a) poistettu.</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Kopioi sivu(t) </string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">Siirrä %d sivu(a)  </string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Muistion nimi</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Sivun väri</string>
+    <string name="password" description="Password" maxwidth="">Salasana</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Anna 4-7 merkin/numeron salasana.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Nykyinen salasana</string>
+    <string name="password_newpin" description="New password" maxwidth="">Uusi salasana</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Vahvista uusi salasana</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">Huomaa: Salasanassa voi olla 4-7 numeroa ja/tai merkkiä.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Salasanan määrittäminen/muuttaminen</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">Salasana ei täsmää.</string>
+    <string name="share_to" description="Share to..." maxwidth="">Jaa kohteeseen...</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">SuperNote-salasana</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">SuperNote-salasana vaihdettiin %s. Uusi salasana on: %s</string>
+    <string name="choose_a_template" description="choose a template for your notebook" maxwidth="">Valitse malli muistikirjaa varten</string>
+    <string name="name" description="Name" maxwidth="">Nimi</string>
+    <string name="del" description="Delete" maxwidth="">Poista</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Tuo...</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Tuo muistiinpanot</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">Tiedostoon liittyvää avaustapaa ei löytynyt</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Tuonti onnistui!</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Viall. tied. Tied. tuonti epäonnistui.</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Siirrä sijaintiin</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Kopioi sijaintiin</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Poista valitut sivut?</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Val. kaikki</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Psta val. kaik.</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">siirrä sivu(t)</string>
+    <string name="memo_del" description="Deleted memo">Haluatko poistaa valitut muistiot?</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">Muistio on tyhjä</string>
+    <string name="book_grid_title" description="the title of the page display property">Viivan tyyli</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">kopioi sivu(t)</string>
+    <string name="wrong_file_type" description="wrong_file_type">Tiedostotyyppi virheellinen.</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Järjestä sivut uudelleen pitämällä sivua painettuna pitkään ja vetämällä.</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Siirrä sivu(t) </string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">Sivua ei ole.</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Viimeinen sivu</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">Ensimmäinen sivu</string>
+    <string name="phone_book_name" description="Phone book name">Puhelinluettelo</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">uusi sivu</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">Haluatko varmasti poistaa kaikki piirustukset? Tätä toimintoa ei voi peruuttaa.</string>
+    <string name="delete_alert" description="warning of deleting">Haluatko poistaa tämän piirustuksen?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Käytä sormeasi kohteen siirtämiseen tai koon muuttamiseen.</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Napauta valitaksesi tai vedä kohdetta tai useita kohteita.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Tämä sivu on täysi.</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Siveltimen väri ja paksuus</string>   
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Tämä sivu on tyhjä.</string>
+    <string name="editor_menu_share">Jaa</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Kirjanmerkki</string>
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Vain luku</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Muistikirja</string>
+    <string name="warning_activity_not_found" description="Activity not found">Laitteesi ei tue tätä tiedosto- tai koodekkityyppiä</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">Leikepöydällä ei ole liitettävää kuvaa.</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Poista</string>
+    <string-array name="pg_size">
+        <item>Padille</item>
+        <item>Puhelimelle</item>
+    </string-array>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Lisää uusi</string>
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d sivu(a) kopioitu kohteeseen %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">Sivukoko</string>
+    <!-- 2012-02-08 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Valk.</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Kelt.</string>
+    <string name="book_grid_line" description="the background style of the notebook">Viivat</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Ristikko</string>
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Näytä muistikirjan tiedot</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">Linkitä:\n%s</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Ei luettavaa kirjaa tai sivua</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Ei kirjanmerkkisivuja.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Poista?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Haluatko varmasti poistaa tämän sivun?</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Väri</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Kopio</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Leikk</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Muok.</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Ryhmä</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Pura r.</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Baseline</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Kumoa</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Tee uud.</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Aseta</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Valitse</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Liitä</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Poista</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Sivel</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Kumi</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Peruuta</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Valmis</string>
+   <!-- new by Ryan -->
+    <string name="editor_menu_addpage" maxwidth="12">Lisää sivu</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Poista sivu</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Sivumuoto ei ole yhteensopiva</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Kirj.</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Tyyp</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Piirr</string>
+    <!-- send to 4th -->
+    <string name="load_tutorial" description="" maxwidth="">Ladataan opetusohjelmaa...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Lisää kirjanmerkkeihin</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="">Poista kirjanmerkeistä</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Poistetaanko kirjanmerkeistä?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Näytä kirjanmerkit</string>
+    <!-- send to 5th -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Nopea</item>
+        <item>Normaali</item>
+        <item>Hidas</item>
+    </string-array>
+    <string name="reset_password_title" description="reset the password">Nollaa salasana</string>
+    <string name="reset_password_summary">Tyhjennä salasana</string>
+    <string name="reset_password_dialog_title">Nollaa salasana</string>
+    <string name="reset_password_dialog_password_invalid">Salasana ei kelpaa</string>
+    <string name="confirm_reset_dialog_title">Nollaa salasana</string>
+    <string name="no_memory_dialog_content">Muistitila ei riitä.</string>
+    <!-- 6th -->
+    <string name="dialog_file_name">Tiedostonimi</string>
+    <string name="dialog_save_to">Tallenna kohteeseen</string>
+    <!-- 10th, Start New String -->
+   <string name="new_page" description="Create New Page" maxwidth="15">Luo uusi sivu</string>
+   <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Muistikirja viedään</string>
+   <string name="pg_title_counter" description="show total pages number of the all page view\'s title">%s kirjanmerkkiä</string>
+   <string-array name="pg_sort">
+        <item>Nimen mukaan</item>
+        <item>Viimeisen muokkauksen mukaan</item>
+    </string-array>
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">Haluatko poistaa kohteen muistikirjan?</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Nimeä uudelleen</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Piilota</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Poista</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Vie</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Syötä tunnistusnopeus</string>
+    <string name="notebook_selected" description="show how many pages are selected">%s valittu</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">muistikirjaa</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">Kirjanmerkki</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">Aikaleima</string>
+    <string-array name="week_of_day">
+        <item>Sunnuntai</item>
+        <item>Maanantai</item>
+        <item>Tiistai</item>
+        <item>Keskiviikko</item>
+        <item>Torstai</item>
+        <item>Perjantai</item>
+        <item>Lauantai</item>
+        <item>Tänään</item>
+        <item>Eilen</item>
+        <item>Viime viikolla</item>
+        <item>Kaksi viikkoa sitten</item>
+        <item>Kolme viikko sitten</item>
+        <item>Huomenna</item>
+        <item>Ensi viikolla</item>
+        <item>Kahden viikon kuluttua</item>
+        <item>Kolmen viikon kuluttua</item>
+    </string-array>
+   <string-array name="month_of_year">
+        <item>Tammikuu</item>
+        <item>Helmikuu</item>
+        <item>Maaliskuu</item>
+        <item>Huhtikuu</item>
+        <item>Toukokuu</item>
+        <item>Kesäkuu</item>
+        <item>Heinäkuu</item>
+        <item>Elokuu</item>
+        <item>Syyskuu</item>
+        <item>Lokakuu</item>
+        <item>Marraskuu</item>
+        <item>Joulukuu</item>
+        <item>Viime kuussa</item>
+        <item>Puoli vuotta sitten</item>
+        <item>Yli vuosi sitten</item>
+        <item>Ensi vuonna</item>
+        <item>Puolen vuoden kuluttua</item>
+        <item>Vuoden kuluttua</item>
+    </string-array>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Rajaa</string>
+    <!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Muokkaa</string>
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <string name="password_or_account_empty">Tili- tai salasanakenttä ei voi olla tyhjä.</string>
+    <string name="nb_sync">Ota pilvisynkronointi käyttöön</string>
+    <string name="nb_async">Peruuta pilvisynkronointi</string>
+    <string name="sync_status_syncing">Synkronoidaan...</string>
+    <string name="sync_status_failed">Tietojen synkronointi ei onnistunut.</string>
+    <string name="sync_account_text">Tili</string>
+    <string name="sync_sign_off">Kirjaudu ulos</string>
+    <string name="account_space_usage">Käytetty tila</string>  
+    <string name="account_and_sync">Tilin synkronointiasetukset</string>
+    <string name="sync_setting_auto">Automaattinen synkronointi</string>
+    <string name="sync_setting_auto_frequency">Automaattisen synkronoinnin taajuus</string>
+    <string name="sync_auto_interval_1">1 minuutin välein</string>
+    <string name="sync_auto_interval_15">15 minuutin välein</string>
+    <string name="sync_auto_interval_30">30 minuutin välein</string>
+    <string name="sync_auto_interval_60">60 minuutin välein</string>
+    <string name="sync_auto_interval_1d">Joka päivä</string>
+    <!-- add by Better -->
+<!-- Begin: show -->
+    <string name="webstorage_register">Rekisteröi</string>
+    <string name="webstorage_signon">Kirjaudu sisään tilille</string>
+<!-- End: show -->
+    <!--Begin: Show-->
+    <string name="Crop_Done">Valmis</string>  
+    <string name="Crop_Free">Lasso</string>
+    <string name="Crop_Rect">Suorakulmio</string>
+     <!--End: Show--> 
+    <string name="prompt_export_pdf_to">PDF-tiedosto tallennettu kohteeseen</string>
+    <string name="browse_folder">Selaa</string>
+    <string name="export_supernote_format">Vie SuperNote-muodossa</string>
+    <string name="file_export">Vie tiedosto</string>
+    <string name="editor_func_button_search">Hae</string>
+    <string name="no_search_result">Ei osumia haullasi.</string>
+    <string name="SearchResultItemInfo_Loading">Ladataan...</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Tiedoston lukeminen epäonnistui.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Muistikirjat</string>
+    <string name="SearchResultItemInfo_Pages">Sivua</string>
+    <string name="SearchResultItemInfo_Personal">Henkilökohtainen</string> 
+    <string name="SearchResultItemInfo_Page_Space">Sivu </string>   
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Kirjoitetun tekstin tunnistus</string>
+      <!-- wendy  -->
+   <string name="password_not_set_sync">Pilveen tallennetut muistikirjat järjestetään yksityisiksi ja julkisiksi. Haluatko luoda salasanan yksityiselle muistikirjoille? Jollet, kaikki muistikirjat järjestetään julkisiksi.</string>
+   <string name="bookpicker_sync_books_list">Synkronoi kirjaluettelo</string>
+   <string name="bookpicker_cancel">Peruuta</string>
+   <string name="bookpicker_ok">OK</string>
+   <string name="newto_editor_func_popup_d_brush_stroke">Viiva</string>
+   <string name="newto_editor_func_popup_d_brush_alpha">Peittävyys</string> 
+   <string name="export">Vie</string>
+   <string name="transfer">Siirrä</string>
+   <string name="book_export">Vie muistikirja</string>
+   <string name="prompt_exports_pdf_to">PDF-tiedostot tallennettu kohteeseen</string> 
+<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Otsikko</string>  
+   <string name="template_travel_tips_date">Päivämäärä</string>
+   <!--wendy begin -->
+    <string name="select_all">Kaikki</string>
+   <string name="prompt_no_book_selected">Ei kirjaa valittuna</string>
+   <!-- Begin: Better -->
+   <string name="sync_file_no_version">Versio ei ole käytettävissä.</string>
+   <string name="loading_page">Ladataan sivutietoja...</string>
+   <string name="prompt_transfer_format">Sinun on alustettava tämä kirja uudelleen, ja käsittely kestää jonkin aikaa. Haluatko jatkaa?</string>
+   <string name="prompt_saving">Tallennetaan...</string>
+   <string name="prompt_incompatible_syncing">%s ei ole yhteensopiva versio. Päivitä SuperNote.</string>
+   <string name="prompt_incompatible_file">%s ei ole yhteensopiva versio.</string>
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <string name="webstorage_login_signing_in">Kirjaudutaan sisään. Odota...</string>
+   <string name="webstorage_login_account_password_wrong">Tili tai salasana on väärä</string>
+   <string name="sync_setting_sign_failure">Ei voi kirjautua sisään tilille %s</string>
+   <string name="sync_setting_sign_success">Kirjaudu sisään tilille %s</string>
+   <string name="sync_setting_networkless_title">Ei yhteyttä</string>
+    <string name="sync_setting_networkless">Tarvitset internet-yhteyden käyttääksesi tätä palvelua. Ota matkapuhelinverkko tai Wi-Fi käyttöön asetuksissa.</string>
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <string name="Sort">Lajittele</string>
+    <!-- End: Allen -->   
+ <string-array name="editor_func_insert_array" description="insert mode" maxwidth="20">
+        <item>Valokuva</item>
+        <item>Kuva tiedostosta</item>
+        <item>Tekstikuva</item>
+        <item>PDF-sivu</item>
+        <item>Audiotallennus</item>
+        <item>Video</item>
+        <item>Tekstitiedosto</item>
+        <item>Aikaleima</item>
+        <item>Kuva leikepöydältä</item>
+        <item>Leima</item>
+        <item>Muoto</item>
+    </string-array>
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <string-array name="nb_editcover_choose_item">
+        <item>Valokuva</item>
+        <item>Kuva tiedostosta</item>
+    </string-array>
+ <!-- End  :Darwin -->
+    <string name="sync_setting_sign_out">Kirjataan ulos %s</string>
+    <string name="sync_setting_sign_out_msg">Uloskirjautuminen poistaa pääsyn pilvitilillä oleviin muistikirjoihin ja ottaa pilvisynkronoinnin pois käytöstä. Haluatko jatkaa?\n</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">Salasanasi on muutettu. Haluatko lähettää salasanan sähköpostitilillesi myöhempää tarkistusta varten? Tämä estää pääsyn menettämisen piilotettuihin muistikirjoihin.\n</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Lukitse</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">Poista lukitus</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">Lukitse piilottaaksesi</string>
+    <string name="editor_phone_toast_seletext">Vedä korostaaksesi tekstin</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">Lukitse</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Haluatko lukita muistikirjan?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Poista lukitus</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Haluatko poistaa muistikirjan lukituksen?</string>
+    <string name="set_password_dialog_title">Aseta salasana</string>
+    <string name="editor_func_button_recognize">Tunnista</string>
+    <string name="editor_func_button_transform">Muunna</string>   
+    <string name="editor_phone_toast_readonly">Vain luku -tila: Olet Luku-tilassa. Käytä sormeasi selataksesi tai vierittääksesi sivua ylös/alas.</string>   
+    <string name="export_pdf">Vie PDF-tiedostona</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Haku epäonnistui.</string>
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Viiva</string>
+    <string name="book_type_grid">Ristikko</string>
+    <string name="book_type_meeting">Kokous</string>
+    <string name="book_type_diary">Päiväkirja</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Askelpalautinele</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">Pyyhkäise käsinkirjoitustilassa oikealta vasemmalle poistaaksesi viimeksi syötetyn tekstin.</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <string name="template_meeting_start_date_tips">Alkamispvm</string>
+    <string name="template_meeting_end_date_tips">Päättymispvm</string>
+    <string name="template_meeting_start_time_tips">Alkamisaika</string>
+    <string name="template_meeting_end_time_tips">Päättymisaika</string>
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Näytä lukittu muistikirja </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Piilota lukittu muistikirja </string>
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Jatkuva kirjoitusviiva</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Kun kirjoituksesi ylittää punaisen viivan, kirjoitetut kirjaimet siirtyvät automaattisesti vasemmalle.</string>
+    <string name="text_continue" description="continue" max_width="-1">Jatka</string>
+    <!-- End: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">SuperNote tunnistaa kaiken kirjoitetun tekstin näppäillyksi ja monistaa tämän muistikirjan.</string>
+    <string name="set_index_language_title">Aseta tunnistuskieli</string> 
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">Kaikki sivut</string>
+    <!-- darwin add -->
+   <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">Voit kirjautua sisään ASUS WebStorage -tilillä.</string>
+   <!-- Begin: show -->
+   <string name="username" description="User Name" maxwidth="15">Käyttäjänimi</string>
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">Lukitut muistikirjat on piilotettu.</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">Lukittuja muistikirjoja voi nyt lukea.</string>
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Kirjoita pitkä sana jatkuvana näytön koosta riippumatta.</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\'s title">%s aikaleima(a)</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Haetaan. Odota.</string>
+<!-- Begin Allen -->
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">Suuri</string>
+    <string name="share_medium" description="Medium" max_width="6">Keskikokoinen</string>
+    <string name="share_small" description="Small" max_width="5">Pieni</string>
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+    <string name="book_type_blank" description="blank book name" maxwidth="">Tyhjä</string>
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+    <string name="editor_menu_savepage" maxwidth="12">Tallenna sivu</string>
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+    <string name="my_bit_cast_wait_text">Odota...</string>
+<!-- End: Shane -->
+<!-- Begin: Better -->
+    <string name="password_not_set_import">Muistikirjat voi ryhmitellä yksityisiin ja julkisiin. Haluatko luoda salasanan yksityiselle muistikirjoillesi? Jos salasanaa ei luoda, kaikki muistikirjat järjestetään julkisiksi.</string>
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="book_grid_none" description="the background style of the notebook">Ei mitään</string>
+    <!-- End Allen -->    
+<!-- clare begin -->
+    <string name="widget_bt_add_a_notebook">Lisää muistikirja</string>
+    <string name="widget_passwordTip">Anna salasana</string>
+<!-- clare end -->
+<!-- darwin begin -->
+   <string name="nb_editcover">Muokkaa kantta</string>
+   <string name="nb_editcover_choose_title">Valitse kuva</string>
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+    <string name="widget_dialog_replace_notebook">Korvaa muistikirja</string>
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+     <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">Lisää koht.</string>
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Lajittele sivun mukaan</item>
+        <item>Lajittele ajan mukaan</item>
+    </string-array>
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Korkea</item>
+        <item>Normaali</item>
+        <item>Matala</item>
+    </string-array>
+    <string name="todo_item_completed" description="todo item is completed">Valmis</string>
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Valitse muistikirja</string>
+    <!-- Begin Allen -->
+    <string name="meeting_form" description="meeting start time">Lähettäjä</string>
+    <string name="meeting_to" description="meeting end time">Vastaanottaja</string>
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">Tunnistettu</string>
+ <!-- add for 'SyncCancelDialogFragment'-->
+ <string name="sync_cancel_confirmText">Vahvista</string>
+    <string name="sync_cancel_promptTop">Poistetut synkronoidut kohteet poistetaan myös toisesta laitteesta.</string>
+    <string name="sync_cancel_promptBottom">Haluatko poistaa näiden muistikirjojen synkronoinnin?</string>
+    <string name="sync_cancel_noMoreHint">Älä muistuta uudelleen</string>
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+    <string name="pen_only_enabled">Käytä Vain kynä -valintaa</string>
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <string name="export_as" description="used as title of export_format dialog">Vie muodossa</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>SuperNote-muoto</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog">Valitse muoto</string>
+    <string-array name="share_format_array" description="share format chooser">
+        <item>Kuva</item>
+        <item>PDF</item>
+        <item>SuperNote-muoto</item>
+    </string-array>
+    <string name="todo_title" description="memo template title" maxwidth="">Muistio</string>
+    <string name="todo_widget_all_todos" description="All memos">Kaikki Muistiot</string>
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">Valitse leima</string>
+    <string name="insert_shape_dlg">Valitse muoto</string>
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">Mikä on aiheesi?</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">Lisää osanottajasi</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">Sinun kokousmuistiinpanosi tässä …</string>
+<!-- for A86 style by smilefish -->
+    <string name="statusbar_login">Kirjaudu sisään</string>
+    <string name="editcover_photo">Valokuva</string>
+    <string name="editcover_save">Tallenna</string>
+    <string name="brush_edit_dialog_library">Kirjasto</string>
+    <string name="brush_edit_dialog_back">Takaisin</string>
+    <string name="brush_edit_dialog_pencil">Lyijykynä</string>
+    <string name="brush_edit_dialog_rollerpen">Kuulakärkikynä</string>
+    <string name="brush_edit_dialog_pen">Kynä</string>
+    <string name="brush_edit_dialog_marker">Tussi</string>
+    <string name="brush_edit_dialog_brush">Sivellin</string>
+    <string name="brush_edit_dialog_airbrush">Väriruisku</string>
+    <string name="todo_title_task">Paina 1 lisätäksesi uuden tehtävän.</string>
+    <string name="brush_edit_dialog_full">Siveltimien enimmäismääräksi tallennettu 12</string>
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+    <string name="data_fomat_upgrade">Tietomuodon päivitys</string>
+    <string name="the_book">Kirja</string>
+    <string name="exits">on jo olemassa</string>
+    <string name="replace_the_book">Korvataanko kirja?</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="successful_upgrade">Päivitys onnistui. SuperNote käynnistetään uudelleen</string>
+    <string name="upgrade_fails">Päivitys epäonnistui</string>
+    <string name="not_enough_space">SD-kortin tila ei riitä.</string>
+    <string name="try_again">Poista tarpeettomat tiedostot ja käynnistä SuperNote uudelleen yrittääksesi uudelleen</string>
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <!-- jason -->
+<!-- Begin Carol-->
+    <string name="editor_phone_readonly">Vain luku: Käytä sormeasi vierittääksesi sivua.</string>
+<!-- End Carol-->
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">Ei muistiinpanoja</string>
+    <string name="widget_password_hint">Anna salasana</string>
+    <string name="widget_all_book_template">Kaikki muistikirjat</string>
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <string name="content_is_too_long" description="content_is_too_long">Sisältö on liian pitkä</string>
+    <string name="todo_title_max_character_num">Merkkien enimmäismäärä on 50</string>
+    <!-- smilefish -->
+    <string name="vo_shape_failed">Tätä piirrosta ei voi muotoilla</string>
+    <!-- smilefish -->
+    <string name="todo_widget_create" description="Create">Luo</string> <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+    <string name="editor_color_picker">Paina valitaksesi siveltimellä käytettävän värin</string> 
+<!-- end smilefish -->
+    <string name="brush_edit_dialog_save_successful">Tallentaminen onnistui.</string>
+    <string name="brush_edit_dialog_save">On jo olemassa.</string>
+    <!--jason  -->
+    <string name="cannot_play_media_when_calling">Mediaa ei voi toistaa puhelimessa puhuttaessa</string>
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+    <string name="template_travel_text_hint" description="hint for inputting travelling notes">Sinun päiväkirjamuistiinpanosi tässä …</string>
+    <string name="template_travel_change_photos" description="hint for changing photos">Napauta vaihtaaksesi valokuvia</string>
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+    <string name="bm_in_notebook" description="Page in notebook" maxwidth="">Kirjanmerkki kohteessa %1$s</string>
+<!-- smilefish -->
+    <string name="page_copy" description="Copy the page" maxwidth="">Kopioi</string>
+    <string name="page_move" description="Move the page" maxwidth="">Siirrä</string>
+    <string name="page_delete" description="Delete the page" maxwidth="">Poista</string>
+    <string name="page_reorder" description="Reorder the page" maxwidth="">Järjestä uudelleen</string>
+    <string name="pg_in_notebook" description="Page in notebook" maxwidth="">Sivu %1$s kohteessa %2$s</string>
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <string name="todo_widget_add_new_memo" description="All memos">Lisää uusi muistio</string>
+    <!-- Emmanual -->
+    <string name="drawer_menu" description="menu on drawer" maxwidth="">Valikko</string>
+    <!-- smilefish -->
+    <string name="editor_menu_read_later" description="read later" maxwidth="">Lue myöhemmin</string>
+    <!-- smilefish -->
+    <string name="sdcard_full_no_add" description="sdcard is full">Uuden sivun tai muistikirjan tallentaminen epäonnistui. Tallennustila on täynnä.</string>
+    <!-- emmanual -->
+    <string name="sdcard_full_no_save" description="sdcard is full">Muokatun sivun tai muistikirjan tallentaminen epäonnistui. Tallennustila on täynnä.</string>
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <string name="pg_sort_by_name" description="page sort by name">Palautettu oletuslajitteluun, lajittele nimen perusteella</string>
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <string name="tutorial_info_content1" description="tutorial info for supernote">Paras sormenpäämuistiinpanojen tekijäsi.</string>
+    <string name="tutorial_info_title2" description="Cloud sync">Pilvisynkronointi</string>
+    <string name="tutorial_info_content2" description="tutorial info for cloud sync">Hae ilmainen pilvitili tallentaaksesi tietosi pilveen missä ja milloin tahansa.</string>
+    <string name="tutorial_info_title3" description="3 editing modes">3 muokkaustilaa</string>
+    <string name="tutorial_info_content3" description="tutorial info for editing modes">Kirjoita, näppäile tai piirrä Supernotessa. Valitse tehtävällesi sopivimmat menetelmät.</string>
+    <string name="tutorial_info_title4" description="Insert content">Liitä sisältö</string>
+    <string name="tutorial_info_content4" description="tutorial info for insert content">Liitä kuvia, ääntä tai videota rikastuttaaksesi sisältöäsi.</string>
+    <string name="skip_this_tutorial" description="skip this tutorial">"Ohita"</string>
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <string name="editor_menu_nextpage" maxwidth="12">Seuraava sivu</string>
+    <string name="editor_menu_prepage" maxwidth="12">Edellinen sivu</string>
+    <string name="auto_add_page" maxwidth="12">Käsitellään…</string>
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <string name="insert_audiofile">Äänitiedosto</string>
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <string name="audiofile_not_exist">Tiedostoa ei ole!</string>
+    <string name="audiofile_not_mp4">Audiotiedostoa ei voi liittää muistikirjaan!</string>
+    <string name="editor_func_button_last_edit_page">Käynnistä viimeksi muokattu sivu</string>
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <string name="title_send_email">Lähetä sähköposti</string>
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <string name="about_title">Tietoja</string>
+    <string name="about_legal_information">Lailliset tiedot</string>
+    <string name="about_legal_information_des">Tämän ohjelmiston käyttö on ASUS-käyttöehtojen alaista.</string>
+    <string name="about_website">Web-sivusto</string>
+    <string name="about_allrights">ASUSTek Computer Inc. Kaikki oikeudet pidätetään.</string>
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="nb_add_choose_title">Luo uusi muistikirja.</string>
+    <string-array name="nb_add_choose_item">
+        <item>Tyhjä muistikirja</item>
+        <item>Valitse malli</item>
+    </string-array>
+    <string name="no_notebooks">Ei muistikirjoja</string>
+    <string name="stub_app_notice_title" description="stub app notice title" maxwidth="-1">Ilmoitus</string>
+    <string name="stub_app_notice_content" description="stub app notice content" maxwidth="-1">Päivitä ensin uusimpaan versioon Google Play -sovelluskaupasta. Kiitos.</string>
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"Päivitä ensin uusimpaan versioon Asus-sovelluskaupasta. Kiitos."</string>
+    <string name="cta_act_mobile_network">"Matkapuhelinverkko"</string>
+    <string name="cta_msg_mobile_network">"yrittää yhdistää matkapuhelinverkkoon. Matkapuhelinverkon käyttö voi aiheuttaa kustannuksia. Välttääksesi kustannukset, katkaise matkapuhelinverkkoyhteys, kun et käytä sitä."</string>
+    <string name="voice">Ääni</string>
+    <string name="error_sdcard_access_nosdcard">Ei voi käyttää USB-tallennustilaa</string>
+    <string name="error_sdcard_access">Ei voi käyttää SD-korttia</string>
+    <string name="startfail">Ei voi käynnistää nauhoitusta. Varmista, etteivät muut sovellukset käytä mikrofonia.</string>
+    <string name="sync_setting_wifi_auto">Automaattinen synkronointi vain Wi-Fi-yhteydellä</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <string name="reading_pdf_prompt">Luetaan PDF:ää...</string>
+    <string name="choose_pdf_prompt">Valitse PDF-sivut</string>
+    <string name="import_pdf_prompt">Valmistele PDF-sivujen tuonti...</string>
+    <string name="pdf_import" description="Import PDF" maxwidth="">Tuo PDF</string>
+    <string name="pdf_seelcted">Valittu: </string>
+    <string name="import_pdf_progress" formatted="false">Tuodaan PDF:ää: %s / %s</string>
+    <string name="add_book_from_pdf" maxwidth="">PDF:stä</string>
+    <string name="reading_pdf_error" maxwidth="">Tiedostoa ei voi kirjoittaa!</string>
+    <string name="reading_pdf_encrypted" maxwidth="">Ei voi tuoda PDF-tiedostoa, jolla on salasanasuojaus.</string>
+    <string name="reading_pdf_invalid" maxwidth="">Tiedostoa ei voi tuoda. Varmista, ettei tiedosto ole vahingoittunut.</string>
+    <string name="error" maxwidth="">Virhe</string>
+    <string name="editor_func_button_page_transtion">Animaatiotehoste sivun kääntämiselle</string>
+    <string name="download_title" maxwidth="12">Ladataan\u2026</string>
+    <!-- smilefish -->
+    <string name="settings_encourage_us_title" maxWidth="">Rohkaise meitä</string>
+    <string name="settings_encourage_us_detail" translate="true">Jos pidät %s käyttämisestä, luokittele meidät 5 tähdellä Play Store -kaupassa. Se rohkaisisi meitä suuresti jatkamaan tuotteemme kehittämistä!\n\nTehdäksesi ehdotuksia, kirjoita meille kohdassa Palaute &amp; Ohje.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">Luokittele nyt</string>
+    <string name="later_action_no_apps" description="Text for indicating there are no apps to open the content" maxwidth="-1">Ei sovellusta toiminnan suorittamiseksi loppuun</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">Vieritä ylös luokitellaksesi</string>
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"Tiedostoja ei voi käyttää"</string>
+    <string name="force_permission_sub_title">"%1$s tarvitsee %2$s-luvan päästääkseen laitteella oleviin tietoihin ja tallentamaan ne."</string>
+    <string name="force_permission_turn_on">"Laita päälle"</string>
+    <string name="force_permission_storage">"Varasto"</string>
+    <string name="force_permission_settings">"Asetukset"</string>
+    <string name="force_permission_show_settings">"Napauta &lt;b>Asetukset&lt;/b> laittaaksesi päälle &lt;b>%2$s&lt;/b>-luvan kohdasta &lt;b>Sovellustiedot&lt;/b> &lt;b>Luvat&lt;/b>, sitten käynnistä %1$s uudelleen."</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"Navigointiele"</string>
+    <string name="navigate_tutorial_content">"Käytä kahta sormea navigoidaksesi vapaasti sivulla. Vain luku -tilassa ollessasi voit navigoida sivulla esikatseluikkunassa."</string>
+    <string name="navigate_tutorial_content_phone">"Käytä kahta sormea navigoidaksesi vapaasti sivulla esikatseluikkunassa."</string>
+    <string name="navigate_tutorial_scroll">"Pidä vierittääksesi sivua"</string>
+    <!-- end smilefish -->
+</resources>

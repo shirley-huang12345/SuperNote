@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+  <!--Replace placeholder ID with your tracking ID-->
+  <string name="ga_trackingId">UA-42149473-14</string>
+
+  <!--Enable automatic activity tracking-->
+  <bool name="ga_autoActivityTracking">true</bool>
+
+  <!--Enable automatic exception tracking-->
+  <bool name="ga_reportUncaughtExceptions">true</bool>
+
+  <!--Set Dispatch period to 4 hours-->
+  <integer name="ga_dispatchPeriod">14400</integer>
+</resources>

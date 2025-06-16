@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Begin: Smilefish -->
+    <!-- End: Smilefish -->
+    <!-- Markup code  -->
+    <!-- begin wendy -->
+    <!-- end wendy -->
+    <string name="preview_text_only" description="Share text only [MAX=16]" maxwidth="">Partaj. numai text</string>
+    <string name="preview_hide_grid" description="Hide grid [MAX=10]" maxwidth="">Asc. grilă</string>
+    <string name="preview_size" description="Size: [MAX=5]" maxwidth="">Dim.:</string>
+    <!-- useful -->
+  <!-- Modify 0904 End: Show -->
+    <string name="set_reg_info" description="About SuperNote" maxwidth="">Despre SuperNote</string>
+    <string name="set_on" description="On" maxwidth="">Act.</string>
+    <string name="set_off" description="Off" maxwidth="">Dezact.</string>
+    <string name="set_readOnly" description="Reading mode as default" maxwidth="">Set. mod de citire ca impl.</string>
+    <string name="app_name">SuperNote</string>
+    <string name="setting" description="Settings" maxwidth="">Setări</string>
+    <string name="pg_del_count" description="Show how many pages has been deleted" maxwidth="">%s pagini au fost şterse</string>
+    <string name="pg_copy_confirm" description="Copy page(s) to " maxwidth="">Copiere pagini în</string>
+    <string name="pg_move_count" description="Show how many pages has been moved" maxwidth="">Mutare %d pagini în </string>
+    <string name="nb_name_hint" description="Notebook Name" maxwidth="">Nume blocnotes</string>
+    <string name="pagecolor" description="Page Color" maxwidth="">Culoare pag</string>
+    <string name="password" description="Password" maxwidth="">Parolă</string>
+    <string name="password_tips" description="Please input 4 to 7 characters/digits password." maxwidth="">Introduceţi 4 până la 7 caractere/cifre.</string>
+    <string name="password_oldpin" description="Current password" maxwidth="">Parolă curentă</string>
+    <string name="password_newpin" description="New password" maxwidth="">Parolă nouă</string>
+    <string name="password_tryagain" description="Confirm new password" maxwidth="">Confirmaţi parola nouă</string>
+    <string name="password_hint" description="Attention: (1) Password can be 4 to 7 position numbers and/or characters. (2) Change the password to 0000 will clear it and clear the Hide/Unhide function." maxwidth="">Atenţie: Parola poate conţine între 4 şi 7 cifre şi/sau caractere.</string>
+    <string name="password_set" description="Set/Change password" maxwidth="">Setare/Schimbare parolă</string>
+    <string name="password_diff_password" description="Passwords do not match." maxwidth="">Parolele nu corespund.</string>
+    <string name="password_mail_subject" description="SuperNote password" maxwidth="">Parolă SuperNote</string>
+    <string name="password_mail_content" description="On 2011/01/01 the password of my SuperNote was changed. The new password is: AAAA" formatted="false" maxwidth="">La %s, parola SuperNote a fost schimbată. Noua parolă este: %s</string>
+    <string name="choose_a_template" description="choose a template for your notebook" maxwidth="">Alegeți un șablon pentru notebook</string>
+    <string name="name" description="Name" maxwidth="">Nume</string>
+    <string name="del" description="Delete" maxwidth="">Şterg.</string>
+    <string name="prompt_import" description="Import..." maxwidth="">Începere import de la</string>
+    <string name="pg_import" description="Import Notes" maxwidth="">Import blocnotes</string>
+    <string name="prompt_err_open" description="The open method associated with this file is not found" maxwidth="">Metoda de desch. asoc. cu acest fişier nu a fost găsită</string>
+    <string name="prompt_import_ok" description="Import successful!" maxwidth="">Import cu succes!</string>
+    <string name="prompt_import_err" description="Import failed. The file is corrupt." maxwidth="">Fiş. corupt. Nu s-a putut importa fiş.</string>
+    <string name="pg_move_to" description="Move to" maxwidth="">Mut. în</string>
+    <string name="pg_copy_to" description="Copy to" maxwidth="">Cop. în</string>
+    <string name="pg_del" description="Delete selected Page(s)?" maxwidth="">Ştergeţi pag. selectate?</string>
+    <string name="pg_select_all" description="Select all Page(s)?" maxwidth="">Select. tot</string>
+    <string name="pg_deselect_all" description="Deselect all Page(s)?" maxwidth="">Deselect. tot</string>
+    <string name="pg_move" description="move the page(s)" maxwidth="">mutaţi paginile</string>
+    <string name="memo_del" description="Deleted memo">Ştergeţi memento-urile selectate?</string>
+    <string name="memo_not_exists" description="no memo in SuperNote">Memento-ul este gol</string>
+    <string name="book_grid_title" description="the title of the page display property">Stil linie</string>
+    <string name="pg_copy" description="copy the page(s)" maxwidth="">copiaţi paginile</string>
+    <string name="wrong_file_type" description="wrong_file_type">Tipul de fişier nu este corect.</string>
+    <string name="prompt_move_pages" description="Long press on the page and drag to re-order pages." maxwidth="">Apăsaţi lung pe pag. şi trageţi pt. a reordona pag.</string>
+    <!-- 1st PadFone String Revised -->
+    <string name="pg_move_confirm" description="Move page(s) to " maxwidth="">Mutare pagini în</string>
+    <string name="pg_not_exist" description="The page does not exist" maxwidth="">Pagina nu există</string>
+    <string name="pg_warning_at_last" description="pg_warning_at_last" maxwidth="">Ultima pagină</string>
+    <string name="pg_warning_at_start" description="pg_warning_at_start" maxwidth="">Prima pagină</string>
+    <string name="phone_book_name" description="Phone book name">Agendă</string>
+    <string name="pg_create_page" description="new a page" maxwidth="">pag. nouă</string>
+    <string name="clear_all_alert" description="Can't undo after clear all">Sigur doriţi să ştergeţi toate desenele? Această acţiune nu poate fi anulată.</string>
+    <string name="delete_alert" description="warning of deleting">Doriţi să ştergeţi acest desenul?</string>
+    <string name="editor_bottom_hint_selected_mode" description="editor_bottom_hint_selected_mode">Folosiţi degetul pentru a muta sau redimensiona obiectul.</string>
+    <string name="editor_bottom_hint_selected_mode_nothing_selected">Atingeţi pentru a selecta sau pentru a trage unul sau mai multe obiecte.</string>
+    <string name="editor_page_is_full" description="editor_page_is_full">Pagina este plină.</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Culoare și grosime pensulă</string>   
+    <string name="editor_share_to_dialog_nothidg" description="editor_share_to_dialog_nothidg">Pagina este goală.</string>
+    <string name="editor_menu_share">Partajare</string>
+    <string name="editor_menu_bookmark" description="[MAX=12]" maxwidth="">Marcaj</string>
+    <string name="editor_menu_readonly" description="[MAX=12]" maxwidth="">Doar citire</string>
+    <string name="nb_name_default" description="Notebook Default Name" maxwidth="">Blocnotes</string>
+    <string name="warning_activity_not_found" description="Activity not found">Dispozitivul dvs. nu acceptă acest tip de fișier sau acest tip de codec</string>
+    <string name="warning_no_data_has_been_copy" description="no clipboard data">Nu există nicio imagine în memoria clipboard pentru lipire.</string>
+    <string name="remove_from_jump" description="Remove from jump" maxwidth="">Elimin.</string>
+    <string-array name="pg_size">
+        <item>Pentru tabletă</item>
+        <item>Pentru telefon</item>
+    </string-array>
+    <string name="add_new" description="Add New Notebook" maxwidth="7">Blocnotes nou</string>
+    <string name="pg_copy_count" description="Show how many pages has been copied" formatted="false" maxwidth="">%d pagini au fost copiate în %s</string>
+    <string name="page_size" description="Page Size" maxwidth="">Dim. pag.</string>
+    <!-- 2012-02-08 -->
+    <string name="white" description="the background color of the notebook" maxwidth="">Alb</string>
+    <string name="yellow" description="the background color of the notebook" maxwidth="">Galben</string>
+    <string name="book_grid_line" description="the background style of the notebook">Linii</string>
+    <string name="book_grid_grid" description="the background style of the notebook">Grile</string>
+    <string name="nb_property" description="Show the information of the notebook [MAX=18]" maxwidth="">Afişaţi informaţiile blocnotes-ului</string>
+    <string name="memo_link" description="press this button to link the page where the memo from">Legătură cu:\n%s</string>
+    <string name="all_page_view_empty" description="no book exists, let user know there is no page existing" maxwidth="">Nu sunt cărţi sau pag. de citit</string>
+    <string name="no_bookmark_exists" description="no bookmark exists, let user know there is no page existing" maxwidth="">Nu sunt pag. marcate.</string>
+    <string name="editor_delete_page_dialog_title" description="editor_delete_page_dialog_title [MAX=5]" maxwidth="">Ştergeţi?</string>
+    <string name="editor_delete_page_dialog_message" description="editor_delete_page_dialog_message" maxwidth="">Sigur doriţi să ştergeţi această pagină?</string>
+    <string name="editor_func_button_color" description="editor_func_button_color [MAX=5]" maxwidth="">Culoare</string>
+    <string name="editor_func_button_copy" description="editor_func_button_copy [MAX=5]" maxwidth="">Copiere</string>
+    <string name="editor_func_button_cut" description="editor_func_button_cut [MAX=5]" maxwidth="">Decup.</string>
+    <string name="editor_func_button_editable" description="editor_func_button_editable [MAX=5]" maxwidth="">Edit.</string>
+    <string name="editor_func_button_group" description="editor_func_button_group [MAX=5]" maxwidth="">Grupare</string>
+    <string name="editor_func_button_ungroup" description="editor_func_button_ungroup [MAX=5]" maxwidth="">Anul. grup.</string>
+    <string name="editor_func_button_baseline" description="editor_func_button_baseline [MAX=5]" maxwidth="">Referinţă</string>
+    <string name="editor_func_button_undo" description="editor_func_button_undo [MAX=5]" maxwidth="">Anul.</string>
+    <string name="editor_func_button_redo" description="editor_func_button_redo [MAX=5]" maxwidth="">Refac.</string>
+    <string name="editor_func_button_insert" description="editor_func_button_insert [MAX=5]" maxwidth="">Inser.</string>
+    <string name="editor_func_button_select" description="editor_func_button_select [MAX=5]" maxwidth="">Select.</string>
+    <string name="editor_func_button_paste" description="editor_func_button_paste [MAX=5]" maxwidth="">Lipire</string>
+    <string name="editor_func_button_delete" description="editor_func_button_delete [MAX=5]" maxwidth="">Şterg.</string>
+    <string name="editor_func_button_brush" description="editor_func_button_brush [MAX=5]" maxwidth="">Pensulă</string>
+    <string name="editor_func_button_eraser" description="editor_func_button_eraser [MAX=5]" maxwidth="">Radieră</string>
+    <string name="editor_func_button_cancle" description="editor_func_button_cancle [MAX=5]" maxwidth="">Revoc.</string>
+    <string name="editor_func_button_done" description="editor_func_button_done [MAX=5]" maxwidth="">Finaliz.</string>
+   <!-- new by Ryan -->
+    <string name="editor_menu_addpage" maxwidth="12">Adăug. pag.</string>
+    <string name="editor_menu_rmpage" maxwidth="12">Elimin. pag.</string>
+    <string name="pg_open_fail" description="page format is not compatiable" maxwidth="">Formatul pag. incompatibil</string>
+    <string name="editor_func_button_scribble" description="editor_func_button_scribble [MAX=5]" maxwidth="">Scrie</string>
+    <string name="editor_func_button_keyboard" description="editor_func_button_keyboard [MAX=5]" maxwidth="">Tip</string>
+    <string name="editor_func_button_doodle" description="editor_func_button_doodle [MAX=5]" maxwidth="">Desen</string>
+    <!-- send to 4th -->
+    <string name="load_tutorial" description="" maxwidth="">Se încarcă tutorialul...</string>
+    <string name="add_to_list" description="Add to Favorites" maxwidth="">Adăug. la marcaje</string>
+    <string name="remove_from_list" description="Remove from Favorites" maxwidth="">Eliminare din marcaje</string>
+    <string name="remove_from_list2" description="Remove from Favorites?" maxwidth="">Eliminaţi din marcaje?</string>
+    <string name="show_favorite_list" description="Show favorite list" maxwidth="">Afişare marcaje</string>
+    <!-- send to 5th -->
+    <string-array name="handwrite_recognition_speed_values">
+        <item>Mare</item>
+        <item>Normală</item>
+        <item>Mică</item>
+    </string-array>
+    <string name="reset_password_title" description="reset the password">Resetaţi parola</string>
+    <string name="reset_password_summary">Goliţi parola</string>
+    <string name="reset_password_dialog_title">Resetare parolă</string>
+    <string name="reset_password_dialog_password_invalid">Parolă nevalidă</string>
+    <string name="confirm_reset_dialog_title">Resetare parolă</string>
+    <string name="no_memory_dialog_content">Memoria este insuficientă</string>
+    <!-- 6th -->
+    <string name="dialog_file_name">Nume fişier</string>
+    <string name="dialog_save_to">Salvare în</string>
+    <!-- 10th, Start New String -->
+   <string name="new_page" description="Create New Page" maxwidth="15">Creaţi pg nouă.</string>
+   <string name="prompt_export_to_" description="Notebook is exported to" maxwidth="">Blocnotes exportat către</string>
+   <string name="pg_title_counter" description="show total pages number of the all page view\'s title">%s marcaje</string>
+   <string-array name="pg_sort">
+        <item>După nume</item>
+        <item>După ultima modificare</item>
+    </string-array>
+    <string name="nb_del_msg" description="Delete notebook" maxwidth="0">Doriţi să ştergeţi blocnotes-ul?</string>
+    <string name="rename" description="Rename the notebook [MAX=18]" maxwidth="">Redenumire</string>
+    <string name="nb_hide" description="Hide the notebook [MAX=18]" maxwidth="">Ascundere</string>
+    <string name="nb_del" description="Delete the notebook [MAX=18]" maxwidth="">Ştergere</string>
+    <string name="nb_export" description="Export the notebook [MAX=18]" maxwidth="">Export</string>
+    <string name="handwrite_recognition_speed" description="" maxwidth="">Viteză recunoaştere introd</string>
+    <string name="notebook_selected" description="show how many pages are selected">%s selectate</string>
+    <string name="notebook_view" description="notebook_view" maxwidth="">Blocnotes-uri</string>
+    <string name="bookmark_view" description="bookmark_view" maxwidth="">Marcaj</string>
+    <string name="timestamp_view" description="timestamp_view" maxwidth="">Marcaj temp</string>
+    <string-array name="week_of_day">
+        <item>Duminică</item>
+        <item>Luni</item>
+        <item>Marţi</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>Vineri</item>
+        <item>Sâmbătă</item>
+        <item>Astăzi</item>
+        <item>Ieri</item>
+        <item>Săptămâna trecută</item>
+        <item>Acum două săptămâni</item>
+        <item>Acum trei săptămâni</item>
+        <item>Mâine</item>
+        <item>Săptămâna viitoare</item>
+        <item>Peste două săptămâni</item>
+        <item>Peste trei săptămâni</item>
+    </string-array>
+   <string-array name="month_of_year">
+        <item>Ianuarie</item>
+        <item>Februarie</item>
+        <item>Martie</item>
+        <item>Aprilie</item>
+        <item>Mai</item>
+        <item>Iunie</item>
+        <item>Iulie</item>
+        <item>August</item>
+        <item>Septembrie</item>
+        <item>Octombrie</item>
+        <item>Noiembrie</item>
+        <item>Decembrie</item>
+        <item>Luna trecută</item>
+        <item>Acum o jumătate de an</item>
+        <item>Acum mai mult de un an</item>
+        <item>Luna viitoare</item>
+        <item>Peste o jumătate de an</item>
+        <item>Peste un an</item>
+    </string-array>
+    <string name="editor_func_button_crop" description="editor_func_button_crop [MAX=5]" maxwidth="">Trunc</string>
+    <!--by show-->
+    <string name="editor_func_button_textedit" description="editor_func_button_textedit [MAX=5]" maxwidth="">Edit.</string>
+    <!--by show-->
+    <!--by show-->
+    <!-- add by Better -->
+    <string name="password_or_account_empty">Câmpul pentru cont sau parolă nu poate fi gol.</string>
+    <string name="nb_sync">Activare sincronizare cloud</string>
+    <string name="nb_async">Revocare sincronizare cloud</string>
+    <string name="sync_status_syncing">Se sincronizează...</string>
+    <string name="sync_status_failed">Nu s-au putut sincroniza datele.</string>
+    <string name="sync_account_text">Cont</string>
+    <string name="sync_sign_off">Deconectare</string>
+    <string name="account_space_usage">Spaţiu utilizat</string>  
+    <string name="account_and_sync">Setări sincronizare cont</string>
+    <string name="sync_setting_auto">Sincronizare automată</string>
+    <string name="sync_setting_auto_frequency">Frecvenţă sincronizare automată</string>
+    <string name="sync_auto_interval_1">La fiecare minut</string>
+    <string name="sync_auto_interval_15">La fiecare 15 minute</string>
+    <string name="sync_auto_interval_30">La fiecare 30 minute</string>
+    <string name="sync_auto_interval_60">La fiecare 60 minute</string>
+    <string name="sync_auto_interval_1d">În fiecare zi</string>
+    <!-- add by Better -->
+<!-- Begin: show -->
+    <string name="webstorage_register">Înregistrare</string>
+    <string name="webstorage_signon">Conectare la</string>
+<!-- End: show -->
+    <!--Begin: Show-->
+    <string name="Crop_Done">Finalizat</string>  
+    <string name="Crop_Free">Lasou</string>
+    <string name="Crop_Rect">Dreptunghi</string>
+     <!--End: Show--> 
+    <string name="prompt_export_pdf_to">Fişierul PDF a fost salvat în</string>
+    <string name="browse_folder">Parcurgere</string>
+    <string name="export_supernote_format">Export în format SuperNote</string>
+    <string name="file_export">Export fişier</string>
+    <string name="editor_func_button_search">Căutare</string>
+    <string name="no_search_result">Niciun element nu corespunde căutării dvs.</string>
+    <string name="SearchResultItemInfo_Loading">Se încarcă</string>
+    <string name="SearchResultItemInfo_Read_File_Error">Nu s-a putut citi fişierul.</string>
+    <string name="SearchResultItemInfo_NoteBooks">Blocnotes-uri</string>
+    <string name="SearchResultItemInfo_Pages">Pagini</string>
+    <string name="SearchResultItemInfo_Personal">Personal</string> 
+    <string name="SearchResultItemInfo_Page_Space">Pagină </string>   
+    <string name="nb_Write_Text_Recognition" description="Write_Text_Recognition [MAX=18]" maxwidth="">Recun. text scris</string>
+      <!-- wendy  -->
+   <string name="password_not_set_sync">Nu aţi alocat nicio parolă pentru blocnotes-urile private din biblioteca dvs. Dacă nu setaţi o parolă, aceste blocnotes-uri vor deveni publice.</string>
+   <string name="bookpicker_sync_books_list">Sincronizare listă cărţi</string>
+   <string name="bookpicker_cancel">Revocare</string>
+   <string name="bookpicker_ok">OK</string>
+   <string name="newto_editor_func_popup_d_brush_stroke">Mişcare</string>
+   <string name="newto_editor_func_popup_d_brush_alpha">Opacitate</string> 
+   <string name="export">Export</string>
+   <string name="transfer">Transferare</string>
+   <string name="book_export">Export blocnotes</string>
+   <string name="prompt_exports_pdf_to">Fişierele PDF au fost salvate în</string> 
+<!--wendy allen++ begin -->
+    <string name="template_travel_tips_title">Titlu:</string>  
+   <string name="template_travel_tips_date">Dată:</string>
+   <!--wendy begin -->
+    <string name="select_all">Toate</string>
+   <string name="prompt_no_book_selected">Nu a fost selectată nicio carte.</string>
+   <!-- Begin: Better -->
+   <string name="sync_file_no_version">Versiunea nu este disponibilă.</string>
+   <string name="loading_page">Se încarcă datele paginii...</string>
+   <string name="prompt_transfer_format">Trebuie să reformataţi această carte, iar procesul poate dura mai mult timp. Doriţi să continuaţi?</string>
+   <string name="prompt_saving">Se salvează...</string>
+   <string name="prompt_incompatible_syncing">%s nu este o versiune compatibilă. Actualizaţi versiunea de SuperNote.</string>
+   <string name="prompt_incompatible_file">%s nu este o versiune compatibilă.</string>
+   <!-- End: Better -->
+<!-- Begin: show -->
+   <string name="webstorage_login_signing_in">Se conectează. Aşteptaţi...</string>
+   <string name="webstorage_login_account_password_wrong">Aţi introdus greşit contul sau parola</string>
+   <string name="sync_setting_sign_failure">Nu se poate conecta la %s</string>
+   <string name="sync_setting_sign_success">Conectare la %s</string>
+   <string name="sync_setting_networkless_title">Fără conexiune</string>
+    <string name="sync_setting_networkless">Aveţi nevoie de o conexiune la internet pentru a utiliza acest serviciu. Activaţi reţeaua mobilă sau conexiunea Wi-Fi din Setări.</string>
+   <!-- End: show -->
+  <!-- 11th, Begin New String -->
+    <!-- Begin: Allen -->
+    <string name="Sort">Sortare</string>
+    <!-- End: Allen -->   
+ <string-array name="editor_func_insert_array" description="insert mode" maxwidth="20">
+        <item>Fotografie</item>
+        <item>Imagine din fişier</item>
+        <item>Imagine text</item>
+        <item>Pagină PDF</item>
+        <item>Înregistrare audio</item>
+        <item>Video</item>
+        <item>Fişier text</item>
+        <item>Marcaj temporal</item>
+        <item>Lucrare artistică din clipboard</item>
+        <item>Marcaj</item>
+        <item>Formă</item>
+    </string-array>
+ <!-- Begin:Darwin not translate, used editor_func_insert_array-->
+ <string-array name="nb_editcover_choose_item">
+        <item>Preluare fotografie din</item>
+        <item>Inserare imagine din</item>
+    </string-array>
+ <!-- End  :Darwin -->
+    <string name="sync_setting_sign_out">Deconectare de la %s</string>
+    <string name="sync_setting_sign_out_msg">Deconectarea va întrerupe accesul la blocnotes-urile din contul dvs. cloud şi va dezactiva sincronizarea acestuia. Doriţi să continuaţi?\n</string>
+    <string name="password_mail_confirm" description="Your password has been changed. Do you want to send your password to your email account for future reference? This will prevent loss of access to hidden notebooks." maxwidth="">Parola dvs. a fost schimbată. Doriţi să trimiteţi parola către contul de e-mail pentru a o găsi ulterior? Astfel veţi preveni pierderea accesului la blocnotes-urile ascunse.\n</string>
+    <string name="nb_lock" description="Lock the notebook [MAX=18]" maxwidth="">Blocare</string>
+    <string name="nb_unhide" description="Unlock Notebook" maxwidth="">Debloc.</string>
+    <string name="nb_lock_hide" description="Lock to hide" maxwidth="">Bloc pt asc</string>
+    <string name="editor_phone_toast_seletext">Glisaţi pentru a evidenţia textul</string>
+    <string name="move_to_personal_title" description="move a book to personal, dialog title">Blocare</string>
+    <string name="move_to_personal_content" description="move a book to personal, dialog content">Doriţi să blocaţi blocnotes-ul?</string>
+    <string name="move_out_from_personal_title" description="move a book out from personal, dialog title">Deblocare</string>
+    <string name="move_out_from_personal_content" description="move a book out from personal, dialog content">Doriţi să deblocaţi blocnotes-ul?</string>
+    <string name="set_password_dialog_title">Setare parolă</string>
+    <string name="editor_func_button_recognize">Recunoaştere</string>
+    <string name="editor_func_button_transform">Transformare</string>   
+    <string name="editor_phone_toast_readonly">Doar mod citire: Vă aflați în modul de citire. Utilizați degetul pentru a schimba pagina sau pentru a derula în sus sau în jos în cadrul paginii.</string>   
+    <string name="export_pdf">Export ca PDF</string>
+    <string name="SearchResultItemInfo_Wrong_Index">Căutarea a eşuat.</string>
+  <!-- 11th, End New String -->
+  <!-- 11.5th, Begin New String  -->
+    <!-- Modify 0824 BEGIN： Show -->
+    <string name="book_type_line">Linie</string>
+    <string name="book_type_grid">Grilă</string>
+    <string name="book_type_meeting">Şedinţă</string>
+    <string name="book_type_diary">Jurnal</string>
+    <!-- Modify 0824 BEGIN： Show -->
+    <!-- Modify 0825 BEGIN: Show --> 
+    <string name="backspace_gesture_title" description="Backspace gesture" maxwidth="">Gest pt şt ult caract</string>
+    <string name="backspace_gesture_summary" description="In the handwriting mode, wave you hand from right to left to do backspace delete" maxwidth="">În modul scris de mână, glisaţi degetul de la dr la st pt a şt ult text introd.</string>
+    <!-- Modify 0825 END: Show -->
+    <!-- Begin: Allen -->
+    <string name="template_meeting_start_date_tips">Dată începere</string>
+    <string name="template_meeting_end_date_tips">Dată terminare</string>
+    <string name="template_meeting_start_time_tips">Oră începere</string>
+    <string name="template_meeting_end_time_tips">Oră terminare</string>
+    <!-- End: Allen -->    
+   <!-- Begin: Darwin -->   
+    <string name="show_personal_notebook" description="show the notebooks whick be locked" maxwidth="-1">Afişare blocnotes blocat </string>
+    <string name="hide_personal_notebook" description="hide the notebooks whick be locked" maxwidth="-1">Ascundere blocnotes blocat </string>
+    <!-- End: Darwin -->        
+    <!-- Begin: Better -->
+    <string name="continious_line" description="continiouse line" max_width="-1">Linie scris continuu</string>
+    <string name="continious_line_desc1" description="description for continiouse line" max_width="-1">Când scrisul dvs. trece de linia roşie, literele scrise se vor deplasa automat în stânga.</string>
+    <string name="text_continue" description="continue" max_width="-1">Continuare</string>
+    <!-- End: Better -->
+    <string name="nb_Write_Text_Recognition_dialog_msg">SuperNote va recunoaşte toate textele scrise şi le va transforma în texte tastate, duplicând acest blocnotes.</string>
+    <string name="set_index_language_title">Setare limbă recunoaştere</string> 
+    <!-- 11.5th, End New String  -->
+    <!-- 13th, Begin New String  -->
+    <!-- 12th Begin -->
+    <string name="allpage_view" description="allpage_view" maxwidth="20">Toate paginile</string>
+    <!-- darwin add -->
+   <string name="webstorage_prompt_account" description="Prompts the user can log in by Asus Storage account." maxwidth="">Vă puteţi conecta folosind contul ASUS WebStorage.</string>
+   <!-- Begin: show -->
+   <string name="username" description="User Name" maxwidth="15">Nume utilizator</string>
+   <!-- End: show -->    
+   <!-- 12th End 0911-->
+<!-- Begin: Show -->
+    <string name="hide_locked_notebook_info" description="hide locked notebook info" maxwidth="">Blocnotes-urile blocate au fost ascunse.</string>
+    <string name="show_locked_notebook_info" description="show locked notebook info" maxwidth="">Blocnotes-urile blocate pot fi citite acum.</string>
+<!-- End: Show -->
+<!-- 13th, End New String  -->
+<!-- 14th, Begin New String  -->
+    <string name="continious_line_desc2" description="description for continiouse line" max_width="-1">Scrieţi în continuu cuvinte, indiferent de dimensiunea ecranului.</string>
+    <string name="timestamp_group_counter" description="show total timestamps number of the all timestamp view\'s title">%s marcaje temporale</string>
+    <string name="Last_Search_Result_Info" description="last search is not end info" maxwidth="">Se caută, aşteptaţi.</string>
+<!-- Begin Allen -->
+<!-- End Allen -->
+<!-- Begin Darwin  -->
+    <string name="share_large" description="Large" max_width="5">Mare</string>
+    <string name="share_medium" description="Medium" max_width="6">Mediu</string>
+    <string name="share_small" description="Small" max_width="5">Mic</string>
+<!-- End   Darwin  -->
+<!-- Begin: Allen -->
+    <string name="book_type_blank" description="blank book name" maxwidth="">Gol</string>
+<!-- End: Allen --> 
+<!-- 14th, End New String  -->
+<!-- Begin:clare -->
+<!-- End:clare -->
+<!-- 16th, Begin New String -->
+<!-- Begin: Darwin -->
+    <string name="editor_menu_savepage" maxwidth="12">Salvare pag.</string>
+<!-- End:   Darwin -->
+<!-- 16th, End New String -->
+<!-- Begin: Shane, MyBitCast -->
+<!-- End: Shane -->
+<!-- 17th, Begin New String -->
+<!-- Begin: Shane, MyBitCast -->
+    <string name="my_bit_cast_wait_text">Aşteptaţi...</string>
+<!-- End: Shane -->
+<!-- Begin: Better -->
+    <string name="password_not_set_import">Blocnotes-urile pot fi organizate în categoriile Privat şi Public. Doriţi să creaţi o parolă pentru blocnotes-urile private? Dacă nu se creează o parolă, toate blocnotes-urile vor fi organizate în categoria Public.</string>
+<!-- End: Better -->
+<!-- 17th, End New String -->
+<!-- 18th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="book_grid_none" description="the background style of the notebook">Niciunul</string>
+    <!-- End Allen -->    
+<!-- clare begin -->
+    <string name="widget_bt_add_a_notebook">Adăugare un blocnotes</string>
+    <string name="widget_passwordTip">Introduceţi parola</string>
+<!-- clare end -->
+<!-- darwin begin -->
+   <string name="nb_editcover">Editare copertă</string>
+   <string name="nb_editcover_choose_title">Selectare imagine</string>
+   <!-- darwin end -->
+<!-- 18th, End New String -->
+    <!-- 20th, Begin New String -->
+<!-- clare begin -->
+    <string name="widget_dialog_replace_notebook">Înlocuire blocnotes</string>
+<!-- clare end -->
+<!-- 20th, End New String -->
+<!-- clare begin: No longer in use -->
+     <!-- Siupo -->
+<!-- clare end -->
+<!-- 21th, Begin New String -->
+<!-- Begin Allen -->
+    <string name="todo_widget_add_to" description="Add to" maxwidth="12">Adăugare la</string>
+    <string-array name="todo_widget_sort" description="sort type" maxwidth="30">
+        <item>Sortare după pagină</item>
+        <item>Sortare după oră</item>
+    </string-array>
+<!-- End Allen -->
+<!-- 21th, End New String -->
+<!-- 22th, Begin New String -->   
+    <string-array name="todo_widget_priority" description="todo item priority" maxwidth="30">
+        <item>Ridicată</item>
+        <item>Normală</item>
+        <item>Scăzută</item>
+    </string-array>
+    <string name="todo_item_completed" description="todo item is completed">Terminat</string>
+    <!-- 22th, End New String -->
+    <!-- 23rd, Begin New String -->  
+    <string name="widget_select_notebook" description="select a notebook that exists" maxwidth="">Select blocnotes</string>
+    <!-- Begin Allen -->
+    <string name="meeting_form" description="meeting start time">De la</string>
+    <string name="meeting_to" description="meeting end time">La</string>
+ <!-- End Allen -->
+ <!-- 23rd, End New String -->
+<!-- 24th, Begin New String -->
+ <string name="hwr_book_name_suffix" description="HWR BOOK NAME SUFFIX">Recunoscut</string>
+ <!-- add for 'SyncCancelDialogFragment'-->
+ <string name="sync_cancel_confirmText">Confirmare</string>
+    <string name="sync_cancel_promptTop">Elementele sincronizate care sunt şterse vor fi eliminate şi de pe celălalt dispozitiv.</string>
+    <string name="sync_cancel_promptBottom">Doriţi să anulaţi sincronizarea acestor blocnotes-uri?</string>
+    <string name="sync_cancel_noMoreHint">Nu se reaminteşte</string>
+    <!-- 24th, End New String -->
+    <!-- 25th, Begin New String -->
+    <!-- temp editor menu title string by jason 2013/3/22 -->
+    <string name="pen_only_enabled">Se utilizează numai stiloul</string>
+<!-- end jason -->
+<!-- Carol- add for export-fomat chooser-->
+    <string name="export_as" description="used as title of export_format dialog">Export ca</string>
+    <string-array name="export_format_array" description="export format chooser">
+        <item>PDF</item>
+        <item>Format SuperNote</item>
+    </string-array>
+    <string name="share_title" description="title of share dialog">Selectare format</string>
+    <string-array name="share_format_array" description="share format chooser">
+        <item>Imagine</item>
+        <item>PDF</item>
+        <item>Format SuperNote</item>
+    </string-array>
+    <string name="todo_title" description="memo template title" maxwidth="">Memento</string>
+    <string name="todo_widget_all_todos" description="All memos">Toate mementourile</string>
+    <!-- <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">No memos</string> -->
+<!-- 25th, End New String -->
+<!-- Start: 29th New String [Carol] -->
+<!-- for A86 style by Jason -->
+    <string name="insert_stamp_dlg">Selectare marcaj</string>
+    <string name="insert_shape_dlg">Selectare formă</string>
+    <!-- end jason -->
+    <!-- A86 meeting template [Carol] -->
+    <string name="template_meeting_topic_hint" description="hint for inputting meeting topic">Care este subiectul dvs.?</string>
+    <string name="template_meeting_attendee_hint" description="hint for inputting attendees">Adăugare participanți</string>
+    <string name="template_meeting_text_hint" description="hint for inputting meeting notes">Notele dvs. de întâlnire aici...</string>
+<!-- for A86 style by smilefish -->
+    <string name="statusbar_login">Conectare</string>
+    <string name="editcover_save">Salvare</string>
+    <string name="brush_edit_dialog_library">Bibliotecă</string>
+    <string name="brush_edit_dialog_back">Înapoi</string>
+    <string name="brush_edit_dialog_pencil">Creion</string>
+    <string name="brush_edit_dialog_rollerpen">Stilou cu bilă</string>
+    <string name="brush_edit_dialog_pen">Stilou</string>
+    <string name="brush_edit_dialog_marker">Marker</string>
+    <string name="brush_edit_dialog_brush">Pensulă</string>
+    <string name="brush_edit_dialog_airbrush">Aerograf</string>
+    <string name="todo_title_task">Apăsaţi pe 1 pentru a adăuga o activitate nouă.</string>
+    <string name="brush_edit_dialog_full">S-a salvat numărul maxim de pensule la 12</string>
+<!-- end smilefish -->
+<!-- start noah; for data copy;6.8-->
+    <string name="data_fomat_upgrade">Upgrade format de date</string>
+    <string name="the_book">Cartea</string>
+    <string name="exits">există deja</string>
+    <string name="replace_the_book">Înlocuiţi cartea?</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+    <string name="successful_upgrade">Upgrade-ul a reușit. Vom reporni SuperNote</string>
+    <string name="upgrade_fails">Upgrade nereușit</string>
+    <string name="not_enough_space">Spațiu insuficient pe cartela SD</string>
+    <string name="try_again">Ștergeți fișiere inutile și reporniți SuperNote pentru a încerca din nou</string>
+<!-- end noah; for data copy;6.8-->
+<!-- End: 29th New String [Carol] -->
+    <!-- Start: 30th New String [Carol] -->
+    <!-- jason -->
+<!-- Begin Carol-->
+    <string name="editor_phone_readonly">Doar citire: folosiţi degetul pentru a derula în cadrul paginii.</string>
+<!-- End Carol-->
+    <string name="todo_widget_no_item_tips" description="no memo item tips" maxwidth="">Nu există mementouri</string>
+    <string name="widget_password_hint">Introduceţi parola</string>
+    <string name="widget_all_book_template">Toate blocnotes-urile</string>
+<!-- End: 30th New String [Carol] -->
+    <!-- Start: 31st New String [Carol] -->
+    <string name="content_is_too_long" description="content_is_too_long">Conținutul este prea lung</string>
+    <string name="todo_title_max_character_num">Numărul maxim de caractere este 50</string>
+    <!-- smilefish -->
+    <string name="vo_shape_failed">Imposibil de modelat acest desen</string>
+    <!-- smilefish -->
+    <string name="todo_widget_create" description="Create">Creare</string> <!-- Carol -->
+    <!-- End: 31st New String [Carol] -->
+    <!-- Start: 33rd New String [Carol] -->
+<!-- for color picker by smilefish -->
+    <string name="editor_color_picker">Apăsaţi pentru a alege o culoare pentru pensulă</string> 
+<!-- end smilefish -->
+    <string name="brush_edit_dialog_save_successful">Salvarea a fost finalizată cu succes.</string>
+    <string name="brush_edit_dialog_save">Elementul există deja</string>
+    <!--jason  -->
+    <string name="cannot_play_media_when_calling">Nu se pot reda fişiere multimedia în timpul apelului</string>
+    <!-- End: 33rd New String [Carol] -->
+<!-- Start: 34th New String [Carol] -->
+<!-- Emmanual -->
+    <string name="template_travel_text_hint" description="hint for inputting travelling notes">Notele dvs. de jurnal aici …</string>
+    <string name="template_travel_change_photos" description="hint for changing photos">Atingeţi pentru a schimba fotografiile</string>
+<!-- End: 34th New String [Carol] -->
+<!-- Start: 35th New String [Carol] -->
+    <string name="bm_in_notebook" description="Page in notebook" maxwidth="">Marcaj în %1$s</string>
+<!-- smilefish -->
+    <string name="page_copy" description="Copy the page" maxwidth="">Copiere</string>
+    <string name="page_move" description="Move the page" maxwidth="">Mutare</string>
+    <string name="page_delete" description="Delete the page" maxwidth="">Ștergere</string>
+    <string name="page_reorder" description="Reorder the page" maxwidth="">Rearanjare</string>
+    <string name="pg_in_notebook" description="Page in notebook" maxwidth="">Pagina %1$s din %2$s</string>
+<!-- End: 35th New String [Carol] -->
+    <!-- Start: 37th New String [Carol] -->
+    <string name="todo_widget_add_new_memo" description="All memos">Adăugare adnotare nouă</string>
+    <!-- Emmanual -->
+    <string name="drawer_menu" description="menu on drawer" maxwidth="">Meniu</string>
+    <!-- smilefish -->
+    <string name="editor_menu_read_later" description="read later" maxwidth="">Citiţi mai târziu</string>
+    <!-- smilefish -->
+    <string name="sdcard_full_no_add" description="sdcard is full">Nu s-a putut salva noua pagină sau noul blocnotes. Spaţiul de stocare este plin.</string>
+    <!-- emmanual -->
+    <string name="sdcard_full_no_save" description="sdcard is full">Nu s-a putut salva pagina editată sau blocnotesul editat. Spaţiul de stocare este plin.</string>
+    <!-- emmanual -->
+    <!-- End: 37th New String [Carol] -->
+    <!-- Start: 38th New String [Carol] -->
+    <string name="pg_sort_by_name" description="page sort by name">A fost restabilită metoda de sortare implicită, în funcţie de nume</string>
+    <!-- smilefish -->
+    <!-- smilefish -->
+    <string name="tutorial_info_content1" description="tutorial info for supernote">Cea mai bună aplicaţie de luat notiţe.</string>
+    <string name="tutorial_info_title2" description="Cloud sync">Sincronizare cu spaţiul cloud</string>
+    <string name="tutorial_info_content2" description="tutorial info for cloud sync">Beneficiaţi de un cont care vă permite să stocaţi datele în cloud şi să accesaţi aceste date în orice moment şi de oriunde v-aţi afla.</string>
+    <string name="tutorial_info_title3" description="3 editing modes">3 moduri de editare</string>
+    <string name="tutorial_info_content3" description="tutorial info for editing modes">În Supernote puteţi să scrieţi, să tastaţi şi să desenaţi. Selectaţi metoda cea mai potrivită pentru necesităţile dvs.</string>
+    <string name="tutorial_info_title4" description="Insert content">Inserare conţinut</string>
+    <string name="tutorial_info_content4" description="tutorial info for insert content">Inseraţi imagini, sunete sau videoclipuri pentru a da viaţă conţinutului dvs.</string>
+    <string name="skip_this_tutorial" description="skip this tutorial">"Omiteți"</string>
+    <!-- end smilefish -->
+    <!-- End: 38th New String [Carol] -->
+    <!-- Start: 39th New String [Carol] -->
+    <string name="editor_menu_nextpage" maxwidth="12">Pagina următoare</string>
+    <string name="editor_menu_prepage" maxwidth="12">Pagina anterioară</string>
+    <string name="auto_add_page" maxwidth="12">Se proc…</string>
+    <!-- End: 39th New String [Carol] -->
+    <!-- Start: 40th New String [Carol] -->
+    <string name="insert_audiofile">Fişier audio</string>
+    <!-- Emmanual -->
+    <!-- End: 40th New String [Carol] -->
+    <!-- Start: 41st New String [Carol] -->
+    <string name="audiofile_not_exist">Fișierul nu există!</string>
+    <string name="audiofile_not_mp4">Fișierul audio nu poate fi inserat în blocnotes!</string>
+    <string name="editor_func_button_last_edit_page">Lansare pe ultima pagină editată</string>
+    <!-- End: 41st New String [Carol] -->
+    <!-- 42nd New String [Carol] -->
+    <string name="title_send_email">Trimitere e-mail</string>
+    <!-- 42nd New String [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- For about dialog [Carol] -->
+    <!-- 43rd New String [Carol] -->
+    <!-- smilefish -->
+    <string name="nb_add_choose_title">Creaţi un blocnotes nou.</string>
+    <string-array name="nb_add_choose_item">
+        <item>Blocnotes gol</item>
+        <item>Alegeţi un şablon</item>
+    </string-array>
+    <string name="no_notebooks">Nu există notebook-uri</string>
+    <string name="stub_app_notice_title" description="stub app notice title" maxwidth="-1">Notă</string>
+    <string name="stub_app_notice_content" description="stub app notice content" maxwidth="-1">Actualizați mai întâi la cea mai recentă versiune din magazinul de aplicații Google Play. Vă mulțumim.</string>
+    <string name="stub_app_notice_content2" description="stub app notice content" maxwidth="-1">"Mai întâi actualizaţi la cea mai nouă versiune din magazinul de aplicaţii Asus. Vă mulţumim."</string>
+    <string name="cta_act_mobile_network">"Reţea mobilă"</string>
+    <string name="cta_msg_mobile_network">"încearcă să se conecteze la reţeaua mobilă. Utilizarea reţelei mobile poate fi contra cost. Pentru a evita costurile, deconectaţi-vă de la reţeaua mobilă atunci când nu o utilizaţi."</string>
+    <string name="voice">Voce</string>
+    <string name="error_sdcard_access_nosdcard">Nu se poate accesa stocarea USB</string>
+    <string name="error_sdcard_access">Nu se poate accesa cardul SD</string>
+    <string name="startfail">Imposibil de pornit înregistrarea, asigurați-vă că nicio altă aplicație nu utilizează microfonul.</string>
+    <string name="sync_setting_wifi_auto">Sincronizare automată numai prin Wi-Fi</string>
+    <!-- end smilefish -->
+    <!-- emmanual -->
+    <string name="reading_pdf_prompt">Se citește PDF...</string>
+    <string name="choose_pdf_prompt">Alegere pagini PDF</string>
+    <string name="import_pdf_prompt">Se pregătește importul paginilor PDF...</string>
+    <string name="pdf_import" description="Import PDF" maxwidth="">Importă PDF-ul</string>
+    <string name="pdf_seelcted">Selectate: </string>
+    <string name="import_pdf_progress" formatted="false">Se importă PDF: %s din %s</string>
+    <string name="add_book_from_pdf" maxwidth="">Din PDF</string>
+    <string name="reading_pdf_error" maxwidth="">Imposibil de deschis fișierul!</string>
+    <string name="reading_pdf_encrypted" maxwidth="">Imposibil de importat fișierul PDF protejat cu parolă.</string>
+    <string name="reading_pdf_invalid" maxwidth="">Imposibil de importat fișierul. Asiguraţi-vă că fișierul nu este deteriorat.</string>
+    <string name="error" maxwidth="">Eroare</string>
+    <string name="editor_func_button_page_transtion">Efect de animație la întoarcerea paginii</string>
+    <string name="download_title" maxwidth="12">Se descarcă\u2026</string>
+    <!-- smilefish -->
+    <string name="settings_encourage_us_title" maxWidth="">Încurajaţi-ne</string>
+    <string name="settings_encourage_us_detail" translate="true">Dacă vă place %s, acordaţi-ne 5 stele în Magazinul Play. Ne-ați încuraja foarte mult să continuăm să aducem îmbunătățiri produsului!\n\nPentru sugestii, contactați-ne în scris prin Feedback &amp; Help.</string>
+    <string name="toolbar_encourage_dialog_rate_now" maxwidth="35">Evaluați acum</string>
+    <string name="later_action_no_apps" description="Text for indicating there are no apps to open the content" maxwidth="-1">Nicio apl nu poate finaliz acţiunea</string>
+    <string name="scroll_up_toast" description="rate now" maxwidth="">Defilați în sus pentru a evalua</string>
+    <!-- end smilefish -->
+    <!-- smilefish forced permission page -->
+    <string name="force_permission_title">"Fişierele nu pot fi accesate"</string>
+    <string name="force_permission_sub_title">"%1$s necesită acces la %2$s pentru a accesa şi salva fişiere pe dispozitiv."</string>
+    <string name="force_permission_turn_on">"Activare"</string>
+    <string name="force_permission_storage">"Stocare"</string>
+    <string name="force_permission_settings">"Setări"</string>
+    <string name="force_permission_show_settings">"Atingeţi &lt;b>Setări&lt;/b> pentru a activa permisiunea &lt;b>%2$s&lt;/b> din &lt;b>Info app.&lt;/b> &lt;b>Permisiuni&lt;/b>, apoi restartaţi %1$s."</string>
+    <!-- end smilefish -->
+    <!-- smilefish Navigating gesture -->
+    <string name="navigate_tutorial_title">"Gest de navigare"</string>
+    <string name="navigate_tutorial_content">"Utilizaţi două degete pentru a naviga liber într-o pagină. În mod Doar citire, puteţi naviga pe pagină în fereastra de previzualizare."</string>
+    <string name="navigate_tutorial_content_phone">"Utilizaţi două degete pentru a naviga liber într-o pagină în fereastra de previzualizare."</string>
+    <string name="navigate_tutorial_scroll">"Ţineţi pentru a derula pagina"</string>
+    <!-- end smilefish -->
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/totalLayoutView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/functionBarLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/editor_func_bar_color"
+            android:paddingBottom="20dp"
+            android:paddingTop="22dp" >
+
+            <ViewStub
+                android:id="@+id/keyboardfuncViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout="@layout/editor_func_bar_keyboard"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/scribblefuncViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout="@layout/editor_func_bar_scribble"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/doodlefuncViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout="@layout/editor_func_bar_doodle"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/selectiontextfuncViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout="@layout/editor_func_bar_selection_text"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/readonlyViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout="@layout/editor_func_bar_readonly"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/insertViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout="@layout/editor_func_bar_insert"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/selectiondoodlefuncViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout="@layout/editor_func_bar_selection_doodle"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/textimgkeyboardfuncViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout="@layout/editor_func_bar_textimg_keyboard"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/textimgscribblefuncViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout="@layout/editor_func_bar_textimg_scribble"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+
+            <ViewStub
+                android:id="@+id/colorpickerfuncViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout="@layout/editor_func_bar_color_picker"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+        </FrameLayout>
+        
+        <ImageView
+            android:id="@+id/functionBarDividingLine"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:paddingStart="13dp"
+            android:paddingEnd="13dp"
+            android:src="@color/function_bar_dividing_line_color"
+            android:background="@color/editor_func_bar_color" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="0dp" >
+
+            <LinearLayout
+                android:id="@+id/pageEditorManagerLinaerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:orientation="horizontal"
+                android:padding="0dp" >
+
+                <include
+                    android:id="@+id/first_item"
+                    layout="@layout/editor_activity_item" />
+
+                <!--
+                include 
+		        android:id="@+id/seconde_item"
+		        android:layout_width="fill_parent"
+		        layout="@layout/editor_activity_item" /
+                -->
+            </LinearLayout>
+
+            <com.asus.supernote.EditorActivityButtomButtonsContainer
+                android:id="@+id/bottom_button_container"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/bottom_bar_button_height"
+                android:layout_gravity="bottom" >
+
+                <ViewStub
+                    android:id="@+id/keyboardMenuViewStub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout="@layout/editor_bottom_func_keyboard"
+                    android:orientation="horizontal"
+                    android:visibility="invisible" />
+
+                <ViewStub
+                    android:id="@+id/scribbleMenuViewStub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout="@layout/editor_bottom_func_scribble"
+                    android:orientation="horizontal"
+                    android:visibility="invisible" />
+
+                <ViewStub
+                    android:id="@+id/doodleMenuViewStub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout="@layout/editor_bottom_func_doodle"
+                    android:orientation="horizontal"
+                    android:visibility="invisible" />
+            </com.asus.supernote.EditorActivityButtomButtonsContainer>
+
+            <ViewStub
+                android:id="@+id/colorPickerViewStub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/editor_func_color_picker_view"
+                android:visibility="gone" />
+            <!-- add by mars_li -->
+
+            <include
+                layout="@layout/hand_write_panel" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <com.asus.supernote.transtion.PageWidget
+        android:id="@+id/page_widget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</FrameLayout>

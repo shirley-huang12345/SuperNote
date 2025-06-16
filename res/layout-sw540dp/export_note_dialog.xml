@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/export_file_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/dialog_file_name"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/export_file_name_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:singleLine="true"
+        android:textSize="21dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/dialog_save_to"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp" >
+
+        <TextView
+            android:id="@+id/export_dir_text_view"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="4dp"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true" 
+            android:focusable="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxWidth="380dp"
+            android:paddingEnd="0px"
+            android:singleLine="true"
+            android:textSize="21dp" />
+
+        <Button
+            android:id="@+id/browser_button"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_gravity="end|center_vertical"
+            android:text="@string/browse_folder" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left">6dp</dimen>
+    <dimen name="top">4.66dp</dimen>
+    <dimen name="right">0.63dp</dimen>
+    <dimen name="bottom">0.63dp</dimen>
+    
+    <dimen name="font_size">77.777778px</dimen>
+    <dimen name="memo_link_text_size">20dp</dimen>
+    
+    <dimen name="baseline_top">215dp</dimen>
+    <dimen name="baseline_shift">-25dp</dimen>
+    <dimen name="baseline_bottom_shift">6dp</dimen>
+    <dimen name="baseline_scale">8px</dimen>
+    
+    <dimen name="thumb_padding_left">5dp</dimen>
+    <dimen name="thumb_padding_top">15dp</dimen>
+    <dimen name="microview_width">212px</dimen>
+    <dimen name="microview_height">284px</dimen>
+    
+    <dimen name="phone_book_width">1080px</dimen>
+    <dimen name="phone_book_text_size_normal">72.999996px</dimen>
+    <dimen name="phone_book_text_size_big">88.8888892px</dimen>
+    <dimen name="phone_book_text_size_small">64.4444446px</dimen>
+    
+    <dimen name="pad_book_width">2586.666666px</dimen>
+    <dimen name="pad_book_text_size_normal">72.999996px</dimen>
+    <dimen name="pad_book_text_size_big">88.8888892px</dimen>
+    <dimen name="pad_book_text_size_small">64.4444446px</dimen>
+        
+    <!-- Begin Siupo value = 600/1164-->
+    <dimen name="edittext_scale_pad">0.515464px</dimen>
+    <!-- End SIupo -->
+    
+    <!-- Begin Siupo -->
+    
+    <dimen name="touch_tolerance">30.0px</dimen>
+    <dimen name="click_tolerance">20.0px</dimen>
+    <dimen name="phone_vertical_scroll_bar_height">140.0px</dimen>
+    <dimen name="default_canvas_width">1280.0px</dimen>
+    <dimen name="default_canvas_height">1593.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_width">2586.0px</dimen>
+    <dimen name="pad_page_share_bitmap_default_height">3186.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_width">1080.0px</dimen>
+    <dimen name="phone_page_share_bitmap_default_height">1372.0px</dimen>
+    <!-- End Siupo -->
+    
+    <!-- Begin Show -->
+    <dimen name="insert_textimg_boxedit_width">383dp</dimen>
+    <!-- End Show -->
+    
+    <!-- Begin Allen -->
+    <dimen name="page_search_result_fontsize">32dp</dimen>
+    <dimen name="template_travel_titleheight">72.5dp</dimen>
+	<!-- End Allen -->
+	
+	<!-- Begin Show -->
+	<dimen name="all_page_view_itemspace">40dp</dimen>
+	<!-- End: show -->
+	<!-- Begin wendy -->
+	<dimen name="timestamp_textsize">16dp</dimen>
+	<!-- End wendy -->
+	
+	<!-- BEGIN: Better -->
+	<dimen name="continious_line_tips_desc_margin_top">188dp</dimen>
+	<dimen name="continious_line_tips_desc_margin_left">14dp</dimen>
+	<dimen name="continious_line_tips_desc_margin_right">59dp</dimen>
+	<dimen name="continious_line_tips_welcome1_margin_top">578dp</dimen>
+	<dimen name="continious_line_tips_welcome1_margin_left">240dp</dimen>
+	<dimen name="continious_line_tips_welcome2_margin_top">556dp</dimen>
+	<dimen name="continious_line_tips_welcome2_margin_left">0dp</dimen>
+	<dimen name="continious_line_tips_continue_margin_right">34dp</dimen>
+	<dimen name="continious_line_tips_continue_margin_bottom">95dp</dimen>
+	<dimen name="continious_line_tips_continue_height">52dp</dimen>
+	<dimen name="continious_line_tips_continue_min_width">148dp</dimen>
+	<dimen name="continious_line_tips_continue_radius">26dp</dimen>
+	<dimen name="continious_line_tips_continue_padding">36dp</dimen>
+	<dimen name="continious_line_tips_continue_text_size">20dp</dimen>
+	<dimen name="continious_line_tips_redline_height">387dp</dimen>
+	<dimen name="continious_line_tips_redline_margin_right">80dp</dimen>
+	<!-- END: Better -->
+	<!-- Begin Allen -->
+	<dimen name="todo_widget_item_fontsize">20dp</dimen>
+    <dimen name="todo_widget_item_content_width">225dp</dimen>
+	<!-- End Allen -->
+	
+   	<!-- Begin Richard For Multi Window-->
+	<dimen name="multi_window_page_item">148dp</dimen>
+	<dimen name="multi_window_page_item_left_margin">40dp</dimen>
+	<!-- End Richard -->
+
+	<!-- Begin Smilefish -->
+	<dimen name="app_title_text_size">25dp</dimen>
+	<dimen name="action_bar_height">56dp</dimen>
+	<dimen name="overflow_padding_left">13dp</dimen>
+	<dimen name="overflow_padding_right">13dp</dimen>
+	<dimen name="action_mode_title_text_size">20dp</dimen>
+	<dimen name="action_button_min_width">67dp</dimen>
+	<dimen name="action_button_padding_left">13dp</dimen>
+	<dimen name="action_button_padding_right">13dp</dimen>
+	
+	<dimen name="change_cover_crop_width">173dp</dimen>
+    <dimen name="change_cover_crop_height">218dp</dimen>
+    
+	<dimen name="edit_cover_dialog_width">520dp</dimen>
+	<dimen name="edit_cover_dialog_height">875dp</dimen>
+
+	<dimen name="bottom_bar_button_height">75dp</dimen>
+	<dimen name="bottom_bar_button_padding_bottom">15dp</dimen>
+	<dimen name="bottom_bar_button_scribble_width">126dp</dimen>
+	
+	<dimen name="todo_priority_dialog_x">37dp</dimen>
+	<dimen name="todo_priority_dialog_y">-85dp</dimen>
+	<dimen name="todo_edit_text_width_pad">1100dp</dimen>
+	<dimen name="todo_edit_text_width_phone">407dp</dimen>
+	<dimen name="todo_total_height_phone">680dp</dimen>
+	<dimen name="todo_total_height_pad">1625dp</dimen>
+	
+	<dimen name="todo_widget_priority_width">31dp</dimen>
+    
+    <dimen name="notebook_item_width">162dp</dimen>
+	<dimen name="notebook_item_height">201dp</dimen>
+	<dimen name="add_notebook_item_width">145dp</dimen>
+	<dimen name="add_notebook_item_height">180dp</dimen>
+	<dimen name="notebook_cover_item_width">155dp</dimen>
+	<dimen name="notebook_cover_item_height">192dp</dimen>
+	<dimen name="notebook_item_name_width">160dp</dimen>
+	<dimen name="notebook_cover_item_text_margin_top">120dp</dimen>
+	<dimen name="page_add_item_text_margin_top">115dp</dimen>
+    
+    <dimen name="attacher_text_width">165dp</dimen>
+    <dimen name="attacher_line_height">42dp</dimen>
+    
+    <dimen name="addbook_dialog_name_margin_top">80dp</dimen>
+    
+    <dimen name="microview_red_frame_stroke_width">3dp</dimen>
+    <dimen name="microview_black_frame_stroke_width">2dp</dimen>
+    
+    <dimen name="diary_crop_image_rate_phone">1.59px</dimen><!-- value = 564.43/355-->
+    <dimen name="diary_crop_image_rate_pad">3.548px</dimen><!-- value = 1293/364.4-->
+    
+    <dimen name="forced_permission_page">78dp</dimen>
+    <dimen name="forced_permission_title_text_size">22sp</dimen>
+    <dimen name="forced_permission_subtitle_text_size">18sp</dimen>
+    <dimen name="forced_permission_text_margin_left">70dp</dimen>
+    <dimen name="forced_permission_subtext_margin_top">18dp</dimen>
+    <dimen name="forced_permission_image_margin_top">85dp</dimen>
+    <dimen name="forced_permission_image_width">282dp</dimen>
+    <dimen name="forced_permission_image_height">390dp</dimen>
+    <dimen name="forced_permission_button_min_width">190dp</dimen>
+    <dimen name="forced_permission_button_height">37dp</dimen>
+    <dimen name="forced_permission_button_margin_bottom">30dp</dimen>
+    
+    <dimen name="left_handle_width">39dp</dimen>
+    <dimen name="right_handle_width">15dp</dimen>
+    <dimen name="selector_handle_height">52dp</dimen>
+    
+    <dimen name="template_phone_width">540dp</dimen>
+    <dimen name="editor_func_bar_text_width">340dp</dimen>
+	<!-- End Smilefish -->
+	
+	<dimen name="widget_diff_timestamp_textsize">5dp</dimen>
+    <dimen name="widget_diff_attacher_text_width">35dp</dimen>
+    <dimen name="widget_diff_attacher_line_height">19dp</dimen>
+    
+    <dimen name="hand_panel_view_height">440dp</dimen>
+    <dimen name="hand_panel_view_min_height">450dp</dimen>
+    
+    <dimen name="select_dlg_grid_widthheight">128dp</dimen><!-- jason -->
+	<dimen name="select_dlg_shadow">13dp</dimen>
+	
+    <!-- Begin Emmanual -->
+    <dimen name="insert_dropdown_lmr_position_x">0dp</dimen>
+    <dimen name="insert_dropdown_lmr_position_y">-670dp</dimen>
+    <!-- End Emmanual -->
+		
+	<dimen name="edit_popupmenu_arraw_bottom">6dp</dimen><!-- Emmanual -->
+	<dimen name="edit_func_bar_height">88dp</dimen><!-- Emmanual -->
+	<dimen name="travel_title_scroll_margin">25dp</dimen><!-- Emmanual -->
+
+    <dimen name="widget_replace_dialog_width">440dp</dimen>
+    <dimen name="widget_replace_dialog_height">498dp</dimen>
+    <dimen name="widget_cancel_button_height">64dp</dimen>
+    
+    <dimen name="widget_tab_button_height">45dp</dimen>
+    <dimen name="widget_btReplace_width">65dp</dimen>
+    <dimen name="widget_btReplace_width_al">47dp</dimen>
+    <dimen name="widget_gridview_margin">10dp</dimen>
+    
+    <dimen name="widget_dialog_book_width">90dp</dimen>
+	<dimen name="widget_dialog_book_height">145dp</dimen>
+    
+	<dimen name="todo_widget_listView_height">60dp</dimen>
+	<dimen name="todo_widget_switch_fontsize">30dp</dimen>
+	<dimen name="todo_widget_time_fontsize">16dp</dimen>
+	
+	<dimen name="widget_tab_allBook_width_al">100dp</dimen>
+	<dimen name="widget_tab_allBook_height">34dp</dimen>
+	<dimen name="widget_template_book_width">92dp</dimen>
+	<dimen name="widget_template_book_height">120dp</dimen>
+	<dimen name="widget_tab_hori_space">10dp</dimen>
+	
+	<!-- Begin Emmanual -->
+	<dimen name="bottom_button_padding_top">3dp</dimen>
+	<!-- End Emmanual -->
+</resources>

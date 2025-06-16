@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uf_sdk_suggestion_title">Suggestion Title</string>
+    <string name="uf_sdk_under_review">UNDER REVIEW</string>
+    <string name="uf_sdk_12">12</string>
+    <string name="uf_sdk_sdk">SDK version:</string>
+    <string name="uf_sdk_medium_text">Medium Text</string>
+    <string name="uf_sdk_small_text">Small Text</string>
+    <string name="uf_sdk_make_the_app_more_android_friendly">Make the app more Android friendly</string>
+    <string name="uf_sdk_badges_are_cool">Badges are cool, and we\'d like to give them out to our active users.</string>
+    <string name="uf_sdk_posted_by_anonymous">Posted by Anonymous on Jul 21, 2011</string>
+    <string name="uf_sdk_12_people">12 people want this</string>
+    <string name="uf_sdk_admin_response">admin response: started</string>
+    <string name="uf_sdk_evan_hamilton">Evan Hamilton</string>
+    <string name="uf_sdk_feb_12">Feb 12, 2013</string>
+    <string name="uf_sdk_we_are_looking">We are looking into this. Please check back and leave additional comments and we will be in touch!</string>
+    <string name="uf_sdk_14_comments">14 comments</string>
+    <string name="uf_sdk_started">Started</string>
+</resources>

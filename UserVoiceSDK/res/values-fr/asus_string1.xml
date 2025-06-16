@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="uf_sdk_connection_error_msg">La connexion au serveur a \u00e9t\u00e9 interrompue. Veuillez r\u00e9essayer ult\u00e9rieurement.</string>
+  <string name="uf_sdk_connection_error_title">Erreur de connexion</string>
+</resources>
