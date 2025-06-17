@@ -16,9 +16,9 @@
          <tag>HEAD</tag>
     </scm>
 
-    <!--issueManagement>
+    <issueManagement>
         <system>GitHub Issues</system>
         <urlhttps://github.com/shirley-huang12345/SuperNote/issues</url>
-    </issueManagement-->
+    </issueManagement>
 
 </project>
